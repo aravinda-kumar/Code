@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SerialPort Terminal">
+</Property><Property Name="解决方案文件" Value="G:\C#资料\SerialPort+Terminal\SerialPort Terminal\SerialPort Terminal.sln">
+</Property><Property Name="用户选项文件" Value="G:\C#资料\SerialPort+Terminal\SerialPort Terminal\SerialPort Terminal.suo">
+</Property><Property Name="Date" Value="2010年5月27日">
+</Property><Property Name="Time" Value="19:50">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SerialPort Terminal.sln" Description="文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\SerialPort Terminal.sln">
+</Event><Event ErrorLevel="0" Project="" Source="SerialPort Terminal.suo" Description="文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\SerialPort Terminal.suo">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="SerialPort Terminal.csproj" Description="项目文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\SerialPort Terminal.csproj">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="SerialPort Terminal.csproj.user" Description="项目用户文件成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\SerialPort Terminal.csproj.user">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="About.cs" Description="文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\About.cs">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="About.Designer.cs" Description="文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\About.Designer.cs">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="Terminal.cs" Description="文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\Terminal.cs">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="Terminal.Designer.cs" Description="文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\Terminal.Designer.cs">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="Program.cs" Description="文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="Properties\AssemblyInfo.cs" Description="文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="Properties\Resources.Designer.cs" Description="文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="Properties\Settings.Designer.cs" Description="文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="Properties\Settings.settings" Description="文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="App.config" Description="文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\App.config">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="App.ico" Description="文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="About.resx" Description="文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\About.resx">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="Terminal.resx" Description="文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\Terminal.resx">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="Properties\Resources.resx" Description="文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="About.htm" Description="文件已成功备份为 G:\C#资料\SerialPort+Terminal\SerialPort Terminal\Backup\About.htm">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="SerialPort Terminal.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="SerialPort Terminal" Source="SerialPort Terminal.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SerialPort Terminal.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="SerialPort Terminal.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SerialPort Terminal" Source="SerialPort Terminal.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

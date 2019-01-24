@@ -1,0 +1,12 @@
+D:\DATA\file\C#\学生登录\学生登录\bin\Debug\学生登录.exe.config
+D:\DATA\file\C#\学生登录\学生登录\bin\Debug\学生登录.exe
+D:\DATA\file\C#\学生登录\学生登录\bin\Debug\学生登录.pdb
+D:\DATA\file\C#\学生登录\学生登录\obj\Debug\学生登录.Frm_Login.resources
+D:\DATA\file\C#\学生登录\学生登录\obj\Debug\学生登录.Properties.Resources.resources
+D:\DATA\file\C#\学生登录\学生登录\obj\Debug\学生登录.csproj.GenerateResource.Cache
+D:\DATA\file\C#\学生登录\学生登录\obj\Debug\学生登录.exe
+D:\DATA\file\C#\学生登录\学生登录\obj\Debug\学生登录.pdb
+D:\DATA\file\C#\学生登录\学生登录\bin\Debug\MySql.Data.dll
+D:\DATA\file\C#\学生登录\学生登录\bin\Debug\Google.Protobuf.dll
+D:\DATA\file\C#\学生登录\学生登录\bin\Debug\MySql.Data.xml
+D:\DATA\file\C#\学生登录\学生登录\obj\Debug\学生登录.csprojResolveAssemblyReference.cache

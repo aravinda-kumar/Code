@@ -1,0 +1,10 @@
+D:\DATA\file\C#\notebook\notebook\bin\Debug\notebook.exe.config
+D:\DATA\file\C#\notebook\notebook\obj\Debug\notebook.csprojResolveAssemblyReference.cache
+D:\DATA\file\C#\notebook\notebook\obj\Debug\notebook.FrmChild.resources
+D:\DATA\file\C#\notebook\notebook\obj\Debug\notebook.FrmParent.resources
+D:\DATA\file\C#\notebook\notebook\obj\Debug\notebook.Properties.Resources.resources
+D:\DATA\file\C#\notebook\notebook\obj\Debug\notebook.csproj.GenerateResource.Cache
+D:\DATA\file\C#\notebook\notebook\bin\Debug\notebook.exe
+D:\DATA\file\C#\notebook\notebook\bin\Debug\notebook.pdb
+D:\DATA\file\C#\notebook\notebook\obj\Debug\notebook.exe
+D:\DATA\file\C#\notebook\notebook\obj\Debug\notebook.pdb

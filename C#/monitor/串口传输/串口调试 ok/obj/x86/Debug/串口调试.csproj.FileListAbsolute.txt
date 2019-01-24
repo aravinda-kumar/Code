@@ -1,0 +1,52 @@
+G:\C#\串口调试程序\串口调试\bin\Debug\串口调试.exe
+G:\C#\串口调试程序\串口调试\bin\Debug\串口调试.pdb
+G:\C#\串口调试程序\串口调试\obj\x86\Debug\串口调试.Form1.resources
+G:\C#\串口调试程序\串口调试\obj\x86\Debug\串口调试.Properties.Resources.resources
+G:\C#\串口调试程序\串口调试\obj\x86\Debug\串口调试.csproj.GenerateResource.Cache
+G:\C#\串口调试程序\串口调试\obj\x86\Debug\串口调试.exe
+G:\C#\串口调试程序\串口调试\obj\x86\Debug\串口调试.pdb
+G:\C#\串口调试程序\串口调试\obj\x86\Debug\串口调试.csprojResolveAssemblyReference.cache
+J:\串口调试\obj\x86\Debug\串口调试.exe
+J:\串口调试\obj\x86\Debug\串口调试.pdb
+J:\串口调试\bin\Debug\串口调试.exe
+J:\串口调试\bin\Debug\串口调试.pdb
+J:\串口调试\obj\x86\Debug\串口调试.csprojResolveAssemblyReference.cache
+J:\串口调试\obj\x86\Debug\串口调试.Form1.resources
+J:\串口调试\obj\x86\Debug\串口调试.Properties.Resources.resources
+J:\串口调试\obj\x86\Debug\串口调试.csproj.GenerateResource.Cache
+C:\Users\Sora\Desktop\串口调试\obj\x86\Debug\串口调试.exe
+C:\Users\Sora\Desktop\串口调试\obj\x86\Debug\串口调试.pdb
+C:\Users\Sora\Desktop\串口调试\bin\Debug\串口调试.exe
+C:\Users\Sora\Desktop\串口调试\bin\Debug\串口调试.pdb
+C:\Users\Sora\Desktop\串口调试\obj\x86\Debug\串口调试.csprojResolveAssemblyReference.cache
+C:\Users\Sora\Desktop\串口调试\obj\x86\Debug\串口调试.Form1.resources
+C:\Users\Sora\Desktop\串口调试\obj\x86\Debug\串口调试.Properties.Resources.resources
+C:\Users\Sora\Desktop\串口调试\obj\x86\Debug\串口调试.csproj.GenerateResource.Cache
+C:\Users\Sora\Desktop\串口调试2\obj\x86\Debug\串口调试.exe
+C:\Users\Sora\Desktop\串口调试2\obj\x86\Debug\串口调试.pdb
+C:\Users\Sora\Desktop\串口调试2\bin\Debug\串口调试.exe
+C:\Users\Sora\Desktop\串口调试2\bin\Debug\串口调试.pdb
+C:\Users\Sora\Desktop\串口调试2\obj\x86\Debug\串口调试.csprojResolveAssemblyReference.cache
+C:\Users\Sora\Desktop\串口调试2\obj\x86\Debug\串口调试.Form1.resources
+C:\Users\Sora\Desktop\串口调试2\obj\x86\Debug\串口调试.Properties.Resources.resources
+C:\Users\Sora\Desktop\串口调试2\obj\x86\Debug\串口调试.csproj.GenerateResource.Cache
+J:\串口调试2\obj\x86\Debug\串口调试.exe
+J:\串口调试2\obj\x86\Debug\串口调试.pdb
+H:\串口调试2\obj\x86\Debug\串口调试.exe
+H:\串口调试2\obj\x86\Debug\串口调试.pdb
+J:\串口调试2\bin\Debug\串口调试.exe
+J:\串口调试2\bin\Debug\串口调试.pdb
+J:\串口调试2\obj\x86\Debug\串口调试.csprojResolveAssemblyReference.cache
+J:\串口调试2\obj\x86\Debug\串口调试.Form1.resources
+J:\串口调试2\obj\x86\Debug\串口调试.Properties.Resources.resources
+J:\串口调试2\obj\x86\Debug\串口调试.csproj.GenerateResource.Cache
+J:\串口调试 ok\obj\x86\Debug\串口调试.exe
+J:\串口调试 ok\obj\x86\Debug\串口调试.pdb
+C:\Users\Sora\Desktop\串口调试 ok\obj\x86\Debug\串口调试.exe
+C:\Users\Sora\Desktop\串口调试 ok\obj\x86\Debug\串口调试.pdb
+C:\Users\Sora\Desktop\串口调试 ok\bin\Debug\串口调试.exe
+C:\Users\Sora\Desktop\串口调试 ok\bin\Debug\串口调试.pdb
+C:\Users\Sora\Desktop\串口调试 ok\obj\x86\Debug\串口调试.csprojResolveAssemblyReference.cache
+C:\Users\Sora\Desktop\串口调试 ok\obj\x86\Debug\串口调试.Form1.resources
+C:\Users\Sora\Desktop\串口调试 ok\obj\x86\Debug\串口调试.Properties.Resources.resources
+C:\Users\Sora\Desktop\串口调试 ok\obj\x86\Debug\串口调试.csproj.GenerateResource.Cache

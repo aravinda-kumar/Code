@@ -1,0 +1,29 @@
+D:\我的文档\临时\C#串口\57578853SerialPortTerminal\SerialPortTerminal\SerialPort Terminal\bin\Debug\SerialPort Terminal.exe.config
+D:\我的文档\临时\C#串口\57578853SerialPortTerminal\SerialPortTerminal\SerialPort Terminal\obj\Debug\ResolveAssemblyReference.cache
+D:\我的文档\临时\C#串口\57578853SerialPortTerminal\SerialPortTerminal\SerialPort Terminal\obj\Debug\SerialPortTerminal.About.htm
+D:\我的文档\临时\C#串口\57578853SerialPortTerminal\SerialPortTerminal\SerialPort Terminal\obj\Debug\SerialPortTerminal.frmAbout.resources
+D:\我的文档\临时\C#串口\57578853SerialPortTerminal\SerialPortTerminal\SerialPort Terminal\obj\Debug\SerialPortTerminal.frmTerminal.resources
+D:\我的文档\临时\C#串口\57578853SerialPortTerminal\SerialPortTerminal\SerialPort Terminal\obj\Debug\SerialPortTerminal.Properties.Resources.resources
+D:\我的文档\临时\C#串口\57578853SerialPortTerminal\SerialPortTerminal\SerialPort Terminal\obj\Debug\SerialPort Terminal.csproj.GenerateResource.Cache
+D:\我的文档\临时\C#串口\SerialPortTerminal\SerialPort Terminal\bin\Debug\SerialPort Terminal.exe.config
+D:\我的文档\临时\C#串口\SerialPortTerminal\SerialPort Terminal\obj\Debug\ResolveAssemblyReference.cache
+D:\我的文档\临时\C#串口\SerialPortTerminal\SerialPort Terminal\obj\Debug\SerialPortTerminal.About.htm
+D:\我的文档\临时\C#串口\SerialPortTerminal\SerialPort Terminal\obj\Debug\SerialPortTerminal.frmAbout.resources
+D:\我的文档\临时\C#串口\SerialPortTerminal\SerialPort Terminal\obj\Debug\SerialPortTerminal.frmTerminal.resources
+D:\我的文档\临时\C#串口\SerialPortTerminal\SerialPort Terminal\obj\Debug\SerialPortTerminal.Properties.Resources.resources
+D:\我的文档\临时\C#串口\SerialPortTerminal\SerialPort Terminal\obj\Debug\SerialPort Terminal.csproj.GenerateResource.Cache
+D:\我的文档\临时\C#串口\SerialPortTerminal\SerialPort Terminal\bin\Debug\SerialPort Terminal.exe
+D:\我的文档\临时\C#串口\SerialPortTerminal\SerialPort Terminal\bin\Debug\SerialPort Terminal.pdb
+D:\我的文档\临时\C#串口\SerialPortTerminal\SerialPort Terminal\obj\Debug\SerialPort Terminal.exe
+D:\我的文档\临时\C#串口\SerialPortTerminal\SerialPort Terminal\obj\Debug\SerialPort Terminal.pdb
+D:\我的文档\陈无线控制小车\SerialPort Terminal\bin\Debug\SerialPort Terminal.exe.config
+D:\我的文档\陈无线控制小车\SerialPort Terminal\obj\Debug\SerialPort Terminal.exe
+D:\我的文档\陈无线控制小车\SerialPort Terminal\obj\Debug\SerialPort Terminal.pdb
+D:\我的文档\陈无线控制小车\SerialPort Terminal\bin\Debug\SerialPort Terminal.exe
+D:\我的文档\陈无线控制小车\SerialPort Terminal\bin\Debug\SerialPort Terminal.pdb
+D:\我的文档\陈无线控制小车\SerialPort Terminal\obj\Debug\ResolveAssemblyReference.cache
+D:\我的文档\陈无线控制小车\SerialPort Terminal\obj\Debug\SerialPortTerminal.About.htm
+D:\我的文档\陈无线控制小车\SerialPort Terminal\obj\Debug\SerialPortTerminal.frmAbout.resources
+D:\我的文档\陈无线控制小车\SerialPort Terminal\obj\Debug\SerialPortTerminal.frmTerminal.resources
+D:\我的文档\陈无线控制小车\SerialPort Terminal\obj\Debug\SerialPortTerminal.Properties.Resources.resources
+D:\我的文档\陈无线控制小车\SerialPort Terminal\obj\Debug\SerialPort Terminal.csproj.GenerateResource.Cache

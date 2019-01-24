@@ -1,0 +1,48 @@
+D:\新建文件夹\WindowsFormsApplication21\WindowsFormsApplication21\obj\Debug\ResolveAssemblyReference.cache
+D:\新建文件夹\WindowsFormsApplication21\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.Form1.resources
+D:\新建文件夹\WindowsFormsApplication21\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.Properties.Resources.resources
+D:\新建文件夹\WindowsFormsApplication21\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.csproj.GenerateResource.Cache
+D:\新建文件夹\WindowsFormsApplication21\WindowsFormsApplication21\bin\Debug\WindowsFormsApplication21.exe
+D:\新建文件夹\WindowsFormsApplication21\WindowsFormsApplication21\bin\Debug\WindowsFormsApplication21.pdb
+D:\新建文件夹\WindowsFormsApplication21\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.exe
+D:\新建文件夹\WindowsFormsApplication21\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.pdb
+C:\Documents and Settings\Administrator\桌面\串口通讯示例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.exe
+C:\Documents and Settings\Administrator\桌面\串口通讯示例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.pdb
+F:\学习\c#\C#心得\实例\串口通讯示例\串口通讯示例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.exe
+F:\学习\c#\C#心得\实例\串口通讯示例\串口通讯示例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.pdb
+F:\学习\c#\C#心得\实例\串口通讯示例\串口通讯示例\WindowsFormsApplication21\bin\Debug\WindowsFormsApplication21.exe
+F:\学习\c#\C#心得\实例\串口通讯示例\串口通讯示例\WindowsFormsApplication21\bin\Debug\WindowsFormsApplication21.pdb
+F:\学习\c#\C#心得\实例\串口通讯示例\串口通讯示例\WindowsFormsApplication21\obj\Debug\ResolveAssemblyReference.cache
+F:\学习\c#\C#心得\实例\串口通讯示例\串口通讯示例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.Form1.resources
+F:\学习\c#\C#心得\实例\串口通讯示例\串口通讯示例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.Properties.Resources.resources
+F:\学习\c#\C#心得\实例\串口通讯示例\串口通讯示例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\串口通讯示例\WindowsFormsApplication21\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\串口通讯示例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.Form1.resources
+C:\Documents and Settings\Administrator\桌面\串口通讯示例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\串口通讯示例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\串口通讯示例\WindowsFormsApplication21\bin\Debug\WindowsFormsApplication21.exe
+C:\Documents and Settings\Administrator\桌面\串口通讯示例\WindowsFormsApplication21\bin\Debug\WindowsFormsApplication21.pdb
+C:\Documents and Settings\Administrator\桌面\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.exe
+C:\Documents and Settings\Administrator\桌面\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.pdb
+C:\Documents and Settings\Administrator\桌面\通过串口传送图片实例\WindowsFormsApplication21\bin\Debug\WindowsFormsApplication21.exe
+C:\Documents and Settings\Administrator\桌面\通过串口传送图片实例\WindowsFormsApplication21\bin\Debug\WindowsFormsApplication21.pdb
+C:\Documents and Settings\Administrator\桌面\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.Form1.resources
+C:\Documents and Settings\Administrator\桌面\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.csproj.GenerateResource.Cache
+F:\学习\c#\C#心得\实例\串口通讯示例\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.exe
+F:\学习\c#\C#心得\实例\串口通讯示例\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.pdb
+F:\学习\c#\C#心得\实例\串口通讯示例\通过串口传送图片实例\WindowsFormsApplication21\bin\Debug\WindowsFormsApplication21.exe
+F:\学习\c#\C#心得\实例\串口通讯示例\通过串口传送图片实例\WindowsFormsApplication21\bin\Debug\WindowsFormsApplication21.pdb
+F:\学习\c#\C#心得\实例\串口通讯示例\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\ResolveAssemblyReference.cache
+F:\学习\c#\C#心得\实例\串口通讯示例\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.Form1.resources
+F:\学习\c#\C#心得\实例\串口通讯示例\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.Properties.Resources.resources
+F:\学习\c#\C#心得\实例\串口通讯示例\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.csproj.GenerateResource.Cache
+C:\Users\john\Desktop\串口传输\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.exe
+C:\Users\john\Desktop\串口传输\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.pdb
+C:\Users\john\Desktop\串口传输\通过串口传送图片实例\WindowsFormsApplication21\bin\Debug\WindowsFormsApplication21.exe
+C:\Users\john\Desktop\串口传输\通过串口传送图片实例\WindowsFormsApplication21\bin\Debug\WindowsFormsApplication21.pdb
+C:\Users\john\Desktop\串口传输\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.csprojResolveAssemblyReference.cache
+C:\Users\john\Desktop\串口传输\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.Form1.resources
+C:\Users\john\Desktop\串口传输\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.Properties.Resources.resources
+C:\Users\john\Desktop\串口传输\通过串口传送图片实例\WindowsFormsApplication21\obj\Debug\WindowsFormsApplication21.csproj.GenerateResource.Cache

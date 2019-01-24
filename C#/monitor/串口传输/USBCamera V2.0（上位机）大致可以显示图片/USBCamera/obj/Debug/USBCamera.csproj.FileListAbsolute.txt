@@ -1,0 +1,46 @@
+E:\program_test\vs2008_test\USBCamera\USBCamera\bin\Debug\USBCamera.exe
+E:\program_test\vs2008_test\USBCamera\USBCamera\bin\Debug\USBCamera.pdb
+E:\program_test\vs2008_test\USBCamera\USBCamera\obj\Debug\ResolveAssemblyReference.cache
+E:\program_test\vs2008_test\USBCamera\USBCamera\obj\Debug\USBCamera.Form1.resources
+E:\program_test\vs2008_test\USBCamera\USBCamera\obj\Debug\USBCamera.Properties.Resources.resources
+E:\program_test\vs2008_test\USBCamera\USBCamera\obj\Debug\USBCamera.csproj.GenerateResource.Cache
+E:\program_test\vs2008_test\USBCamera\USBCamera\obj\Debug\USBCamera.exe
+E:\program_test\vs2008_test\USBCamera\USBCamera\obj\Debug\USBCamera.pdb
+E:\program_test\vs2008_test\SerialPortTerminal\USBCamera V1.0\USBCamera\obj\Debug\USBCamera.exe
+E:\program_test\vs2008_test\SerialPortTerminal\USBCamera V1.0\USBCamera\obj\Debug\USBCamera.pdb
+E:\program_test\vs2008_test\SerialPortTerminal\USBCamera V2.0\USBCamera\bin\Debug\骑飞USBCamera.exe
+E:\program_test\vs2008_test\SerialPortTerminal\USBCamera V2.0\USBCamera\bin\Debug\骑飞USBCamera.pdb
+E:\program_test\vs2008_test\SerialPortTerminal\USBCamera V2.0\USBCamera\obj\Debug\ResolveAssemblyReference.cache
+E:\program_test\vs2008_test\SerialPortTerminal\USBCamera V2.0\USBCamera\obj\Debug\USBCamera.USBCamera.resources
+E:\program_test\vs2008_test\SerialPortTerminal\USBCamera V2.0\USBCamera\obj\Debug\USBCamera.Properties.Resources.resources
+E:\program_test\vs2008_test\SerialPortTerminal\USBCamera V2.0\USBCamera\obj\Debug\USBCamera.csproj.GenerateResource.Cache
+E:\program_test\vs2008_test\SerialPortTerminal\USBCamera V2.0\USBCamera\obj\Debug\骑飞USBCamera.exe
+E:\program_test\vs2008_test\SerialPortTerminal\USBCamera V2.0\USBCamera\obj\Debug\骑飞USBCamera.pdb
+E:\program_test\vs2008_test\SerialPortTerminal\USBCamera V2.0\USBCamera\bin\Debug\骑飞USBCamera.exe.config
+E:\淘宝相关\camera发布版\C8051f340USBCamera图像采集板资料\源程序\USBCamera V2.0（上位机）\USBCamera\bin\Debug\骑飞USBCamera.exe.config
+E:\淘宝相关\camera发布版\C8051f340USBCamera图像采集板资料\源程序\USBCamera V2.0（上位机）\USBCamera\obj\Debug\骑飞USBCamera.exe
+E:\淘宝相关\camera发布版\C8051f340USBCamera图像采集板资料\源程序\USBCamera V2.0（上位机）\USBCamera\obj\Debug\骑飞USBCamera.pdb
+E:\淘宝相关\camera发布版\C8051f340USBCamera图像采集板资料\源程序\USBCamera V2.0（上位机）\USBCamera\bin\Debug\骑飞USBCamera.exe
+E:\淘宝相关\camera发布版\C8051f340USBCamera图像采集板资料\源程序\USBCamera V2.0（上位机）\USBCamera\bin\Debug\骑飞USBCamera.pdb
+E:\淘宝相关\camera发布版\C8051f340USBCamera图像采集板资料\源程序\USBCamera V2.0（上位机）\USBCamera\obj\Debug\ResolveAssemblyReference.cache
+E:\淘宝相关\camera发布版\C8051f340USBCamera图像采集板资料\源程序\USBCamera V2.0（上位机）\USBCamera\obj\Debug\USBCamera.USBCamera.resources
+E:\淘宝相关\camera发布版\C8051f340USBCamera图像采集板资料\源程序\USBCamera V2.0（上位机）\USBCamera\obj\Debug\USBCamera.Properties.Resources.resources
+E:\淘宝相关\camera发布版\C8051f340USBCamera图像采集板资料\源程序\USBCamera V2.0（上位机）\USBCamera\obj\Debug\USBCamera.csproj.GenerateResource.Cache
+E:\C8051f340USBCamera图像采集板资料\源程序(nofifo_camera）\USBCamera V2.0（上位机）\USBCamera\bin\Debug\骑飞USBCamera.exe.config
+E:\C8051f340USBCamera图像采集板资料\源程序(nofifo_camera）\USBCamera V2.0（上位机）\USBCamera\obj\Debug\骑飞USBCamera.exe
+E:\C8051f340USBCamera图像采集板资料\源程序(nofifo_camera）\USBCamera V2.0（上位机）\USBCamera\obj\Debug\骑飞USBCamera.pdb
+E:\C8051f340USBCamera图像采集板资料\源程序(nofifo_camera）\USBCamera V2.0（上位机）\USBCamera\bin\Debug\骑飞USBCamera.exe
+E:\C8051f340USBCamera图像采集板资料\源程序(nofifo_camera）\USBCamera V2.0（上位机）\USBCamera\bin\Debug\骑飞USBCamera.pdb
+E:\C8051f340USBCamera图像采集板资料\源程序(nofifo_camera）\USBCamera V2.0（上位机）\USBCamera\obj\Debug\USBCamera.USBCamera.resources
+E:\C8051f340USBCamera图像采集板资料\源程序(nofifo_camera）\USBCamera V2.0（上位机）\USBCamera\obj\Debug\USBCamera.Properties.Resources.resources
+E:\C8051f340USBCamera图像采集板资料\源程序(nofifo_camera）\USBCamera V2.0（上位机）\USBCamera\obj\Debug\USBCamera.csprojResolveAssemblyReference.cache
+E:\C8051f340USBCamera图像采集板资料\源程序(nofifo_camera）\USBCamera V2.0（上位机）\USBCamera\obj\Debug\USBCamera.csproj.GenerateResource.Cache
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\bin\Debug\骑飞USBCamera.exe.config
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\obj\Debug\骑飞USBCamera.exe
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\obj\Debug\骑飞USBCamera.pdb
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\bin\Debug\骑飞USBCamera.exe
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\bin\Debug\骑飞USBCamera.pdb
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\obj\Debug\USBCamera.csprojResolveAssemblyReference.cache
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\obj\Debug\USBCamera.USBCamera.resources
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\obj\Debug\USBCamera.Properties.Resources.resources
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\obj\Debug\USBCamera.csproj.GenerateResource.Cache

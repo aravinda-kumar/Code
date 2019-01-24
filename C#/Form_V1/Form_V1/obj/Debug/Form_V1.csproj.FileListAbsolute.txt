@@ -1,0 +1,10 @@
+D:\DATA\file\C#\Form_V1\Form_V1\bin\Debug\Form_V1.exe.config
+D:\DATA\file\C#\Form_V1\Form_V1\bin\Debug\Form_V1.exe
+D:\DATA\file\C#\Form_V1\Form_V1\bin\Debug\Form_V1.pdb
+D:\DATA\file\C#\Form_V1\Form_V1\obj\Debug\Form_V1.Properties.Resources.resources
+D:\DATA\file\C#\Form_V1\Form_V1\obj\Debug\Form_V1.csproj.GenerateResource.Cache
+D:\DATA\file\C#\Form_V1\Form_V1\obj\Debug\Form_V1.exe
+D:\DATA\file\C#\Form_V1\Form_V1\obj\Debug\Form_V1.pdb
+D:\DATA\file\C#\Form_V1\Form_V1\obj\Debug\Form_V1.Form1.resources
+D:\DATA\file\C#\Form_V1\Form_V1\obj\Debug\Form_V1.Form2.resources
+D:\DATA\file\C#\Form_V1\Form_V1\obj\Debug\Form_V1.csprojResolveAssemblyReference.cache

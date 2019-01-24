@@ -1,0 +1,17 @@
+D:\DATA\file\C#\Mine\Mine\bin\Debug\Mine.exe.config
+D:\DATA\file\C#\Mine\Mine\obj\Debug\Interop.MediaPlayer.dll
+D:\DATA\file\C#\Mine\Mine\obj\Debug\Interop.WMPLib.dll
+D:\DATA\file\C#\Mine\Mine\obj\Debug\AxInterop.WMPLib.dll
+D:\DATA\file\C#\Mine\Mine\obj\Debug\Mine.csproj.ResolveComReference.cache
+D:\DATA\file\C#\Mine\Mine\bin\Debug\Mine.exe
+D:\DATA\file\C#\Mine\Mine\bin\Debug\Mine.pdb
+D:\DATA\file\C#\Mine\Mine\bin\Debug\Interop.WMPLib.dll
+D:\DATA\file\C#\Mine\Mine\bin\Debug\AxInterop.WMPLib.dll
+D:\DATA\file\C#\Mine\Mine\obj\Debug\Mine.csprojResolveAssemblyReference.cache
+D:\DATA\file\C#\Mine\Mine\obj\Debug\Mine.Form_Main.resources
+D:\DATA\file\C#\Mine\Mine\obj\Debug\Mine.FormDeviation.resources
+D:\DATA\file\C#\Mine\Mine\obj\Debug\Mine.FormTear.resources
+D:\DATA\file\C#\Mine\Mine\obj\Debug\Mine.Properties.Resources.resources
+D:\DATA\file\C#\Mine\Mine\obj\Debug\Mine.csproj.GenerateResource.Cache
+D:\DATA\file\C#\Mine\Mine\obj\Debug\Mine.exe
+D:\DATA\file\C#\Mine\Mine\obj\Debug\Mine.pdb

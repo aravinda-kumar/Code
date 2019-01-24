@@ -1,0 +1,41 @@
+G:\C#自学例程\串口传图片\bin\Release\SerialPort Terminal.exe.config
+G:\C#自学例程\串口传图片\bin\Release\SerialPort Terminal.exe
+G:\C#自学例程\串口传图片\bin\Release\SerialPort Terminal.pdb
+G:\C#自学例程\串口传图片\obj\Release\ResolveAssemblyReference.cache
+G:\C#自学例程\串口传图片\obj\Release\SerialPortTerminal.frmAbout.resources
+G:\C#自学例程\串口传图片\obj\Release\SerialPortTerminal.frmTerminal.resources
+G:\C#自学例程\串口传图片\obj\Release\SerialPortTerminal.Properties.Resources.resources
+G:\C#自学例程\串口传图片\obj\Release\SerialPort Terminal.csproj.GenerateResource.Cache
+G:\C#自学例程\串口传图片\obj\Release\SerialPort Terminal.exe
+G:\C#自学例程\串口传图片\obj\Release\SerialPort Terminal.pdb
+F:\C#练习例程\串口传图片\bin\Release\SerialPort Terminal.exe.config
+F:\C#练习例程\串口传图片\obj\Release\SerialPort Terminal.exe
+F:\C#练习例程\串口传图片\obj\Release\SerialPort Terminal.pdb
+F:\C#练习例程\串口传图片\obj\Release\ResolveAssemblyReference.cache
+F:\C#练习例程\串口传图片\obj\Release\SerialPortTerminal.frmAbout.resources
+F:\C#练习例程\串口传图片\obj\Release\SerialPortTerminal.frmTerminal.resources
+F:\C#练习例程\串口传图片\obj\Release\SerialPortTerminal.Properties.Resources.resources
+F:\C#练习例程\串口传图片\obj\Release\SerialPort Terminal.csproj.GenerateResource.Cache
+F:\C#练习例程\串口传图片\bin\Release\SerialPort Terminal.exe
+F:\C#练习例程\串口传图片\bin\Release\SerialPort Terminal.pdb
+C:\Users\BXC\Desktop\串口传图片\bin\Release\SerialPort Terminal.exe.config
+C:\Users\BXC\Desktop\串口传图片\obj\Release\SerialPort Terminal.exe
+C:\Users\BXC\Desktop\串口传图片\obj\Release\SerialPort Terminal.pdb
+C:\Users\BXC\Desktop\串口传图片\bin\Release\SerialPort Terminal.exe
+C:\Users\BXC\Desktop\串口传图片\bin\Release\SerialPort Terminal.pdb
+C:\Users\BXC\Desktop\串口传图片\obj\Release\SerialPortTerminal.frmAbout.resources
+C:\Users\BXC\Desktop\串口传图片\obj\Release\SerialPortTerminal.frmTerminal.resources
+C:\Users\BXC\Desktop\串口传图片\obj\Release\SerialPortTerminal.Properties.Resources.resources
+C:\Users\BXC\Desktop\串口传图片\obj\Release\SerialPort Terminal.csproj.GenerateResource.Cache
+D:\串口传图片\bin\Release\SerialPort Terminal.exe.config
+D:\串口传图片\obj\Release\SerialPort Terminal.exe
+D:\串口传图片\obj\Release\SerialPort Terminal.pdb
+C:\Users\john\Desktop\串口传输\串口传图片\bin\Release\SerialPort Terminal.exe.config
+C:\Users\john\Desktop\串口传输\串口传图片\obj\Release\SerialPort Terminal.exe
+C:\Users\john\Desktop\串口传输\串口传图片\obj\Release\SerialPort Terminal.pdb
+C:\Users\john\Desktop\串口传输\串口传图片\bin\Release\SerialPort Terminal.exe
+C:\Users\john\Desktop\串口传输\串口传图片\bin\Release\SerialPort Terminal.pdb
+C:\Users\john\Desktop\串口传输\串口传图片\obj\Release\SerialPortTerminal.frmAbout.resources
+C:\Users\john\Desktop\串口传输\串口传图片\obj\Release\SerialPortTerminal.frmTerminal.resources
+C:\Users\john\Desktop\串口传输\串口传图片\obj\Release\SerialPortTerminal.Properties.Resources.resources
+C:\Users\john\Desktop\串口传输\串口传图片\obj\Release\SerialPort Terminal.csproj.GenerateResource.Cache

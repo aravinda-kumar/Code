@@ -1,0 +1,57 @@
+d:\Visual Studio 2008\Projects\停等协议\停等协议\obj\Debug\ResolveAssemblyReference.cache
+d:\Visual Studio 2008\Projects\停等协议\停等协议\obj\Debug\Interop.MSCommLib.dll
+d:\Visual Studio 2008\Projects\停等协议\停等协议\obj\Debug\AxInterop.MSCommLib.dll
+d:\Visual Studio 2008\Projects\停等协议\停等协议\obj\Debug\停等协议.csproj.ResolveComReference.cache
+d:\Visual Studio 2008\Projects\停等协议\停等协议\obj\Debug\停等协议.Form1.resources
+d:\Visual Studio 2008\Projects\停等协议\停等协议\obj\Debug\停等协议.Properties.Resources.resources
+d:\Visual Studio 2008\Projects\停等协议\停等协议\obj\Debug\停等协议.csproj.GenerateResource.Cache
+d:\Visual Studio 2008\Projects\停等协议\停等协议\bin\Debug\停等协议.exe
+d:\Visual Studio 2008\Projects\停等协议\停等协议\bin\Debug\停等协议.pdb
+d:\Visual Studio 2008\Projects\停等协议\停等协议\bin\Debug\Interop.MSCommLib.dll
+d:\Visual Studio 2008\Projects\停等协议\停等协议\bin\Debug\AxInterop.MSCommLib.dll
+d:\Visual Studio 2008\Projects\停等协议\停等协议\obj\Debug\停等协议.exe
+d:\Visual Studio 2008\Projects\停等协议\停等协议\obj\Debug\停等协议.pdb
+I:\Documents and Settings\Administrator\桌面\停等协议\停等协议\停等协议\obj\Debug\停等协议.csproj.ResolveComReference.cache
+I:\Documents and Settings\Administrator\桌面\停等协议\停等协议\停等协议\obj\Debug\停等协议.exe
+I:\Documents and Settings\Administrator\桌面\停等协议\停等协议\停等协议\obj\Debug\停等协议.pdb
+I:\Documents and Settings\Administrator\桌面\停等协议\停等协议\停等协议\obj\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\Administrator\桌面\停等协议\停等协议\停等协议\obj\Debug\停等协议.Form1.resources
+I:\Documents and Settings\Administrator\桌面\停等协议\停等协议\停等协议\obj\Debug\停等协议.Properties.Resources.resources
+I:\Documents and Settings\Administrator\桌面\停等协议\停等协议\停等协议\obj\Debug\停等协议.csproj.GenerateResource.Cache
+I:\Documents and Settings\Administrator\桌面\停等协议\停等协议\停等协议\bin\Debug\停等协议.exe
+I:\Documents and Settings\Administrator\桌面\停等协议\停等协议\停等协议\bin\Debug\停等协议.pdb
+E:\停等协议\停等协议\停等协议\obj\Debug\停等协议.csproj.ResolveComReference.cache
+E:\停等协议\停等协议\停等协议\obj\Debug\停等协议.exe
+E:\停等协议\停等协议\停等协议\obj\Debug\停等协议.pdb
+E:\停等协议\停等协议\停等协议\bin\Debug\停等协议.exe
+E:\停等协议\停等协议\停等协议\bin\Debug\停等协议.pdb
+E:\停等协议\停等协议\停等协议\obj\Debug\ResolveAssemblyReference.cache
+E:\停等协议\停等协议\停等协议\obj\Debug\停等协议.Form1.resources
+E:\停等协议\停等协议\停等协议\obj\Debug\停等协议.Properties.Resources.resources
+E:\停等协议\停等协议\停等协议\obj\Debug\停等协议.csproj.GenerateResource.Cache
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议\停等协议\obj\Debug\Interop.MSCommLib.dll
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议\停等协议\obj\Debug\AxInterop.MSCommLib.dll
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议\停等协议\obj\Debug\停等协议.csproj.ResolveComReference.cache
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议\停等协议\obj\Debug\停等协议.exe
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议\停等协议\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议\停等协议\obj\Debug\停等协议.Form1.resources
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议\停等协议\obj\Debug\停等协议.Properties.Resources.resources
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议\停等协议\obj\Debug\停等协议.csproj.GenerateResource.Cache
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议\停等协议\bin\Debug\停等协议.exe
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议\停等协议\bin\Debug\停等协议.pdb
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议\停等协议\bin\Debug\Interop.MSCommLib.dll
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议\停等协议\bin\Debug\AxInterop.MSCommLib.dll
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议\停等协议\obj\Debug\停等协议.pdb
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议RS232\停等协议\停等协议\obj\Debug\Interop.MSCommLib.dll
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议RS232\停等协议\停等协议\obj\Debug\AxInterop.MSCommLib.dll
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议RS232\停等协议\停等协议\obj\Debug\停等协议.csproj.ResolveComReference.cache
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议RS232\停等协议\停等协议\obj\Debug\停等协议.exe
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议RS232\停等协议\停等协议\obj\Debug\停等协议.pdb
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议RS232\停等协议\停等协议\bin\Debug\停等协议.exe
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议RS232\停等协议\停等协议\bin\Debug\停等协议.pdb
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议RS232\停等协议\停等协议\bin\Debug\Interop.MSCommLib.dll
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议RS232\停等协议\停等协议\bin\Debug\AxInterop.MSCommLib.dll
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议RS232\停等协议\停等协议\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议RS232\停等协议\停等协议\obj\Debug\停等协议.Form1.resources
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议RS232\停等协议\停等协议\obj\Debug\停等协议.Properties.Resources.resources
+C:\Documents and Settings\software\桌面\停等协议RS232\停等协议RS232\停等协议\停等协议\obj\Debug\停等协议.csproj.GenerateResource.Cache

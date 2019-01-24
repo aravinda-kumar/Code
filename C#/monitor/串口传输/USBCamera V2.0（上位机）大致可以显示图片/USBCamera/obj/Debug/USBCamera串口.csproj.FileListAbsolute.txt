@@ -1,0 +1,57 @@
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\bin\Debug\骑飞USBCamera.exe.config
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\bin\Debug\骑飞USBCamera.exe
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\bin\Debug\骑飞USBCamera.pdb
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\obj\Debug\USBCamera.USBCamera.resources
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\obj\Debug\USBCamera.Properties.Resources.resources
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\obj\Debug\USBCamera串口.csproj.GenerateResource.Cache
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\obj\Debug\骑飞USBCamera.exe
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\obj\Debug\骑飞USBCamera.pdb
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）\USBCamera\obj\Debug\USBCamera串口.csprojResolveAssemblyReference.cache
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\bin\Debug\骑飞USBCamera.exe.config
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\骑飞USBCamera.exe
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\骑飞USBCamera.pdb
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\bin\Debug\骑飞USBCamera.exe
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\bin\Debug\骑飞USBCamera.pdb
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera串口.csprojResolveAssemblyReference.cache
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera.USBCamera.resources
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera.Properties.Resources.resources
+C:\Users\songjia\Desktop\摄像头项目\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera串口.csproj.GenerateResource.Cache
+K:\摄像头项目\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\bin\Debug\骑飞USBCamera.exe.config
+K:\摄像头项目\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\骑飞USBCamera.exe
+K:\摄像头项目\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\骑飞USBCamera.pdb
+C:\Users\songjia\Desktop\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\bin\Debug\骑飞USBCamera.exe.config
+C:\Users\songjia\Desktop\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\骑飞USBCamera.exe
+C:\Users\songjia\Desktop\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\骑飞USBCamera.pdb
+C:\Users\songjia\Desktop\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\bin\Debug\骑飞USBCamera.exe
+C:\Users\songjia\Desktop\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\bin\Debug\骑飞USBCamera.pdb
+C:\Users\songjia\Desktop\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera串口.csprojResolveAssemblyReference.cache
+C:\Users\songjia\Desktop\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera.USBCamera.resources
+C:\Users\songjia\Desktop\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera.Properties.Resources.resources
+C:\Users\songjia\Desktop\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera串口.csproj.GenerateResource.Cache
+E:\老师安排的摄像头\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\bin\Debug\骑飞USBCamera.exe.config
+E:\老师安排的摄像头\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\骑飞USBCamera.exe
+E:\老师安排的摄像头\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\骑飞USBCamera.pdb
+E:\老师安排的摄像头\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\bin\Debug\骑飞USBCamera.exe
+E:\老师安排的摄像头\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\bin\Debug\骑飞USBCamera.pdb
+E:\老师安排的摄像头\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera串口.csprojResolveAssemblyReference.cache
+E:\老师安排的摄像头\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera.USBCamera.resources
+E:\老师安排的摄像头\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera.Properties.Resources.resources
+E:\老师安排的摄像头\摄像头项目1\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera串口.csproj.GenerateResource.Cache
+E:\老师安排的摄像头\摄像头项目1 - 副本\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\bin\Debug\骑飞USBCamera.exe.config
+E:\老师安排的摄像头\摄像头项目1 - 副本\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\骑飞USBCamera.exe
+E:\老师安排的摄像头\摄像头项目1 - 副本\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\骑飞USBCamera.pdb
+E:\老师安排的摄像头\摄像头项目1 - 副本\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\bin\Debug\骑飞USBCamera.exe
+E:\老师安排的摄像头\摄像头项目1 - 副本\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\bin\Debug\骑飞USBCamera.pdb
+E:\老师安排的摄像头\摄像头项目1 - 副本\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera串口.csprojResolveAssemblyReference.cache
+E:\老师安排的摄像头\摄像头项目1 - 副本\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera.USBCamera.resources
+E:\老师安排的摄像头\摄像头项目1 - 副本\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera.Properties.Resources.resources
+E:\老师安排的摄像头\摄像头项目1 - 副本\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera串口.csproj.GenerateResource.Cache
+C:\Users\john\Desktop\串口传输\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\bin\Debug\骑飞USBCamera.exe.config
+C:\Users\john\Desktop\串口传输\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\骑飞USBCamera.exe
+C:\Users\john\Desktop\串口传输\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\骑飞USBCamera.pdb
+C:\Users\john\Desktop\串口传输\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\bin\Debug\骑飞USBCamera.exe
+C:\Users\john\Desktop\串口传输\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\bin\Debug\骑飞USBCamera.pdb
+C:\Users\john\Desktop\串口传输\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera串口.csprojResolveAssemblyReference.cache
+C:\Users\john\Desktop\串口传输\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera.USBCamera.resources
+C:\Users\john\Desktop\串口传输\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera.Properties.Resources.resources
+C:\Users\john\Desktop\串口传输\USBCamera V2.0（上位机）大致可以显示图片\USBCamera\obj\Debug\USBCamera串口.csproj.GenerateResource.Cache

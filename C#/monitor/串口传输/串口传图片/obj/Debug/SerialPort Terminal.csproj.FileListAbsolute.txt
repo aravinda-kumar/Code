@@ -1,0 +1,30 @@
+G:\C#资料\SerialPort+Terminal\SerialPort Terminal\bin\Debug\SerialPort Terminal.exe.config
+G:\C#资料\SerialPort+Terminal\SerialPort Terminal\obj\Debug\SerialPort Terminal.exe
+G:\C#资料\SerialPort+Terminal\SerialPort Terminal\obj\Debug\SerialPort Terminal.pdb
+G:\C#资料\SerialPort+Terminal\SerialPort Terminal\bin\Debug\SerialPort Terminal.exe
+G:\C#资料\SerialPort+Terminal\SerialPort Terminal\bin\Debug\SerialPort Terminal.pdb
+G:\C#资料\SerialPort+Terminal\SerialPort Terminal\obj\Debug\ResolveAssemblyReference.cache
+G:\C#资料\SerialPort+Terminal\SerialPort Terminal\obj\Debug\SerialPortTerminal.frmAbout.resources
+G:\C#资料\SerialPort+Terminal\SerialPort Terminal\obj\Debug\SerialPortTerminal.frmTerminal.resources
+G:\C#资料\SerialPort+Terminal\SerialPort Terminal\obj\Debug\SerialPortTerminal.Properties.Resources.resources
+G:\C#资料\SerialPort+Terminal\SerialPort Terminal\obj\Debug\SerialPort Terminal.csproj.GenerateResource.Cache
+F:\C#练习例程\串口传图片\bin\Debug\SerialPort Terminal.exe.config
+F:\C#练习例程\串口传图片\obj\Debug\SerialPort Terminal.exe
+F:\C#练习例程\串口传图片\obj\Debug\SerialPort Terminal.pdb
+F:\C#练习例程\串口传图片\obj\Debug\ResolveAssemblyReference.cache
+F:\C#练习例程\串口传图片\obj\Debug\SerialPortTerminal.frmAbout.resources
+F:\C#练习例程\串口传图片\obj\Debug\SerialPortTerminal.frmTerminal.resources
+F:\C#练习例程\串口传图片\obj\Debug\SerialPortTerminal.Properties.Resources.resources
+F:\C#练习例程\串口传图片\obj\Debug\SerialPort Terminal.csproj.GenerateResource.Cache
+F:\C#练习例程\串口传图片\bin\Debug\SerialPort Terminal.exe
+F:\C#练习例程\串口传图片\bin\Debug\SerialPort Terminal.pdb
+G:\C#自学例程\串口传图片\bin\Debug\SerialPort Terminal.exe.config
+G:\C#自学例程\串口传图片\obj\Debug\SerialPort Terminal.exe
+G:\C#自学例程\串口传图片\obj\Debug\SerialPort Terminal.pdb
+G:\C#自学例程\串口传图片\bin\Debug\SerialPort Terminal.exe
+G:\C#自学例程\串口传图片\bin\Debug\SerialPort Terminal.pdb
+G:\C#自学例程\串口传图片\obj\Debug\ResolveAssemblyReference.cache
+G:\C#自学例程\串口传图片\obj\Debug\SerialPortTerminal.frmAbout.resources
+G:\C#自学例程\串口传图片\obj\Debug\SerialPortTerminal.frmTerminal.resources
+G:\C#自学例程\串口传图片\obj\Debug\SerialPortTerminal.Properties.Resources.resources
+G:\C#自学例程\串口传图片\obj\Debug\SerialPort Terminal.csproj.GenerateResource.Cache

@@ -1,0 +1,128 @@
+F:\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+F:\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+F:\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+F:\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+F:\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+F:\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form2.resources
+F:\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form3.resources
+F:\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+F:\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+F:\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+F:\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+F:\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Interop.WMPLib.dll
+F:\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\AxInterop.WMPLib.dll
+F:\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\Interop.WMPLib.dll
+F:\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\AxInterop.WMPLib.dll
+F:\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.ResolveComReference.cache
+C:\Users\john\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\john\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\Interop.WMPLib.dll
+C:\Users\john\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\john\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.ResolveComReference.cache
+C:\Users\john\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\john\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\john\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\john\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\john\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Interop.WMPLib.dll
+C:\Users\john\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\john\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\john\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\john\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form2.resources
+C:\Users\john\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form3.resources
+C:\Users\john\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\john\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\john\Desktop\Project Interface\test\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\john\Desktop\Project Interface\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\Interop.WMPLib.dll
+C:\Users\john\Desktop\Project Interface\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\john\Desktop\Project Interface\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.ResolveComReference.cache
+C:\Users\john\Desktop\Project Interface\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\john\Desktop\Project Interface\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\john\Desktop\Project Interface\test\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\john\Desktop\Project Interface\test\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\john\Desktop\Project Interface\test\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Interop.WMPLib.dll
+C:\Users\john\Desktop\Project Interface\test\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\john\Desktop\Project Interface\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\john\Desktop\Project Interface\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\john\Desktop\Project Interface\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form2.resources
+C:\Users\john\Desktop\Project Interface\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form3.resources
+C:\Users\john\Desktop\Project Interface\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\john\Desktop\Project Interface\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\john\Desktop\test测试\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\john\Desktop\test测试\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\Interop.WMPLib.dll
+C:\Users\john\Desktop\test测试\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\john\Desktop\test测试\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.ResolveComReference.cache
+C:\Users\john\Desktop\test测试\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\john\Desktop\test测试\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\john\Desktop\test测试\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\john\Desktop\test测试\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\john\Desktop\test测试\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Interop.WMPLib.dll
+C:\Users\john\Desktop\test测试\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\john\Desktop\test测试\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\john\Desktop\test测试\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\john\Desktop\test测试\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form2.resources
+C:\Users\john\Desktop\test测试\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form3.resources
+C:\Users\john\Desktop\test测试\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\john\Desktop\test测试\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\john\Desktop\TCP_Picture\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\john\Desktop\TCP_Picture\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\Interop.WMPLib.dll
+C:\Users\john\Desktop\TCP_Picture\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\john\Desktop\TCP_Picture\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.ResolveComReference.cache
+C:\Users\john\Desktop\TCP_Picture\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\john\Desktop\TCP_Picture\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\john\Desktop\TCP_Picture\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\john\Desktop\TCP_Picture\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\john\Desktop\TCP_Picture\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Interop.WMPLib.dll
+C:\Users\john\Desktop\TCP_Picture\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\john\Desktop\TCP_Picture\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\john\Desktop\TCP_Picture\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\john\Desktop\TCP_Picture\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form2.resources
+C:\Users\john\Desktop\TCP_Picture\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form3.resources
+C:\Users\john\Desktop\TCP_Picture\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\john\Desktop\TCP_Picture\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\john\Desktop\HTML\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\john\Desktop\HTML\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\Interop.WMPLib.dll
+C:\Users\john\Desktop\HTML\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\john\Desktop\HTML\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.ResolveComReference.cache
+C:\Users\john\Desktop\HTML\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\john\Desktop\HTML\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\john\Desktop\HTML\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\john\Desktop\HTML\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\john\Desktop\HTML\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Interop.WMPLib.dll
+C:\Users\john\Desktop\HTML\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\john\Desktop\HTML\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\john\Desktop\HTML\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\john\Desktop\HTML\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form2.resources
+C:\Users\john\Desktop\HTML\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form3.resources
+C:\Users\john\Desktop\HTML\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\john\Desktop\HTML\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+E:\ProjectFile\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+E:\ProjectFile\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\Interop.WMPLib.dll
+E:\ProjectFile\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\AxInterop.WMPLib.dll
+E:\ProjectFile\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.ResolveComReference.cache
+E:\ProjectFile\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+E:\ProjectFile\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+E:\ProjectFile\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+E:\ProjectFile\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+E:\ProjectFile\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Interop.WMPLib.dll
+E:\ProjectFile\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\AxInterop.WMPLib.dll
+E:\ProjectFile\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+E:\ProjectFile\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+E:\ProjectFile\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form2.resources
+E:\ProjectFile\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form3.resources
+E:\ProjectFile\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+E:\ProjectFile\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+E:\JZS\MyComputer\1_学校\项目材料\code\CSharp\monitor\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+E:\JZS\MyComputer\1_学校\项目材料\code\CSharp\monitor\WindowsFormsApplication2\obj\Debug\Interop.WMPLib.dll
+E:\JZS\MyComputer\1_学校\项目材料\code\CSharp\monitor\WindowsFormsApplication2\obj\Debug\AxInterop.WMPLib.dll
+E:\JZS\MyComputer\1_学校\项目材料\code\CSharp\monitor\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.ResolveComReference.cache
+E:\JZS\MyComputer\1_学校\项目材料\code\CSharp\monitor\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+E:\JZS\MyComputer\1_学校\项目材料\code\CSharp\monitor\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+E:\JZS\MyComputer\1_学校\项目材料\code\CSharp\monitor\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+E:\JZS\MyComputer\1_学校\项目材料\code\CSharp\monitor\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+E:\JZS\MyComputer\1_学校\项目材料\code\CSharp\monitor\WindowsFormsApplication2\bin\Debug\Interop.WMPLib.dll
+E:\JZS\MyComputer\1_学校\项目材料\code\CSharp\monitor\WindowsFormsApplication2\bin\Debug\AxInterop.WMPLib.dll
+E:\JZS\MyComputer\1_学校\项目材料\code\CSharp\monitor\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+E:\JZS\MyComputer\1_学校\项目材料\code\CSharp\monitor\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+E:\JZS\MyComputer\1_学校\项目材料\code\CSharp\monitor\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form2.resources
+E:\JZS\MyComputer\1_学校\项目材料\code\CSharp\monitor\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form3.resources
+E:\JZS\MyComputer\1_学校\项目材料\code\CSharp\monitor\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+E:\JZS\MyComputer\1_学校\项目材料\code\CSharp\monitor\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
