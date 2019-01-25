@@ -4,3 +4,4 @@
 - laptop
 - xubuntu_vm
 - laptop_ubuntu
+- windows_Lab
