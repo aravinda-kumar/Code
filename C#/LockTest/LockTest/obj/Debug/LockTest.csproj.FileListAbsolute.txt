@@ -1,0 +1,9 @@
+E:\JZS\Code\C#\LockTest\LockTest\bin\Debug\LockTest.exe.config
+E:\JZS\Code\C#\LockTest\LockTest\bin\Debug\LockTest.exe
+E:\JZS\Code\C#\LockTest\LockTest\bin\Debug\LockTest.pdb
+E:\JZS\Code\C#\LockTest\LockTest\obj\Debug\LockTest.csprojResolveAssemblyReference.cache
+E:\JZS\Code\C#\LockTest\LockTest\obj\Debug\LockTest.Form1.resources
+E:\JZS\Code\C#\LockTest\LockTest\obj\Debug\LockTest.Properties.Resources.resources
+E:\JZS\Code\C#\LockTest\LockTest\obj\Debug\LockTest.csproj.GenerateResource.Cache
+E:\JZS\Code\C#\LockTest\LockTest\obj\Debug\LockTest.exe
+E:\JZS\Code\C#\LockTest\LockTest\obj\Debug\LockTest.pdb
