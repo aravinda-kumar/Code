@@ -560,6 +560,7 @@ namespace 皮带跑偏与撕裂检测监控界面
 
         private void WatchConnectingHead01()
         {
+            Console.WriteLine("现在时间是{0}", DateTime.Now.ToString("yyyy年MM月dd日HH时mm分ss秒ffff毫秒"));
             lock (this)
             {
                 string Msg = DateTime.Now.ToString("yyyy年MM月dd日HH时mm分ss秒ffff毫秒") + "\r\n";
@@ -570,6 +571,7 @@ namespace 皮带跑偏与撕裂检测监控界面
         }
         private void WatchConnectingHead02()
         {
+            Console.WriteLine("现在时间是{0}", DateTime.Now.ToString("yyyy年MM月dd日HH时mm分ss秒ffff毫秒"));
             lock (this)
             {
                 string Msg = DateTime.Now.ToString("yyyy年MM月dd日HH时mm分ss秒ffff毫秒") + "\r\n";
@@ -579,6 +581,7 @@ namespace 皮带跑偏与撕裂检测监控界面
         }
         private void WatchConnectingHead03()
         {
+            Console.WriteLine("现在时间是{0}", DateTime.Now.ToString("yyyy年MM月dd日HH时mm分ss秒ffff毫秒"));
             lock (this)
             {
                 string Msg = DateTime.Now.ToString("yyyy年MM月dd日HH时mm分ss秒ffff毫秒") + "\r\n";
