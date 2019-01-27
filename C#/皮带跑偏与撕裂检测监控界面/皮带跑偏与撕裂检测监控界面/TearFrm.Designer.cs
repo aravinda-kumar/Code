@@ -166,7 +166,7 @@
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel8, 2, 6);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 28);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 7;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 75F));
@@ -202,7 +202,7 @@
             this.tableLayoutPanel2.Controls.Add(this.MediaPlayerEnd, 2, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(6, 6);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -213,7 +213,7 @@
             // 
             this.MediaPlayerHead.Enabled = true;
             this.MediaPlayerHead.Location = new System.Drawing.Point(4, 4);
-            this.MediaPlayerHead.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MediaPlayerHead.Margin = new System.Windows.Forms.Padding(4);
             this.MediaPlayerHead.Name = "MediaPlayerHead";
             this.MediaPlayerHead.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("MediaPlayerHead.OcxState")));
             this.MediaPlayerHead.Size = new System.Drawing.Size(202, 59);
@@ -224,7 +224,7 @@
             // 
             this.MediaPlayerHam.Enabled = true;
             this.MediaPlayerHam.Location = new System.Drawing.Point(214, 4);
-            this.MediaPlayerHam.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MediaPlayerHam.Margin = new System.Windows.Forms.Padding(4);
             this.MediaPlayerHam.Name = "MediaPlayerHam";
             this.MediaPlayerHam.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("MediaPlayerHam.OcxState")));
             this.MediaPlayerHam.Size = new System.Drawing.Size(202, 59);
@@ -235,7 +235,7 @@
             // 
             this.MediaPlayerEnd.Enabled = true;
             this.MediaPlayerEnd.Location = new System.Drawing.Point(424, 4);
-            this.MediaPlayerEnd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MediaPlayerEnd.Margin = new System.Windows.Forms.Padding(4);
             this.MediaPlayerEnd.Name = "MediaPlayerEnd";
             this.MediaPlayerEnd.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("MediaPlayerEnd.OcxState")));
             this.MediaPlayerEnd.Size = new System.Drawing.Size(202, 59);
@@ -248,9 +248,9 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox1.Location = new System.Drawing.Point(6, 83);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(630, 358);
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
@@ -261,7 +261,7 @@
             this.picBox_Head.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picBox_Head.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picBox_Head.Location = new System.Drawing.Point(4, 27);
-            this.picBox_Head.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picBox_Head.Margin = new System.Windows.Forms.Padding(4);
             this.picBox_Head.Name = "picBox_Head";
             this.picBox_Head.Size = new System.Drawing.Size(622, 327);
             this.picBox_Head.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -274,9 +274,9 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox2.Location = new System.Drawing.Point(646, 83);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(630, 358);
             this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
@@ -287,7 +287,7 @@
             this.picBox_Ham.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picBox_Ham.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picBox_Ham.Location = new System.Drawing.Point(4, 27);
-            this.picBox_Ham.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picBox_Ham.Margin = new System.Windows.Forms.Padding(4);
             this.picBox_Ham.Name = "picBox_Ham";
             this.picBox_Ham.Size = new System.Drawing.Size(622, 327);
             this.picBox_Ham.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -300,9 +300,9 @@
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox3.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox3.Location = new System.Drawing.Point(1286, 83);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(632, 358);
             this.groupBox3.TabIndex = 15;
             this.groupBox3.TabStop = false;
@@ -313,7 +313,7 @@
             this.picBox_End.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picBox_End.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picBox_End.Location = new System.Drawing.Point(4, 27);
-            this.picBox_End.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picBox_End.Margin = new System.Windows.Forms.Padding(4);
             this.picBox_End.Name = "picBox_End";
             this.picBox_End.Size = new System.Drawing.Size(624, 327);
             this.picBox_End.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -326,9 +326,9 @@
             this.groupBox4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox4.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox4.Location = new System.Drawing.Point(6, 543);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox4.Size = new System.Drawing.Size(630, 217);
             this.groupBox4.TabIndex = 16;
             this.groupBox4.TabStop = false;
@@ -341,7 +341,7 @@
             this.listBox_Head.FormattingEnabled = true;
             this.listBox_Head.ItemHeight = 27;
             this.listBox_Head.Location = new System.Drawing.Point(4, 27);
-            this.listBox_Head.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBox_Head.Margin = new System.Windows.Forms.Padding(4);
             this.listBox_Head.Name = "listBox_Head";
             this.listBox_Head.ScrollAlwaysVisible = true;
             this.listBox_Head.Size = new System.Drawing.Size(622, 186);
@@ -354,9 +354,9 @@
             this.groupBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox5.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox5.Location = new System.Drawing.Point(646, 543);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox5.Size = new System.Drawing.Size(630, 217);
             this.groupBox5.TabIndex = 17;
             this.groupBox5.TabStop = false;
@@ -369,7 +369,7 @@
             this.listBox_Ham.FormattingEnabled = true;
             this.listBox_Ham.ItemHeight = 27;
             this.listBox_Ham.Location = new System.Drawing.Point(4, 27);
-            this.listBox_Ham.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBox_Ham.Margin = new System.Windows.Forms.Padding(4);
             this.listBox_Ham.Name = "listBox_Ham";
             this.listBox_Ham.ScrollAlwaysVisible = true;
             this.listBox_Ham.Size = new System.Drawing.Size(622, 186);
@@ -382,9 +382,9 @@
             this.groupBox6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox6.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox6.Location = new System.Drawing.Point(1286, 543);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox6.Size = new System.Drawing.Size(632, 217);
             this.groupBox6.TabIndex = 18;
             this.groupBox6.TabStop = false;
@@ -397,7 +397,7 @@
             this.listBox_End.FormattingEnabled = true;
             this.listBox_End.ItemHeight = 27;
             this.listBox_End.Location = new System.Drawing.Point(4, 27);
-            this.listBox_End.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBox_End.Margin = new System.Windows.Forms.Padding(4);
             this.listBox_End.Name = "listBox_End";
             this.listBox_End.ScrollAlwaysVisible = true;
             this.listBox_End.Size = new System.Drawing.Size(624, 186);
@@ -410,9 +410,9 @@
             this.groupBox7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox7.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox7.Location = new System.Drawing.Point(6, 770);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox7.Size = new System.Drawing.Size(630, 151);
             this.groupBox7.TabIndex = 19;
             this.groupBox7.TabStop = false;
@@ -422,7 +422,7 @@
             // 
             this.txtBox_Head.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtBox_Head.Location = new System.Drawing.Point(4, 27);
-            this.txtBox_Head.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBox_Head.Margin = new System.Windows.Forms.Padding(4);
             this.txtBox_Head.Multiline = true;
             this.txtBox_Head.Name = "txtBox_Head";
             this.txtBox_Head.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -436,9 +436,9 @@
             this.groupBox8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox8.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox8.Location = new System.Drawing.Point(646, 770);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox8.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox8.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox8.Size = new System.Drawing.Size(630, 151);
             this.groupBox8.TabIndex = 20;
             this.groupBox8.TabStop = false;
@@ -448,7 +448,7 @@
             // 
             this.txtBox_Ham.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtBox_Ham.Location = new System.Drawing.Point(4, 27);
-            this.txtBox_Ham.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBox_Ham.Margin = new System.Windows.Forms.Padding(4);
             this.txtBox_Ham.Multiline = true;
             this.txtBox_Ham.Name = "txtBox_Ham";
             this.txtBox_Ham.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -462,9 +462,9 @@
             this.groupBox9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox9.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox9.Location = new System.Drawing.Point(1286, 770);
-            this.groupBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox9.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox9.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox9.Size = new System.Drawing.Size(632, 151);
             this.groupBox9.TabIndex = 21;
             this.groupBox9.TabStop = false;
@@ -474,7 +474,7 @@
             // 
             this.txtBox_End.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtBox_End.Location = new System.Drawing.Point(4, 27);
-            this.txtBox_End.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBox_End.Margin = new System.Windows.Forms.Padding(4);
             this.txtBox_End.Multiline = true;
             this.txtBox_End.Name = "txtBox_End";
             this.txtBox_End.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -486,7 +486,7 @@
             // 
             this.progressBar_Head.Dock = System.Windows.Forms.DockStyle.Fill;
             this.progressBar_Head.Location = new System.Drawing.Point(6, 451);
-            this.progressBar_Head.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.progressBar_Head.Margin = new System.Windows.Forms.Padding(4);
             this.progressBar_Head.Name = "progressBar_Head";
             this.progressBar_Head.Size = new System.Drawing.Size(630, 30);
             this.progressBar_Head.TabIndex = 22;
@@ -495,7 +495,7 @@
             // 
             this.progressBar_Ham.Dock = System.Windows.Forms.DockStyle.Fill;
             this.progressBar_Ham.Location = new System.Drawing.Point(646, 451);
-            this.progressBar_Ham.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.progressBar_Ham.Margin = new System.Windows.Forms.Padding(4);
             this.progressBar_Ham.Name = "progressBar_Ham";
             this.progressBar_Ham.Size = new System.Drawing.Size(630, 30);
             this.progressBar_Ham.TabIndex = 23;
@@ -504,7 +504,7 @@
             // 
             this.progressBar_End.Dock = System.Windows.Forms.DockStyle.Fill;
             this.progressBar_End.Location = new System.Drawing.Point(1286, 451);
-            this.progressBar_End.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.progressBar_End.Margin = new System.Windows.Forms.Padding(4);
             this.progressBar_End.Name = "progressBar_End";
             this.progressBar_End.Size = new System.Drawing.Size(632, 30);
             this.progressBar_End.TabIndex = 24;
@@ -516,7 +516,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.36195F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 62F));
             this.tableLayoutPanel3.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.lbl_Head_State_01, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.lbl_Head_State_02, 2, 0);
@@ -524,7 +524,7 @@
             this.tableLayoutPanel3.Controls.Add(this.picBox_Head_Light, 4, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(6, 491);
-            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -560,7 +560,7 @@
             this.lbl_Head_State_02.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_Head_State_02.AutoSize = true;
             this.lbl_Head_State_02.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Head_State_02.Location = new System.Drawing.Point(288, 8);
+            this.lbl_Head_State_02.Location = new System.Drawing.Point(287, 8);
             this.lbl_Head_State_02.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Head_State_02.Name = "lbl_Head_State_02";
             this.lbl_Head_State_02.Size = new System.Drawing.Size(116, 25);
@@ -572,7 +572,7 @@
             this.lbl_Head_State_03.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_Head_State_03.AutoSize = true;
             this.lbl_Head_State_03.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Head_State_03.Location = new System.Drawing.Point(430, 8);
+            this.lbl_Head_State_03.Location = new System.Drawing.Point(429, 8);
             this.lbl_Head_State_03.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Head_State_03.Name = "lbl_Head_State_03";
             this.lbl_Head_State_03.Size = new System.Drawing.Size(116, 25);
@@ -582,8 +582,8 @@
             // picBox_Head_Light
             // 
             this.picBox_Head_Light.Image = global::皮带跑偏与撕裂检测监控界面.Properties.Resources.g_1;
-            this.picBox_Head_Light.Location = new System.Drawing.Point(572, 4);
-            this.picBox_Head_Light.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picBox_Head_Light.Location = new System.Drawing.Point(571, 4);
+            this.picBox_Head_Light.Margin = new System.Windows.Forms.Padding(4);
             this.picBox_Head_Light.Name = "picBox_Head_Light";
             this.picBox_Head_Light.Size = new System.Drawing.Size(48, 34);
             this.picBox_Head_Light.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -597,7 +597,7 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.36782F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 62F));
             this.tableLayoutPanel4.Controls.Add(this.label5, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.lbl_Ham_State_01, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.lbl_Ham_State_02, 2, 0);
@@ -605,7 +605,7 @@
             this.tableLayoutPanel4.Controls.Add(this.picBox_Ham_Light, 4, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(646, 491);
-            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -641,7 +641,7 @@
             this.lbl_Ham_State_02.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_Ham_State_02.AutoSize = true;
             this.lbl_Ham_State_02.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Ham_State_02.Location = new System.Drawing.Point(288, 8);
+            this.lbl_Ham_State_02.Location = new System.Drawing.Point(287, 8);
             this.lbl_Ham_State_02.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Ham_State_02.Name = "lbl_Ham_State_02";
             this.lbl_Ham_State_02.Size = new System.Drawing.Size(116, 25);
@@ -653,7 +653,7 @@
             this.lbl_Ham_State_03.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_Ham_State_03.AutoSize = true;
             this.lbl_Ham_State_03.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Ham_State_03.Location = new System.Drawing.Point(430, 8);
+            this.lbl_Ham_State_03.Location = new System.Drawing.Point(429, 8);
             this.lbl_Ham_State_03.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Ham_State_03.Name = "lbl_Ham_State_03";
             this.lbl_Ham_State_03.Size = new System.Drawing.Size(116, 25);
@@ -663,8 +663,8 @@
             // picBox_Ham_Light
             // 
             this.picBox_Ham_Light.Image = global::皮带跑偏与撕裂检测监控界面.Properties.Resources.g_1;
-            this.picBox_Ham_Light.Location = new System.Drawing.Point(572, 4);
-            this.picBox_Ham_Light.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picBox_Ham_Light.Location = new System.Drawing.Point(571, 4);
+            this.picBox_Ham_Light.Margin = new System.Windows.Forms.Padding(4);
             this.picBox_Ham_Light.Name = "picBox_Ham_Light";
             this.picBox_Ham_Light.Size = new System.Drawing.Size(48, 34);
             this.picBox_Ham_Light.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -678,7 +678,7 @@
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.54128F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 61F));
             this.tableLayoutPanel5.Controls.Add(this.label9, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.lbl_End_State_01, 1, 0);
             this.tableLayoutPanel5.Controls.Add(this.lbl_End_State_02, 2, 0);
@@ -686,7 +686,7 @@
             this.tableLayoutPanel5.Controls.Add(this.picBox_End_Light, 4, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel5.Location = new System.Drawing.Point(1286, 491);
-            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -734,7 +734,7 @@
             this.lbl_End_State_03.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_End_State_03.AutoSize = true;
             this.lbl_End_State_03.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_End_State_03.Location = new System.Drawing.Point(432, 8);
+            this.lbl_End_State_03.Location = new System.Drawing.Point(431, 8);
             this.lbl_End_State_03.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_End_State_03.Name = "lbl_End_State_03";
             this.lbl_End_State_03.Size = new System.Drawing.Size(116, 25);
@@ -744,8 +744,8 @@
             // picBox_End_Light
             // 
             this.picBox_End_Light.Image = global::皮带跑偏与撕裂检测监控界面.Properties.Resources.g_1;
-            this.picBox_End_Light.Location = new System.Drawing.Point(575, 4);
-            this.picBox_End_Light.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picBox_End_Light.Location = new System.Drawing.Point(573, 4);
+            this.picBox_End_Light.Margin = new System.Windows.Forms.Padding(4);
             this.picBox_End_Light.Name = "picBox_End_Light";
             this.picBox_End_Light.Size = new System.Drawing.Size(49, 34);
             this.picBox_End_Light.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -765,7 +765,7 @@
             this.tableLayoutPanel6.Controls.Add(this.btn_Head_Reset, 3, 0);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel6.Location = new System.Drawing.Point(6, 931);
-            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 1;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -777,7 +777,7 @@
             this.btn_Head_Connect.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_Head_Connect.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Head_Connect.Location = new System.Drawing.Point(4, 4);
-            this.btn_Head_Connect.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Head_Connect.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Head_Connect.Name = "btn_Head_Connect";
             this.btn_Head_Connect.Size = new System.Drawing.Size(149, 41);
             this.btn_Head_Connect.TabIndex = 0;
@@ -790,7 +790,7 @@
             this.btn_Head_Sound.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_Head_Sound.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Head_Sound.Location = new System.Drawing.Point(161, 4);
-            this.btn_Head_Sound.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Head_Sound.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Head_Sound.Name = "btn_Head_Sound";
             this.btn_Head_Sound.Size = new System.Drawing.Size(149, 41);
             this.btn_Head_Sound.TabIndex = 1;
@@ -803,7 +803,7 @@
             this.btn_Head_StopFlicker.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_Head_StopFlicker.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Head_StopFlicker.Location = new System.Drawing.Point(318, 4);
-            this.btn_Head_StopFlicker.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Head_StopFlicker.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Head_StopFlicker.Name = "btn_Head_StopFlicker";
             this.btn_Head_StopFlicker.Size = new System.Drawing.Size(149, 41);
             this.btn_Head_StopFlicker.TabIndex = 2;
@@ -816,7 +816,7 @@
             this.btn_Head_Reset.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_Head_Reset.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Head_Reset.Location = new System.Drawing.Point(475, 4);
-            this.btn_Head_Reset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Head_Reset.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Head_Reset.Name = "btn_Head_Reset";
             this.btn_Head_Reset.Size = new System.Drawing.Size(151, 41);
             this.btn_Head_Reset.TabIndex = 3;
@@ -837,7 +837,7 @@
             this.tableLayoutPanel7.Controls.Add(this.btn_Ham_Reset, 3, 0);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel7.Location = new System.Drawing.Point(646, 931);
-            this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 1;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -849,7 +849,7 @@
             this.btn_Ham_Connect.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_Ham_Connect.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Ham_Connect.Location = new System.Drawing.Point(4, 4);
-            this.btn_Ham_Connect.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Ham_Connect.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Ham_Connect.Name = "btn_Ham_Connect";
             this.btn_Ham_Connect.Size = new System.Drawing.Size(149, 41);
             this.btn_Ham_Connect.TabIndex = 0;
@@ -862,7 +862,7 @@
             this.btn_Ham_Sound.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_Ham_Sound.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Ham_Sound.Location = new System.Drawing.Point(161, 4);
-            this.btn_Ham_Sound.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Ham_Sound.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Ham_Sound.Name = "btn_Ham_Sound";
             this.btn_Ham_Sound.Size = new System.Drawing.Size(149, 41);
             this.btn_Ham_Sound.TabIndex = 1;
@@ -875,7 +875,7 @@
             this.btn_Ham_StopFlicker.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_Ham_StopFlicker.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Ham_StopFlicker.Location = new System.Drawing.Point(318, 4);
-            this.btn_Ham_StopFlicker.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Ham_StopFlicker.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Ham_StopFlicker.Name = "btn_Ham_StopFlicker";
             this.btn_Ham_StopFlicker.Size = new System.Drawing.Size(149, 41);
             this.btn_Ham_StopFlicker.TabIndex = 2;
@@ -888,7 +888,7 @@
             this.btn_Ham_Reset.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_Ham_Reset.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Ham_Reset.Location = new System.Drawing.Point(475, 4);
-            this.btn_Ham_Reset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Ham_Reset.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Ham_Reset.Name = "btn_Ham_Reset";
             this.btn_Ham_Reset.Size = new System.Drawing.Size(151, 41);
             this.btn_Ham_Reset.TabIndex = 3;
@@ -909,7 +909,7 @@
             this.tableLayoutPanel8.Controls.Add(this.btn_End_Reset, 3, 0);
             this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel8.Location = new System.Drawing.Point(1286, 931);
-            this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.tableLayoutPanel8.RowCount = 1;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -921,7 +921,7 @@
             this.btn_End_Connect.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_End_Connect.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_End_Connect.Location = new System.Drawing.Point(4, 4);
-            this.btn_End_Connect.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_End_Connect.Margin = new System.Windows.Forms.Padding(4);
             this.btn_End_Connect.Name = "btn_End_Connect";
             this.btn_End_Connect.Size = new System.Drawing.Size(150, 41);
             this.btn_End_Connect.TabIndex = 0;
@@ -934,7 +934,7 @@
             this.btn_End_Sound.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_End_Sound.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_End_Sound.Location = new System.Drawing.Point(162, 4);
-            this.btn_End_Sound.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_End_Sound.Margin = new System.Windows.Forms.Padding(4);
             this.btn_End_Sound.Name = "btn_End_Sound";
             this.btn_End_Sound.Size = new System.Drawing.Size(150, 41);
             this.btn_End_Sound.TabIndex = 1;
@@ -947,7 +947,7 @@
             this.btn_End_StopFlicker.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_End_StopFlicker.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_End_StopFlicker.Location = new System.Drawing.Point(320, 4);
-            this.btn_End_StopFlicker.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_End_StopFlicker.Margin = new System.Windows.Forms.Padding(4);
             this.btn_End_StopFlicker.Name = "btn_End_StopFlicker";
             this.btn_End_StopFlicker.Size = new System.Drawing.Size(150, 41);
             this.btn_End_StopFlicker.TabIndex = 2;
@@ -960,7 +960,7 @@
             this.btn_End_Reset.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_End_Reset.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_End_Reset.Location = new System.Drawing.Point(478, 4);
-            this.btn_End_Reset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_End_Reset.Margin = new System.Windows.Forms.Padding(4);
             this.btn_End_Reset.Name = "btn_End_Reset";
             this.btn_End_Reset.Size = new System.Drawing.Size(150, 41);
             this.btn_End_Reset.TabIndex = 3;
@@ -1131,7 +1131,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.menuStrip_Main);
             this.MainMenuStrip = this.menuStrip_Main;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "TearFrm";
             this.Text = "皮带撕裂监测界面";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TearFrm_FormClosing);
