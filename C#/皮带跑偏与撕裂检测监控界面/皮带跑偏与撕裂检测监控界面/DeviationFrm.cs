@@ -851,17 +851,31 @@ namespace 皮带跑偏与撕裂检测监控界面
         #region 图片选择
         private void listBox_Head_SelectedIndexChanged(object sender, EventArgs e)
         {
-            picBox_Head.ImageLocation = listFileFullNameHead[listBox_Head.SelectedIndex];
+            try
+            {
+                picBox_Head.ImageLocation = listFileFullNameHead[listBox_Head.SelectedIndex];
+            }
+            catch {}
         }
 
         private void listBox_Ham_SelectedIndexChanged(object sender, EventArgs e)
         {
-            picBox_Ham.ImageLocation = listFileFullNameHam[listBox_Ham.SelectedIndex];
+            try
+            {
+                picBox_Ham.ImageLocation = listFileFullNameHam[listBox_Ham.SelectedIndex];
+
+            }
+            catch { }
         }
 
         private void listBox_End_SelectedIndexChanged(object sender, EventArgs e)
         {
-            picBox_End.ImageLocation = listFileFullNameEnd[listBox_End.SelectedIndex];
+            try
+            {
+                picBox_End.ImageLocation = listFileFullNameEnd[listBox_End.SelectedIndex];
+
+            }
+            catch { }
         }
         #endregion
 

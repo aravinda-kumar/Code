@@ -4,7 +4,7 @@ import cv2 as cv
 
 
 if __name__ == '__main__':
-    img = cv.imread("E:/JZS/Pythonprj/area/tear1.jpg")
+    img = cv.imread("./tear1.jpg")
 
     gray_img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
     kernel_open = cv.getStructuringElement(cv.MORPH_RECT, (3, 3))
