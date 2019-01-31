@@ -31,16 +31,16 @@ class Ui_MainWindow
 public:
     QWidget *centralWidget;
     QVBoxLayout *verticalLayout;
-    QLabel *label;
+    QLabel *lblStaus;
     QHBoxLayout *horizontalLayout_4;
     QSpacerItem *horizontalSpacer_7;
     QLabel *label_2;
-    QLineEdit *lineEdit;
+    QLineEdit *leAccount;
     QSpacerItem *horizontalSpacer_2;
     QHBoxLayout *horizontalLayout_3;
     QSpacerItem *horizontalSpacer_8;
     QLabel *label_3;
-    QLineEdit *lineEdit_2;
+    QLineEdit *lePassword;
     QSpacerItem *horizontalSpacer_3;
     QHBoxLayout *horizontalLayout_2;
     QSpacerItem *horizontalSpacer_6;
@@ -69,14 +69,14 @@ public:
         verticalLayout->setSpacing(6);
         verticalLayout->setContentsMargins(11, 11, 11, 11);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        label = new QLabel(centralWidget);
-        label->setObjectName(QString::fromUtf8("label"));
+        lblStaus = new QLabel(centralWidget);
+        lblStaus->setObjectName(QString::fromUtf8("lblStaus"));
         QFont font;
         font.setPointSize(30);
-        label->setFont(font);
-        label->setAlignment(Qt::AlignCenter);
+        lblStaus->setFont(font);
+        lblStaus->setAlignment(Qt::AlignCenter);
 
-        verticalLayout->addWidget(label);
+        verticalLayout->addWidget(lblStaus);
 
         horizontalLayout_4 = new QHBoxLayout();
         horizontalLayout_4->setSpacing(6);
@@ -95,10 +95,10 @@ public:
 
         horizontalLayout_4->addWidget(label_2);
 
-        lineEdit = new QLineEdit(centralWidget);
-        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
+        leAccount = new QLineEdit(centralWidget);
+        leAccount->setObjectName(QString::fromUtf8("leAccount"));
 
-        horizontalLayout_4->addWidget(lineEdit);
+        horizontalLayout_4->addWidget(leAccount);
 
         horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
@@ -125,11 +125,11 @@ public:
 
         horizontalLayout_3->addWidget(label_3);
 
-        lineEdit_2 = new QLineEdit(centralWidget);
-        lineEdit_2->setObjectName(QString::fromUtf8("lineEdit_2"));
-        lineEdit_2->setEchoMode(QLineEdit::Password);
+        lePassword = new QLineEdit(centralWidget);
+        lePassword->setObjectName(QString::fromUtf8("lePassword"));
+        lePassword->setEchoMode(QLineEdit::Password);
 
-        horizontalLayout_3->addWidget(lineEdit_2);
+        horizontalLayout_3->addWidget(lePassword);
 
         horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
@@ -223,13 +223,13 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
-        label->setText(QApplication::translate("MainWindow", "\347\231\273\345\275\225\347\225\214\351\235\242", nullptr));
+        lblStaus->setText(QApplication::translate("MainWindow", "\347\231\273\345\275\225\347\225\214\351\235\242", nullptr));
         label_2->setText(QApplication::translate("MainWindow", "\350\264\246\346\210\267\357\274\232", nullptr));
         label_3->setText(QApplication::translate("MainWindow", "\345\257\206\347\240\201\357\274\232", nullptr));
         checkBox->setText(QString());
         label_4->setText(QApplication::translate("MainWindow", "\350\256\260\344\275\217\345\257\206\347\240\201", nullptr));
         btnOK->setText(QApplication::translate("MainWindow", "\347\231\273\345\275\225", nullptr));
-        btnCancel->setText(QApplication::translate("MainWindow", "\351\200\200\345\207\272", nullptr));
+        btnCancel->setText(QApplication::translate("MainWindow", "\345\217\226\346\266\210", nullptr));
     } // retranslateUi
 
 };

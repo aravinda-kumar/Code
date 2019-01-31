@@ -28,7 +28,7 @@
   <widget class="QWidget" name="centralWidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QLabel" name="label">
+     <widget class="QLabel" name="lblStaus">
       <property name="font">
        <font>
         <pointsize>30</pointsize>
@@ -71,7 +71,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit"/>
+       <widget class="QLineEdit" name="leAccount"/>
       </item>
       <item>
        <spacer name="horizontalSpacer_2">
@@ -117,7 +117,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit_2">
+       <widget class="QLineEdit" name="lePassword">
         <property name="echoMode">
          <enum>QLineEdit::Password</enum>
         </property>
@@ -213,7 +213,7 @@
       <item>
        <widget class="QPushButton" name="btnCancel">
         <property name="text">
-         <string>退出</string>
+         <string>取消</string>
         </property>
        </widget>
       </item>
