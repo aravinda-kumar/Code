@@ -2,6 +2,7 @@
 #define ADDSTU_H
 
 #include <QDialog>
+#include <QButtonGroup>
 
 namespace Ui {
 class addStu;
@@ -14,6 +15,7 @@ class addStu : public QDialog
 public:
     explicit addStu(QWidget *parent = nullptr);
     ~addStu();
+    void ClearUserInterface();
 
 private slots:
     void on_btn_OK_clicked();
@@ -23,6 +25,7 @@ private slots:
 
 private:
     Ui::addStu *ui;
+    QButtonGroup * insGroup = new QButtonGroup(this);
 };
 
 #endif // ADDSTU_H
