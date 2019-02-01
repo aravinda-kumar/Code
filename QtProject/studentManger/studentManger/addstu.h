@@ -16,6 +16,7 @@ public:
     explicit addStu(QWidget *parent = nullptr);
     ~addStu();
     void ClearUserInterface();
+    void writeToFile(QString cnt);
 
 private slots:
     void on_btn_OK_clicked();
@@ -26,6 +27,7 @@ private slots:
 private:
     Ui::addStu *ui;
     QButtonGroup * insGroup = new QButtonGroup(this);
+    QButtonGroup * sexGroup = new QButtonGroup(this);
 };
 
 #endif // ADDSTU_H

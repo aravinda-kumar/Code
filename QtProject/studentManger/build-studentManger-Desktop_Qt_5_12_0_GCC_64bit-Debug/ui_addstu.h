@@ -51,9 +51,9 @@ public:
     QHBoxLayout *horizontalLayout_6;
     QLabel *label_7;
     QGridLayout *gridLayout;
-    QCheckBox *checkBox;
     QCheckBox *checkBox_2;
     QCheckBox *checkBox_4;
+    QCheckBox *checkBox_1;
     QCheckBox *checkBox_3;
     QHBoxLayout *horizontalLayout_7;
     QPushButton *btn_OK;
@@ -218,11 +218,6 @@ public:
         gridLayout = new QGridLayout();
         gridLayout->setSpacing(6);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
-        checkBox = new QCheckBox(addStu);
-        checkBox->setObjectName(QString::fromUtf8("checkBox"));
-
-        gridLayout->addWidget(checkBox, 0, 0, 1, 1);
-
         checkBox_2 = new QCheckBox(addStu);
         checkBox_2->setObjectName(QString::fromUtf8("checkBox_2"));
 
@@ -232,6 +227,11 @@ public:
         checkBox_4->setObjectName(QString::fromUtf8("checkBox_4"));
 
         gridLayout->addWidget(checkBox_4, 1, 0, 1, 1);
+
+        checkBox_1 = new QCheckBox(addStu);
+        checkBox_1->setObjectName(QString::fromUtf8("checkBox_1"));
+
+        gridLayout->addWidget(checkBox_1, 0, 0, 1, 1);
 
         checkBox_3 = new QCheckBox(addStu);
         checkBox_3->setObjectName(QString::fromUtf8("checkBox_3"));
@@ -305,9 +305,9 @@ public:
         cbb_School->setItemText(3, QApplication::translate("addStu", "\346\261\211\350\257\255\350\250\200\346\226\207\345\255\246\345\255\246\351\231\242", nullptr));
 
         label_7->setText(QApplication::translate("addStu", "\345\205\264\350\266\243:", nullptr));
-        checkBox->setText(QApplication::translate("addStu", "\347\257\256\347\220\203", nullptr));
         checkBox_2->setText(QApplication::translate("addStu", "\346\216\222\347\220\203", nullptr));
         checkBox_4->setText(QApplication::translate("addStu", "\350\266\263\347\220\203", nullptr));
+        checkBox_1->setText(QApplication::translate("addStu", "\347\257\256\347\220\203", nullptr));
         checkBox_3->setText(QApplication::translate("addStu", "\347\276\275\346\257\233\347\220\203", nullptr));
         btn_OK->setText(QApplication::translate("addStu", "\347\241\256\345\256\232", nullptr));
         btn_Cancel->setText(QApplication::translate("addStu", "\345\217\226\346\266\210", nullptr));
