@@ -26,10 +26,16 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    myscene.cpp \
+    myitem.cpp \
+    handler.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    myscene.h \
+    myitem.h \
+    handler.h
 
 FORMS += \
         mainwindow.ui
@@ -38,3 +44,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    img.qrc

@@ -32,16 +32,16 @@ public:
     QVBoxLayout *verticalLayout;
     QLCDNumber *lcdNumber;
     QSpacerItem *verticalSpacer;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
-    QPushButton *pushButton_3;
+    QPushButton *btnStart;
+    QPushButton *btnPause;
+    QPushButton *btnStop;
     QSpacerItem *verticalSpacer_2;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(771, 625);
+        MainWindow->resize(491, 404);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         verticalLayout_2 = new QVBoxLayout(centralWidget);
@@ -66,6 +66,7 @@ public:
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(lcdNumber->sizePolicy().hasHeightForWidth());
         lcdNumber->setSizePolicy(sizePolicy);
+        lcdNumber->setDigitCount(7);
 
         verticalLayout->addWidget(lcdNumber);
 
@@ -73,20 +74,20 @@ public:
 
         verticalLayout->addItem(verticalSpacer);
 
-        pushButton = new QPushButton(centralWidget);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        btnStart = new QPushButton(centralWidget);
+        btnStart->setObjectName(QString::fromUtf8("btnStart"));
 
-        verticalLayout->addWidget(pushButton);
+        verticalLayout->addWidget(btnStart);
 
-        pushButton_2 = new QPushButton(centralWidget);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        btnPause = new QPushButton(centralWidget);
+        btnPause->setObjectName(QString::fromUtf8("btnPause"));
 
-        verticalLayout->addWidget(pushButton_2);
+        verticalLayout->addWidget(btnPause);
 
-        pushButton_3 = new QPushButton(centralWidget);
-        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
+        btnStop = new QPushButton(centralWidget);
+        btnStop->setObjectName(QString::fromUtf8("btnStop"));
 
-        verticalLayout->addWidget(pushButton_3);
+        verticalLayout->addWidget(btnStop);
 
         verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
@@ -114,9 +115,9 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
-        pushButton->setText(QApplication::translate("MainWindow", "\345\274\200\345\247\213", nullptr));
-        pushButton_2->setText(QApplication::translate("MainWindow", "\346\232\202\345\201\234", nullptr));
-        pushButton_3->setText(QApplication::translate("MainWindow", "\345\201\234\346\255\242", nullptr));
+        btnStart->setText(QApplication::translate("MainWindow", "\345\274\200\345\247\213", nullptr));
+        btnPause->setText(QApplication::translate("MainWindow", "\346\232\202\345\201\234", nullptr));
+        btnStop->setText(QApplication::translate("MainWindow", "\345\201\234\346\255\242", nullptr));
     } // retranslateUi
 
 };
