@@ -55,6 +55,8 @@ void myScene::PauseGame()
 
 void myScene::StopGame()
 {
+    handler *hand = handler::getInstance();
+    hand->clearScore();
     this->ptimer->stop();
     for(int i=0;i<16;i++)
     {

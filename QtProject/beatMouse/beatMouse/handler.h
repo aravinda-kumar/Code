@@ -10,12 +10,14 @@ class handler : public QObject
 public:
     static handler *getInstance();
     void addScore();
+    void clearScore();
 
 private:
     explicit handler(QObject *parent = nullptr);
 
 signals:
     void beatMouse();
+    void scoreToZero();
 
 public slots:
 

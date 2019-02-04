@@ -16,3 +16,8 @@ void handler::addScore()
 {
     emit beatMouse();
 }
+
+void handler::clearScore()
+{
+    emit scoreToZero();
+}

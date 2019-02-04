@@ -21,6 +21,7 @@ public:
 
 private slots:
     void upDateScore();
+    void clearScore();
 
 private:
     Ui::MainWindow *ui;
