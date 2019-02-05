@@ -66,6 +66,8 @@ public:
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(lcdNumber->sizePolicy().hasHeightForWidth());
         lcdNumber->setSizePolicy(sizePolicy);
+        lcdNumber->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
+        lcdNumber->setFrameShape(QFrame::Box);
         lcdNumber->setDigitCount(7);
 
         verticalLayout->addWidget(lcdNumber);
