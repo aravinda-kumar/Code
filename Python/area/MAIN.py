@@ -26,7 +26,7 @@ if __name__ == '__main__':
     print("白色像素点的个数是：", white_pixel)
 
     white_pixel = 0
-    #
+
     # kernel = np.ones((3, 3), np.uint8)
     # erode_img = cv.erode(gray_img, kernel, iterations=1)
     # ret, threshold = cv.threshold(gray_img, 127, 255, cv.THRESH_BINARY_INV + cv.THRESH_OTSU)
