@@ -144,6 +144,7 @@ public:
         label->setFont(font);
         label->setStyleSheet(QString::fromUtf8("background-color: rgb(239, 41, 41);\n"
 "font: italic 16pt \"aakar\";"));
+        label->setAlignment(Qt::AlignCenter);
 
         horizontalLayout->addWidget(label);
 
