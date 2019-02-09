@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="6500ae71-e91c-498f-9ad7-b34fd7fb2d28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QtProject/HelloWorld/HelloWorld/HelloWorld/mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../QtProject/HelloWorld/HelloWorld/HelloWorld/mainwindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QtProject/HelloWorld/HelloWorld/build-HelloWorld-Desktop_Qt_5_12_0_GCC_64bit-Debug/HelloWorld" beforeDir="false" afterPath="$PROJECT_DIR$/../../QtProject/HelloWorld/HelloWorld/build-HelloWorld-Desktop_Qt_5_12_0_GCC_64bit-Debug/HelloWorld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QtProject/HelloWorld/HelloWorld/build-HelloWorld-Desktop_Qt_5_12_0_GCC_64bit-Debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../QtProject/HelloWorld/HelloWorld/build-HelloWorld-Desktop_Qt_5_12_0_GCC_64bit-Debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QtProject/HelloWorld/HelloWorld/build-HelloWorld-Desktop_Qt_5_12_0_GCC_64bit-Debug/mainwindow.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../QtProject/HelloWorld/HelloWorld/build-HelloWorld-Desktop_Qt_5_12_0_GCC_64bit-Debug/mainwindow.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QtProject/HelloWorld/HelloWorld/build-HelloWorld-Desktop_Qt_5_12_0_GCC_64bit-Debug/moc_mainwindow.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../QtProject/HelloWorld/HelloWorld/build-HelloWorld-Desktop_Qt_5_12_0_GCC_64bit-Debug/moc_mainwindow.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QtProject/beatMouse/build-beatMouse-Desktop_Qt_5_12_0_GCC_64bit-Debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../QtProject/beatMouse/build-beatMouse-Desktop_Qt_5_12_0_GCC_64bit-Debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QtProject/beatMouse/build-beatMouse-Desktop_Qt_5_12_0_GCC_64bit-Debug/beatMouse" beforeDir="false" afterPath="$PROJECT_DIR$/../../QtProject/beatMouse/build-beatMouse-Desktop_Qt_5_12_0_GCC_64bit-Debug/beatMouse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QtProject/beatMouse/build-beatMouse-Desktop_Qt_5_12_0_GCC_64bit-Debug/mainwindow.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../QtProject/beatMouse/build-beatMouse-Desktop_Qt_5_12_0_GCC_64bit-Debug/mainwindow.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QtProject/beatMouse/build-beatMouse-Desktop_Qt_5_12_0_GCC_64bit-Debug/moc_handler.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../QtProject/beatMouse/build-beatMouse-Desktop_Qt_5_12_0_GCC_64bit-Debug/moc_handler.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QtProject/beatMouse/build-beatMouse-Desktop_Qt_5_12_0_GCC_64bit-Debug/moc_mainwindow.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../QtProject/beatMouse/build-beatMouse-Desktop_Qt_5_12_0_GCC_64bit-Debug/moc_mainwindow.o" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,28 +21,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/area$MAIN.coverage" NAME="MAIN Coverage Results" MODIFIED="1549599680151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/area$MAIN.coverage" NAME="MAIN Coverage Results" MODIFIED="1549678728979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1795989037">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="py" value="2" />
           <entry key="txt" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="30" />
+          <entry key="Python" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -42,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MAIN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state relative-caret-position="572">
+              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -90,8 +105,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -99,7 +114,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -169,25 +184,34 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="405000" />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945712" visible="true" weight="0.18670213" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945712" visible="true" weight="0.19210246" />
       <window_info id="Structure" order="1" sideWeight="0.5005429" side_tool="true" weight="0.18123667" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3054755" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3970276" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30406147" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4994681" weight="0.39626783" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3290735" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005319" side_tool="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4994681" weight="0.32899022" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32899022" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -210,8 +234,8 @@
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-506187982/cv2/cv2/__init__.py" />
     <entry file="file://$PROJECT_DIR$/MAIN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="572">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
