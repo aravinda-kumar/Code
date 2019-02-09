@@ -6,7 +6,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    //生成主窗口
+    //主窗口
 }
 
 MainWindow::~MainWindow()
