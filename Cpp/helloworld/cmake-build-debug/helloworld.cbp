@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/helloworld.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/main.cpp">
 			<Option target="helloworld"/>
 		</Unit>

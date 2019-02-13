@@ -123,6 +123,33 @@ helloworld/fast:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/build
 .PHONY : helloworld/fast
 
+helloworld.o: helloworld.c.o
+
+.PHONY : helloworld.o
+
+# target to build an object file
+helloworld.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/helloworld.c.o
+.PHONY : helloworld.c.o
+
+helloworld.i: helloworld.c.i
+
+.PHONY : helloworld.i
+
+# target to preprocess a source file
+helloworld.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/helloworld.c.i
+.PHONY : helloworld.c.i
+
+helloworld.s: helloworld.c.s
+
+.PHONY : helloworld.s
+
+# target to generate assembly for a file
+helloworld.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/helloworld.c.s
+.PHONY : helloworld.c.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... helloworld"
+	@echo "... helloworld.o"
+	@echo "... helloworld.i"
+	@echo "... helloworld.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
