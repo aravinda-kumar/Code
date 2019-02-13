@@ -1,5 +1,6 @@
 import numpy as np
 import cv2 as cv
+import tkinter
 
 
 if __name__ == '__main__':

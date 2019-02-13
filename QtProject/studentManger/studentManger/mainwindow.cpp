@@ -17,6 +17,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_actionaddStu_triggered()
 {
+
 //    addStu a;
 //    a.show();
 //    //阻塞程序,主窗口无法进行操作
