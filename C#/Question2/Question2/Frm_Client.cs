@@ -187,19 +187,6 @@ namespace Question2
             
         }
 
-        private void btn_Cut_Click(object sender, EventArgs e)
-        {
-            if (socketReceive!=null)
-            {
-                socketReceive.Close();
-            }
-            if(socketSend!=null)
-            {
-                socketSend.Close();
-            }
-            lbl_State.Text = "服务器未连接...";
-        }
-
         private void timer_Socket_Tick(object sender, EventArgs e)
         {
             if (socketSend != null)

@@ -118,6 +118,7 @@ namespace Question2
                     Items.SubItems.Add(json.analog_4_3);
                     Items.SubItems.Add(json.analog_4_4);
 
+                    //显示已经接收到的数据
                     listView_Msg.Items.Add(Items);
                 }
             }
@@ -191,6 +192,7 @@ namespace Question2
 
         private void btn_Send_Click(object sender, EventArgs e)
         {
+            //实例化需要进行传输的类
             Json json = new Json()
             {
                 digital_1_1 = cbbox_c1s1.SelectedItem.ToString(),

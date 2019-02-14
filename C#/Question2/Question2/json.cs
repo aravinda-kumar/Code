@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// 本文件定义一个用来传输的类，其中类中只包含字段不含有方法；
+/// </summary>
 namespace Question2
 {
     public class Json

@@ -23,6 +23,10 @@ namespace Question2
             timer_Now.Enabled = true;
             var dt = DateTime.Now;
             lbl_TimeNow.Text = dt.ToLongTimeString().ToString();
+
+            //生成引导界面
+            Guide guide = new Guide();
+            guide.ShowDialog();
         }
         Frm_Server server = null;
         //打开服务器端的界面
