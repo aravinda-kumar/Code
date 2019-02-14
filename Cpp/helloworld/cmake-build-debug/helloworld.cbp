@@ -90,6 +90,9 @@
 		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/main.cpp">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/数据类型.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

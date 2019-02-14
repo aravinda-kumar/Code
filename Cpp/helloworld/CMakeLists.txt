@@ -3,4 +3,4 @@ project(helloworld)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(helloworld main.cpp helloworld.c)
+add_executable(helloworld main.cpp helloworld.c 数据类型.c)

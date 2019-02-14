@@ -177,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+数据类型.o: 数据类型.c.o
+
+.PHONY : 数据类型.o
+
+# target to build an object file
+数据类型.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数据类型.c.o
+.PHONY : 数据类型.c.o
+
+数据类型.i: 数据类型.c.i
+
+.PHONY : 数据类型.i
+
+# target to preprocess a source file
+数据类型.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数据类型.c.i
+.PHONY : 数据类型.c.i
+
+数据类型.s: 数据类型.c.s
+
+.PHONY : 数据类型.s
+
+# target to generate assembly for a file
+数据类型.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数据类型.c.s
+.PHONY : 数据类型.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... 数据类型.o"
+	@echo "... 数据类型.i"
+	@echo "... 数据类型.s"
 .PHONY : help
 
 

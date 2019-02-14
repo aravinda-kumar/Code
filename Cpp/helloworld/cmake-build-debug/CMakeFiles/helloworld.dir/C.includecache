@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/zhushuai/Code/Cpp/helloworld/helloworld.c
+/home/zhushuai/Code/Cpp/helloworld/数据类型.c
 stdio.h
+-
+stdlib.h
 -
 

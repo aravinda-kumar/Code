@@ -3,5 +3,7 @@
 
 CMakeFiles/helloworld.dir/helloworld.c.o: ../helloworld.c
 
+CMakeFiles/helloworld.dir/数据类型.c.o: ../数据类型.c
+
 CMakeFiles/helloworld.dir/main.cpp.o: ../main.cpp
 

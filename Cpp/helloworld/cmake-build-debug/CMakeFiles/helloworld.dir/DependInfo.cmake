@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/zhushuai/Code/Cpp/helloworld/helloworld.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/helloworld.c.o"
+  "/home/zhushuai/Code/Cpp/helloworld/数据类型.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/数据类型.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
