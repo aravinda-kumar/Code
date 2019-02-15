@@ -15,11 +15,11 @@ namespace Json
         //{
 
         //}
-        //public Person(string name, int age)
-        //{
-        //    _Name = name;
-        //    _Age = age;
-        //}
+        public Person(string name, int age)
+        {
+            _Name = name;
+            _Age = age;
+        }
         public string _Name { get; set; }
         public int _Age { get; set; }
 
@@ -34,17 +34,17 @@ namespace Json
         {
             JavaScriptSerializer ser = new JavaScriptSerializer();
             //生成JSON文件
-            //Person person = new Person("zhushuai", 24);
-            
-            //string outputJSON = ser.Serialize(person);
-            //File.WriteAllText("output.json", outputJSON);
-            //解析JSON文件
-            string JSONstring = File.ReadAllText("output.json");
-            Person readPerson = ser.Deserialize<Person>(JSONstring);
-            Console.WriteLine(readPerson);
+            Person person = new Person("zhushuai", 24);
 
-            Person person = new Person() { _Name = "johnson", _Age = 18 };
-            Console.WriteLine(person);
+            string outputJSON = ser.Serialize(person);
+            File.WriteAllText("output.json", outputJSON);
+            //解析JSON文件
+            //string JSONstring = File.ReadAllText("output.json");
+            //Person readPerson = ser.Deserialize<Person>(JSONstring);
+            //Console.WriteLine(readPerson);
+
+            //Person person = new Person() { _Name = "johnson", _Age = 18 };
+            //Console.WriteLine(person);
 
             Console.ReadKey();
         }

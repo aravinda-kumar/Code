@@ -73,6 +73,9 @@
             this.Controls.Add(this.btn_Confirm);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1399, 693);
+            this.MinimumSize = new System.Drawing.Size(1399, 693);
             this.Name = "Guide";
             this.Text = "Guide";
             this.Load += new System.EventHandler(this.Guide_Load);

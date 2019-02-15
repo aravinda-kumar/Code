@@ -11,6 +11,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Web.Script.Serialization;
+using System.IO;
 
 namespace Question2
 {
@@ -223,6 +224,7 @@ namespace Question2
             };
 
             string sendMsg = ser.Serialize(json);
+            File.WriteAllText("output.json", sendMsg);
             byte[] buffer = Encoding.Default.GetBytes(sendMsg);
             string point = null;
             try

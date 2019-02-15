@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
@@ -134,6 +135,10 @@ namespace Question2
             catch { }
         }
 
+        //JavaScriptSerializer ser = new JavaScriptSerializer();
+        //string outputJSON = ser.Serialize(person);
+        //File.WriteAllText("output.json", outputJSON);
+
         //发送数据
         private void btn_Send_Click(object sender, EventArgs e)
         {
@@ -175,6 +180,7 @@ namespace Question2
                 MessageBox.Show("选择后请重新连接");
             }  
             string sendMsg = ser.Serialize(json);
+            File.WriteAllText("output.json", sendMsg);
             byte[] buffer = Encoding.Default.GetBytes(sendMsg);
             try
             {
