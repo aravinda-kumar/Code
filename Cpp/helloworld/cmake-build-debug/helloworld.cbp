@@ -90,7 +90,13 @@
 		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/main.cpp">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/取地址.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/数据类型.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/浮点型数据.c">
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/CMakeLists.txt">

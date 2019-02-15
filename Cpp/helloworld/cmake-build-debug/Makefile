@@ -177,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+取地址.o: 取地址.c.o
+
+.PHONY : 取地址.o
+
+# target to build an object file
+取地址.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/取地址.c.o
+.PHONY : 取地址.c.o
+
+取地址.i: 取地址.c.i
+
+.PHONY : 取地址.i
+
+# target to preprocess a source file
+取地址.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/取地址.c.i
+.PHONY : 取地址.c.i
+
+取地址.s: 取地址.c.s
+
+.PHONY : 取地址.s
+
+# target to generate assembly for a file
+取地址.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/取地址.c.s
+.PHONY : 取地址.c.s
+
 数据类型.o: 数据类型.c.o
 
 .PHONY : 数据类型.o
@@ -204,6 +231,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数据类型.c.s
 .PHONY : 数据类型.c.s
 
+浮点型数据.o: 浮点型数据.c.o
+
+.PHONY : 浮点型数据.o
+
+# target to build an object file
+浮点型数据.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/浮点型数据.c.o
+.PHONY : 浮点型数据.c.o
+
+浮点型数据.i: 浮点型数据.c.i
+
+.PHONY : 浮点型数据.i
+
+# target to preprocess a source file
+浮点型数据.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/浮点型数据.c.i
+.PHONY : 浮点型数据.c.i
+
+浮点型数据.s: 浮点型数据.c.s
+
+.PHONY : 浮点型数据.s
+
+# target to generate assembly for a file
+浮点型数据.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/浮点型数据.c.s
+.PHONY : 浮点型数据.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,9 +273,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... 取地址.o"
+	@echo "... 取地址.i"
+	@echo "... 取地址.s"
 	@echo "... 数据类型.o"
 	@echo "... 数据类型.i"
 	@echo "... 数据类型.s"
+	@echo "... 浮点型数据.o"
+	@echo "... 浮点型数据.i"
+	@echo "... 浮点型数据.s"
 .PHONY : help
 
 

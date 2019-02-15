@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/helloworld.dir/main.cpp.o"
   "CMakeFiles/helloworld.dir/helloworld.c.o"
   "CMakeFiles/helloworld.dir/数据类型.c.o"
+  "CMakeFiles/helloworld.dir/取地址.c.o"
+  "CMakeFiles/helloworld.dir/浮点型数据.c.o"
   "helloworld.pdb"
   "helloworld"
 )
