@@ -180,6 +180,7 @@ namespace Question2
                 MessageBox.Show("选择后请重新连接");
             }  
             string sendMsg = ser.Serialize(json);
+			//写入Json文件
             File.WriteAllText("output.json", sendMsg);
             byte[] buffer = Encoding.Default.GetBytes(sendMsg);
             try
