@@ -224,6 +224,7 @@ namespace Question2
             };
 
             string sendMsg = ser.Serialize(json);
+            //写入Json文件
             File.WriteAllText("output.json", sendMsg);
             byte[] buffer = Encoding.Default.GetBytes(sendMsg);
             string point = null;
