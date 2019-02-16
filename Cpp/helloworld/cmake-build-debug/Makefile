@@ -204,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/取地址.c.s
 .PHONY : 取地址.c.s
 
+循环结构.o: 循环结构.c.o
+
+.PHONY : 循环结构.o
+
+# target to build an object file
+循环结构.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/循环结构.c.o
+.PHONY : 循环结构.c.o
+
+循环结构.i: 循环结构.c.i
+
+.PHONY : 循环结构.i
+
+# target to preprocess a source file
+循环结构.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/循环结构.c.i
+.PHONY : 循环结构.c.i
+
+循环结构.s: 循环结构.c.s
+
+.PHONY : 循环结构.s
+
+# target to generate assembly for a file
+循环结构.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/循环结构.c.s
+.PHONY : 循环结构.c.s
+
 数据类型.o: 数据类型.c.o
 
 .PHONY : 数据类型.o
@@ -258,6 +285,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/浮点型数据.c.s
 .PHONY : 浮点型数据.c.s
 
+运算符.o: 运算符.c.o
+
+.PHONY : 运算符.o
+
+# target to build an object file
+运算符.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/运算符.c.o
+.PHONY : 运算符.c.o
+
+运算符.i: 运算符.c.i
+
+.PHONY : 运算符.i
+
+# target to preprocess a source file
+运算符.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/运算符.c.i
+.PHONY : 运算符.c.i
+
+运算符.s: 运算符.c.s
+
+.PHONY : 运算符.s
+
+# target to generate assembly for a file
+运算符.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/运算符.c.s
+.PHONY : 运算符.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -276,12 +330,18 @@ help:
 	@echo "... 取地址.o"
 	@echo "... 取地址.i"
 	@echo "... 取地址.s"
+	@echo "... 循环结构.o"
+	@echo "... 循环结构.i"
+	@echo "... 循环结构.s"
 	@echo "... 数据类型.o"
 	@echo "... 数据类型.i"
 	@echo "... 数据类型.s"
 	@echo "... 浮点型数据.o"
 	@echo "... 浮点型数据.i"
 	@echo "... 浮点型数据.s"
+	@echo "... 运算符.o"
+	@echo "... 运算符.i"
+	@echo "... 运算符.s"
 .PHONY : help
 
 

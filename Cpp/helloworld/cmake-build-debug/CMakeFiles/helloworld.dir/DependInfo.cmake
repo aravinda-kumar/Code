@@ -7,8 +7,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/zhushuai/Code/Cpp/helloworld/helloworld.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/helloworld.c.o"
   "/home/zhushuai/Code/Cpp/helloworld/取地址.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/取地址.c.o"
+  "/home/zhushuai/Code/Cpp/helloworld/循环结构.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/循环结构.c.o"
   "/home/zhushuai/Code/Cpp/helloworld/数据类型.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/数据类型.c.o"
   "/home/zhushuai/Code/Cpp/helloworld/浮点型数据.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/浮点型数据.c.o"
+  "/home/zhushuai/Code/Cpp/helloworld/运算符.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/运算符.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
