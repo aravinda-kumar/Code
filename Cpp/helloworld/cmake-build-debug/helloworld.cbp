@@ -105,6 +105,9 @@
 		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/运算符.c">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/选择结构.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

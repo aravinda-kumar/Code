@@ -312,6 +312,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/运算符.c.s
 .PHONY : 运算符.c.s
 
+选择结构.o: 选择结构.c.o
+
+.PHONY : 选择结构.o
+
+# target to build an object file
+选择结构.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/选择结构.c.o
+.PHONY : 选择结构.c.o
+
+选择结构.i: 选择结构.c.i
+
+.PHONY : 选择结构.i
+
+# target to preprocess a source file
+选择结构.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/选择结构.c.i
+.PHONY : 选择结构.c.i
+
+选择结构.s: 选择结构.c.s
+
+.PHONY : 选择结构.s
+
+# target to generate assembly for a file
+选择结构.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/选择结构.c.s
+.PHONY : 选择结构.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -342,6 +369,9 @@ help:
 	@echo "... 运算符.o"
 	@echo "... 运算符.i"
 	@echo "... 运算符.s"
+	@echo "... 选择结构.o"
+	@echo "... 选择结构.i"
+	@echo "... 选择结构.s"
 .PHONY : help
 
 

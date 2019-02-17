@@ -13,5 +13,7 @@ CMakeFiles/helloworld.dir/浮点型数据.c.o: ../浮点型数据.c
 
 CMakeFiles/helloworld.dir/运算符.c.o: ../运算符.c
 
+CMakeFiles/helloworld.dir/选择结构.c.o: ../选择结构.c
+
 CMakeFiles/helloworld.dir/main.cpp.o: ../main.cpp
 

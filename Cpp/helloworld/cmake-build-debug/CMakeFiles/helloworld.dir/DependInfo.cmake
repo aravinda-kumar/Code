@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/zhushuai/Code/Cpp/helloworld/数据类型.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/数据类型.c.o"
   "/home/zhushuai/Code/Cpp/helloworld/浮点型数据.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/浮点型数据.c.o"
   "/home/zhushuai/Code/Cpp/helloworld/运算符.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/运算符.c.o"
+  "/home/zhushuai/Code/Cpp/helloworld/选择结构.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/选择结构.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

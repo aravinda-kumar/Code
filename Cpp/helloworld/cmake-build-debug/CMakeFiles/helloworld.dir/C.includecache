@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/zhushuai/Code/Cpp/helloworld/循环结构.c
+/home/zhushuai/Code/Cpp/helloworld/选择结构.c
 stdio.h
+-
+stdlib.h
 -
 
