@@ -12,11 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0423265-8db6-45e1-a425-a5580ae7243d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/成绩评级系统.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/跳转goto.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/选择结构2.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/DependInfo.cmake" afterDir="false" />
@@ -31,7 +27,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/helloworld" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/helloworld" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/helloworld.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/helloworld.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/选择结构.c" beforeDir="false" afterPath="$PROJECT_DIR$/选择结构.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +40,7 @@
     <session id="-317941973">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.31" value="1" />
@@ -66,12 +61,14 @@
           <entry key="c" value="5176" />
           <entry key="cpp" value="33" />
           <entry key="md" value="760" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="760" />
           <entry key="ObjectiveC" value="5209" />
+          <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -128,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/跳转goto.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            <state relative-caret-position="616">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -264,12 +261,20 @@
       <workItem from="1550282077927" duration="33000" />
       <workItem from="1550282199600" duration="9466000" />
       <workItem from="1550368055386" duration="5923000" />
-      <workItem from="1550464702051" duration="10829000" />
+      <workItem from="1550464702051" duration="10997000" />
     </task>
+    <task id="LOCAL-00001" summary="coded by JZS 20190218">
+      <created>1550477771333</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550477771333</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49518000" />
+    <option name="totallyTimeSpent" value="49686000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,15 +286,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1249" y="45" width="1392" height="994" extended-state="0" />
-    <editor active="true" />
+    <frame x="-3" y="0" width="1926" height="1042" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.27686566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49850747" visible="true" weight="0.32794458" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49850747" weight="0.3107221" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39838338" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -311,6 +315,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="coded by JZS 20190218" />
+    <option name="LAST_COMMIT_MESSAGE" value="coded by JZS 20190218" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.cpp">
@@ -408,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/跳转goto.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="616">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
