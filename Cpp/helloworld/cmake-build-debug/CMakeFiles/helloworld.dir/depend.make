@@ -7,13 +7,19 @@ CMakeFiles/helloworld.dir/取地址.c.o: ../取地址.c
 
 CMakeFiles/helloworld.dir/循环结构.c.o: ../循环结构.c
 
+CMakeFiles/helloworld.dir/成绩评级系统.c.o: ../成绩评级系统.c
+
 CMakeFiles/helloworld.dir/数据类型.c.o: ../数据类型.c
 
 CMakeFiles/helloworld.dir/浮点型数据.c.o: ../浮点型数据.c
 
+CMakeFiles/helloworld.dir/跳转goto.c.o: ../跳转goto.c
+
 CMakeFiles/helloworld.dir/运算符.c.o: ../运算符.c
 
 CMakeFiles/helloworld.dir/选择结构.c.o: ../选择结构.c
+
+CMakeFiles/helloworld.dir/选择结构2.c.o: ../选择结构2.c
 
 CMakeFiles/helloworld.dir/main.cpp.o: ../main.cpp
 

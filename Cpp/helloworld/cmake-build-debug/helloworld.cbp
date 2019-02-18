@@ -96,16 +96,25 @@
 		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/循环结构.c">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/成绩评级系统.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/数据类型.c">
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/浮点型数据.c">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/跳转goto.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/运算符.c">
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/选择结构.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/选择结构2.c">
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/CMakeLists.txt">

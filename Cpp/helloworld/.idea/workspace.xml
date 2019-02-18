@@ -12,22 +12,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0423265-8db6-45e1-a425-a5580ae7243d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/选择结构.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/成绩评级系统.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/跳转goto.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/选择结构2.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/Note.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/循环结构.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/循环结构.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/选择结构.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/选择结构.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/helloworld" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/helloworld" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/helloworld.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/helloworld.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/循环结构.c" beforeDir="false" afterPath="$PROJECT_DIR$/循环结构.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/选择结构.c" beforeDir="false" afterPath="$PROJECT_DIR$/选择结构.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,18 +51,19 @@
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="3802" />
+          <entry key="c" value="5176" />
           <entry key="cpp" value="33" />
           <entry key="md" value="760" />
         </counts>
@@ -66,14 +71,14 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="760" />
-          <entry key="ObjectiveC" value="3835" />
+          <entry key="ObjectiveC" value="5209" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="c" value="8" />
+          <entry key="c" value="11" />
           <entry key="h" value="1" />
-          <entry key="helloworld (disassembly)" value="2" />
+          <entry key="helloworld (disassembly)" value="4" />
           <entry key="md" value="1" />
           <entry key="txt" value="1" />
         </counts>
@@ -81,23 +86,50 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="Disassembly" value="2" />
+          <entry key="Disassembly" value="4" />
           <entry key="Markdown" value="1" />
-          <entry key="ObjectiveC" value="9" />
+          <entry key="ObjectiveC" value="12" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/选择结构.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="484">
+              <caret line="30" column="3" selection-start-column="2" selection-end-line="30" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/成绩评级系统.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="15" selection-start-column="2" selection-end-line="56" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/选择结构2.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="35" column="22" selection-start-column="2" selection-end-line="38" selection-end-column="3" />
               <folding>
-                <element signature="e#42#60#0" expanded="true" />
+                <marker date="1550476705850" expanded="true" signature="2:918" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/跳转goto.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -106,8 +138,8 @@
         <entry file="file://$PROJECT_DIR$/Note.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="396">
-                <caret line="58" column="11" lean-forward="true" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+              <first_editor relative-caret-position="397">
+                <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -131,6 +163,9 @@
         <option value="$PROJECT_DIR$/Note.md" />
         <option value="$PROJECT_DIR$/循环结构.c" />
         <option value="$PROJECT_DIR$/选择结构.c" />
+        <option value="$PROJECT_DIR$/成绩评级系统.c" />
+        <option value="$PROJECT_DIR$/选择结构2.c" />
+        <option value="$PROJECT_DIR$/跳转goto.c" />
       </list>
     </option>
   </component>
@@ -140,9 +175,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="340" />
-    <option name="y" value="17" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="253" />
+    <option name="y" value="45" />
     <option name="width" value="1392" />
     <option name="height" value="994" />
   </component>
@@ -229,11 +264,12 @@
       <workItem from="1550282077927" duration="33000" />
       <workItem from="1550282199600" duration="9466000" />
       <workItem from="1550368055386" duration="5923000" />
+      <workItem from="1550464702051" duration="10829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38689000" />
+    <option name="totallyTimeSpent" value="49518000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,14 +281,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="340" y="17" width="1392" height="994" extended-state="0" />
+    <frame x="1249" y="45" width="1392" height="994" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.27686566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49850747" weight="0.32794458" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49850747" visible="true" weight="0.32794458" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39838338" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -335,23 +372,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/选择结构.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="30" column="3" selection-start-column="2" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/成绩评级系统.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="15" selection-start-column="2" selection-end-line="56" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="396">
-            <caret line="58" column="11" lean-forward="true" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+          <first_editor relative-caret-position="397">
+            <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/选择结构.c">
+    <entry file="file://$PROJECT_DIR$/选择结构2.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="484">
+          <caret line="35" column="22" selection-start-column="2" selection-end-line="38" selection-end-column="3" />
           <folding>
-            <element signature="e#42#60#0" expanded="true" />
+            <marker date="1550476705850" expanded="true" signature="2:918" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/跳转goto.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -231,6 +231,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/循环结构.c.s
 .PHONY : 循环结构.c.s
 
+成绩评级系统.o: 成绩评级系统.c.o
+
+.PHONY : 成绩评级系统.o
+
+# target to build an object file
+成绩评级系统.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/成绩评级系统.c.o
+.PHONY : 成绩评级系统.c.o
+
+成绩评级系统.i: 成绩评级系统.c.i
+
+.PHONY : 成绩评级系统.i
+
+# target to preprocess a source file
+成绩评级系统.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/成绩评级系统.c.i
+.PHONY : 成绩评级系统.c.i
+
+成绩评级系统.s: 成绩评级系统.c.s
+
+.PHONY : 成绩评级系统.s
+
+# target to generate assembly for a file
+成绩评级系统.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/成绩评级系统.c.s
+.PHONY : 成绩评级系统.c.s
+
 数据类型.o: 数据类型.c.o
 
 .PHONY : 数据类型.o
@@ -284,6 +311,33 @@ main.cpp.s:
 浮点型数据.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/浮点型数据.c.s
 .PHONY : 浮点型数据.c.s
+
+跳转goto.o: 跳转goto.c.o
+
+.PHONY : 跳转goto.o
+
+# target to build an object file
+跳转goto.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/跳转goto.c.o
+.PHONY : 跳转goto.c.o
+
+跳转goto.i: 跳转goto.c.i
+
+.PHONY : 跳转goto.i
+
+# target to preprocess a source file
+跳转goto.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/跳转goto.c.i
+.PHONY : 跳转goto.c.i
+
+跳转goto.s: 跳转goto.c.s
+
+.PHONY : 跳转goto.s
+
+# target to generate assembly for a file
+跳转goto.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/跳转goto.c.s
+.PHONY : 跳转goto.c.s
 
 运算符.o: 运算符.c.o
 
@@ -339,6 +393,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/选择结构.c.s
 .PHONY : 选择结构.c.s
 
+选择结构2.o: 选择结构2.c.o
+
+.PHONY : 选择结构2.o
+
+# target to build an object file
+选择结构2.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/选择结构2.c.o
+.PHONY : 选择结构2.c.o
+
+选择结构2.i: 选择结构2.c.i
+
+.PHONY : 选择结构2.i
+
+# target to preprocess a source file
+选择结构2.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/选择结构2.c.i
+.PHONY : 选择结构2.c.i
+
+选择结构2.s: 选择结构2.c.s
+
+.PHONY : 选择结构2.s
+
+# target to generate assembly for a file
+选择结构2.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/选择结构2.c.s
+.PHONY : 选择结构2.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -360,18 +441,27 @@ help:
 	@echo "... 循环结构.o"
 	@echo "... 循环结构.i"
 	@echo "... 循环结构.s"
+	@echo "... 成绩评级系统.o"
+	@echo "... 成绩评级系统.i"
+	@echo "... 成绩评级系统.s"
 	@echo "... 数据类型.o"
 	@echo "... 数据类型.i"
 	@echo "... 数据类型.s"
 	@echo "... 浮点型数据.o"
 	@echo "... 浮点型数据.i"
 	@echo "... 浮点型数据.s"
+	@echo "... 跳转goto.o"
+	@echo "... 跳转goto.i"
+	@echo "... 跳转goto.s"
 	@echo "... 运算符.o"
 	@echo "... 运算符.i"
 	@echo "... 运算符.s"
 	@echo "... 选择结构.o"
 	@echo "... 选择结构.i"
 	@echo "... 选择结构.s"
+	@echo "... 选择结构2.o"
+	@echo "... 选择结构2.i"
+	@echo "... 选择结构2.s"
 .PHONY : help
 
 
