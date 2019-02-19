@@ -12,7 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0423265-8db6-45e1-a425-a5580ae7243d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/二维数组.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组之间的赋值.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/DependInfo.cmake" afterDir="false" />
@@ -22,11 +26,12 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/选择结构.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/选择结构.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/跳转goto.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/跳转goto.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/helloworld" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/helloworld" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/helloworld.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/helloworld.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/跳转goto.c" beforeDir="false" afterPath="$PROJECT_DIR$/跳转goto.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +45,7 @@
     <session id="-317941973">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.31" value="1" />
@@ -48,17 +53,18 @@
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="5176" />
+          <entry key="c" value="6333" />
           <entry key="cpp" value="33" />
           <entry key="md" value="760" />
           <entry key="txt" value="21" />
@@ -67,14 +73,14 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="760" />
-          <entry key="ObjectiveC" value="5209" />
+          <entry key="ObjectiveC" value="6366" />
           <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="c" value="11" />
-          <entry key="h" value="1" />
+          <entry key="c" value="14" />
+          <entry key="h" value="3" />
           <entry key="helloworld (disassembly)" value="4" />
           <entry key="md" value="1" />
           <entry key="txt" value="1" />
@@ -85,48 +91,21 @@
           <entry key="CMakeLists.txt" value="1" />
           <entry key="Disassembly" value="4" />
           <entry key="Markdown" value="1" />
-          <entry key="ObjectiveC" value="12" />
+          <entry key="ObjectiveC" value="17" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/选择结构.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="30" column="3" selection-start-column="2" selection-end-line="30" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/成绩评级系统.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="15" selection-start-column="2" selection-end-line="56" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/选择结构2.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="35" column="22" selection-start-column="2" selection-end-line="38" selection-end-column="3" />
-              <folding>
-                <marker date="1550476705850" expanded="true" signature="2:918" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/跳转goto.c">
+        <entry file="file://$PROJECT_DIR$/数组之间的赋值.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="308">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <element signature="e#42#60#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,6 +142,9 @@
         <option value="$PROJECT_DIR$/成绩评级系统.c" />
         <option value="$PROJECT_DIR$/选择结构2.c" />
         <option value="$PROJECT_DIR$/跳转goto.c" />
+        <option value="$PROJECT_DIR$/数组.c" />
+        <option value="$PROJECT_DIR$/二维数组.c" />
+        <option value="$PROJECT_DIR$/数组之间的赋值.c" />
       </list>
     </option>
   </component>
@@ -172,11 +154,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="253" />
-    <option name="y" value="45" />
-    <option name="width" value="1392" />
-    <option name="height" value="994" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="401" />
+    <option name="y" value="60" />
+    <option name="width" value="1388" />
+    <option name="height" value="991" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -186,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,6 +179,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,6 +244,7 @@
       <workItem from="1550282199600" duration="9466000" />
       <workItem from="1550368055386" duration="5923000" />
       <workItem from="1550464702051" duration="10997000" />
+      <workItem from="1550541367703" duration="12362000" />
     </task>
     <task id="LOCAL-00001" summary="coded by JZS 20190218">
       <created>1550477771333</created>
@@ -274,7 +257,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49686000" />
+    <option name="totallyTimeSpent" value="62048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -286,20 +269,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1926" height="1042" extended-state="6" />
+    <frame x="401" y="60" width="1388" height="991" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27686566" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2761976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49850747" weight="0.3107221" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39838338" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49850747" weight="0.32908458" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39745075" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290993" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49925596" weight="0.3256351" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49925596" weight="0.3244496" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3290993" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50149256" side_tool="true" weight="0.32794458" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
@@ -382,15 +365,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/选择结构.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="30" column="3" selection-start-column="2" selection-end-line="30" selection-end-column="3" />
+        <state relative-caret-position="41">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/成绩评级系统.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="15" selection-start-column="2" selection-end-line="56" selection-end-column="3" />
+        <state relative-caret-position="44">
+          <caret line="2" column="4" selection-start-column="2" selection-end-line="56" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/选择结构2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="35" column="22" selection-start-column="2" selection-end-line="38" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/跳转goto.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数组.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-column="2" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二维数组.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="32" column="15" selection-start-column="2" selection-end-line="33" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -404,20 +415,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/选择结构2.c">
+    <entry file="file:///usr/include/string.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="35" column="22" selection-start-column="2" selection-end-line="38" selection-end-column="3" />
-          <folding>
-            <marker date="1550476705850" expanded="true" signature="2:918" ph="..." />
-          </folding>
+        <state relative-caret-position="99">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/跳转goto.c">
+    <entry file="file://$PROJECT_DIR$/数组之间的赋值.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="308">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="e#42#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -6,10 +6,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/zhushuai/Code/Cpp/helloworld/helloworld.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/helloworld.c.o"
+  "/home/zhushuai/Code/Cpp/helloworld/二维数组.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/二维数组.c.o"
   "/home/zhushuai/Code/Cpp/helloworld/取地址.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/取地址.c.o"
   "/home/zhushuai/Code/Cpp/helloworld/循环结构.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/循环结构.c.o"
   "/home/zhushuai/Code/Cpp/helloworld/成绩评级系统.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/成绩评级系统.c.o"
   "/home/zhushuai/Code/Cpp/helloworld/数据类型.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/数据类型.c.o"
+  "/home/zhushuai/Code/Cpp/helloworld/数组.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/数组.c.o"
+  "/home/zhushuai/Code/Cpp/helloworld/数组之间的赋值.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/数组之间的赋值.c.o"
   "/home/zhushuai/Code/Cpp/helloworld/浮点型数据.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/浮点型数据.c.o"
   "/home/zhushuai/Code/Cpp/helloworld/跳转goto.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/跳转goto.c.o"
   "/home/zhushuai/Code/Cpp/helloworld/运算符.c" "/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/运算符.c.o"

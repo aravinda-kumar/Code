@@ -10,6 +10,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/helloworld.dir/成绩评级系统.c.o"
   "CMakeFiles/helloworld.dir/选择结构2.c.o"
   "CMakeFiles/helloworld.dir/跳转goto.c.o"
+  "CMakeFiles/helloworld.dir/数组.c.o"
+  "CMakeFiles/helloworld.dir/二维数组.c.o"
+  "CMakeFiles/helloworld.dir/数组之间的赋值.c.o"
   "helloworld.pdb"
   "helloworld"
 )

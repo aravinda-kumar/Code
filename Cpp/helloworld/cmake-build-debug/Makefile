@@ -177,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+二维数组.o: 二维数组.c.o
+
+.PHONY : 二维数组.o
+
+# target to build an object file
+二维数组.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/二维数组.c.o
+.PHONY : 二维数组.c.o
+
+二维数组.i: 二维数组.c.i
+
+.PHONY : 二维数组.i
+
+# target to preprocess a source file
+二维数组.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/二维数组.c.i
+.PHONY : 二维数组.c.i
+
+二维数组.s: 二维数组.c.s
+
+.PHONY : 二维数组.s
+
+# target to generate assembly for a file
+二维数组.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/二维数组.c.s
+.PHONY : 二维数组.c.s
+
 取地址.o: 取地址.c.o
 
 .PHONY : 取地址.o
@@ -284,6 +311,60 @@ main.cpp.s:
 数据类型.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数据类型.c.s
 .PHONY : 数据类型.c.s
+
+数组.o: 数组.c.o
+
+.PHONY : 数组.o
+
+# target to build an object file
+数组.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数组.c.o
+.PHONY : 数组.c.o
+
+数组.i: 数组.c.i
+
+.PHONY : 数组.i
+
+# target to preprocess a source file
+数组.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数组.c.i
+.PHONY : 数组.c.i
+
+数组.s: 数组.c.s
+
+.PHONY : 数组.s
+
+# target to generate assembly for a file
+数组.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数组.c.s
+.PHONY : 数组.c.s
+
+数组之间的赋值.o: 数组之间的赋值.c.o
+
+.PHONY : 数组之间的赋值.o
+
+# target to build an object file
+数组之间的赋值.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数组之间的赋值.c.o
+.PHONY : 数组之间的赋值.c.o
+
+数组之间的赋值.i: 数组之间的赋值.c.i
+
+.PHONY : 数组之间的赋值.i
+
+# target to preprocess a source file
+数组之间的赋值.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数组之间的赋值.c.i
+.PHONY : 数组之间的赋值.c.i
+
+数组之间的赋值.s: 数组之间的赋值.c.s
+
+.PHONY : 数组之间的赋值.s
+
+# target to generate assembly for a file
+数组之间的赋值.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数组之间的赋值.c.s
+.PHONY : 数组之间的赋值.c.s
 
 浮点型数据.o: 浮点型数据.c.o
 
@@ -435,6 +516,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... 二维数组.o"
+	@echo "... 二维数组.i"
+	@echo "... 二维数组.s"
 	@echo "... 取地址.o"
 	@echo "... 取地址.i"
 	@echo "... 取地址.s"
@@ -447,6 +531,12 @@ help:
 	@echo "... 数据类型.o"
 	@echo "... 数据类型.i"
 	@echo "... 数据类型.s"
+	@echo "... 数组.o"
+	@echo "... 数组.i"
+	@echo "... 数组.s"
+	@echo "... 数组之间的赋值.o"
+	@echo "... 数组之间的赋值.i"
+	@echo "... 数组之间的赋值.s"
 	@echo "... 浮点型数据.o"
 	@echo "... 浮点型数据.i"
 	@echo "... 浮点型数据.s"

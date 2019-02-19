@@ -200,6 +200,45 @@ CMakeFiles/helloworld.dir/跳转goto.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/跳转goto.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhushuai/Code/Cpp/helloworld/跳转goto.c -o CMakeFiles/helloworld.dir/跳转goto.c.s
 
+CMakeFiles/helloworld.dir/数组.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/数组.c.o: ../数组.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/helloworld.dir/数组.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/数组.c.o   -c /home/zhushuai/Code/Cpp/helloworld/数组.c
+
+CMakeFiles/helloworld.dir/数组.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/数组.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhushuai/Code/Cpp/helloworld/数组.c > CMakeFiles/helloworld.dir/数组.c.i
+
+CMakeFiles/helloworld.dir/数组.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/数组.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhushuai/Code/Cpp/helloworld/数组.c -o CMakeFiles/helloworld.dir/数组.c.s
+
+CMakeFiles/helloworld.dir/二维数组.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/二维数组.c.o: ../二维数组.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/helloworld.dir/二维数组.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/二维数组.c.o   -c /home/zhushuai/Code/Cpp/helloworld/二维数组.c
+
+CMakeFiles/helloworld.dir/二维数组.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/二维数组.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhushuai/Code/Cpp/helloworld/二维数组.c > CMakeFiles/helloworld.dir/二维数组.c.i
+
+CMakeFiles/helloworld.dir/二维数组.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/二维数组.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhushuai/Code/Cpp/helloworld/二维数组.c -o CMakeFiles/helloworld.dir/二维数组.c.s
+
+CMakeFiles/helloworld.dir/数组之间的赋值.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/数组之间的赋值.c.o: ../数组之间的赋值.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/helloworld.dir/数组之间的赋值.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/数组之间的赋值.c.o   -c /home/zhushuai/Code/Cpp/helloworld/数组之间的赋值.c
+
+CMakeFiles/helloworld.dir/数组之间的赋值.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/数组之间的赋值.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhushuai/Code/Cpp/helloworld/数组之间的赋值.c > CMakeFiles/helloworld.dir/数组之间的赋值.c.i
+
+CMakeFiles/helloworld.dir/数组之间的赋值.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/数组之间的赋值.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhushuai/Code/Cpp/helloworld/数组之间的赋值.c -o CMakeFiles/helloworld.dir/数组之间的赋值.c.s
+
 # Object files for target helloworld
 helloworld_OBJECTS = \
 "CMakeFiles/helloworld.dir/main.cpp.o" \
@@ -212,7 +251,10 @@ helloworld_OBJECTS = \
 "CMakeFiles/helloworld.dir/选择结构.c.o" \
 "CMakeFiles/helloworld.dir/成绩评级系统.c.o" \
 "CMakeFiles/helloworld.dir/选择结构2.c.o" \
-"CMakeFiles/helloworld.dir/跳转goto.c.o"
+"CMakeFiles/helloworld.dir/跳转goto.c.o" \
+"CMakeFiles/helloworld.dir/数组.c.o" \
+"CMakeFiles/helloworld.dir/二维数组.c.o" \
+"CMakeFiles/helloworld.dir/数组之间的赋值.c.o"
 
 # External object files for target helloworld
 helloworld_EXTERNAL_OBJECTS =
@@ -228,9 +270,12 @@ helloworld: CMakeFiles/helloworld.dir/选择结构.c.o
 helloworld: CMakeFiles/helloworld.dir/成绩评级系统.c.o
 helloworld: CMakeFiles/helloworld.dir/选择结构2.c.o
 helloworld: CMakeFiles/helloworld.dir/跳转goto.c.o
+helloworld: CMakeFiles/helloworld.dir/数组.c.o
+helloworld: CMakeFiles/helloworld.dir/二维数组.c.o
+helloworld: CMakeFiles/helloworld.dir/数组之间的赋值.c.o
 helloworld: CMakeFiles/helloworld.dir/build.make
 helloworld: CMakeFiles/helloworld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable helloworld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable helloworld"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/helloworld.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
