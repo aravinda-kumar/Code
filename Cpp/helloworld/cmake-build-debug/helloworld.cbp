@@ -8,123 +8,131 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/JZS/Code/Cpp/helloworld/cmake-build-debug"/>
+				<Option working_dir="/home/shuncs/Code/Cpp/helloworld/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="helloworld">
-				<Option output="E:/JZS/Code/Cpp/helloworld/cmake-build-debug/helloworld.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/JZS/Code/Cpp/helloworld/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/MinGW/include"/>
-					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
-					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
-					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
-					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
-					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="helloworld/fast">
-				<Option output="E:/JZS/Code/Cpp/helloworld/cmake-build-debug/helloworld.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/JZS/Code/Cpp/helloworld/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/MinGW/include"/>
-					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
-					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
-					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
-					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
-					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/JZS/Code/Cpp/helloworld/cmake-build-debug"/>
+				<Option working_dir="/home/shuncs/Code/Cpp/helloworld/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/JZS/Code/Cpp/helloworld/cmake-build-debug"/>
+				<Option working_dir="/home/shuncs/Code/Cpp/helloworld/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/JZS/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloworld">
+				<Option output="/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/helloworld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuncs/Code/Cpp/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloworld/fast">
+				<Option output="/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/helloworld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuncs/Code/Cpp/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/JZS/Code/Cpp/helloworld/helloworld.c">
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/helloworld.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="E:/JZS/Code/Cpp/helloworld/main.cpp">
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/main.cpp">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="E:/JZS/Code/Cpp/helloworld/二维数组.c">
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/二维数组.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="E:/JZS/Code/Cpp/helloworld/取地址.c">
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/取地址.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="E:/JZS/Code/Cpp/helloworld/循环结构.c">
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/循环结构.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="E:/JZS/Code/Cpp/helloworld/成绩评级系统.c">
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/成绩评级系统.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="E:/JZS/Code/Cpp/helloworld/数据类型.c">
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/指针.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="E:/JZS/Code/Cpp/helloworld/数组.c">
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/指针与数组.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="E:/JZS/Code/Cpp/helloworld/数组之间的赋值.c">
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/数据类型.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="E:/JZS/Code/Cpp/helloworld/浮点型数据.c">
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/数组.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="E:/JZS/Code/Cpp/helloworld/跳转goto.c">
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/数组之间的赋值.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="E:/JZS/Code/Cpp/helloworld/运算符.c">
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/浮点型数据.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="E:/JZS/Code/Cpp/helloworld/选择结构.c">
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/跳转goto.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="E:/JZS/Code/Cpp/helloworld/选择结构2.c">
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/运算符.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="E:/JZS/Code/Cpp/helloworld/CMakeLists.txt">
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/选择结构.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/选择结构2.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
