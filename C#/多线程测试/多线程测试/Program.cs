@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace socket_Client
+namespace 多线程测试
 {
     static class Program
     {
@@ -16,9 +16,7 @@ namespace socket_Client
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Console.WriteLine("In Main");
-            //Application.Run(new Form_Main());
-            Application.Run(new FormClient());
+            Application.Run(new Form1());
         }
     }
 }

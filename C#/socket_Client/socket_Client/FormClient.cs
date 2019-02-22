@@ -123,13 +123,6 @@ namespace socket_Client
             {
             }
         }
-        private void btn_Disconnect_Click(object sender, EventArgs e)
-        {
-            //关闭socket
-            socketSend.Close();
-            //终止线程
-            threadReceive.Abort();
-        }
 
         private void FormClient_Load(object sender, EventArgs e)
         {
@@ -158,12 +151,34 @@ namespace socket_Client
         private void btn_Path_Click(object sender, EventArgs e)
         {
             OpenFileDialog dia = new OpenFileDialog();
-            dia.InitialDirectory = @"C:\Users\SHUNCS\Desktop";
+            dia.InitialDirectory = @"E:\JZS\Code\C#\socket_Client\socket_Client\bin\Debug\pic";
             dia.Title = "请选择要发送的文件";
-            dia.Filter = "图片文件|*.jpg";
+            dia.Filter = "图片文件|*.bmp";
             dia.ShowDialog();
             txtBox_Path.Text = dia.FileName;
             Console.WriteLine(txtBox_Path.Text.Trim());
+        }
+
+        private void btn_Path_2_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dia = new OpenFileDialog();
+            dia.InitialDirectory = @"E:\JZS\Code\C#\socket_Client\socket_Client\bin\Debug\pic";
+            dia.Title = "请选择要发送的文件";
+            dia.Filter = "图片文件|*.bmp";
+            dia.ShowDialog();
+            txtBox_Path_2.Text = dia.FileName;
+            Console.WriteLine(txtBox_Path_2.Text.Trim());
+        }
+
+        private void btn_Path_3_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dia = new OpenFileDialog();
+            dia.InitialDirectory = @"E:\JZS\Code\C#\socket_Client\socket_Client\bin\Debug\pic";
+            dia.Title = "请选择要发送的文件";
+            dia.Filter = "图片文件|*.bmp";
+            dia.ShowDialog();
+            txtBox_Path_3.Text = dia.FileName;
+            Console.WriteLine(txtBox_Path_3.Text.Trim());
         }
 
         private void btn_SendFile_Click(object sender, EventArgs e)
@@ -223,41 +238,203 @@ namespace socket_Client
                 //读取选择的文件
                 using (FileStream fsRead = new FileStream(filePath, FileMode.Open, FileAccess.Read))
                 {
+                    //发送报警信息
+                    string head = "0000";
+                    byte[] headinfo = Encoding.UTF8.GetBytes(head);
+                    socketSend.Send(headinfo);
+                    string level = "1111";
+                    byte[] levelinfo = Encoding.UTF8.GetBytes(level);
+                    socketSend.Send(levelinfo);
+                    for (int i = 0; i < 300000000; i++) ;
                     //1. 第一步：发送一个包，表示文件的长度，让客户端知道后续要接收几个包来重新组织成一个文件
                     long length = fsRead.Length;
-                    Console.WriteLine("文件长度length ={0}", length);
+                    //Console.WriteLine("文件长度length ={0}", length);
                     //加文件头和文件尾
 
                     byte[] byteLength = Encoding.UTF8.GetBytes(length.ToString());
-                    Console.WriteLine("byteLength={0}", byteLength.Length);
+                    //Console.WriteLine("byteLength={0}", byteLength.Length);
                     socketSend.Send(byteLength);
 
                     //进行不到1S的延时，避免数据出现粘包的情况
-                    Stopwatch sw = new Stopwatch();
-                    sw.Start();
+                    //Stopwatch sw = new Stopwatch();
+                    //sw.Start();
                     for (int i = 0; i < 300000000; i++);
-                    sw.Stop();
-                    Console.WriteLine(sw.Elapsed.ToString());
+                    //sw.Stop();
+                    //Console.WriteLine(sw.Elapsed.ToString());
                     
-                    //2. 第二步：每次发送一个2k的包，如果文件较大，则会拆分为多个包
-                    byte[] buffer = new byte[1024 * 2];
+                    //2. 第二步：每次发送一个400byte的包，如果文件较大，则会拆分为多个包
+                    byte[] buffer = new byte[400];
                     long send = 0; //发送的字节数                  
                     while (true)  //大文件断点多次传输
                     {
                         int r = fsRead.Read(buffer, 0, buffer.Length);
-                        Console.WriteLine("read r ={0}", r);
+                        //Console.WriteLine("read r ={0}", r);
                         if (r == 0)
                         {
                             break;
                         }
                         socketSend.Send(buffer, 0, r, SocketFlags.None);
                         send += r;
-                        Console.WriteLine("{0}: 已发送：{1}/{2}", socketSend.RemoteEndPoint, send, length);
+                        //Console.WriteLine("{0}: 已发送：{1}/{2}", socketSend.RemoteEndPoint, send, length);
                     }
-                    Console.WriteLine("发送完成");
+                    //Console.WriteLine("发送完成");
                 }
             }
             catch{}
+        }
+
+        //创建连接的Socket
+        Socket socketSend_2;
+        private void btn_Connect_2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                txtBox_Log.AppendText("开始连接......\r\n");
+                socketSend_2 = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                IPAddress ip = IPAddress.Parse(txtBox_IP_2.Text.Trim());
+                socketSend_2.Connect(ip, Convert.ToInt32(txtBox_Port_2.Text.Trim()));
+
+                txtBox_Log.AppendText( "连接成功\r\n");
+            }
+            catch  {}
+        }
+
+        //创建连接的Socket
+        Socket socketSend_3;
+        private void btn_Connect_3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                txtBox_Log.AppendText("开始连接......\r\n");
+                socketSend_3 = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                IPAddress ip = IPAddress.Parse(txtBox_IP_3.Text.Trim());
+                socketSend_3.Connect(ip, Convert.ToInt32(txtBox_Port_3.Text.Trim()));
+
+                txtBox_Log.AppendText("连接成功\r\n");
+            }
+            catch { }
+        }
+
+        private void btn_SendBigFile_2_Click(object sender, EventArgs e)
+        {
+            //获取文件路径
+            string filePath = txtBox_Path_2.Text.Trim();
+            try
+            {
+                //读取选择的文件
+                using (FileStream fsRead = new FileStream(filePath, FileMode.Open, FileAccess.Read))
+                {
+                    //发送报警信息
+                    string head = "0000";
+                    byte[] headinfo = Encoding.UTF8.GetBytes(head);
+                    socketSend_2.Send(headinfo);
+                    string level = "1111";
+                    byte[] levelinfo = Encoding.UTF8.GetBytes(level);
+                    socketSend_2.Send(levelinfo);
+                    for (int i = 0; i < 300000000; i++) ;
+                    //1. 第一步：发送一个包，表示文件的长度，让客户端知道后续要接收几个包来重新组织成一个文件
+                    long length = fsRead.Length;
+                    //Console.WriteLine("文件长度length ={0}", length);
+                    //加文件头和文件尾
+
+                    byte[] byteLength = Encoding.UTF8.GetBytes(length.ToString());
+                    //Console.WriteLine("byteLength={0}", byteLength.Length);
+                    socketSend_2.Send(byteLength);
+
+                    //进行不到1S的延时，避免数据出现粘包的情况
+                    //Stopwatch sw = new Stopwatch();
+                    //sw.Start();
+                    for (int i = 0; i < 300000000; i++) ;
+                    //sw.Stop();
+                    //Console.WriteLine(sw.Elapsed.ToString());
+
+                    //2. 第二步：每次发送一个400byte的包，如果文件较大，则会拆分为多个包
+                    byte[] buffer = new byte[400];
+                    long send = 0; //发送的字节数                  
+                    while (true)  //大文件断点多次传输
+                    {
+                        int r = fsRead.Read(buffer, 0, buffer.Length);
+                        //Console.WriteLine("read r ={0}", r);
+                        if (r == 0)
+                        {
+                            break;
+                        }
+                        socketSend_2.Send(buffer, 0, r, SocketFlags.None);
+                        send += r;
+                        //Console.WriteLine("{0}: 已发送：{1}/{2}", socketSend_2.RemoteEndPoint, send, length);
+                    }
+                    //Console.WriteLine("发送完成");
+                }
+            }
+            catch { }
+        }
+
+        private void btn_SendBigFile_3_Click(object sender, EventArgs e)
+        {
+            //获取文件路径
+            string filePath = txtBox_Path_3.Text.Trim();
+            try
+            {
+                //读取选择的文件
+                using (FileStream fsRead = new FileStream(filePath, FileMode.Open, FileAccess.Read))
+                {
+                    //发送报警信息
+                    string head = "0000";
+                    byte[] headinfo = Encoding.UTF8.GetBytes(head);
+                    socketSend_3.Send(headinfo);
+                    string level = "1111";
+                    byte[] levelinfo = Encoding.UTF8.GetBytes(level);
+                    socketSend_3.Send(levelinfo);
+                    for (int i = 0; i < 300000000; i++) ;
+                    //1. 第一步：发送一个包，表示文件的长度，让客户端知道后续要接收几个包来重新组织成一个文件
+                    long length = fsRead.Length;
+                    //Console.WriteLine("文件长度length ={0}", length);
+                    //加文件头和文件尾
+
+                    byte[] byteLength = Encoding.UTF8.GetBytes(length.ToString());
+                    //Console.WriteLine("byteLength={0}", byteLength.Length);
+                    socketSend_3.Send(byteLength);
+
+                    //进行不到1S的延时，避免数据出现粘包的情况
+                    //Stopwatch sw = new Stopwatch();
+                    //sw.Start();
+                    for (int i = 0; i < 300000000; i++) ;
+                    //sw.Stop();
+                    //Console.WriteLine(sw.Elapsed.ToString());
+
+                    //2. 第二步：每次发送一个400byte的包，如果文件较大，则会拆分为多个包
+                    byte[] buffer = new byte[400];
+                    long send = 0; //发送的字节数                  
+                    while (true)  //大文件断点多次传输
+                    {
+                        int r = fsRead.Read(buffer, 0, buffer.Length);
+                        //Console.WriteLine("read r ={0}", r);
+                        if (r == 0)
+                        {
+                            break;
+                        }
+                        socketSend_3.Send(buffer, 0, r, SocketFlags.None);
+                        send += r;
+                        //Console.WriteLine("{0}: 已发送：{1}/{2}", socketSend_3.RemoteEndPoint, send, length);
+                    }
+                    //Console.WriteLine("发送完成");
+                }
+            }
+            catch { }
+        }
+
+        private void btn_Send_All_Click(object sender, EventArgs e)
+        {
+            btn_SendBigFile.PerformClick();
+            btn_SendBigFile_2.PerformClick();
+            btn_SendBigFile_3.PerformClick();
+        }
+
+        private void btn_Connect_All_Click(object sender, EventArgs e)
+        {
+            btn_Connect.PerformClick();
+            btn_Connect_2.PerformClick();
+            btn_Connect_3.PerformClick();
         }
     }
 }

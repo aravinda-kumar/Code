@@ -216,7 +216,7 @@ namespace 皮带跑偏与撕裂检测监控界面
         Thread threadWatchHead = null;
         private void btn_Head_Connect_Click(object sender, EventArgs e)
         {
-            string headIP = "192.168.0.202";
+            string headIP = "192.168.0.201";
             string headPort = "8234";
             socketWatchHead = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPAddress ipAddressHead = IPAddress.Parse(headIP.Trim());
@@ -322,6 +322,7 @@ namespace 皮带跑偏与撕裂检测监控界面
                                     list_Binary_head.Add(buffer[index]);
                                 }
                                 length -= r;
+                                Console.WriteLine("progressBar_Head.Value={0}", progressBar_Head.Value);
                                 progressBar_Head.Value = (int)(((double)(recive - length) / ((double)recive)) * 100);
                             }
                             if (length <= 0)
@@ -427,7 +428,7 @@ namespace 皮带跑偏与撕裂检测监控界面
         private void btn_Ham_Connect_Click(object sender, EventArgs e)
         {
             string hamIP = "192.168.0.201";
-            string hamPort = "8234";
+            string hamPort = "8235";
             socketWatchHam = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPAddress ipAddressHam = IPAddress.Parse(hamIP.Trim());
             IPEndPoint endPointHam = new IPEndPoint(ipAddressHam, int.Parse(hamPort.Trim()));
@@ -532,6 +533,7 @@ namespace 皮带跑偏与撕裂检测监控界面
                                     list_Binary_ham.Add(buffer[index]);
                                 }
                                 length -= r;
+                                Console.WriteLine("progressBar_Ham.Value={0}", progressBar_Ham.Value);
                                 progressBar_Ham.Value = (int)(((double)(recive - length) / ((double)recive)) * 100);
                             }
                             if (length <= 0)
@@ -636,8 +638,8 @@ namespace 皮带跑偏与撕裂检测监控界面
         Thread threadWatchEnd = null;
         private void btn_End_Connect_Click(object sender, EventArgs e)
         {
-            string endIP = "192.168.0.205";
-            string endPort = "8234";
+            string endIP = "192.168.0.201";
+            string endPort = "8236";
             socketWatchEnd = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPAddress ipAddressEnd = IPAddress.Parse(endIP.Trim());
             IPEndPoint endPointEnd = new IPEndPoint(ipAddressEnd, int.Parse(endPort.Trim()));
@@ -742,6 +744,7 @@ namespace 皮带跑偏与撕裂检测监控界面
                                     list_Binary_end.Add(buffer[index]);
                                 }
                                 length -= r;
+                                Console.WriteLine("progressBar_End.Value={0}", progressBar_End.Value);
                                 progressBar_End.Value = (int)(((double)(recive - length) / ((double)recive)) * 100);
                             }
                             if (length <= 0)

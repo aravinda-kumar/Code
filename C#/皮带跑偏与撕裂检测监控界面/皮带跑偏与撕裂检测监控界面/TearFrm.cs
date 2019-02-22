@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
@@ -138,7 +139,7 @@ namespace 皮带跑偏与撕裂检测监控界面
             fsEnd.Close();
         }
 
-       static ReaderWriterLockSlim WriteToLogFileLock = new ReaderWriterLockSlim();
+        static ReaderWriterLockSlim WriteToLogFileLock = new ReaderWriterLockSlim();
         public void WriteToLogFile(string fileFullName, string message)
         {
             try
@@ -558,9 +559,9 @@ namespace 皮带跑偏与撕裂检测监控界面
         #region 机头连接
         private void btn_Head_Connect_Click(object sender, EventArgs e)
         {
-            //StartConnectHead01();
-            //StartConnectHead02();
-            //StartConnectHead03();
+            StartConnectHead01();
+            StartConnectHead02();
+            StartConnectHead03();
         }
 
         Thread threadWatchHead01 = null;
@@ -595,7 +596,7 @@ namespace 皮带跑偏与撕裂检测监控界面
                     if (socketConnectionHead01 != null)
                     {
                         btn_Head_Connect.Enabled = false;
-                        lbl_Head_State_01.Text = "连接成功!";
+                        lbl_Head_State_01.Text = "连接成功";
                         threadReceiveHead01 = new Thread(new ParameterizedThreadStart(MsgReceiveHead01));
                         threadReceiveHead01.IsBackground = true;
                         threadReceiveHead01.Start(socketConnectionHead01);
@@ -761,7 +762,7 @@ namespace 皮带跑偏与撕裂检测监控界面
         private void StartConnectHead02()
         {
             string headIP02 = "192.168.0.201";
-            string headPort02 = "8234";
+            string headPort02 = "8235";
             socketWatchHead02 = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPAddress ipAddressHead02 = IPAddress.Parse(headIP02.Trim());
             IPEndPoint endPointHead02 = new IPEndPoint(ipAddressHead02, int.Parse(headPort02.Trim()));
@@ -788,7 +789,7 @@ namespace 皮带跑偏与撕裂检测监控界面
                     if (socketConnectionHead02 != null)
                     {
                         btn_Head_Connect.Enabled = false;
-                        lbl_Head_State_02.Text = "连接成功!";
+                        lbl_Head_State_02.Text = "连接成功";
                         threadReceiveHead02 = new Thread(new ParameterizedThreadStart(MsgReceiveHead02));
                         threadReceiveHead02.IsBackground = true;
                         threadReceiveHead02.Start(socketConnectionHead02);
@@ -944,7 +945,7 @@ namespace 皮带跑偏与撕裂检测监控界面
         private void StartConnectHead03()
         {
             string headIP03 = "192.168.0.201";
-            string headPort03 = "8234";
+            string headPort03 = "8236";
             socketWatchHead03 = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPAddress ipAddressHead03 = IPAddress.Parse(headIP03.Trim());
             IPEndPoint endPointHead03 = new IPEndPoint(ipAddressHead03, int.Parse(headPort03.Trim()));
@@ -971,7 +972,7 @@ namespace 皮带跑偏与撕裂检测监控界面
                     if (socketConnectionHead03 != null)
                     {
                         btn_Head_Connect.Enabled = false;
-                        lbl_Head_State_03.Text = "连接成功!";
+                        lbl_Head_State_03.Text = "连接成功";
                         threadReceiveHead03 = new Thread(new ParameterizedThreadStart(MsgReceiveHead03));
                         threadReceiveHead03.IsBackground = true;
                         threadReceiveHead03.Start(socketConnectionHead03);
@@ -1126,6 +1127,9 @@ namespace 皮带跑偏与撕裂检测监控界面
         private static readonly object lockerheadobj = new object();
         private void SaveandShowHead(string bmpPath, string fileNameShort, Bitmap bitmap, string logMsg)
         {
+            //加锁程序耗时00:00:00.0577938
+            //Stopwatch sw = new Stopwatch();
+            //sw.Start();
             lock (lockerheadobj)
             {
                 listFileFullNameHead.Insert(0, bmpPath);
@@ -1136,6 +1140,8 @@ namespace 皮带跑偏与撕裂检测监控界面
                     MediaPlayerHead.URL = alarmHeadURL;
                 bitmap.Save(bmpPath);
             }
+            //sw.Stop();
+            //Console.WriteLine("加锁程序耗时{0}", sw.Elapsed.ToString());
         }
 
         #endregion

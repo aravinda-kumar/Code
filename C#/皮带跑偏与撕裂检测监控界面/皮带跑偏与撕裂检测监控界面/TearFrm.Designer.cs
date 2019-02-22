@@ -86,6 +86,21 @@
             this.btn_End_Sound = new System.Windows.Forms.Button();
             this.btn_End_StopFlicker = new System.Windows.Forms.Button();
             this.btn_End_Reset = new System.Windows.Forms.Button();
+            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lbl_Head_Receive01 = new System.Windows.Forms.Label();
+            this.lbl_Head_Receive02 = new System.Windows.Forms.Label();
+            this.lbl_Head_Receive03 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.lbl_End_Receive01 = new System.Windows.Forms.Label();
+            this.lbl_End_Receive02 = new System.Windows.Forms.Label();
+            this.lbl_End_Receive03 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lbl_Ham_Receive01 = new System.Windows.Forms.Label();
+            this.lbl_Ham_Receive02 = new System.Windows.Forms.Label();
+            this.lbl_Ham_Receive03 = new System.Windows.Forms.Label();
             this.menuStrip_Main = new System.Windows.Forms.MenuStrip();
             this.查看日志ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.打开日志文件夹ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -105,21 +120,6 @@
             this.清空机头报警日志ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.清空重锤报警日志ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.清空机尾报警日志ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lbl_Head_Receive01 = new System.Windows.Forms.Label();
-            this.lbl_Head_Receive02 = new System.Windows.Forms.Label();
-            this.lbl_Head_Receive03 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.lbl_Ham_Receive01 = new System.Windows.Forms.Label();
-            this.lbl_Ham_Receive02 = new System.Windows.Forms.Label();
-            this.lbl_Ham_Receive03 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.lbl_End_Receive01 = new System.Windows.Forms.Label();
-            this.lbl_End_Receive02 = new System.Windows.Forms.Label();
-            this.lbl_End_Receive03 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MediaPlayerHead)).BeginInit();
@@ -146,10 +146,10 @@
             this.tableLayoutPanel6.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
-            this.menuStrip_Main.SuspendLayout();
             this.tableLayoutPanel9.SuspendLayout();
-            this.tableLayoutPanel10.SuspendLayout();
             this.tableLayoutPanel11.SuspendLayout();
+            this.tableLayoutPanel10.SuspendLayout();
+            this.menuStrip_Main.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -180,18 +180,17 @@
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel11, 2, 2);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel10, 1, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 28);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 25);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 7;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 75F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 56.53435F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34.72652F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 159F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 127F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.739125F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1924, 986);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1464, 786);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // lbl_SubTitle
@@ -199,10 +198,9 @@
             this.lbl_SubTitle.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_SubTitle.AutoSize = true;
             this.lbl_SubTitle.Font = new System.Drawing.Font("宋体", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_SubTitle.Location = new System.Drawing.Point(707, 14);
-            this.lbl_SubTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_SubTitle.Location = new System.Drawing.Point(527, 12);
             this.lbl_SubTitle.Name = "lbl_SubTitle";
-            this.lbl_SubTitle.Size = new System.Drawing.Size(508, 50);
+            this.lbl_SubTitle.Size = new System.Drawing.Size(408, 40);
             this.lbl_SubTitle.TabIndex = 11;
             this.lbl_SubTitle.Text = "708皮带撕裂监控界面";
             // 
@@ -216,44 +214,40 @@
             this.tableLayoutPanel2.Controls.Add(this.MediaPlayerHam, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.MediaPlayerEnd, 2, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(6, 6);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(5, 5);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(630, 67);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(479, 54);
             this.tableLayoutPanel2.TabIndex = 12;
             // 
             // MediaPlayerHead
             // 
             this.MediaPlayerHead.Enabled = true;
-            this.MediaPlayerHead.Location = new System.Drawing.Point(4, 4);
-            this.MediaPlayerHead.Margin = new System.Windows.Forms.Padding(4);
+            this.MediaPlayerHead.Location = new System.Drawing.Point(3, 3);
             this.MediaPlayerHead.Name = "MediaPlayerHead";
             this.MediaPlayerHead.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("MediaPlayerHead.OcxState")));
-            this.MediaPlayerHead.Size = new System.Drawing.Size(202, 59);
+            this.MediaPlayerHead.Size = new System.Drawing.Size(151, 48);
             this.MediaPlayerHead.TabIndex = 0;
             this.MediaPlayerHead.Visible = false;
             // 
             // MediaPlayerHam
             // 
             this.MediaPlayerHam.Enabled = true;
-            this.MediaPlayerHam.Location = new System.Drawing.Point(214, 4);
-            this.MediaPlayerHam.Margin = new System.Windows.Forms.Padding(4);
+            this.MediaPlayerHam.Location = new System.Drawing.Point(162, 3);
             this.MediaPlayerHam.Name = "MediaPlayerHam";
             this.MediaPlayerHam.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("MediaPlayerHam.OcxState")));
-            this.MediaPlayerHam.Size = new System.Drawing.Size(202, 59);
+            this.MediaPlayerHam.Size = new System.Drawing.Size(151, 48);
             this.MediaPlayerHam.TabIndex = 1;
             this.MediaPlayerHam.Visible = false;
             // 
             // MediaPlayerEnd
             // 
             this.MediaPlayerEnd.Enabled = true;
-            this.MediaPlayerEnd.Location = new System.Drawing.Point(424, 4);
-            this.MediaPlayerEnd.Margin = new System.Windows.Forms.Padding(4);
+            this.MediaPlayerEnd.Location = new System.Drawing.Point(321, 3);
             this.MediaPlayerEnd.Name = "MediaPlayerEnd";
             this.MediaPlayerEnd.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("MediaPlayerEnd.OcxState")));
-            this.MediaPlayerEnd.Size = new System.Drawing.Size(202, 59);
+            this.MediaPlayerEnd.Size = new System.Drawing.Size(152, 48);
             this.MediaPlayerEnd.TabIndex = 2;
             this.MediaPlayerEnd.Visible = false;
             // 
@@ -262,11 +256,9 @@
             this.groupBox1.Controls.Add(this.picBox_Head);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox1.Location = new System.Drawing.Point(6, 83);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Location = new System.Drawing.Point(5, 67);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(630, 358);
+            this.groupBox1.Size = new System.Drawing.Size(479, 284);
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "机头撕裂照片";
@@ -275,10 +267,9 @@
             // 
             this.picBox_Head.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picBox_Head.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picBox_Head.Location = new System.Drawing.Point(4, 27);
-            this.picBox_Head.Margin = new System.Windows.Forms.Padding(4);
+            this.picBox_Head.Location = new System.Drawing.Point(3, 22);
             this.picBox_Head.Name = "picBox_Head";
-            this.picBox_Head.Size = new System.Drawing.Size(622, 327);
+            this.picBox_Head.Size = new System.Drawing.Size(473, 259);
             this.picBox_Head.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBox_Head.TabIndex = 0;
             this.picBox_Head.TabStop = false;
@@ -288,11 +279,9 @@
             this.groupBox2.Controls.Add(this.picBox_Ham);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox2.Location = new System.Drawing.Point(646, 83);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Location = new System.Drawing.Point(492, 67);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(630, 358);
+            this.groupBox2.Size = new System.Drawing.Size(479, 284);
             this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "重锤撕裂照片";
@@ -301,10 +290,9 @@
             // 
             this.picBox_Ham.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picBox_Ham.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picBox_Ham.Location = new System.Drawing.Point(4, 27);
-            this.picBox_Ham.Margin = new System.Windows.Forms.Padding(4);
+            this.picBox_Ham.Location = new System.Drawing.Point(3, 22);
             this.picBox_Ham.Name = "picBox_Ham";
-            this.picBox_Ham.Size = new System.Drawing.Size(622, 327);
+            this.picBox_Ham.Size = new System.Drawing.Size(473, 259);
             this.picBox_Ham.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBox_Ham.TabIndex = 0;
             this.picBox_Ham.TabStop = false;
@@ -315,11 +303,9 @@
             this.groupBox3.Controls.Add(this.picBox_End);
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox3.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox3.Location = new System.Drawing.Point(1286, 83);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox3.Location = new System.Drawing.Point(979, 67);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox3.Size = new System.Drawing.Size(632, 358);
+            this.groupBox3.Size = new System.Drawing.Size(480, 284);
             this.groupBox3.TabIndex = 15;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "机尾撕裂照片";
@@ -328,10 +314,9 @@
             // 
             this.picBox_End.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picBox_End.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picBox_End.Location = new System.Drawing.Point(4, 27);
-            this.picBox_End.Margin = new System.Windows.Forms.Padding(4);
+            this.picBox_End.Location = new System.Drawing.Point(3, 22);
             this.picBox_End.Name = "picBox_End";
-            this.picBox_End.Size = new System.Drawing.Size(624, 327);
+            this.picBox_End.Size = new System.Drawing.Size(474, 259);
             this.picBox_End.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBox_End.TabIndex = 0;
             this.picBox_End.TabStop = false;
@@ -341,11 +326,9 @@
             this.groupBox4.Controls.Add(this.listBox_Head);
             this.groupBox4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox4.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox4.Location = new System.Drawing.Point(6, 543);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox4.Location = new System.Drawing.Point(5, 433);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox4.Size = new System.Drawing.Size(630, 217);
+            this.groupBox4.Size = new System.Drawing.Size(479, 172);
             this.groupBox4.TabIndex = 16;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "机头照片候选框";
@@ -355,12 +338,11 @@
             this.listBox_Head.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBox_Head.Font = new System.Drawing.Font("宋体", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.listBox_Head.FormattingEnabled = true;
-            this.listBox_Head.ItemHeight = 27;
-            this.listBox_Head.Location = new System.Drawing.Point(4, 27);
-            this.listBox_Head.Margin = new System.Windows.Forms.Padding(4);
+            this.listBox_Head.ItemHeight = 21;
+            this.listBox_Head.Location = new System.Drawing.Point(3, 22);
             this.listBox_Head.Name = "listBox_Head";
             this.listBox_Head.ScrollAlwaysVisible = true;
-            this.listBox_Head.Size = new System.Drawing.Size(622, 186);
+            this.listBox_Head.Size = new System.Drawing.Size(473, 147);
             this.listBox_Head.TabIndex = 0;
             this.listBox_Head.SelectedIndexChanged += new System.EventHandler(this.listBox_Head_SelectedIndexChanged);
             // 
@@ -369,11 +351,9 @@
             this.groupBox5.Controls.Add(this.listBox_Ham);
             this.groupBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox5.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox5.Location = new System.Drawing.Point(646, 543);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox5.Location = new System.Drawing.Point(492, 433);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox5.Size = new System.Drawing.Size(630, 217);
+            this.groupBox5.Size = new System.Drawing.Size(479, 172);
             this.groupBox5.TabIndex = 17;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "重锤照片候选框";
@@ -383,12 +363,11 @@
             this.listBox_Ham.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBox_Ham.Font = new System.Drawing.Font("宋体", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.listBox_Ham.FormattingEnabled = true;
-            this.listBox_Ham.ItemHeight = 27;
-            this.listBox_Ham.Location = new System.Drawing.Point(4, 27);
-            this.listBox_Ham.Margin = new System.Windows.Forms.Padding(4);
+            this.listBox_Ham.ItemHeight = 21;
+            this.listBox_Ham.Location = new System.Drawing.Point(3, 22);
             this.listBox_Ham.Name = "listBox_Ham";
             this.listBox_Ham.ScrollAlwaysVisible = true;
-            this.listBox_Ham.Size = new System.Drawing.Size(622, 186);
+            this.listBox_Ham.Size = new System.Drawing.Size(473, 147);
             this.listBox_Ham.TabIndex = 0;
             this.listBox_Ham.SelectedIndexChanged += new System.EventHandler(this.listBox_Ham_SelectedIndexChanged);
             // 
@@ -397,11 +376,9 @@
             this.groupBox6.Controls.Add(this.listBox_End);
             this.groupBox6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox6.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox6.Location = new System.Drawing.Point(1286, 543);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox6.Location = new System.Drawing.Point(979, 433);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox6.Size = new System.Drawing.Size(632, 217);
+            this.groupBox6.Size = new System.Drawing.Size(480, 172);
             this.groupBox6.TabIndex = 18;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "机尾照片候选框";
@@ -411,12 +388,11 @@
             this.listBox_End.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBox_End.Font = new System.Drawing.Font("宋体", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.listBox_End.FormattingEnabled = true;
-            this.listBox_End.ItemHeight = 27;
-            this.listBox_End.Location = new System.Drawing.Point(4, 27);
-            this.listBox_End.Margin = new System.Windows.Forms.Padding(4);
+            this.listBox_End.ItemHeight = 21;
+            this.listBox_End.Location = new System.Drawing.Point(3, 22);
             this.listBox_End.Name = "listBox_End";
             this.listBox_End.ScrollAlwaysVisible = true;
-            this.listBox_End.Size = new System.Drawing.Size(624, 186);
+            this.listBox_End.Size = new System.Drawing.Size(474, 147);
             this.listBox_End.TabIndex = 0;
             this.listBox_End.SelectedIndexChanged += new System.EventHandler(this.listBox_End_SelectedIndexChanged);
             // 
@@ -425,11 +401,9 @@
             this.groupBox7.Controls.Add(this.txtBox_Head);
             this.groupBox7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox7.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox7.Location = new System.Drawing.Point(6, 770);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox7.Location = new System.Drawing.Point(5, 613);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox7.Size = new System.Drawing.Size(630, 151);
+            this.groupBox7.Size = new System.Drawing.Size(479, 121);
             this.groupBox7.TabIndex = 19;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "机头报警日志";
@@ -437,12 +411,11 @@
             // txtBox_Head
             // 
             this.txtBox_Head.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtBox_Head.Location = new System.Drawing.Point(4, 27);
-            this.txtBox_Head.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBox_Head.Location = new System.Drawing.Point(3, 22);
             this.txtBox_Head.Multiline = true;
             this.txtBox_Head.Name = "txtBox_Head";
             this.txtBox_Head.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtBox_Head.Size = new System.Drawing.Size(622, 120);
+            this.txtBox_Head.Size = new System.Drawing.Size(473, 96);
             this.txtBox_Head.TabIndex = 0;
             this.txtBox_Head.TextChanged += new System.EventHandler(this.txtBox_Head_TextChanged);
             // 
@@ -451,11 +424,9 @@
             this.groupBox8.Controls.Add(this.txtBox_Ham);
             this.groupBox8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox8.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox8.Location = new System.Drawing.Point(646, 770);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox8.Location = new System.Drawing.Point(492, 613);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox8.Size = new System.Drawing.Size(630, 151);
+            this.groupBox8.Size = new System.Drawing.Size(479, 121);
             this.groupBox8.TabIndex = 20;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "重锤报警日志";
@@ -463,12 +434,11 @@
             // txtBox_Ham
             // 
             this.txtBox_Ham.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtBox_Ham.Location = new System.Drawing.Point(4, 27);
-            this.txtBox_Ham.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBox_Ham.Location = new System.Drawing.Point(3, 22);
             this.txtBox_Ham.Multiline = true;
             this.txtBox_Ham.Name = "txtBox_Ham";
             this.txtBox_Ham.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtBox_Ham.Size = new System.Drawing.Size(622, 120);
+            this.txtBox_Ham.Size = new System.Drawing.Size(473, 96);
             this.txtBox_Ham.TabIndex = 0;
             this.txtBox_Ham.TextChanged += new System.EventHandler(this.txtBox_Ham_TextChanged);
             // 
@@ -477,11 +447,9 @@
             this.groupBox9.Controls.Add(this.txtBox_End);
             this.groupBox9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox9.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox9.Location = new System.Drawing.Point(1286, 770);
-            this.groupBox9.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox9.Location = new System.Drawing.Point(979, 613);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox9.Size = new System.Drawing.Size(632, 151);
+            this.groupBox9.Size = new System.Drawing.Size(480, 121);
             this.groupBox9.TabIndex = 21;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "机尾报警日志";
@@ -489,35 +457,33 @@
             // txtBox_End
             // 
             this.txtBox_End.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtBox_End.Location = new System.Drawing.Point(4, 27);
-            this.txtBox_End.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBox_End.Location = new System.Drawing.Point(3, 22);
             this.txtBox_End.Multiline = true;
             this.txtBox_End.Name = "txtBox_End";
             this.txtBox_End.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtBox_End.Size = new System.Drawing.Size(624, 120);
+            this.txtBox_End.Size = new System.Drawing.Size(474, 96);
             this.txtBox_End.TabIndex = 0;
             this.txtBox_End.TextChanged += new System.EventHandler(this.txtBox_End_TextChanged);
             // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 5;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.52204F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.36195F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 63F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.76112F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.9726F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.34247F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.88585F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 39F));
             this.tableLayoutPanel3.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.lbl_Head_State_01, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.lbl_Head_State_02, 2, 0);
             this.tableLayoutPanel3.Controls.Add(this.lbl_Head_State_03, 3, 0);
             this.tableLayoutPanel3.Controls.Add(this.picBox_Head_Light, 4, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(6, 491);
-            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(5, 391);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(630, 42);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(479, 34);
             this.tableLayoutPanel3.TabIndex = 25;
             // 
             // label1
@@ -525,10 +491,9 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(4, 8);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(3, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 25);
+            this.label1.Size = new System.Drawing.Size(104, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "相机状态:";
             // 
@@ -537,10 +502,9 @@
             this.lbl_Head_State_01.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_Head_State_01.AutoSize = true;
             this.lbl_Head_State_01.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Head_State_01.Location = new System.Drawing.Point(148, 8);
-            this.lbl_Head_State_01.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_Head_State_01.Location = new System.Drawing.Point(116, 7);
             this.lbl_Head_State_01.Name = "lbl_Head_State_01";
-            this.lbl_Head_State_01.Size = new System.Drawing.Size(116, 25);
+            this.lbl_Head_State_01.Size = new System.Drawing.Size(93, 20);
             this.lbl_Head_State_01.TabIndex = 1;
             this.lbl_Head_State_01.Text = "一号断开";
             // 
@@ -549,10 +513,9 @@
             this.lbl_Head_State_02.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_Head_State_02.AutoSize = true;
             this.lbl_Head_State_02.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Head_State_02.Location = new System.Drawing.Point(286, 8);
-            this.lbl_Head_State_02.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_Head_State_02.Location = new System.Drawing.Point(221, 7);
             this.lbl_Head_State_02.Name = "lbl_Head_State_02";
-            this.lbl_Head_State_02.Size = new System.Drawing.Size(116, 25);
+            this.lbl_Head_State_02.Size = new System.Drawing.Size(93, 20);
             this.lbl_Head_State_02.TabIndex = 2;
             this.lbl_Head_State_02.Text = "二号断开";
             // 
@@ -561,20 +524,18 @@
             this.lbl_Head_State_03.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_Head_State_03.AutoSize = true;
             this.lbl_Head_State_03.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Head_State_03.Location = new System.Drawing.Point(427, 8);
-            this.lbl_Head_State_03.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_Head_State_03.Location = new System.Drawing.Point(332, 7);
             this.lbl_Head_State_03.Name = "lbl_Head_State_03";
-            this.lbl_Head_State_03.Size = new System.Drawing.Size(116, 25);
+            this.lbl_Head_State_03.Size = new System.Drawing.Size(93, 20);
             this.lbl_Head_State_03.TabIndex = 3;
             this.lbl_Head_State_03.Text = "三号断开";
             // 
             // picBox_Head_Light
             // 
             this.picBox_Head_Light.Image = global::皮带跑偏与撕裂检测监控界面.Properties.Resources.g_1;
-            this.picBox_Head_Light.Location = new System.Drawing.Point(568, 4);
-            this.picBox_Head_Light.Margin = new System.Windows.Forms.Padding(4);
+            this.picBox_Head_Light.Location = new System.Drawing.Point(441, 3);
             this.picBox_Head_Light.Name = "picBox_Head_Light";
-            this.picBox_Head_Light.Size = new System.Drawing.Size(48, 34);
+            this.picBox_Head_Light.Size = new System.Drawing.Size(35, 27);
             this.picBox_Head_Light.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBox_Head_Light.TabIndex = 4;
             this.picBox_Head_Light.TabStop = false;
@@ -582,23 +543,22 @@
             // tableLayoutPanel4
             // 
             this.tableLayoutPanel4.ColumnCount = 5;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.51724F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.36782F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.76112F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.12178F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 63F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 52F));
             this.tableLayoutPanel4.Controls.Add(this.label5, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.lbl_Ham_State_01, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.lbl_Ham_State_02, 2, 0);
             this.tableLayoutPanel4.Controls.Add(this.lbl_Ham_State_03, 3, 0);
             this.tableLayoutPanel4.Controls.Add(this.picBox_Ham_Light, 4, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(646, 491);
-            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(4);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(492, 391);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(630, 42);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(479, 34);
             this.tableLayoutPanel4.TabIndex = 26;
             // 
             // label5
@@ -606,10 +566,9 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(4, 8);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(3, 7);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(130, 25);
+            this.label5.Size = new System.Drawing.Size(104, 20);
             this.label5.TabIndex = 0;
             this.label5.Text = "相机状态:";
             // 
@@ -618,10 +577,9 @@
             this.lbl_Ham_State_01.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_Ham_State_01.AutoSize = true;
             this.lbl_Ham_State_01.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Ham_State_01.Location = new System.Drawing.Point(148, 8);
-            this.lbl_Ham_State_01.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_Ham_State_01.Location = new System.Drawing.Point(113, 7);
             this.lbl_Ham_State_01.Name = "lbl_Ham_State_01";
-            this.lbl_Ham_State_01.Size = new System.Drawing.Size(116, 25);
+            this.lbl_Ham_State_01.Size = new System.Drawing.Size(93, 20);
             this.lbl_Ham_State_01.TabIndex = 1;
             this.lbl_Ham_State_01.Text = "一号断开";
             // 
@@ -630,10 +588,9 @@
             this.lbl_Ham_State_02.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_Ham_State_02.AutoSize = true;
             this.lbl_Ham_State_02.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Ham_State_02.Location = new System.Drawing.Point(286, 8);
-            this.lbl_Ham_State_02.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_Ham_State_02.Location = new System.Drawing.Point(216, 7);
             this.lbl_Ham_State_02.Name = "lbl_Ham_State_02";
-            this.lbl_Ham_State_02.Size = new System.Drawing.Size(116, 25);
+            this.lbl_Ham_State_02.Size = new System.Drawing.Size(93, 20);
             this.lbl_Ham_State_02.TabIndex = 2;
             this.lbl_Ham_State_02.Text = "二号断开";
             // 
@@ -642,20 +599,18 @@
             this.lbl_Ham_State_03.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_Ham_State_03.AutoSize = true;
             this.lbl_Ham_State_03.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Ham_State_03.Location = new System.Drawing.Point(427, 8);
-            this.lbl_Ham_State_03.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_Ham_State_03.Location = new System.Drawing.Point(322, 7);
             this.lbl_Ham_State_03.Name = "lbl_Ham_State_03";
-            this.lbl_Ham_State_03.Size = new System.Drawing.Size(116, 25);
+            this.lbl_Ham_State_03.Size = new System.Drawing.Size(93, 20);
             this.lbl_Ham_State_03.TabIndex = 3;
             this.lbl_Ham_State_03.Text = "三号断开";
             // 
             // picBox_Ham_Light
             // 
             this.picBox_Ham_Light.Image = global::皮带跑偏与撕裂检测监控界面.Properties.Resources.g_1;
-            this.picBox_Ham_Light.Location = new System.Drawing.Point(568, 4);
-            this.picBox_Ham_Light.Margin = new System.Windows.Forms.Padding(4);
+            this.picBox_Ham_Light.Location = new System.Drawing.Point(428, 3);
             this.picBox_Ham_Light.Name = "picBox_Ham_Light";
-            this.picBox_Ham_Light.Size = new System.Drawing.Size(48, 34);
+            this.picBox_Ham_Light.Size = new System.Drawing.Size(36, 27);
             this.picBox_Ham_Light.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBox_Ham_Light.TabIndex = 4;
             this.picBox_Ham_Light.TabStop = false;
@@ -663,23 +618,22 @@
             // tableLayoutPanel5
             // 
             this.tableLayoutPanel5.ColumnCount = 5;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.45872F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.54128F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.93458F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.06542F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 63F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 52F));
             this.tableLayoutPanel5.Controls.Add(this.label9, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.lbl_End_State_01, 1, 0);
             this.tableLayoutPanel5.Controls.Add(this.lbl_End_State_02, 2, 0);
             this.tableLayoutPanel5.Controls.Add(this.lbl_End_State_03, 3, 0);
             this.tableLayoutPanel5.Controls.Add(this.picBox_End_Light, 4, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(1286, 491);
-            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(4);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(979, 391);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(632, 42);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(480, 34);
             this.tableLayoutPanel5.TabIndex = 27;
             // 
             // label9
@@ -687,10 +641,9 @@
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label9.Location = new System.Drawing.Point(4, 8);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(3, 7);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(130, 25);
+            this.label9.Size = new System.Drawing.Size(104, 20);
             this.label9.TabIndex = 0;
             this.label9.Text = "相机状态:";
             // 
@@ -699,10 +652,9 @@
             this.lbl_End_State_01.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_End_State_01.AutoSize = true;
             this.lbl_End_State_01.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_End_State_01.Location = new System.Drawing.Point(148, 8);
-            this.lbl_End_State_01.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_End_State_01.Location = new System.Drawing.Point(114, 7);
             this.lbl_End_State_01.Name = "lbl_End_State_01";
-            this.lbl_End_State_01.Size = new System.Drawing.Size(116, 25);
+            this.lbl_End_State_01.Size = new System.Drawing.Size(93, 20);
             this.lbl_End_State_01.TabIndex = 1;
             this.lbl_End_State_01.Text = "一号断开";
             // 
@@ -711,10 +663,9 @@
             this.lbl_End_State_02.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_End_State_02.AutoSize = true;
             this.lbl_End_State_02.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_End_State_02.Location = new System.Drawing.Point(287, 8);
-            this.lbl_End_State_02.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_End_State_02.Location = new System.Drawing.Point(216, 7);
             this.lbl_End_State_02.Name = "lbl_End_State_02";
-            this.lbl_End_State_02.Size = new System.Drawing.Size(116, 25);
+            this.lbl_End_State_02.Size = new System.Drawing.Size(93, 20);
             this.lbl_End_State_02.TabIndex = 2;
             this.lbl_End_State_02.Text = "二号断开";
             // 
@@ -723,20 +674,18 @@
             this.lbl_End_State_03.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_End_State_03.AutoSize = true;
             this.lbl_End_State_03.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_End_State_03.Location = new System.Drawing.Point(429, 8);
-            this.lbl_End_State_03.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_End_State_03.Location = new System.Drawing.Point(323, 7);
             this.lbl_End_State_03.Name = "lbl_End_State_03";
-            this.lbl_End_State_03.Size = new System.Drawing.Size(116, 25);
+            this.lbl_End_State_03.Size = new System.Drawing.Size(93, 20);
             this.lbl_End_State_03.TabIndex = 3;
             this.lbl_End_State_03.Text = "三号断开";
             // 
             // picBox_End_Light
             // 
             this.picBox_End_Light.Image = global::皮带跑偏与撕裂检测监控界面.Properties.Resources.g_1;
-            this.picBox_End_Light.Location = new System.Drawing.Point(571, 4);
-            this.picBox_End_Light.Margin = new System.Windows.Forms.Padding(4);
+            this.picBox_End_Light.Location = new System.Drawing.Point(430, 3);
             this.picBox_End_Light.Name = "picBox_End_Light";
-            this.picBox_End_Light.Size = new System.Drawing.Size(49, 34);
+            this.picBox_End_Light.Size = new System.Drawing.Size(37, 27);
             this.picBox_End_Light.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBox_End_Light.TabIndex = 4;
             this.picBox_End_Light.TabStop = false;
@@ -753,22 +702,20 @@
             this.tableLayoutPanel6.Controls.Add(this.btn_Head_StopFlicker, 2, 0);
             this.tableLayoutPanel6.Controls.Add(this.btn_Head_Reset, 3, 0);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(6, 931);
-            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(4);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(5, 742);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 1;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(630, 49);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(479, 39);
             this.tableLayoutPanel6.TabIndex = 28;
             // 
             // btn_Head_Connect
             // 
             this.btn_Head_Connect.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_Head_Connect.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_Head_Connect.Location = new System.Drawing.Point(4, 4);
-            this.btn_Head_Connect.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Head_Connect.Location = new System.Drawing.Point(3, 3);
             this.btn_Head_Connect.Name = "btn_Head_Connect";
-            this.btn_Head_Connect.Size = new System.Drawing.Size(149, 41);
+            this.btn_Head_Connect.Size = new System.Drawing.Size(113, 33);
             this.btn_Head_Connect.TabIndex = 0;
             this.btn_Head_Connect.Text = "连接";
             this.btn_Head_Connect.UseVisualStyleBackColor = true;
@@ -778,10 +725,9 @@
             // 
             this.btn_Head_Sound.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_Head_Sound.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_Head_Sound.Location = new System.Drawing.Point(161, 4);
-            this.btn_Head_Sound.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Head_Sound.Location = new System.Drawing.Point(122, 3);
             this.btn_Head_Sound.Name = "btn_Head_Sound";
-            this.btn_Head_Sound.Size = new System.Drawing.Size(149, 41);
+            this.btn_Head_Sound.Size = new System.Drawing.Size(113, 33);
             this.btn_Head_Sound.TabIndex = 1;
             this.btn_Head_Sound.Text = "静音";
             this.btn_Head_Sound.UseVisualStyleBackColor = true;
@@ -791,10 +737,9 @@
             // 
             this.btn_Head_StopFlicker.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_Head_StopFlicker.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_Head_StopFlicker.Location = new System.Drawing.Point(318, 4);
-            this.btn_Head_StopFlicker.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Head_StopFlicker.Location = new System.Drawing.Point(241, 3);
             this.btn_Head_StopFlicker.Name = "btn_Head_StopFlicker";
-            this.btn_Head_StopFlicker.Size = new System.Drawing.Size(149, 41);
+            this.btn_Head_StopFlicker.Size = new System.Drawing.Size(113, 33);
             this.btn_Head_StopFlicker.TabIndex = 2;
             this.btn_Head_StopFlicker.Text = "停闪";
             this.btn_Head_StopFlicker.UseVisualStyleBackColor = true;
@@ -804,10 +749,9 @@
             // 
             this.btn_Head_Reset.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_Head_Reset.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_Head_Reset.Location = new System.Drawing.Point(475, 4);
-            this.btn_Head_Reset.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Head_Reset.Location = new System.Drawing.Point(360, 3);
             this.btn_Head_Reset.Name = "btn_Head_Reset";
-            this.btn_Head_Reset.Size = new System.Drawing.Size(151, 41);
+            this.btn_Head_Reset.Size = new System.Drawing.Size(116, 33);
             this.btn_Head_Reset.TabIndex = 3;
             this.btn_Head_Reset.Text = "复位";
             this.btn_Head_Reset.UseVisualStyleBackColor = true;
@@ -825,22 +769,20 @@
             this.tableLayoutPanel7.Controls.Add(this.btn_Ham_StopFlicker, 2, 0);
             this.tableLayoutPanel7.Controls.Add(this.btn_Ham_Reset, 3, 0);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(646, 931);
-            this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(4);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(492, 742);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 1;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(630, 49);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(479, 39);
             this.tableLayoutPanel7.TabIndex = 29;
             // 
             // btn_Ham_Connect
             // 
             this.btn_Ham_Connect.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_Ham_Connect.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_Ham_Connect.Location = new System.Drawing.Point(4, 4);
-            this.btn_Ham_Connect.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Ham_Connect.Location = new System.Drawing.Point(3, 3);
             this.btn_Ham_Connect.Name = "btn_Ham_Connect";
-            this.btn_Ham_Connect.Size = new System.Drawing.Size(149, 41);
+            this.btn_Ham_Connect.Size = new System.Drawing.Size(113, 33);
             this.btn_Ham_Connect.TabIndex = 0;
             this.btn_Ham_Connect.Text = "连接";
             this.btn_Ham_Connect.UseVisualStyleBackColor = true;
@@ -850,10 +792,9 @@
             // 
             this.btn_Ham_Sound.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_Ham_Sound.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_Ham_Sound.Location = new System.Drawing.Point(161, 4);
-            this.btn_Ham_Sound.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Ham_Sound.Location = new System.Drawing.Point(122, 3);
             this.btn_Ham_Sound.Name = "btn_Ham_Sound";
-            this.btn_Ham_Sound.Size = new System.Drawing.Size(149, 41);
+            this.btn_Ham_Sound.Size = new System.Drawing.Size(113, 33);
             this.btn_Ham_Sound.TabIndex = 1;
             this.btn_Ham_Sound.Text = "静音";
             this.btn_Ham_Sound.UseVisualStyleBackColor = true;
@@ -863,10 +804,9 @@
             // 
             this.btn_Ham_StopFlicker.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_Ham_StopFlicker.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_Ham_StopFlicker.Location = new System.Drawing.Point(318, 4);
-            this.btn_Ham_StopFlicker.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Ham_StopFlicker.Location = new System.Drawing.Point(241, 3);
             this.btn_Ham_StopFlicker.Name = "btn_Ham_StopFlicker";
-            this.btn_Ham_StopFlicker.Size = new System.Drawing.Size(149, 41);
+            this.btn_Ham_StopFlicker.Size = new System.Drawing.Size(113, 33);
             this.btn_Ham_StopFlicker.TabIndex = 2;
             this.btn_Ham_StopFlicker.Text = "停闪";
             this.btn_Ham_StopFlicker.UseVisualStyleBackColor = true;
@@ -876,10 +816,9 @@
             // 
             this.btn_Ham_Reset.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_Ham_Reset.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_Ham_Reset.Location = new System.Drawing.Point(475, 4);
-            this.btn_Ham_Reset.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Ham_Reset.Location = new System.Drawing.Point(360, 3);
             this.btn_Ham_Reset.Name = "btn_Ham_Reset";
-            this.btn_Ham_Reset.Size = new System.Drawing.Size(151, 41);
+            this.btn_Ham_Reset.Size = new System.Drawing.Size(116, 33);
             this.btn_Ham_Reset.TabIndex = 3;
             this.btn_Ham_Reset.Text = "复位";
             this.btn_Ham_Reset.UseVisualStyleBackColor = true;
@@ -897,22 +836,20 @@
             this.tableLayoutPanel8.Controls.Add(this.btn_End_StopFlicker, 2, 0);
             this.tableLayoutPanel8.Controls.Add(this.btn_End_Reset, 3, 0);
             this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(1286, 931);
-            this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(4);
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(979, 742);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.tableLayoutPanel8.RowCount = 1;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(632, 49);
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(480, 39);
             this.tableLayoutPanel8.TabIndex = 30;
             // 
             // btn_End_Connect
             // 
             this.btn_End_Connect.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_End_Connect.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_End_Connect.Location = new System.Drawing.Point(4, 4);
-            this.btn_End_Connect.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_End_Connect.Location = new System.Drawing.Point(3, 3);
             this.btn_End_Connect.Name = "btn_End_Connect";
-            this.btn_End_Connect.Size = new System.Drawing.Size(150, 41);
+            this.btn_End_Connect.Size = new System.Drawing.Size(114, 33);
             this.btn_End_Connect.TabIndex = 0;
             this.btn_End_Connect.Text = "连接";
             this.btn_End_Connect.UseVisualStyleBackColor = true;
@@ -922,10 +859,9 @@
             // 
             this.btn_End_Sound.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_End_Sound.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_End_Sound.Location = new System.Drawing.Point(162, 4);
-            this.btn_End_Sound.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_End_Sound.Location = new System.Drawing.Point(123, 3);
             this.btn_End_Sound.Name = "btn_End_Sound";
-            this.btn_End_Sound.Size = new System.Drawing.Size(150, 41);
+            this.btn_End_Sound.Size = new System.Drawing.Size(114, 33);
             this.btn_End_Sound.TabIndex = 1;
             this.btn_End_Sound.Text = "静音";
             this.btn_End_Sound.UseVisualStyleBackColor = true;
@@ -935,10 +871,9 @@
             // 
             this.btn_End_StopFlicker.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_End_StopFlicker.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_End_StopFlicker.Location = new System.Drawing.Point(320, 4);
-            this.btn_End_StopFlicker.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_End_StopFlicker.Location = new System.Drawing.Point(243, 3);
             this.btn_End_StopFlicker.Name = "btn_End_StopFlicker";
-            this.btn_End_StopFlicker.Size = new System.Drawing.Size(150, 41);
+            this.btn_End_StopFlicker.Size = new System.Drawing.Size(114, 33);
             this.btn_End_StopFlicker.TabIndex = 2;
             this.btn_End_StopFlicker.Text = "停闪";
             this.btn_End_StopFlicker.UseVisualStyleBackColor = true;
@@ -948,169 +883,13 @@
             // 
             this.btn_End_Reset.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_End_Reset.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_End_Reset.Location = new System.Drawing.Point(478, 4);
-            this.btn_End_Reset.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_End_Reset.Location = new System.Drawing.Point(363, 3);
             this.btn_End_Reset.Name = "btn_End_Reset";
-            this.btn_End_Reset.Size = new System.Drawing.Size(150, 41);
+            this.btn_End_Reset.Size = new System.Drawing.Size(114, 33);
             this.btn_End_Reset.TabIndex = 3;
             this.btn_End_Reset.Text = "复位";
             this.btn_End_Reset.UseVisualStyleBackColor = true;
             this.btn_End_Reset.Click += new System.EventHandler(this.btn_End_Reset_Click);
-            // 
-            // menuStrip_Main
-            // 
-            this.menuStrip_Main.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip_Main.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.查看日志ToolStripMenuItem,
-            this.报警音设置ToolStripMenuItem,
-            this.清空照片ToolStripMenuItem,
-            this.清空照片候选框ToolStripMenuItem,
-            this.清空日志ToolStripMenuItem});
-            this.menuStrip_Main.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip_Main.Name = "menuStrip_Main";
-            this.menuStrip_Main.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip_Main.Size = new System.Drawing.Size(1924, 28);
-            this.menuStrip_Main.TabIndex = 1;
-            this.menuStrip_Main.Text = "menuStrip1";
-            // 
-            // 查看日志ToolStripMenuItem
-            // 
-            this.查看日志ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.打开日志文件夹ToolStripMenuItem});
-            this.查看日志ToolStripMenuItem.Name = "查看日志ToolStripMenuItem";
-            this.查看日志ToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
-            this.查看日志ToolStripMenuItem.Text = "查看日志";
-            // 
-            // 打开日志文件夹ToolStripMenuItem
-            // 
-            this.打开日志文件夹ToolStripMenuItem.Name = "打开日志文件夹ToolStripMenuItem";
-            this.打开日志文件夹ToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
-            this.打开日志文件夹ToolStripMenuItem.Text = "打开日志文件夹";
-            this.打开日志文件夹ToolStripMenuItem.Click += new System.EventHandler(this.打开日志文件夹ToolStripMenuItem_Click);
-            // 
-            // 报警音设置ToolStripMenuItem
-            // 
-            this.报警音设置ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.机头撕裂报警音设置ToolStripMenuItem,
-            this.重锤撕裂报警音设置ToolStripMenuItem,
-            this.机尾撕裂报警音设置ToolStripMenuItem});
-            this.报警音设置ToolStripMenuItem.Name = "报警音设置ToolStripMenuItem";
-            this.报警音设置ToolStripMenuItem.Size = new System.Drawing.Size(96, 24);
-            this.报警音设置ToolStripMenuItem.Text = "报警音设置";
-            // 
-            // 机头撕裂报警音设置ToolStripMenuItem
-            // 
-            this.机头撕裂报警音设置ToolStripMenuItem.Name = "机头撕裂报警音设置ToolStripMenuItem";
-            this.机头撕裂报警音设置ToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
-            this.机头撕裂报警音设置ToolStripMenuItem.Text = "机头撕裂报警音设置";
-            this.机头撕裂报警音设置ToolStripMenuItem.Click += new System.EventHandler(this.机头撕裂报警音设置ToolStripMenuItem_Click);
-            // 
-            // 重锤撕裂报警音设置ToolStripMenuItem
-            // 
-            this.重锤撕裂报警音设置ToolStripMenuItem.Name = "重锤撕裂报警音设置ToolStripMenuItem";
-            this.重锤撕裂报警音设置ToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
-            this.重锤撕裂报警音设置ToolStripMenuItem.Text = "重锤撕裂报警音设置";
-            this.重锤撕裂报警音设置ToolStripMenuItem.Click += new System.EventHandler(this.重锤撕裂报警音设置ToolStripMenuItem_Click);
-            // 
-            // 机尾撕裂报警音设置ToolStripMenuItem
-            // 
-            this.机尾撕裂报警音设置ToolStripMenuItem.Name = "机尾撕裂报警音设置ToolStripMenuItem";
-            this.机尾撕裂报警音设置ToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
-            this.机尾撕裂报警音设置ToolStripMenuItem.Text = "机尾撕裂报警音设置";
-            this.机尾撕裂报警音设置ToolStripMenuItem.Click += new System.EventHandler(this.机尾撕裂报警音设置ToolStripMenuItem_Click);
-            // 
-            // 清空照片ToolStripMenuItem
-            // 
-            this.清空照片ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.清空机头照片ToolStripMenuItem,
-            this.清空重锤照片ToolStripMenuItem,
-            this.清空机尾照片ToolStripMenuItem});
-            this.清空照片ToolStripMenuItem.Name = "清空照片ToolStripMenuItem";
-            this.清空照片ToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
-            this.清空照片ToolStripMenuItem.Text = "清空照片";
-            // 
-            // 清空机头照片ToolStripMenuItem
-            // 
-            this.清空机头照片ToolStripMenuItem.Name = "清空机头照片ToolStripMenuItem";
-            this.清空机头照片ToolStripMenuItem.Size = new System.Drawing.Size(174, 26);
-            this.清空机头照片ToolStripMenuItem.Text = "清空机头照片";
-            this.清空机头照片ToolStripMenuItem.Click += new System.EventHandler(this.清空机头照片ToolStripMenuItem_Click);
-            // 
-            // 清空重锤照片ToolStripMenuItem
-            // 
-            this.清空重锤照片ToolStripMenuItem.Name = "清空重锤照片ToolStripMenuItem";
-            this.清空重锤照片ToolStripMenuItem.Size = new System.Drawing.Size(174, 26);
-            this.清空重锤照片ToolStripMenuItem.Text = "清空重锤照片";
-            this.清空重锤照片ToolStripMenuItem.Click += new System.EventHandler(this.清空重锤照片ToolStripMenuItem_Click);
-            // 
-            // 清空机尾照片ToolStripMenuItem
-            // 
-            this.清空机尾照片ToolStripMenuItem.Name = "清空机尾照片ToolStripMenuItem";
-            this.清空机尾照片ToolStripMenuItem.Size = new System.Drawing.Size(174, 26);
-            this.清空机尾照片ToolStripMenuItem.Text = "清空机尾照片";
-            this.清空机尾照片ToolStripMenuItem.Click += new System.EventHandler(this.清空机尾照片ToolStripMenuItem_Click);
-            // 
-            // 清空照片候选框ToolStripMenuItem
-            // 
-            this.清空照片候选框ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.清空机头照片候选框ToolStripMenuItem,
-            this.清空重锤照片候选框ToolStripMenuItem,
-            this.清空机尾照片候选框ToolStripMenuItem});
-            this.清空照片候选框ToolStripMenuItem.Name = "清空照片候选框ToolStripMenuItem";
-            this.清空照片候选框ToolStripMenuItem.Size = new System.Drawing.Size(126, 24);
-            this.清空照片候选框ToolStripMenuItem.Text = "清空照片候选框";
-            // 
-            // 清空机头照片候选框ToolStripMenuItem
-            // 
-            this.清空机头照片候选框ToolStripMenuItem.Name = "清空机头照片候选框ToolStripMenuItem";
-            this.清空机头照片候选框ToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
-            this.清空机头照片候选框ToolStripMenuItem.Text = "清空机头照片候选框";
-            this.清空机头照片候选框ToolStripMenuItem.Click += new System.EventHandler(this.清空机头照片候选框ToolStripMenuItem_Click);
-            // 
-            // 清空重锤照片候选框ToolStripMenuItem
-            // 
-            this.清空重锤照片候选框ToolStripMenuItem.Name = "清空重锤照片候选框ToolStripMenuItem";
-            this.清空重锤照片候选框ToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
-            this.清空重锤照片候选框ToolStripMenuItem.Text = "清空重锤照片候选框";
-            this.清空重锤照片候选框ToolStripMenuItem.Click += new System.EventHandler(this.清空重锤照片候选框ToolStripMenuItem_Click);
-            // 
-            // 清空机尾照片候选框ToolStripMenuItem
-            // 
-            this.清空机尾照片候选框ToolStripMenuItem.Name = "清空机尾照片候选框ToolStripMenuItem";
-            this.清空机尾照片候选框ToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
-            this.清空机尾照片候选框ToolStripMenuItem.Text = "清空机尾照片候选框";
-            this.清空机尾照片候选框ToolStripMenuItem.Click += new System.EventHandler(this.清空机尾照片候选框ToolStripMenuItem_Click);
-            // 
-            // 清空日志ToolStripMenuItem
-            // 
-            this.清空日志ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.清空机头报警日志ToolStripMenuItem,
-            this.清空重锤报警日志ToolStripMenuItem,
-            this.清空机尾报警日志ToolStripMenuItem});
-            this.清空日志ToolStripMenuItem.Name = "清空日志ToolStripMenuItem";
-            this.清空日志ToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
-            this.清空日志ToolStripMenuItem.Text = "清空日志";
-            // 
-            // 清空机头报警日志ToolStripMenuItem
-            // 
-            this.清空机头报警日志ToolStripMenuItem.Name = "清空机头报警日志ToolStripMenuItem";
-            this.清空机头报警日志ToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
-            this.清空机头报警日志ToolStripMenuItem.Text = "清空机头报警日志";
-            this.清空机头报警日志ToolStripMenuItem.Click += new System.EventHandler(this.清空机头报警日志ToolStripMenuItem_Click);
-            // 
-            // 清空重锤报警日志ToolStripMenuItem
-            // 
-            this.清空重锤报警日志ToolStripMenuItem.Name = "清空重锤报警日志ToolStripMenuItem";
-            this.清空重锤报警日志ToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
-            this.清空重锤报警日志ToolStripMenuItem.Text = "清空重锤报警日志";
-            this.清空重锤报警日志ToolStripMenuItem.Click += new System.EventHandler(this.清空重锤报警日志ToolStripMenuItem_Click);
-            // 
-            // 清空机尾报警日志ToolStripMenuItem
-            // 
-            this.清空机尾报警日志ToolStripMenuItem.Name = "清空机尾报警日志ToolStripMenuItem";
-            this.清空机尾报警日志ToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
-            this.清空机尾报警日志ToolStripMenuItem.Text = "清空机尾报警日志";
-            this.清空机尾报警日志ToolStripMenuItem.Click += new System.EventHandler(this.清空机尾报警日志ToolStripMenuItem_Click);
             // 
             // tableLayoutPanel9
             // 
@@ -1124,32 +903,61 @@
             this.tableLayoutPanel9.Controls.Add(this.lbl_Head_Receive02, 2, 0);
             this.tableLayoutPanel9.Controls.Add(this.lbl_Head_Receive03, 3, 0);
             this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(5, 450);
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(4, 358);
+            this.tableLayoutPanel9.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel9.Name = "tableLayoutPanel9";
             this.tableLayoutPanel9.RowCount = 1;
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(632, 32);
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(481, 26);
             this.tableLayoutPanel9.TabIndex = 31;
             // 
-            // tableLayoutPanel10
+            // label2
             // 
-            this.tableLayoutPanel10.ColumnCount = 4;
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel10.Controls.Add(this.label7, 0, 0);
-            this.tableLayoutPanel10.Controls.Add(this.lbl_Ham_Receive01, 1, 0);
-            this.tableLayoutPanel10.Controls.Add(this.lbl_Ham_Receive02, 2, 0);
-            this.tableLayoutPanel10.Controls.Add(this.lbl_Ham_Receive03, 3, 0);
-            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(645, 450);
-            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
-            this.tableLayoutPanel10.RowCount = 1;
-            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(632, 32);
-            this.tableLayoutPanel10.TabIndex = 32;
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Location = new System.Drawing.Point(2, 3);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(114, 20);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "照片接收：";
+            // 
+            // lbl_Head_Receive01
+            // 
+            this.lbl_Head_Receive01.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lbl_Head_Receive01.AutoSize = true;
+            this.lbl_Head_Receive01.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lbl_Head_Receive01.Location = new System.Drawing.Point(207, 3);
+            this.lbl_Head_Receive01.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_Head_Receive01.Name = "lbl_Head_Receive01";
+            this.lbl_Head_Receive01.Size = new System.Drawing.Size(31, 20);
+            this.lbl_Head_Receive01.TabIndex = 1;
+            this.lbl_Head_Receive01.Text = "0%";
+            // 
+            // lbl_Head_Receive02
+            // 
+            this.lbl_Head_Receive02.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lbl_Head_Receive02.AutoSize = true;
+            this.lbl_Head_Receive02.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lbl_Head_Receive02.Location = new System.Drawing.Point(327, 3);
+            this.lbl_Head_Receive02.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_Head_Receive02.Name = "lbl_Head_Receive02";
+            this.lbl_Head_Receive02.Size = new System.Drawing.Size(31, 20);
+            this.lbl_Head_Receive02.TabIndex = 2;
+            this.lbl_Head_Receive02.Text = "0%";
+            // 
+            // lbl_Head_Receive03
+            // 
+            this.lbl_Head_Receive03.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lbl_Head_Receive03.AutoSize = true;
+            this.lbl_Head_Receive03.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lbl_Head_Receive03.Location = new System.Drawing.Point(448, 3);
+            this.lbl_Head_Receive03.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_Head_Receive03.Name = "lbl_Head_Receive03";
+            this.lbl_Head_Receive03.Size = new System.Drawing.Size(31, 20);
+            this.lbl_Head_Receive03.TabIndex = 3;
+            this.lbl_Head_Receive03.Text = "0%";
             // 
             // tableLayoutPanel11
             // 
@@ -1163,110 +971,24 @@
             this.tableLayoutPanel11.Controls.Add(this.lbl_End_Receive02, 2, 0);
             this.tableLayoutPanel11.Controls.Add(this.lbl_End_Receive03, 3, 0);
             this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(1285, 450);
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(978, 358);
+            this.tableLayoutPanel11.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel11.Name = "tableLayoutPanel11";
             this.tableLayoutPanel11.RowCount = 1;
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(634, 32);
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(482, 26);
             this.tableLayoutPanel11.TabIndex = 33;
-            // 
-            // label2
-            // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(3, 3);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(142, 25);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "照片接收：";
-            // 
-            // lbl_Head_Receive01
-            // 
-            this.lbl_Head_Receive01.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lbl_Head_Receive01.AutoSize = true;
-            this.lbl_Head_Receive01.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Head_Receive01.Location = new System.Drawing.Point(273, 3);
-            this.lbl_Head_Receive01.Name = "lbl_Head_Receive01";
-            this.lbl_Head_Receive01.Size = new System.Drawing.Size(40, 25);
-            this.lbl_Head_Receive01.TabIndex = 1;
-            this.lbl_Head_Receive01.Text = "0%";
-            // 
-            // lbl_Head_Receive02
-            // 
-            this.lbl_Head_Receive02.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lbl_Head_Receive02.AutoSize = true;
-            this.lbl_Head_Receive02.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Head_Receive02.Location = new System.Drawing.Point(431, 3);
-            this.lbl_Head_Receive02.Name = "lbl_Head_Receive02";
-            this.lbl_Head_Receive02.Size = new System.Drawing.Size(40, 25);
-            this.lbl_Head_Receive02.TabIndex = 2;
-            this.lbl_Head_Receive02.Text = "0%";
-            // 
-            // lbl_Head_Receive03
-            // 
-            this.lbl_Head_Receive03.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lbl_Head_Receive03.AutoSize = true;
-            this.lbl_Head_Receive03.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Head_Receive03.Location = new System.Drawing.Point(589, 3);
-            this.lbl_Head_Receive03.Name = "lbl_Head_Receive03";
-            this.lbl_Head_Receive03.Size = new System.Drawing.Size(40, 25);
-            this.lbl_Head_Receive03.TabIndex = 3;
-            this.lbl_Head_Receive03.Text = "0%";
-            // 
-            // label7
-            // 
-            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label7.Location = new System.Drawing.Point(3, 3);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(142, 25);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "照片接收：";
-            // 
-            // lbl_Ham_Receive01
-            // 
-            this.lbl_Ham_Receive01.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lbl_Ham_Receive01.AutoSize = true;
-            this.lbl_Ham_Receive01.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Ham_Receive01.Location = new System.Drawing.Point(273, 3);
-            this.lbl_Ham_Receive01.Name = "lbl_Ham_Receive01";
-            this.lbl_Ham_Receive01.Size = new System.Drawing.Size(40, 25);
-            this.lbl_Ham_Receive01.TabIndex = 1;
-            this.lbl_Ham_Receive01.Text = "0%";
-            // 
-            // lbl_Ham_Receive02
-            // 
-            this.lbl_Ham_Receive02.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lbl_Ham_Receive02.AutoSize = true;
-            this.lbl_Ham_Receive02.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Ham_Receive02.Location = new System.Drawing.Point(431, 3);
-            this.lbl_Ham_Receive02.Name = "lbl_Ham_Receive02";
-            this.lbl_Ham_Receive02.Size = new System.Drawing.Size(40, 25);
-            this.lbl_Ham_Receive02.TabIndex = 2;
-            this.lbl_Ham_Receive02.Text = "0%";
-            // 
-            // lbl_Ham_Receive03
-            // 
-            this.lbl_Ham_Receive03.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lbl_Ham_Receive03.AutoSize = true;
-            this.lbl_Ham_Receive03.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Ham_Receive03.Location = new System.Drawing.Point(589, 3);
-            this.lbl_Ham_Receive03.Name = "lbl_Ham_Receive03";
-            this.lbl_Ham_Receive03.Size = new System.Drawing.Size(40, 25);
-            this.lbl_Ham_Receive03.TabIndex = 3;
-            this.lbl_Ham_Receive03.Text = "0%";
             // 
             // label12
             // 
             this.label12.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label12.Location = new System.Drawing.Point(3, 3);
+            this.label12.Location = new System.Drawing.Point(2, 3);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(142, 25);
+            this.label12.Size = new System.Drawing.Size(114, 20);
             this.label12.TabIndex = 0;
             this.label12.Text = "照片接收：";
             // 
@@ -1275,9 +997,10 @@
             this.lbl_End_Receive01.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lbl_End_Receive01.AutoSize = true;
             this.lbl_End_Receive01.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_End_Receive01.Location = new System.Drawing.Point(273, 3);
+            this.lbl_End_Receive01.Location = new System.Drawing.Point(207, 3);
+            this.lbl_End_Receive01.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_End_Receive01.Name = "lbl_End_Receive01";
-            this.lbl_End_Receive01.Size = new System.Drawing.Size(40, 25);
+            this.lbl_End_Receive01.Size = new System.Drawing.Size(31, 20);
             this.lbl_End_Receive01.TabIndex = 1;
             this.lbl_End_Receive01.Text = "0%";
             // 
@@ -1286,9 +1009,10 @@
             this.lbl_End_Receive02.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lbl_End_Receive02.AutoSize = true;
             this.lbl_End_Receive02.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_End_Receive02.Location = new System.Drawing.Point(431, 3);
+            this.lbl_End_Receive02.Location = new System.Drawing.Point(327, 3);
+            this.lbl_End_Receive02.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_End_Receive02.Name = "lbl_End_Receive02";
-            this.lbl_End_Receive02.Size = new System.Drawing.Size(40, 25);
+            this.lbl_End_Receive02.Size = new System.Drawing.Size(31, 20);
             this.lbl_End_Receive02.TabIndex = 2;
             this.lbl_End_Receive02.Text = "0%";
             // 
@@ -1297,21 +1021,244 @@
             this.lbl_End_Receive03.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lbl_End_Receive03.AutoSize = true;
             this.lbl_End_Receive03.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_End_Receive03.Location = new System.Drawing.Point(591, 3);
+            this.lbl_End_Receive03.Location = new System.Drawing.Point(449, 3);
+            this.lbl_End_Receive03.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_End_Receive03.Name = "lbl_End_Receive03";
-            this.lbl_End_Receive03.Size = new System.Drawing.Size(40, 25);
+            this.lbl_End_Receive03.Size = new System.Drawing.Size(31, 20);
             this.lbl_End_Receive03.TabIndex = 3;
             this.lbl_End_Receive03.Text = "0%";
             // 
+            // tableLayoutPanel10
+            // 
+            this.tableLayoutPanel10.ColumnCount = 4;
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel10.Controls.Add(this.label7, 0, 0);
+            this.tableLayoutPanel10.Controls.Add(this.lbl_Ham_Receive01, 1, 0);
+            this.tableLayoutPanel10.Controls.Add(this.lbl_Ham_Receive02, 2, 0);
+            this.tableLayoutPanel10.Controls.Add(this.lbl_Ham_Receive03, 3, 0);
+            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(491, 358);
+            this.tableLayoutPanel10.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
+            this.tableLayoutPanel10.RowCount = 1;
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(481, 26);
+            this.tableLayoutPanel10.TabIndex = 32;
+            // 
+            // label7
+            // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label7.Location = new System.Drawing.Point(2, 3);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(114, 20);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "照片接收：";
+            // 
+            // lbl_Ham_Receive01
+            // 
+            this.lbl_Ham_Receive01.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lbl_Ham_Receive01.AutoSize = true;
+            this.lbl_Ham_Receive01.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lbl_Ham_Receive01.Location = new System.Drawing.Point(207, 3);
+            this.lbl_Ham_Receive01.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_Ham_Receive01.Name = "lbl_Ham_Receive01";
+            this.lbl_Ham_Receive01.Size = new System.Drawing.Size(31, 20);
+            this.lbl_Ham_Receive01.TabIndex = 1;
+            this.lbl_Ham_Receive01.Text = "0%";
+            // 
+            // lbl_Ham_Receive02
+            // 
+            this.lbl_Ham_Receive02.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lbl_Ham_Receive02.AutoSize = true;
+            this.lbl_Ham_Receive02.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lbl_Ham_Receive02.Location = new System.Drawing.Point(327, 3);
+            this.lbl_Ham_Receive02.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_Ham_Receive02.Name = "lbl_Ham_Receive02";
+            this.lbl_Ham_Receive02.Size = new System.Drawing.Size(31, 20);
+            this.lbl_Ham_Receive02.TabIndex = 2;
+            this.lbl_Ham_Receive02.Text = "0%";
+            // 
+            // lbl_Ham_Receive03
+            // 
+            this.lbl_Ham_Receive03.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lbl_Ham_Receive03.AutoSize = true;
+            this.lbl_Ham_Receive03.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lbl_Ham_Receive03.Location = new System.Drawing.Point(448, 3);
+            this.lbl_Ham_Receive03.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_Ham_Receive03.Name = "lbl_Ham_Receive03";
+            this.lbl_Ham_Receive03.Size = new System.Drawing.Size(31, 20);
+            this.lbl_Ham_Receive03.TabIndex = 3;
+            this.lbl_Ham_Receive03.Text = "0%";
+            // 
+            // menuStrip_Main
+            // 
+            this.menuStrip_Main.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip_Main.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.查看日志ToolStripMenuItem,
+            this.报警音设置ToolStripMenuItem,
+            this.清空照片ToolStripMenuItem,
+            this.清空照片候选框ToolStripMenuItem,
+            this.清空日志ToolStripMenuItem});
+            this.menuStrip_Main.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip_Main.Name = "menuStrip_Main";
+            this.menuStrip_Main.Size = new System.Drawing.Size(1464, 25);
+            this.menuStrip_Main.TabIndex = 1;
+            this.menuStrip_Main.Text = "menuStrip1";
+            // 
+            // 查看日志ToolStripMenuItem
+            // 
+            this.查看日志ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.打开日志文件夹ToolStripMenuItem});
+            this.查看日志ToolStripMenuItem.Name = "查看日志ToolStripMenuItem";
+            this.查看日志ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
+            this.查看日志ToolStripMenuItem.Text = "查看日志";
+            // 
+            // 打开日志文件夹ToolStripMenuItem
+            // 
+            this.打开日志文件夹ToolStripMenuItem.Name = "打开日志文件夹ToolStripMenuItem";
+            this.打开日志文件夹ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.打开日志文件夹ToolStripMenuItem.Text = "打开日志文件夹";
+            this.打开日志文件夹ToolStripMenuItem.Click += new System.EventHandler(this.打开日志文件夹ToolStripMenuItem_Click);
+            // 
+            // 报警音设置ToolStripMenuItem
+            // 
+            this.报警音设置ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.机头撕裂报警音设置ToolStripMenuItem,
+            this.重锤撕裂报警音设置ToolStripMenuItem,
+            this.机尾撕裂报警音设置ToolStripMenuItem});
+            this.报警音设置ToolStripMenuItem.Name = "报警音设置ToolStripMenuItem";
+            this.报警音设置ToolStripMenuItem.Size = new System.Drawing.Size(80, 21);
+            this.报警音设置ToolStripMenuItem.Text = "报警音设置";
+            // 
+            // 机头撕裂报警音设置ToolStripMenuItem
+            // 
+            this.机头撕裂报警音设置ToolStripMenuItem.Name = "机头撕裂报警音设置ToolStripMenuItem";
+            this.机头撕裂报警音设置ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.机头撕裂报警音设置ToolStripMenuItem.Text = "机头撕裂报警音设置";
+            this.机头撕裂报警音设置ToolStripMenuItem.Click += new System.EventHandler(this.机头撕裂报警音设置ToolStripMenuItem_Click);
+            // 
+            // 重锤撕裂报警音设置ToolStripMenuItem
+            // 
+            this.重锤撕裂报警音设置ToolStripMenuItem.Name = "重锤撕裂报警音设置ToolStripMenuItem";
+            this.重锤撕裂报警音设置ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.重锤撕裂报警音设置ToolStripMenuItem.Text = "重锤撕裂报警音设置";
+            this.重锤撕裂报警音设置ToolStripMenuItem.Click += new System.EventHandler(this.重锤撕裂报警音设置ToolStripMenuItem_Click);
+            // 
+            // 机尾撕裂报警音设置ToolStripMenuItem
+            // 
+            this.机尾撕裂报警音设置ToolStripMenuItem.Name = "机尾撕裂报警音设置ToolStripMenuItem";
+            this.机尾撕裂报警音设置ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.机尾撕裂报警音设置ToolStripMenuItem.Text = "机尾撕裂报警音设置";
+            this.机尾撕裂报警音设置ToolStripMenuItem.Click += new System.EventHandler(this.机尾撕裂报警音设置ToolStripMenuItem_Click);
+            // 
+            // 清空照片ToolStripMenuItem
+            // 
+            this.清空照片ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.清空机头照片ToolStripMenuItem,
+            this.清空重锤照片ToolStripMenuItem,
+            this.清空机尾照片ToolStripMenuItem});
+            this.清空照片ToolStripMenuItem.Name = "清空照片ToolStripMenuItem";
+            this.清空照片ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
+            this.清空照片ToolStripMenuItem.Text = "清空照片";
+            // 
+            // 清空机头照片ToolStripMenuItem
+            // 
+            this.清空机头照片ToolStripMenuItem.Name = "清空机头照片ToolStripMenuItem";
+            this.清空机头照片ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.清空机头照片ToolStripMenuItem.Text = "清空机头照片";
+            this.清空机头照片ToolStripMenuItem.Click += new System.EventHandler(this.清空机头照片ToolStripMenuItem_Click);
+            // 
+            // 清空重锤照片ToolStripMenuItem
+            // 
+            this.清空重锤照片ToolStripMenuItem.Name = "清空重锤照片ToolStripMenuItem";
+            this.清空重锤照片ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.清空重锤照片ToolStripMenuItem.Text = "清空重锤照片";
+            this.清空重锤照片ToolStripMenuItem.Click += new System.EventHandler(this.清空重锤照片ToolStripMenuItem_Click);
+            // 
+            // 清空机尾照片ToolStripMenuItem
+            // 
+            this.清空机尾照片ToolStripMenuItem.Name = "清空机尾照片ToolStripMenuItem";
+            this.清空机尾照片ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.清空机尾照片ToolStripMenuItem.Text = "清空机尾照片";
+            this.清空机尾照片ToolStripMenuItem.Click += new System.EventHandler(this.清空机尾照片ToolStripMenuItem_Click);
+            // 
+            // 清空照片候选框ToolStripMenuItem
+            // 
+            this.清空照片候选框ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.清空机头照片候选框ToolStripMenuItem,
+            this.清空重锤照片候选框ToolStripMenuItem,
+            this.清空机尾照片候选框ToolStripMenuItem});
+            this.清空照片候选框ToolStripMenuItem.Name = "清空照片候选框ToolStripMenuItem";
+            this.清空照片候选框ToolStripMenuItem.Size = new System.Drawing.Size(104, 21);
+            this.清空照片候选框ToolStripMenuItem.Text = "清空照片候选框";
+            // 
+            // 清空机头照片候选框ToolStripMenuItem
+            // 
+            this.清空机头照片候选框ToolStripMenuItem.Name = "清空机头照片候选框ToolStripMenuItem";
+            this.清空机头照片候选框ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.清空机头照片候选框ToolStripMenuItem.Text = "清空机头照片候选框";
+            this.清空机头照片候选框ToolStripMenuItem.Click += new System.EventHandler(this.清空机头照片候选框ToolStripMenuItem_Click);
+            // 
+            // 清空重锤照片候选框ToolStripMenuItem
+            // 
+            this.清空重锤照片候选框ToolStripMenuItem.Name = "清空重锤照片候选框ToolStripMenuItem";
+            this.清空重锤照片候选框ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.清空重锤照片候选框ToolStripMenuItem.Text = "清空重锤照片候选框";
+            this.清空重锤照片候选框ToolStripMenuItem.Click += new System.EventHandler(this.清空重锤照片候选框ToolStripMenuItem_Click);
+            // 
+            // 清空机尾照片候选框ToolStripMenuItem
+            // 
+            this.清空机尾照片候选框ToolStripMenuItem.Name = "清空机尾照片候选框ToolStripMenuItem";
+            this.清空机尾照片候选框ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.清空机尾照片候选框ToolStripMenuItem.Text = "清空机尾照片候选框";
+            this.清空机尾照片候选框ToolStripMenuItem.Click += new System.EventHandler(this.清空机尾照片候选框ToolStripMenuItem_Click);
+            // 
+            // 清空日志ToolStripMenuItem
+            // 
+            this.清空日志ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.清空机头报警日志ToolStripMenuItem,
+            this.清空重锤报警日志ToolStripMenuItem,
+            this.清空机尾报警日志ToolStripMenuItem});
+            this.清空日志ToolStripMenuItem.Name = "清空日志ToolStripMenuItem";
+            this.清空日志ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
+            this.清空日志ToolStripMenuItem.Text = "清空日志";
+            // 
+            // 清空机头报警日志ToolStripMenuItem
+            // 
+            this.清空机头报警日志ToolStripMenuItem.Name = "清空机头报警日志ToolStripMenuItem";
+            this.清空机头报警日志ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.清空机头报警日志ToolStripMenuItem.Text = "清空机头报警日志";
+            this.清空机头报警日志ToolStripMenuItem.Click += new System.EventHandler(this.清空机头报警日志ToolStripMenuItem_Click);
+            // 
+            // 清空重锤报警日志ToolStripMenuItem
+            // 
+            this.清空重锤报警日志ToolStripMenuItem.Name = "清空重锤报警日志ToolStripMenuItem";
+            this.清空重锤报警日志ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.清空重锤报警日志ToolStripMenuItem.Text = "清空重锤报警日志";
+            this.清空重锤报警日志ToolStripMenuItem.Click += new System.EventHandler(this.清空重锤报警日志ToolStripMenuItem_Click);
+            // 
+            // 清空机尾报警日志ToolStripMenuItem
+            // 
+            this.清空机尾报警日志ToolStripMenuItem.Name = "清空机尾报警日志ToolStripMenuItem";
+            this.清空机尾报警日志ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.清空机尾报警日志ToolStripMenuItem.Text = "清空机尾报警日志";
+            this.清空机尾报警日志ToolStripMenuItem.Click += new System.EventHandler(this.清空机尾报警日志ToolStripMenuItem_Click);
+            // 
             // TearFrm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1924, 1014);
+            this.ClientSize = new System.Drawing.Size(1464, 811);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.menuStrip_Main);
             this.MainMenuStrip = this.menuStrip_Main;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "TearFrm";
             this.Text = "皮带撕裂监测界面";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TearFrm_FormClosing);
@@ -1349,14 +1296,14 @@
             this.tableLayoutPanel6.ResumeLayout(false);
             this.tableLayoutPanel7.ResumeLayout(false);
             this.tableLayoutPanel8.ResumeLayout(false);
-            this.menuStrip_Main.ResumeLayout(false);
-            this.menuStrip_Main.PerformLayout();
             this.tableLayoutPanel9.ResumeLayout(false);
             this.tableLayoutPanel9.PerformLayout();
-            this.tableLayoutPanel10.ResumeLayout(false);
-            this.tableLayoutPanel10.PerformLayout();
             this.tableLayoutPanel11.ResumeLayout(false);
             this.tableLayoutPanel11.PerformLayout();
+            this.tableLayoutPanel10.ResumeLayout(false);
+            this.tableLayoutPanel10.PerformLayout();
+            this.menuStrip_Main.ResumeLayout(false);
+            this.menuStrip_Main.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
