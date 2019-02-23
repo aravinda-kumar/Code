@@ -5,6 +5,8 @@ CMakeFiles/helloworld.dir/helloworld.c.o: ../helloworld.c
 
 CMakeFiles/helloworld.dir/二维数组.c.o: ../二维数组.c
 
+CMakeFiles/helloworld.dir/二维数组与指针.c.o: ../二维数组与指针.c
+
 CMakeFiles/helloworld.dir/取地址.c.o: ../取地址.c
 
 CMakeFiles/helloworld.dir/循环结构.c.o: ../循环结构.c
@@ -15,11 +17,15 @@ CMakeFiles/helloworld.dir/指针.c.o: ../指针.c
 
 CMakeFiles/helloworld.dir/指针与数组.c.o: ../指针与数组.c
 
+CMakeFiles/helloworld.dir/指针数组拉链结构.c.o: ../指针数组拉链结构.c
+
 CMakeFiles/helloworld.dir/数据类型.c.o: ../数据类型.c
 
 CMakeFiles/helloworld.dir/数组.c.o: ../数组.c
 
 CMakeFiles/helloworld.dir/数组之间的赋值.c.o: ../数组之间的赋值.c
+
+CMakeFiles/helloworld.dir/数组指针.c.o: ../数组指针.c
 
 CMakeFiles/helloworld.dir/浮点型数据.c.o: ../浮点型数据.c
 

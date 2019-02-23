@@ -15,6 +15,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/helloworld.dir/数组之间的赋值.c.o"
   "CMakeFiles/helloworld.dir/指针.c.o"
   "CMakeFiles/helloworld.dir/指针与数组.c.o"
+  "CMakeFiles/helloworld.dir/指针数组拉链结构.c.o"
+  "CMakeFiles/helloworld.dir/数组指针.c.o"
+  "CMakeFiles/helloworld.dir/二维数组与指针.c.o"
   "helloworld.pdb"
   "helloworld"
 )

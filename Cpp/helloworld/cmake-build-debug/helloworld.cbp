@@ -93,6 +93,9 @@
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/二维数组.c">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/二维数组与指针.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/取地址.c">
 			<Option target="helloworld"/>
 		</Unit>
@@ -108,6 +111,9 @@
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/指针与数组.c">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/指针数组拉链结构.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/数据类型.c">
 			<Option target="helloworld"/>
 		</Unit>
@@ -115,6 +121,9 @@
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/数组之间的赋值.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/数组指针.c">
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/浮点型数据.c">

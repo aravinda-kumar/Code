@@ -204,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/二维数组.c.s
 .PHONY : 二维数组.c.s
 
+二维数组与指针.o: 二维数组与指针.c.o
+
+.PHONY : 二维数组与指针.o
+
+# target to build an object file
+二维数组与指针.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/二维数组与指针.c.o
+.PHONY : 二维数组与指针.c.o
+
+二维数组与指针.i: 二维数组与指针.c.i
+
+.PHONY : 二维数组与指针.i
+
+# target to preprocess a source file
+二维数组与指针.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/二维数组与指针.c.i
+.PHONY : 二维数组与指针.c.i
+
+二维数组与指针.s: 二维数组与指针.c.s
+
+.PHONY : 二维数组与指针.s
+
+# target to generate assembly for a file
+二维数组与指针.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/二维数组与指针.c.s
+.PHONY : 二维数组与指针.c.s
+
 取地址.o: 取地址.c.o
 
 .PHONY : 取地址.o
@@ -339,6 +366,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/指针与数组.c.s
 .PHONY : 指针与数组.c.s
 
+指针数组拉链结构.o: 指针数组拉链结构.c.o
+
+.PHONY : 指针数组拉链结构.o
+
+# target to build an object file
+指针数组拉链结构.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/指针数组拉链结构.c.o
+.PHONY : 指针数组拉链结构.c.o
+
+指针数组拉链结构.i: 指针数组拉链结构.c.i
+
+.PHONY : 指针数组拉链结构.i
+
+# target to preprocess a source file
+指针数组拉链结构.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/指针数组拉链结构.c.i
+.PHONY : 指针数组拉链结构.c.i
+
+指针数组拉链结构.s: 指针数组拉链结构.c.s
+
+.PHONY : 指针数组拉链结构.s
+
+# target to generate assembly for a file
+指针数组拉链结构.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/指针数组拉链结构.c.s
+.PHONY : 指针数组拉链结构.c.s
+
 数据类型.o: 数据类型.c.o
 
 .PHONY : 数据类型.o
@@ -419,6 +473,33 @@ main.cpp.s:
 数组之间的赋值.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数组之间的赋值.c.s
 .PHONY : 数组之间的赋值.c.s
+
+数组指针.o: 数组指针.c.o
+
+.PHONY : 数组指针.o
+
+# target to build an object file
+数组指针.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数组指针.c.o
+.PHONY : 数组指针.c.o
+
+数组指针.i: 数组指针.c.i
+
+.PHONY : 数组指针.i
+
+# target to preprocess a source file
+数组指针.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数组指针.c.i
+.PHONY : 数组指针.c.i
+
+数组指针.s: 数组指针.c.s
+
+.PHONY : 数组指针.s
+
+# target to generate assembly for a file
+数组指针.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数组指针.c.s
+.PHONY : 数组指针.c.s
 
 浮点型数据.o: 浮点型数据.c.o
 
@@ -573,6 +654,9 @@ help:
 	@echo "... 二维数组.o"
 	@echo "... 二维数组.i"
 	@echo "... 二维数组.s"
+	@echo "... 二维数组与指针.o"
+	@echo "... 二维数组与指针.i"
+	@echo "... 二维数组与指针.s"
 	@echo "... 取地址.o"
 	@echo "... 取地址.i"
 	@echo "... 取地址.s"
@@ -588,6 +672,9 @@ help:
 	@echo "... 指针与数组.o"
 	@echo "... 指针与数组.i"
 	@echo "... 指针与数组.s"
+	@echo "... 指针数组拉链结构.o"
+	@echo "... 指针数组拉链结构.i"
+	@echo "... 指针数组拉链结构.s"
 	@echo "... 数据类型.o"
 	@echo "... 数据类型.i"
 	@echo "... 数据类型.s"
@@ -597,6 +684,9 @@ help:
 	@echo "... 数组之间的赋值.o"
 	@echo "... 数组之间的赋值.i"
 	@echo "... 数组之间的赋值.s"
+	@echo "... 数组指针.o"
+	@echo "... 数组指针.i"
+	@echo "... 数组指针.s"
 	@echo "... 浮点型数据.o"
 	@echo "... 浮点型数据.i"
 	@echo "... 浮点型数据.s"
