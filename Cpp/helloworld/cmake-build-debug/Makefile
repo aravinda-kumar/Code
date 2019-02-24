@@ -123,6 +123,60 @@ helloworld/fast:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/build
 .PHONY : helloworld/fast
 
+calloc和realoc.o: calloc和realoc.c.o
+
+.PHONY : calloc和realoc.o
+
+# target to build an object file
+calloc和realoc.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/calloc和realoc.c.o
+.PHONY : calloc和realoc.c.o
+
+calloc和realoc.i: calloc和realoc.c.i
+
+.PHONY : calloc和realoc.i
+
+# target to preprocess a source file
+calloc和realoc.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/calloc和realoc.c.i
+.PHONY : calloc和realoc.c.i
+
+calloc和realoc.s: calloc和realoc.c.s
+
+.PHONY : calloc和realoc.s
+
+# target to generate assembly for a file
+calloc和realoc.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/calloc和realoc.c.s
+.PHONY : calloc和realoc.c.s
+
+free.o: free.c.o
+
+.PHONY : free.o
+
+# target to build an object file
+free.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/free.c.o
+.PHONY : free.c.o
+
+free.i: free.c.i
+
+.PHONY : free.i
+
+# target to preprocess a source file
+free.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/free.c.i
+.PHONY : free.c.i
+
+free.s: free.c.s
+
+.PHONY : free.s
+
+# target to generate assembly for a file
+free.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/free.c.s
+.PHONY : free.c.s
+
 helloworld.o: helloworld.c.o
 
 .PHONY : helloworld.o
@@ -177,6 +231,87 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+malloc.o: malloc.c.o
+
+.PHONY : malloc.o
+
+# target to build an object file
+malloc.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/malloc.c.o
+.PHONY : malloc.c.o
+
+malloc.i: malloc.c.i
+
+.PHONY : malloc.i
+
+# target to preprocess a source file
+malloc.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/malloc.c.i
+.PHONY : malloc.c.i
+
+malloc.s: malloc.c.s
+
+.PHONY : malloc.s
+
+# target to generate assembly for a file
+malloc.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/malloc.c.s
+.PHONY : malloc.c.s
+
+malloc数组.o: malloc数组.c.o
+
+.PHONY : malloc数组.o
+
+# target to build an object file
+malloc数组.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/malloc数组.c.o
+.PHONY : malloc数组.c.o
+
+malloc数组.i: malloc数组.c.i
+
+.PHONY : malloc数组.i
+
+# target to preprocess a source file
+malloc数组.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/malloc数组.c.i
+.PHONY : malloc数组.c.i
+
+malloc数组.s: malloc数组.c.s
+
+.PHONY : malloc数组.s
+
+# target to generate assembly for a file
+malloc数组.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/malloc数组.c.s
+.PHONY : malloc数组.c.s
+
+malloc注意点.o: malloc注意点.c.o
+
+.PHONY : malloc注意点.o
+
+# target to build an object file
+malloc注意点.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/malloc注意点.c.o
+.PHONY : malloc注意点.c.o
+
+malloc注意点.i: malloc注意点.c.i
+
+.PHONY : malloc注意点.i
+
+# target to preprocess a source file
+malloc注意点.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/malloc注意点.c.i
+.PHONY : malloc注意点.c.i
+
+malloc注意点.s: malloc注意点.c.s
+
+.PHONY : malloc注意点.s
+
+# target to generate assembly for a file
+malloc注意点.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/malloc注意点.c.s
+.PHONY : malloc注意点.c.s
+
 二维数组.o: 二维数组.c.o
 
 .PHONY : 二维数组.o
@@ -230,6 +365,33 @@ main.cpp.s:
 二维数组与指针.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/二维数组与指针.c.s
 .PHONY : 二维数组与指针.c.s
+
+利用指针遍历二维数组.o: 利用指针遍历二维数组.c.o
+
+.PHONY : 利用指针遍历二维数组.o
+
+# target to build an object file
+利用指针遍历二维数组.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/利用指针遍历二维数组.c.o
+.PHONY : 利用指针遍历二维数组.c.o
+
+利用指针遍历二维数组.i: 利用指针遍历二维数组.c.i
+
+.PHONY : 利用指针遍历二维数组.i
+
+# target to preprocess a source file
+利用指针遍历二维数组.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/利用指针遍历二维数组.c.i
+.PHONY : 利用指针遍历二维数组.c.i
+
+利用指针遍历二维数组.s: 利用指针遍历二维数组.c.s
+
+.PHONY : 利用指针遍历二维数组.s
+
+# target to generate assembly for a file
+利用指针遍历二维数组.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/利用指针遍历二维数组.c.s
+.PHONY : 利用指针遍历二维数组.c.s
 
 取地址.o: 取地址.c.o
 
@@ -501,6 +663,87 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数组指针.c.s
 .PHONY : 数组指针.c.s
 
+数组最大值.o: 数组最大值.c.o
+
+.PHONY : 数组最大值.o
+
+# target to build an object file
+数组最大值.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数组最大值.c.o
+.PHONY : 数组最大值.c.o
+
+数组最大值.i: 数组最大值.c.i
+
+.PHONY : 数组最大值.i
+
+# target to preprocess a source file
+数组最大值.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数组最大值.c.i
+.PHONY : 数组最大值.c.i
+
+数组最大值.s: 数组最大值.c.s
+
+.PHONY : 数组最大值.s
+
+# target to generate assembly for a file
+数组最大值.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数组最大值.c.s
+.PHONY : 数组最大值.c.s
+
+无参数无返回值.o: 无参数无返回值.c.o
+
+.PHONY : 无参数无返回值.o
+
+# target to build an object file
+无参数无返回值.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/无参数无返回值.c.o
+.PHONY : 无参数无返回值.c.o
+
+无参数无返回值.i: 无参数无返回值.c.i
+
+.PHONY : 无参数无返回值.i
+
+# target to preprocess a source file
+无参数无返回值.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/无参数无返回值.c.i
+.PHONY : 无参数无返回值.c.i
+
+无参数无返回值.s: 无参数无返回值.c.s
+
+.PHONY : 无参数无返回值.s
+
+# target to generate assembly for a file
+无参数无返回值.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/无参数无返回值.c.s
+.PHONY : 无参数无返回值.c.s
+
+栈区大小.o: 栈区大小.c.o
+
+.PHONY : 栈区大小.o
+
+# target to build an object file
+栈区大小.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/栈区大小.c.o
+.PHONY : 栈区大小.c.o
+
+栈区大小.i: 栈区大小.c.i
+
+.PHONY : 栈区大小.i
+
+# target to preprocess a source file
+栈区大小.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/栈区大小.c.i
+.PHONY : 栈区大小.c.i
+
+栈区大小.s: 栈区大小.c.s
+
+.PHONY : 栈区大小.s
+
+# target to generate assembly for a file
+栈区大小.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/栈区大小.c.s
+.PHONY : 栈区大小.c.s
+
 浮点型数据.o: 浮点型数据.c.o
 
 .PHONY : 浮点型数据.o
@@ -645,18 +888,36 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... helloworld"
+	@echo "... calloc和realoc.o"
+	@echo "... calloc和realoc.i"
+	@echo "... calloc和realoc.s"
+	@echo "... free.o"
+	@echo "... free.i"
+	@echo "... free.s"
 	@echo "... helloworld.o"
 	@echo "... helloworld.i"
 	@echo "... helloworld.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... malloc.o"
+	@echo "... malloc.i"
+	@echo "... malloc.s"
+	@echo "... malloc数组.o"
+	@echo "... malloc数组.i"
+	@echo "... malloc数组.s"
+	@echo "... malloc注意点.o"
+	@echo "... malloc注意点.i"
+	@echo "... malloc注意点.s"
 	@echo "... 二维数组.o"
 	@echo "... 二维数组.i"
 	@echo "... 二维数组.s"
 	@echo "... 二维数组与指针.o"
 	@echo "... 二维数组与指针.i"
 	@echo "... 二维数组与指针.s"
+	@echo "... 利用指针遍历二维数组.o"
+	@echo "... 利用指针遍历二维数组.i"
+	@echo "... 利用指针遍历二维数组.s"
 	@echo "... 取地址.o"
 	@echo "... 取地址.i"
 	@echo "... 取地址.s"
@@ -687,6 +948,15 @@ help:
 	@echo "... 数组指针.o"
 	@echo "... 数组指针.i"
 	@echo "... 数组指针.s"
+	@echo "... 数组最大值.o"
+	@echo "... 数组最大值.i"
+	@echo "... 数组最大值.s"
+	@echo "... 无参数无返回值.o"
+	@echo "... 无参数无返回值.i"
+	@echo "... 无参数无返回值.s"
+	@echo "... 栈区大小.o"
+	@echo "... 栈区大小.i"
+	@echo "... 栈区大小.s"
 	@echo "... 浮点型数据.o"
 	@echo "... 浮点型数据.i"
 	@echo "... 浮点型数据.s"
