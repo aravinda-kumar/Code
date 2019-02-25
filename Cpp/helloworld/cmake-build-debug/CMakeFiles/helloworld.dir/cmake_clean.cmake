@@ -27,6 +27,13 @@ file(REMOVE_RECURSE
   "CMakeFiles/helloworld.dir/calloc和realoc.c.o"
   "CMakeFiles/helloworld.dir/数组最大值.c.o"
   "CMakeFiles/helloworld.dir/无参数无返回值.c.o"
+  "CMakeFiles/helloworld.dir/函数声明.c.o"
+  "CMakeFiles/helloworld.dir/无参数有返回值.c.o"
+  "CMakeFiles/helloworld.dir/有参数无返回值.c.o"
+  "CMakeFiles/helloworld.dir/有参数有返回值.c.o"
+  "CMakeFiles/helloworld.dir/函数地址.c.o"
+  "CMakeFiles/helloworld.dir/递归函数.c.o"
+  "CMakeFiles/helloworld.dir/参数个数不确定的函数.c.o"
   "helloworld.pdb"
   "helloworld"
 )

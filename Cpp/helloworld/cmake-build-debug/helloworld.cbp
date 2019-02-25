@@ -111,7 +111,16 @@
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/二维数组与指针.c">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/函数地址.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/函数声明.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/利用指针遍历二维数组.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/参数个数不确定的函数.c">
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/取地址.c">
@@ -150,6 +159,15 @@
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/无参数无返回值.c">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/无参数有返回值.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/有参数无返回值.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/有参数有返回值.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/栈区大小.c">
 			<Option target="helloworld"/>
 		</Unit>
@@ -166,6 +184,9 @@
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/选择结构2.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/递归函数.c">
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/CMakeLists.txt">

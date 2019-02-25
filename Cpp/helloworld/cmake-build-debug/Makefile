@@ -366,6 +366,60 @@ malloc注意点.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/二维数组与指针.c.s
 .PHONY : 二维数组与指针.c.s
 
+函数地址.o: 函数地址.c.o
+
+.PHONY : 函数地址.o
+
+# target to build an object file
+函数地址.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/函数地址.c.o
+.PHONY : 函数地址.c.o
+
+函数地址.i: 函数地址.c.i
+
+.PHONY : 函数地址.i
+
+# target to preprocess a source file
+函数地址.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/函数地址.c.i
+.PHONY : 函数地址.c.i
+
+函数地址.s: 函数地址.c.s
+
+.PHONY : 函数地址.s
+
+# target to generate assembly for a file
+函数地址.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/函数地址.c.s
+.PHONY : 函数地址.c.s
+
+函数声明.o: 函数声明.c.o
+
+.PHONY : 函数声明.o
+
+# target to build an object file
+函数声明.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/函数声明.c.o
+.PHONY : 函数声明.c.o
+
+函数声明.i: 函数声明.c.i
+
+.PHONY : 函数声明.i
+
+# target to preprocess a source file
+函数声明.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/函数声明.c.i
+.PHONY : 函数声明.c.i
+
+函数声明.s: 函数声明.c.s
+
+.PHONY : 函数声明.s
+
+# target to generate assembly for a file
+函数声明.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/函数声明.c.s
+.PHONY : 函数声明.c.s
+
 利用指针遍历二维数组.o: 利用指针遍历二维数组.c.o
 
 .PHONY : 利用指针遍历二维数组.o
@@ -392,6 +446,33 @@ malloc注意点.c.s:
 利用指针遍历二维数组.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/利用指针遍历二维数组.c.s
 .PHONY : 利用指针遍历二维数组.c.s
+
+参数个数不确定的函数.o: 参数个数不确定的函数.c.o
+
+.PHONY : 参数个数不确定的函数.o
+
+# target to build an object file
+参数个数不确定的函数.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/参数个数不确定的函数.c.o
+.PHONY : 参数个数不确定的函数.c.o
+
+参数个数不确定的函数.i: 参数个数不确定的函数.c.i
+
+.PHONY : 参数个数不确定的函数.i
+
+# target to preprocess a source file
+参数个数不确定的函数.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/参数个数不确定的函数.c.i
+.PHONY : 参数个数不确定的函数.c.i
+
+参数个数不确定的函数.s: 参数个数不确定的函数.c.s
+
+.PHONY : 参数个数不确定的函数.s
+
+# target to generate assembly for a file
+参数个数不确定的函数.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/参数个数不确定的函数.c.s
+.PHONY : 参数个数不确定的函数.c.s
 
 取地址.o: 取地址.c.o
 
@@ -717,6 +798,87 @@ malloc注意点.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/无参数无返回值.c.s
 .PHONY : 无参数无返回值.c.s
 
+无参数有返回值.o: 无参数有返回值.c.o
+
+.PHONY : 无参数有返回值.o
+
+# target to build an object file
+无参数有返回值.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/无参数有返回值.c.o
+.PHONY : 无参数有返回值.c.o
+
+无参数有返回值.i: 无参数有返回值.c.i
+
+.PHONY : 无参数有返回值.i
+
+# target to preprocess a source file
+无参数有返回值.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/无参数有返回值.c.i
+.PHONY : 无参数有返回值.c.i
+
+无参数有返回值.s: 无参数有返回值.c.s
+
+.PHONY : 无参数有返回值.s
+
+# target to generate assembly for a file
+无参数有返回值.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/无参数有返回值.c.s
+.PHONY : 无参数有返回值.c.s
+
+有参数无返回值.o: 有参数无返回值.c.o
+
+.PHONY : 有参数无返回值.o
+
+# target to build an object file
+有参数无返回值.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/有参数无返回值.c.o
+.PHONY : 有参数无返回值.c.o
+
+有参数无返回值.i: 有参数无返回值.c.i
+
+.PHONY : 有参数无返回值.i
+
+# target to preprocess a source file
+有参数无返回值.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/有参数无返回值.c.i
+.PHONY : 有参数无返回值.c.i
+
+有参数无返回值.s: 有参数无返回值.c.s
+
+.PHONY : 有参数无返回值.s
+
+# target to generate assembly for a file
+有参数无返回值.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/有参数无返回值.c.s
+.PHONY : 有参数无返回值.c.s
+
+有参数有返回值.o: 有参数有返回值.c.o
+
+.PHONY : 有参数有返回值.o
+
+# target to build an object file
+有参数有返回值.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/有参数有返回值.c.o
+.PHONY : 有参数有返回值.c.o
+
+有参数有返回值.i: 有参数有返回值.c.i
+
+.PHONY : 有参数有返回值.i
+
+# target to preprocess a source file
+有参数有返回值.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/有参数有返回值.c.i
+.PHONY : 有参数有返回值.c.i
+
+有参数有返回值.s: 有参数有返回值.c.s
+
+.PHONY : 有参数有返回值.s
+
+# target to generate assembly for a file
+有参数有返回值.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/有参数有返回值.c.s
+.PHONY : 有参数有返回值.c.s
+
 栈区大小.o: 栈区大小.c.o
 
 .PHONY : 栈区大小.o
@@ -879,6 +1041,33 @@ malloc注意点.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/选择结构2.c.s
 .PHONY : 选择结构2.c.s
 
+递归函数.o: 递归函数.c.o
+
+.PHONY : 递归函数.o
+
+# target to build an object file
+递归函数.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/递归函数.c.o
+.PHONY : 递归函数.c.o
+
+递归函数.i: 递归函数.c.i
+
+.PHONY : 递归函数.i
+
+# target to preprocess a source file
+递归函数.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/递归函数.c.i
+.PHONY : 递归函数.c.i
+
+递归函数.s: 递归函数.c.s
+
+.PHONY : 递归函数.s
+
+# target to generate assembly for a file
+递归函数.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/递归函数.c.s
+.PHONY : 递归函数.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -915,9 +1104,18 @@ help:
 	@echo "... 二维数组与指针.o"
 	@echo "... 二维数组与指针.i"
 	@echo "... 二维数组与指针.s"
+	@echo "... 函数地址.o"
+	@echo "... 函数地址.i"
+	@echo "... 函数地址.s"
+	@echo "... 函数声明.o"
+	@echo "... 函数声明.i"
+	@echo "... 函数声明.s"
 	@echo "... 利用指针遍历二维数组.o"
 	@echo "... 利用指针遍历二维数组.i"
 	@echo "... 利用指针遍历二维数组.s"
+	@echo "... 参数个数不确定的函数.o"
+	@echo "... 参数个数不确定的函数.i"
+	@echo "... 参数个数不确定的函数.s"
 	@echo "... 取地址.o"
 	@echo "... 取地址.i"
 	@echo "... 取地址.s"
@@ -954,6 +1152,15 @@ help:
 	@echo "... 无参数无返回值.o"
 	@echo "... 无参数无返回值.i"
 	@echo "... 无参数无返回值.s"
+	@echo "... 无参数有返回值.o"
+	@echo "... 无参数有返回值.i"
+	@echo "... 无参数有返回值.s"
+	@echo "... 有参数无返回值.o"
+	@echo "... 有参数无返回值.i"
+	@echo "... 有参数无返回值.s"
+	@echo "... 有参数有返回值.o"
+	@echo "... 有参数有返回值.i"
+	@echo "... 有参数有返回值.s"
 	@echo "... 栈区大小.o"
 	@echo "... 栈区大小.i"
 	@echo "... 栈区大小.s"
@@ -972,6 +1179,9 @@ help:
 	@echo "... 选择结构2.o"
 	@echo "... 选择结构2.i"
 	@echo "... 选择结构2.s"
+	@echo "... 递归函数.o"
+	@echo "... 递归函数.i"
+	@echo "... 递归函数.s"
 .PHONY : help
 
 

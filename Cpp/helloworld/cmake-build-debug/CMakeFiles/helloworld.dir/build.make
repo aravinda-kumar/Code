@@ -421,6 +421,97 @@ CMakeFiles/helloworld.dir/无参数无返回值.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/无参数无返回值.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/无参数无返回值.c -o CMakeFiles/helloworld.dir/无参数无返回值.c.s
 
+CMakeFiles/helloworld.dir/函数声明.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/函数声明.c.o: ../函数声明.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/helloworld.dir/函数声明.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/函数声明.c.o   -c /home/shuncs/Code/Cpp/helloworld/函数声明.c
+
+CMakeFiles/helloworld.dir/函数声明.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/函数声明.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuncs/Code/Cpp/helloworld/函数声明.c > CMakeFiles/helloworld.dir/函数声明.c.i
+
+CMakeFiles/helloworld.dir/函数声明.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/函数声明.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/函数声明.c -o CMakeFiles/helloworld.dir/函数声明.c.s
+
+CMakeFiles/helloworld.dir/无参数有返回值.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/无参数有返回值.c.o: ../无参数有返回值.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/helloworld.dir/无参数有返回值.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/无参数有返回值.c.o   -c /home/shuncs/Code/Cpp/helloworld/无参数有返回值.c
+
+CMakeFiles/helloworld.dir/无参数有返回值.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/无参数有返回值.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuncs/Code/Cpp/helloworld/无参数有返回值.c > CMakeFiles/helloworld.dir/无参数有返回值.c.i
+
+CMakeFiles/helloworld.dir/无参数有返回值.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/无参数有返回值.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/无参数有返回值.c -o CMakeFiles/helloworld.dir/无参数有返回值.c.s
+
+CMakeFiles/helloworld.dir/有参数无返回值.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/有参数无返回值.c.o: ../有参数无返回值.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/helloworld.dir/有参数无返回值.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/有参数无返回值.c.o   -c /home/shuncs/Code/Cpp/helloworld/有参数无返回值.c
+
+CMakeFiles/helloworld.dir/有参数无返回值.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/有参数无返回值.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuncs/Code/Cpp/helloworld/有参数无返回值.c > CMakeFiles/helloworld.dir/有参数无返回值.c.i
+
+CMakeFiles/helloworld.dir/有参数无返回值.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/有参数无返回值.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/有参数无返回值.c -o CMakeFiles/helloworld.dir/有参数无返回值.c.s
+
+CMakeFiles/helloworld.dir/有参数有返回值.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/有参数有返回值.c.o: ../有参数有返回值.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/helloworld.dir/有参数有返回值.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/有参数有返回值.c.o   -c /home/shuncs/Code/Cpp/helloworld/有参数有返回值.c
+
+CMakeFiles/helloworld.dir/有参数有返回值.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/有参数有返回值.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuncs/Code/Cpp/helloworld/有参数有返回值.c > CMakeFiles/helloworld.dir/有参数有返回值.c.i
+
+CMakeFiles/helloworld.dir/有参数有返回值.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/有参数有返回值.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/有参数有返回值.c -o CMakeFiles/helloworld.dir/有参数有返回值.c.s
+
+CMakeFiles/helloworld.dir/函数地址.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/函数地址.c.o: ../函数地址.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/helloworld.dir/函数地址.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/函数地址.c.o   -c /home/shuncs/Code/Cpp/helloworld/函数地址.c
+
+CMakeFiles/helloworld.dir/函数地址.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/函数地址.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuncs/Code/Cpp/helloworld/函数地址.c > CMakeFiles/helloworld.dir/函数地址.c.i
+
+CMakeFiles/helloworld.dir/函数地址.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/函数地址.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/函数地址.c -o CMakeFiles/helloworld.dir/函数地址.c.s
+
+CMakeFiles/helloworld.dir/递归函数.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/递归函数.c.o: ../递归函数.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/helloworld.dir/递归函数.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/递归函数.c.o   -c /home/shuncs/Code/Cpp/helloworld/递归函数.c
+
+CMakeFiles/helloworld.dir/递归函数.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/递归函数.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuncs/Code/Cpp/helloworld/递归函数.c > CMakeFiles/helloworld.dir/递归函数.c.i
+
+CMakeFiles/helloworld.dir/递归函数.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/递归函数.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/递归函数.c -o CMakeFiles/helloworld.dir/递归函数.c.s
+
+CMakeFiles/helloworld.dir/参数个数不确定的函数.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/参数个数不确定的函数.c.o: ../参数个数不确定的函数.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/helloworld.dir/参数个数不确定的函数.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/参数个数不确定的函数.c.o   -c /home/shuncs/Code/Cpp/helloworld/参数个数不确定的函数.c
+
+CMakeFiles/helloworld.dir/参数个数不确定的函数.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/参数个数不确定的函数.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuncs/Code/Cpp/helloworld/参数个数不确定的函数.c > CMakeFiles/helloworld.dir/参数个数不确定的函数.c.i
+
+CMakeFiles/helloworld.dir/参数个数不确定的函数.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/参数个数不确定的函数.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/参数个数不确定的函数.c -o CMakeFiles/helloworld.dir/参数个数不确定的函数.c.s
+
 # Object files for target helloworld
 helloworld_OBJECTS = \
 "CMakeFiles/helloworld.dir/main.cpp.o" \
@@ -450,7 +541,14 @@ helloworld_OBJECTS = \
 "CMakeFiles/helloworld.dir/malloc数组.c.o" \
 "CMakeFiles/helloworld.dir/calloc和realoc.c.o" \
 "CMakeFiles/helloworld.dir/数组最大值.c.o" \
-"CMakeFiles/helloworld.dir/无参数无返回值.c.o"
+"CMakeFiles/helloworld.dir/无参数无返回值.c.o" \
+"CMakeFiles/helloworld.dir/函数声明.c.o" \
+"CMakeFiles/helloworld.dir/无参数有返回值.c.o" \
+"CMakeFiles/helloworld.dir/有参数无返回值.c.o" \
+"CMakeFiles/helloworld.dir/有参数有返回值.c.o" \
+"CMakeFiles/helloworld.dir/函数地址.c.o" \
+"CMakeFiles/helloworld.dir/递归函数.c.o" \
+"CMakeFiles/helloworld.dir/参数个数不确定的函数.c.o"
 
 # External object files for target helloworld
 helloworld_EXTERNAL_OBJECTS =
@@ -483,9 +581,16 @@ helloworld: CMakeFiles/helloworld.dir/malloc数组.c.o
 helloworld: CMakeFiles/helloworld.dir/calloc和realoc.c.o
 helloworld: CMakeFiles/helloworld.dir/数组最大值.c.o
 helloworld: CMakeFiles/helloworld.dir/无参数无返回值.c.o
+helloworld: CMakeFiles/helloworld.dir/函数声明.c.o
+helloworld: CMakeFiles/helloworld.dir/无参数有返回值.c.o
+helloworld: CMakeFiles/helloworld.dir/有参数无返回值.c.o
+helloworld: CMakeFiles/helloworld.dir/有参数有返回值.c.o
+helloworld: CMakeFiles/helloworld.dir/函数地址.c.o
+helloworld: CMakeFiles/helloworld.dir/递归函数.c.o
+helloworld: CMakeFiles/helloworld.dir/参数个数不确定的函数.c.o
 helloworld: CMakeFiles/helloworld.dir/build.make
 helloworld: CMakeFiles/helloworld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable helloworld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable helloworld"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/helloworld.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
