@@ -58,3 +58,7 @@ D:\DATA\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检
 D:\DATA\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\obj\Debug\皮带跑偏与撕裂检测监控界面.Properties.Resources.resources
 D:\DATA\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\obj\Debug\皮带跑偏与撕裂检测监控界面.TearFrm.resources
 D:\DATA\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\obj\Debug\皮带跑偏与撕裂检测监控界面.csproj.GenerateResource.Cache
+E:\JZS\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\bin\Debug\皮带跑偏与撕裂检测监控界面.exe.manifest
+E:\JZS\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\bin\Debug\皮带跑偏与撕裂检测监控界面.application
+E:\JZS\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\obj\Debug\皮带跑偏与撕裂检测监控界面.exe.manifest
+E:\JZS\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\obj\Debug\皮带跑偏与撕裂检测监控界面.application
