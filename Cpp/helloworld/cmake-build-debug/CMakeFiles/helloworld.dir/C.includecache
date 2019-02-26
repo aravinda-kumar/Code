@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/shuncs/Code/Cpp/helloworld/参数个数不确定的函数.c
+/home/shuncs/Code/Cpp/helloworld/字符串.c
 stdio.h
--
-zconf.h
 -
 

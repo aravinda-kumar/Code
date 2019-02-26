@@ -501,6 +501,114 @@ malloc注意点.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/取地址.c.s
 .PHONY : 取地址.c.s
 
+大小写转换.o: 大小写转换.c.o
+
+.PHONY : 大小写转换.o
+
+# target to build an object file
+大小写转换.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/大小写转换.c.o
+.PHONY : 大小写转换.c.o
+
+大小写转换.i: 大小写转换.c.i
+
+.PHONY : 大小写转换.i
+
+# target to preprocess a source file
+大小写转换.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/大小写转换.c.i
+.PHONY : 大小写转换.c.i
+
+大小写转换.s: 大小写转换.c.s
+
+.PHONY : 大小写转换.s
+
+# target to generate assembly for a file
+大小写转换.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/大小写转换.c.s
+.PHONY : 大小写转换.c.s
+
+字符.o: 字符.c.o
+
+.PHONY : 字符.o
+
+# target to build an object file
+字符.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符.c.o
+.PHONY : 字符.c.o
+
+字符.i: 字符.c.i
+
+.PHONY : 字符.i
+
+# target to preprocess a source file
+字符.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符.c.i
+.PHONY : 字符.c.i
+
+字符.s: 字符.c.s
+
+.PHONY : 字符.s
+
+# target to generate assembly for a file
+字符.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符.c.s
+.PHONY : 字符.c.s
+
+字符串.o: 字符串.c.o
+
+.PHONY : 字符串.o
+
+# target to build an object file
+字符串.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符串.c.o
+.PHONY : 字符串.c.o
+
+字符串.i: 字符串.c.i
+
+.PHONY : 字符串.i
+
+# target to preprocess a source file
+字符串.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符串.c.i
+.PHONY : 字符串.c.i
+
+字符串.s: 字符串.c.s
+
+.PHONY : 字符串.s
+
+# target to generate assembly for a file
+字符串.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符串.c.s
+.PHONY : 字符串.c.s
+
+字符数组.o: 字符数组.c.o
+
+.PHONY : 字符数组.o
+
+# target to build an object file
+字符数组.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符数组.c.o
+.PHONY : 字符数组.c.o
+
+字符数组.i: 字符数组.c.i
+
+.PHONY : 字符数组.i
+
+# target to preprocess a source file
+字符数组.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符数组.c.i
+.PHONY : 字符数组.c.i
+
+字符数组.s: 字符数组.c.s
+
+.PHONY : 字符数组.s
+
+# target to generate assembly for a file
+字符数组.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符数组.c.s
+.PHONY : 字符数组.c.s
+
 循环结构.o: 循环结构.c.o
 
 .PHONY : 循环结构.o
@@ -1119,6 +1227,18 @@ help:
 	@echo "... 取地址.o"
 	@echo "... 取地址.i"
 	@echo "... 取地址.s"
+	@echo "... 大小写转换.o"
+	@echo "... 大小写转换.i"
+	@echo "... 大小写转换.s"
+	@echo "... 字符.o"
+	@echo "... 字符.i"
+	@echo "... 字符.s"
+	@echo "... 字符串.o"
+	@echo "... 字符串.i"
+	@echo "... 字符串.s"
+	@echo "... 字符数组.o"
+	@echo "... 字符数组.i"
+	@echo "... 字符数组.s"
 	@echo "... 循环结构.o"
 	@echo "... 循环结构.i"
 	@echo "... 循环结构.s"

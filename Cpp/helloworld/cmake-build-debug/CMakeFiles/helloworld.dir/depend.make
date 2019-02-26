@@ -27,6 +27,14 @@ CMakeFiles/helloworld.dir/参数个数不确定的函数.c.o: ../参数个数不
 
 CMakeFiles/helloworld.dir/取地址.c.o: ../取地址.c
 
+CMakeFiles/helloworld.dir/大小写转换.c.o: ../大小写转换.c
+
+CMakeFiles/helloworld.dir/字符.c.o: ../字符.c
+
+CMakeFiles/helloworld.dir/字符串.c.o: ../字符串.c
+
+CMakeFiles/helloworld.dir/字符数组.c.o: ../字符数组.c
+
 CMakeFiles/helloworld.dir/循环结构.c.o: ../循环结构.c
 
 CMakeFiles/helloworld.dir/成绩评级系统.c.o: ../成绩评级系统.c

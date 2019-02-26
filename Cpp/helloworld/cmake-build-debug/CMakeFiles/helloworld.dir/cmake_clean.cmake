@@ -34,6 +34,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/helloworld.dir/函数地址.c.o"
   "CMakeFiles/helloworld.dir/递归函数.c.o"
   "CMakeFiles/helloworld.dir/参数个数不确定的函数.c.o"
+  "CMakeFiles/helloworld.dir/字符.c.o"
+  "CMakeFiles/helloworld.dir/大小写转换.c.o"
+  "CMakeFiles/helloworld.dir/字符数组.c.o"
+  "CMakeFiles/helloworld.dir/字符串.c.o"
   "helloworld.pdb"
   "helloworld"
 )

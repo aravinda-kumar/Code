@@ -126,6 +126,18 @@
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/取地址.c">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/大小写转换.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符串.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符数组.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/循环结构.c">
 			<Option target="helloworld"/>
 		</Unit>
