@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/shuncs/Code/Cpp/helloworld/字符串.c
+/home/shuncs/Code/Cpp/helloworld/结构体数组.c
 stdio.h
+-
+string.h
 -
 

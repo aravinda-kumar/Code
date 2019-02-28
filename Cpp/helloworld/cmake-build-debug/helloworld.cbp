@@ -105,6 +105,9 @@
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/malloc注意点.c">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/中文与字符.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/二维数组.c">
 			<Option target="helloworld"/>
 		</Unit>
@@ -126,6 +129,9 @@
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/取地址.c">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/声明一个结构体.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/大小写转换.c">
 			<Option target="helloworld"/>
 		</Unit>
@@ -135,7 +141,19 @@
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符串.c">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符串操作函数.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符串数组.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符数组.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符数组的输入.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符数组赋值.c">
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/循环结构.c">
@@ -148,6 +166,9 @@
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/指针与数组.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/指针成员和函数成员.c">
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/指针数组拉链结构.c">
@@ -184,6 +205,12 @@
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/浮点型数据.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/结构体嵌套.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/结构体数组.c">
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/跳转goto.c">

@@ -312,6 +312,33 @@ malloc注意点.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/malloc注意点.c.s
 .PHONY : malloc注意点.c.s
 
+中文与字符.o: 中文与字符.c.o
+
+.PHONY : 中文与字符.o
+
+# target to build an object file
+中文与字符.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/中文与字符.c.o
+.PHONY : 中文与字符.c.o
+
+中文与字符.i: 中文与字符.c.i
+
+.PHONY : 中文与字符.i
+
+# target to preprocess a source file
+中文与字符.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/中文与字符.c.i
+.PHONY : 中文与字符.c.i
+
+中文与字符.s: 中文与字符.c.s
+
+.PHONY : 中文与字符.s
+
+# target to generate assembly for a file
+中文与字符.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/中文与字符.c.s
+.PHONY : 中文与字符.c.s
+
 二维数组.o: 二维数组.c.o
 
 .PHONY : 二维数组.o
@@ -501,6 +528,33 @@ malloc注意点.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/取地址.c.s
 .PHONY : 取地址.c.s
 
+声明一个结构体.o: 声明一个结构体.c.o
+
+.PHONY : 声明一个结构体.o
+
+# target to build an object file
+声明一个结构体.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/声明一个结构体.c.o
+.PHONY : 声明一个结构体.c.o
+
+声明一个结构体.i: 声明一个结构体.c.i
+
+.PHONY : 声明一个结构体.i
+
+# target to preprocess a source file
+声明一个结构体.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/声明一个结构体.c.i
+.PHONY : 声明一个结构体.c.i
+
+声明一个结构体.s: 声明一个结构体.c.s
+
+.PHONY : 声明一个结构体.s
+
+# target to generate assembly for a file
+声明一个结构体.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/声明一个结构体.c.s
+.PHONY : 声明一个结构体.c.s
+
 大小写转换.o: 大小写转换.c.o
 
 .PHONY : 大小写转换.o
@@ -582,6 +636,60 @@ malloc注意点.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符串.c.s
 .PHONY : 字符串.c.s
 
+字符串操作函数.o: 字符串操作函数.c.o
+
+.PHONY : 字符串操作函数.o
+
+# target to build an object file
+字符串操作函数.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符串操作函数.c.o
+.PHONY : 字符串操作函数.c.o
+
+字符串操作函数.i: 字符串操作函数.c.i
+
+.PHONY : 字符串操作函数.i
+
+# target to preprocess a source file
+字符串操作函数.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符串操作函数.c.i
+.PHONY : 字符串操作函数.c.i
+
+字符串操作函数.s: 字符串操作函数.c.s
+
+.PHONY : 字符串操作函数.s
+
+# target to generate assembly for a file
+字符串操作函数.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符串操作函数.c.s
+.PHONY : 字符串操作函数.c.s
+
+字符串数组.o: 字符串数组.c.o
+
+.PHONY : 字符串数组.o
+
+# target to build an object file
+字符串数组.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符串数组.c.o
+.PHONY : 字符串数组.c.o
+
+字符串数组.i: 字符串数组.c.i
+
+.PHONY : 字符串数组.i
+
+# target to preprocess a source file
+字符串数组.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符串数组.c.i
+.PHONY : 字符串数组.c.i
+
+字符串数组.s: 字符串数组.c.s
+
+.PHONY : 字符串数组.s
+
+# target to generate assembly for a file
+字符串数组.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符串数组.c.s
+.PHONY : 字符串数组.c.s
+
 字符数组.o: 字符数组.c.o
 
 .PHONY : 字符数组.o
@@ -608,6 +716,60 @@ malloc注意点.c.s:
 字符数组.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符数组.c.s
 .PHONY : 字符数组.c.s
+
+字符数组的输入.o: 字符数组的输入.c.o
+
+.PHONY : 字符数组的输入.o
+
+# target to build an object file
+字符数组的输入.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符数组的输入.c.o
+.PHONY : 字符数组的输入.c.o
+
+字符数组的输入.i: 字符数组的输入.c.i
+
+.PHONY : 字符数组的输入.i
+
+# target to preprocess a source file
+字符数组的输入.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符数组的输入.c.i
+.PHONY : 字符数组的输入.c.i
+
+字符数组的输入.s: 字符数组的输入.c.s
+
+.PHONY : 字符数组的输入.s
+
+# target to generate assembly for a file
+字符数组的输入.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符数组的输入.c.s
+.PHONY : 字符数组的输入.c.s
+
+字符数组赋值.o: 字符数组赋值.c.o
+
+.PHONY : 字符数组赋值.o
+
+# target to build an object file
+字符数组赋值.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符数组赋值.c.o
+.PHONY : 字符数组赋值.c.o
+
+字符数组赋值.i: 字符数组赋值.c.i
+
+.PHONY : 字符数组赋值.i
+
+# target to preprocess a source file
+字符数组赋值.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符数组赋值.c.i
+.PHONY : 字符数组赋值.c.i
+
+字符数组赋值.s: 字符数组赋值.c.s
+
+.PHONY : 字符数组赋值.s
+
+# target to generate assembly for a file
+字符数组赋值.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符数组赋值.c.s
+.PHONY : 字符数组赋值.c.s
 
 循环结构.o: 循环结构.c.o
 
@@ -716,6 +878,33 @@ malloc注意点.c.s:
 指针与数组.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/指针与数组.c.s
 .PHONY : 指针与数组.c.s
+
+指针成员和函数成员.o: 指针成员和函数成员.c.o
+
+.PHONY : 指针成员和函数成员.o
+
+# target to build an object file
+指针成员和函数成员.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/指针成员和函数成员.c.o
+.PHONY : 指针成员和函数成员.c.o
+
+指针成员和函数成员.i: 指针成员和函数成员.c.i
+
+.PHONY : 指针成员和函数成员.i
+
+# target to preprocess a source file
+指针成员和函数成员.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/指针成员和函数成员.c.i
+.PHONY : 指针成员和函数成员.c.i
+
+指针成员和函数成员.s: 指针成员和函数成员.c.s
+
+.PHONY : 指针成员和函数成员.s
+
+# target to generate assembly for a file
+指针成员和函数成员.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/指针成员和函数成员.c.s
+.PHONY : 指针成员和函数成员.c.s
 
 指针数组拉链结构.o: 指针数组拉链结构.c.o
 
@@ -1041,6 +1230,60 @@ malloc注意点.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/浮点型数据.c.s
 .PHONY : 浮点型数据.c.s
 
+结构体嵌套.o: 结构体嵌套.c.o
+
+.PHONY : 结构体嵌套.o
+
+# target to build an object file
+结构体嵌套.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/结构体嵌套.c.o
+.PHONY : 结构体嵌套.c.o
+
+结构体嵌套.i: 结构体嵌套.c.i
+
+.PHONY : 结构体嵌套.i
+
+# target to preprocess a source file
+结构体嵌套.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/结构体嵌套.c.i
+.PHONY : 结构体嵌套.c.i
+
+结构体嵌套.s: 结构体嵌套.c.s
+
+.PHONY : 结构体嵌套.s
+
+# target to generate assembly for a file
+结构体嵌套.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/结构体嵌套.c.s
+.PHONY : 结构体嵌套.c.s
+
+结构体数组.o: 结构体数组.c.o
+
+.PHONY : 结构体数组.o
+
+# target to build an object file
+结构体数组.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/结构体数组.c.o
+.PHONY : 结构体数组.c.o
+
+结构体数组.i: 结构体数组.c.i
+
+.PHONY : 结构体数组.i
+
+# target to preprocess a source file
+结构体数组.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/结构体数组.c.i
+.PHONY : 结构体数组.c.i
+
+结构体数组.s: 结构体数组.c.s
+
+.PHONY : 结构体数组.s
+
+# target to generate assembly for a file
+结构体数组.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/结构体数组.c.s
+.PHONY : 结构体数组.c.s
+
 跳转goto.o: 跳转goto.c.o
 
 .PHONY : 跳转goto.o
@@ -1206,6 +1449,9 @@ help:
 	@echo "... malloc注意点.o"
 	@echo "... malloc注意点.i"
 	@echo "... malloc注意点.s"
+	@echo "... 中文与字符.o"
+	@echo "... 中文与字符.i"
+	@echo "... 中文与字符.s"
 	@echo "... 二维数组.o"
 	@echo "... 二维数组.i"
 	@echo "... 二维数组.s"
@@ -1227,6 +1473,9 @@ help:
 	@echo "... 取地址.o"
 	@echo "... 取地址.i"
 	@echo "... 取地址.s"
+	@echo "... 声明一个结构体.o"
+	@echo "... 声明一个结构体.i"
+	@echo "... 声明一个结构体.s"
 	@echo "... 大小写转换.o"
 	@echo "... 大小写转换.i"
 	@echo "... 大小写转换.s"
@@ -1236,9 +1485,21 @@ help:
 	@echo "... 字符串.o"
 	@echo "... 字符串.i"
 	@echo "... 字符串.s"
+	@echo "... 字符串操作函数.o"
+	@echo "... 字符串操作函数.i"
+	@echo "... 字符串操作函数.s"
+	@echo "... 字符串数组.o"
+	@echo "... 字符串数组.i"
+	@echo "... 字符串数组.s"
 	@echo "... 字符数组.o"
 	@echo "... 字符数组.i"
 	@echo "... 字符数组.s"
+	@echo "... 字符数组的输入.o"
+	@echo "... 字符数组的输入.i"
+	@echo "... 字符数组的输入.s"
+	@echo "... 字符数组赋值.o"
+	@echo "... 字符数组赋值.i"
+	@echo "... 字符数组赋值.s"
 	@echo "... 循环结构.o"
 	@echo "... 循环结构.i"
 	@echo "... 循环结构.s"
@@ -1251,6 +1512,9 @@ help:
 	@echo "... 指针与数组.o"
 	@echo "... 指针与数组.i"
 	@echo "... 指针与数组.s"
+	@echo "... 指针成员和函数成员.o"
+	@echo "... 指针成员和函数成员.i"
+	@echo "... 指针成员和函数成员.s"
 	@echo "... 指针数组拉链结构.o"
 	@echo "... 指针数组拉链结构.i"
 	@echo "... 指针数组拉链结构.s"
@@ -1287,6 +1551,12 @@ help:
 	@echo "... 浮点型数据.o"
 	@echo "... 浮点型数据.i"
 	@echo "... 浮点型数据.s"
+	@echo "... 结构体嵌套.o"
+	@echo "... 结构体嵌套.i"
+	@echo "... 结构体嵌套.s"
+	@echo "... 结构体数组.o"
+	@echo "... 结构体数组.i"
+	@echo "... 结构体数组.s"
 	@echo "... 跳转goto.o"
 	@echo "... 跳转goto.i"
 	@echo "... 跳转goto.s"
