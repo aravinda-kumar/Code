@@ -5,7 +5,7 @@
 int main(void)
 {
 	char ch;
-
+	int a = 12;
 	while (1)
 	{
 		ch = _getch();
