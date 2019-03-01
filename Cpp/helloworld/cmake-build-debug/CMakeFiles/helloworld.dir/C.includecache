@@ -6,9 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/shuncs/Code/Cpp/helloworld/结构体数组.c
+/home/shuncs/Code/Cpp/helloworld/c3.h
+
+/home/shuncs/Code/Cpp/helloworld/cmain.c
 stdio.h
 -
-string.h
--
+c3.h
+/home/shuncs/Code/Cpp/helloworld/c3.h
+d3.h
+/home/shuncs/Code/Cpp/helloworld/d3.h
+
+/home/shuncs/Code/Cpp/helloworld/d3.c
+d3.h
+/home/shuncs/Code/Cpp/helloworld/d3.h
+
+/home/shuncs/Code/Cpp/helloworld/d3.h
 

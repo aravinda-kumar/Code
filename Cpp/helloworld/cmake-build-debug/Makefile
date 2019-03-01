@@ -123,6 +123,33 @@ helloworld/fast:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/build
 .PHONY : helloworld/fast
 
+c3.o: c3.c.o
+
+.PHONY : c3.o
+
+# target to build an object file
+c3.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/c3.c.o
+.PHONY : c3.c.o
+
+c3.i: c3.c.i
+
+.PHONY : c3.i
+
+# target to preprocess a source file
+c3.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/c3.c.i
+.PHONY : c3.c.i
+
+c3.s: c3.c.s
+
+.PHONY : c3.s
+
+# target to generate assembly for a file
+c3.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/c3.c.s
+.PHONY : c3.c.s
+
 calloc和realoc.o: calloc和realoc.c.o
 
 .PHONY : calloc和realoc.o
@@ -149,6 +176,60 @@ calloc和realoc.s: calloc和realoc.c.s
 calloc和realoc.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/calloc和realoc.c.s
 .PHONY : calloc和realoc.c.s
+
+cmain.o: cmain.c.o
+
+.PHONY : cmain.o
+
+# target to build an object file
+cmain.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/cmain.c.o
+.PHONY : cmain.c.o
+
+cmain.i: cmain.c.i
+
+.PHONY : cmain.i
+
+# target to preprocess a source file
+cmain.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/cmain.c.i
+.PHONY : cmain.c.i
+
+cmain.s: cmain.c.s
+
+.PHONY : cmain.s
+
+# target to generate assembly for a file
+cmain.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/cmain.c.s
+.PHONY : cmain.c.s
+
+d3.o: d3.c.o
+
+.PHONY : d3.o
+
+# target to build an object file
+d3.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/d3.c.o
+.PHONY : d3.c.o
+
+d3.i: d3.c.i
+
+.PHONY : d3.i
+
+# target to preprocess a source file
+d3.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/d3.c.i
+.PHONY : d3.c.i
+
+d3.s: d3.c.s
+
+.PHONY : d3.s
+
+# target to generate assembly for a file
+d3.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/d3.c.s
+.PHONY : d3.c.s
 
 free.o: free.c.o
 
@@ -311,6 +392,33 @@ malloc注意点.s: malloc注意点.c.s
 malloc注意点.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/malloc注意点.c.s
 .PHONY : malloc注意点.c.s
+
+typedef.o: typedef.c.o
+
+.PHONY : typedef.o
+
+# target to build an object file
+typedef.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/typedef.c.o
+.PHONY : typedef.c.o
+
+typedef.i: typedef.c.i
+
+.PHONY : typedef.i
+
+# target to preprocess a source file
+typedef.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/typedef.c.i
+.PHONY : typedef.c.i
+
+typedef.s: typedef.c.s
+
+.PHONY : typedef.s
+
+# target to generate assembly for a file
+typedef.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/typedef.c.s
+.PHONY : typedef.c.s
 
 中文与字符.o: 中文与字符.c.o
 
@@ -582,6 +690,33 @@ malloc注意点.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/大小写转换.c.s
 .PHONY : 大小写转换.c.s
 
+大小端测试.o: 大小端测试.c.o
+
+.PHONY : 大小端测试.o
+
+# target to build an object file
+大小端测试.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/大小端测试.c.o
+.PHONY : 大小端测试.c.o
+
+大小端测试.i: 大小端测试.c.i
+
+.PHONY : 大小端测试.i
+
+# target to preprocess a source file
+大小端测试.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/大小端测试.c.i
+.PHONY : 大小端测试.c.i
+
+大小端测试.s: 大小端测试.c.s
+
+.PHONY : 大小端测试.s
+
+# target to generate assembly for a file
+大小端测试.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/大小端测试.c.s
+.PHONY : 大小端测试.c.s
+
 字符.o: 字符.c.o
 
 .PHONY : 字符.o
@@ -770,6 +905,33 @@ malloc注意点.c.s:
 字符数组赋值.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/字符数组赋值.c.s
 .PHONY : 字符数组赋值.c.s
+
+宏.o: 宏.c.o
+
+.PHONY : 宏.o
+
+# target to build an object file
+宏.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/宏.c.o
+.PHONY : 宏.c.o
+
+宏.i: 宏.c.i
+
+.PHONY : 宏.i
+
+# target to preprocess a source file
+宏.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/宏.c.i
+.PHONY : 宏.c.i
+
+宏.s: 宏.c.s
+
+.PHONY : 宏.s
+
+# target to generate assembly for a file
+宏.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/宏.c.s
+.PHONY : 宏.c.s
 
 循环结构.o: 循环结构.c.o
 
@@ -1176,6 +1338,33 @@ malloc注意点.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/有参数有返回值.c.s
 .PHONY : 有参数有返回值.c.s
 
+枚举类型.o: 枚举类型.c.o
+
+.PHONY : 枚举类型.o
+
+# target to build an object file
+枚举类型.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/枚举类型.c.o
+.PHONY : 枚举类型.c.o
+
+枚举类型.i: 枚举类型.c.i
+
+.PHONY : 枚举类型.i
+
+# target to preprocess a source file
+枚举类型.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/枚举类型.c.i
+.PHONY : 枚举类型.c.i
+
+枚举类型.s: 枚举类型.c.s
+
+.PHONY : 枚举类型.s
+
+# target to generate assembly for a file
+枚举类型.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/枚举类型.c.s
+.PHONY : 枚举类型.c.s
+
 栈区大小.o: 栈区大小.c.o
 
 .PHONY : 栈区大小.o
@@ -1283,6 +1472,60 @@ malloc注意点.c.s:
 结构体数组.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/结构体数组.c.s
 .PHONY : 结构体数组.c.s
+
+结构体的大小.o: 结构体的大小.c.o
+
+.PHONY : 结构体的大小.o
+
+# target to build an object file
+结构体的大小.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/结构体的大小.c.o
+.PHONY : 结构体的大小.c.o
+
+结构体的大小.i: 结构体的大小.c.i
+
+.PHONY : 结构体的大小.i
+
+# target to preprocess a source file
+结构体的大小.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/结构体的大小.c.i
+.PHONY : 结构体的大小.c.i
+
+结构体的大小.s: 结构体的大小.c.s
+
+.PHONY : 结构体的大小.s
+
+# target to generate assembly for a file
+结构体的大小.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/结构体的大小.c.s
+.PHONY : 结构体的大小.c.s
+
+联合体.o: 联合体.c.o
+
+.PHONY : 联合体.o
+
+# target to build an object file
+联合体.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/联合体.c.o
+.PHONY : 联合体.c.o
+
+联合体.i: 联合体.c.i
+
+.PHONY : 联合体.i
+
+# target to preprocess a source file
+联合体.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/联合体.c.i
+.PHONY : 联合体.c.i
+
+联合体.s: 联合体.c.s
+
+.PHONY : 联合体.s
+
+# target to generate assembly for a file
+联合体.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/联合体.c.s
+.PHONY : 联合体.c.s
 
 跳转goto.o: 跳转goto.c.o
 
@@ -1428,9 +1671,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... helloworld"
+	@echo "... c3.o"
+	@echo "... c3.i"
+	@echo "... c3.s"
 	@echo "... calloc和realoc.o"
 	@echo "... calloc和realoc.i"
 	@echo "... calloc和realoc.s"
+	@echo "... cmain.o"
+	@echo "... cmain.i"
+	@echo "... cmain.s"
+	@echo "... d3.o"
+	@echo "... d3.i"
+	@echo "... d3.s"
 	@echo "... free.o"
 	@echo "... free.i"
 	@echo "... free.s"
@@ -1449,6 +1701,9 @@ help:
 	@echo "... malloc注意点.o"
 	@echo "... malloc注意点.i"
 	@echo "... malloc注意点.s"
+	@echo "... typedef.o"
+	@echo "... typedef.i"
+	@echo "... typedef.s"
 	@echo "... 中文与字符.o"
 	@echo "... 中文与字符.i"
 	@echo "... 中文与字符.s"
@@ -1479,6 +1734,9 @@ help:
 	@echo "... 大小写转换.o"
 	@echo "... 大小写转换.i"
 	@echo "... 大小写转换.s"
+	@echo "... 大小端测试.o"
+	@echo "... 大小端测试.i"
+	@echo "... 大小端测试.s"
 	@echo "... 字符.o"
 	@echo "... 字符.i"
 	@echo "... 字符.s"
@@ -1500,6 +1758,9 @@ help:
 	@echo "... 字符数组赋值.o"
 	@echo "... 字符数组赋值.i"
 	@echo "... 字符数组赋值.s"
+	@echo "... 宏.o"
+	@echo "... 宏.i"
+	@echo "... 宏.s"
 	@echo "... 循环结构.o"
 	@echo "... 循环结构.i"
 	@echo "... 循环结构.s"
@@ -1545,6 +1806,9 @@ help:
 	@echo "... 有参数有返回值.o"
 	@echo "... 有参数有返回值.i"
 	@echo "... 有参数有返回值.s"
+	@echo "... 枚举类型.o"
+	@echo "... 枚举类型.i"
+	@echo "... 枚举类型.s"
 	@echo "... 栈区大小.o"
 	@echo "... 栈区大小.i"
 	@echo "... 栈区大小.s"
@@ -1557,6 +1821,12 @@ help:
 	@echo "... 结构体数组.o"
 	@echo "... 结构体数组.i"
 	@echo "... 结构体数组.s"
+	@echo "... 结构体的大小.o"
+	@echo "... 结构体的大小.i"
+	@echo "... 结构体的大小.s"
+	@echo "... 联合体.o"
+	@echo "... 联合体.i"
+	@echo "... 联合体.s"
 	@echo "... 跳转goto.o"
 	@echo "... 跳转goto.i"
 	@echo "... 跳转goto.s"

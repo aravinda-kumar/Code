@@ -84,7 +84,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/c3.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/c3.h">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/calloc和realoc.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/cmain.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/d3.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/d3.h">
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/free.c">
@@ -103,6 +118,9 @@
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/malloc注意点.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/typedef.c">
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/中文与字符.c">
@@ -135,6 +153,9 @@
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/大小写转换.c">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/大小端测试.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符.c">
 			<Option target="helloworld"/>
 		</Unit>
@@ -154,6 +175,9 @@
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符数组赋值.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/宏.c">
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/循环结构.c">
@@ -201,6 +225,9 @@
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/有参数有返回值.c">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/枚举类型.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/栈区大小.c">
 			<Option target="helloworld"/>
 		</Unit>
@@ -211,6 +238,12 @@
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/结构体数组.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/结构体的大小.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/联合体.c">
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/跳转goto.c">

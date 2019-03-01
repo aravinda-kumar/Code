@@ -137,3 +137,112 @@
                 - 这些是1个字节，超出了这个范围就不一定了
 
 - 全部变量默认初始化0，局部变量初始化随机
+
+- 隐式类型转换
+    - 当出现在表达式中，有符号和无符号的char和short会被自动的转换成int参与运算，当short与int一样的时候，unsigned short被转换成unsigned int
+    - 包含两种数据类型的任何运算中，两个值都会被转换成两种类型中较高的类型的，然后再计算。
+         - long double, double, float, unsigned long long, long long, unsigned long, long, unsigned int, int
+         - 在long和int有相同类型大小的时候，unsigned int > long
+         - 排名没有涉及到char short,因为已经被默认转换成int 或者unsigned int了
+         - 混合运算的转换过程 --- 2+4/5.0f+6-9.0
+            - 4.0f/5.0f = 0.8f  ==> 2+0.8f+6-9.0
+            - 2.0f+0.8f+6-9.0 ==> 2.8f+6-9.0
+            - 2.8f+6.0f-9.0 ==> 8.8f-9.0
+            - 8.8d - 9.0d = -0.2d
+            - 因此，类型转换不是一下子全部转换成double。转换过程是一步一步转换计算的。
+    - 在赋值语句中，会被转换出赋值运算符左侧的类型，可能升级，也可能降级。
+        - int a = 12.23 --- double被转换成int, double被降级
+        - double d = 12 --- int被转换出double, int被升级
+    - 作为函数参数的时候，char和short会被转换成int，float会被转化成double，可以通过函数原型防止类型提升。
+
+- 显示类型转换
+    - 强制类型转换
+        - (type)+数据
+        - 强转基本数据类型
+            - 12 + (int)12.2
+        - 强转指针类型/强转地址类型
+            - 注意点：
+                - 指针的类型，决定了指针的读写方式
+                - 别越界
+            - int a = 12; double *p; p = (double *)&a; *p = 12; --- 不允许，出现了越界，int只有4字节，指针p操作了8字节
+            - double a = 12; int *p; p = (int *)&a; *p = 12; --- 允许，操作没有出现越界。
+            - int a = 12; float *p; p = (float *)&a; *p = 12.12; --- 允许，数据类型占用字节数相同，不会出现越界。
+            - 指针/地址的类型决定着指针/地址的读写方式。
+
+- 大小端存储
+    - 小端存储：数据的低位对应内存的低位。   --- 通常都是小端存储
+    - 大端存储：数据的低位对应内存的高位。
+
+- 重命名 --- typedef
+    - 基本数据类型
+        - typedef int myint;
+            - myint就是int, 用起来没有任何区别
+        - typedef unsigned int uint;
+    - 注意:
+        - 定义的位置决定作用范围
+        - 同一个类型的重命名可以一样的名字，不同的就出问题了
+    - 指针类型
+        - type int* pint;
+    - 结构体类型
+        - typedef struct Node{ int x;}_Node; --- 后面的变量可以直接用_Node定义
+        - typedef struct { int x;}_Node;     --- 在定义以外的地方也可以使用_Node定义变量
+    - 函数指针类型
+        - typedef void (*pFun)(int a, double d);
+        
+- 宏 --- #define
+    - 理解 --- enum是给整数重命名，typedef是给类型重命名，宏是可以给一切重命名，但本质还是替换
+    - 本质 --- 单纯的替换
+    - 写法 --- #define 预处理指令
+    - 常量宏
+        - 将常量替换 #define ONE 1
+            - 如果写成#define ONE 1; 1后面的分号也会被替换到相应位置，会产生错误!
+        - 宏不进行任何运算，只是单纯的替换。
+        - 对语句进行替换 --- #define PRINT printf("hello world!");
+            - 此时语句结尾是否加分号取决于调用语句怎么写。
+        - 可以定义空宏 --- #define THREE
+        - 宏也可以作为宏的本体 ---  #define ONE 1 #define ONEONE ONE
+        - 宏表达式进行计算的时候，注意运算的优先级，建议一般需要增加小括号
+            - 例： #define ONE 1+1    2xONE = 2x1+1=3
+            - 如果说想计算得到4, 可以在宏中加一个括号 --- #define ONE (1+1)
+    - 参数宏
+        - 传递参数 #define PRINT(x) printf("%d\n", x*2);
+            - 宏的参数没有指定类型，但是仍然需要符合替换的语句中要求的数据类型
+            - 传递的结果涉及到表达式的时候，仍然需要加小括号
+                - PRINT(2+2) --- 结果会变成6
+        - 传递多个参数 #define PRINT(x, y) printf("%d, %d\n", (x)*2, y);
+    - 宏拼接 --- \
+        - 反斜杠后面不可以加任何字符，包括空格，回车
+        - 反斜杠的下一行可以加空格
+    - 字符串指示符 --- #
+        - 例子 #define NUM(x) #x
+            - 包括双引号也会被解释成字符串，小括号里传什么，就转换什么
+    - 字符串拼接符 --- ##
+        - 例子 #define CATA(x, y) #x ## #y    printf("%s\n", CATA(123, 456));
+        - 注意： 这个用法只在VS中可用
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            

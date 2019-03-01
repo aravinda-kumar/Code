@@ -681,6 +681,123 @@ CMakeFiles/helloworld.dir/结构体数组.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/结构体数组.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/结构体数组.c -o CMakeFiles/helloworld.dir/结构体数组.c.s
 
+CMakeFiles/helloworld.dir/结构体的大小.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/结构体的大小.c.o: ../结构体的大小.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/helloworld.dir/结构体的大小.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/结构体的大小.c.o   -c /home/shuncs/Code/Cpp/helloworld/结构体的大小.c
+
+CMakeFiles/helloworld.dir/结构体的大小.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/结构体的大小.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuncs/Code/Cpp/helloworld/结构体的大小.c > CMakeFiles/helloworld.dir/结构体的大小.c.i
+
+CMakeFiles/helloworld.dir/结构体的大小.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/结构体的大小.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/结构体的大小.c -o CMakeFiles/helloworld.dir/结构体的大小.c.s
+
+CMakeFiles/helloworld.dir/联合体.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/联合体.c.o: ../联合体.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/helloworld.dir/联合体.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/联合体.c.o   -c /home/shuncs/Code/Cpp/helloworld/联合体.c
+
+CMakeFiles/helloworld.dir/联合体.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/联合体.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuncs/Code/Cpp/helloworld/联合体.c > CMakeFiles/helloworld.dir/联合体.c.i
+
+CMakeFiles/helloworld.dir/联合体.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/联合体.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/联合体.c -o CMakeFiles/helloworld.dir/联合体.c.s
+
+CMakeFiles/helloworld.dir/枚举类型.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/枚举类型.c.o: ../枚举类型.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/helloworld.dir/枚举类型.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/枚举类型.c.o   -c /home/shuncs/Code/Cpp/helloworld/枚举类型.c
+
+CMakeFiles/helloworld.dir/枚举类型.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/枚举类型.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuncs/Code/Cpp/helloworld/枚举类型.c > CMakeFiles/helloworld.dir/枚举类型.c.i
+
+CMakeFiles/helloworld.dir/枚举类型.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/枚举类型.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/枚举类型.c -o CMakeFiles/helloworld.dir/枚举类型.c.s
+
+CMakeFiles/helloworld.dir/大小端测试.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/大小端测试.c.o: ../大小端测试.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/helloworld.dir/大小端测试.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/大小端测试.c.o   -c /home/shuncs/Code/Cpp/helloworld/大小端测试.c
+
+CMakeFiles/helloworld.dir/大小端测试.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/大小端测试.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuncs/Code/Cpp/helloworld/大小端测试.c > CMakeFiles/helloworld.dir/大小端测试.c.i
+
+CMakeFiles/helloworld.dir/大小端测试.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/大小端测试.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/大小端测试.c -o CMakeFiles/helloworld.dir/大小端测试.c.s
+
+CMakeFiles/helloworld.dir/typedef.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/typedef.c.o: ../typedef.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/helloworld.dir/typedef.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/typedef.c.o   -c /home/shuncs/Code/Cpp/helloworld/typedef.c
+
+CMakeFiles/helloworld.dir/typedef.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/typedef.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuncs/Code/Cpp/helloworld/typedef.c > CMakeFiles/helloworld.dir/typedef.c.i
+
+CMakeFiles/helloworld.dir/typedef.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/typedef.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/typedef.c -o CMakeFiles/helloworld.dir/typedef.c.s
+
+CMakeFiles/helloworld.dir/宏.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/宏.c.o: ../宏.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/helloworld.dir/宏.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/宏.c.o   -c /home/shuncs/Code/Cpp/helloworld/宏.c
+
+CMakeFiles/helloworld.dir/宏.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/宏.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuncs/Code/Cpp/helloworld/宏.c > CMakeFiles/helloworld.dir/宏.c.i
+
+CMakeFiles/helloworld.dir/宏.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/宏.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/宏.c -o CMakeFiles/helloworld.dir/宏.c.s
+
+CMakeFiles/helloworld.dir/cmain.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/cmain.c.o: ../cmain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/helloworld.dir/cmain.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/cmain.c.o   -c /home/shuncs/Code/Cpp/helloworld/cmain.c
+
+CMakeFiles/helloworld.dir/cmain.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/cmain.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuncs/Code/Cpp/helloworld/cmain.c > CMakeFiles/helloworld.dir/cmain.c.i
+
+CMakeFiles/helloworld.dir/cmain.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/cmain.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/cmain.c -o CMakeFiles/helloworld.dir/cmain.c.s
+
+CMakeFiles/helloworld.dir/c3.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/c3.c.o: ../c3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/helloworld.dir/c3.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/c3.c.o   -c /home/shuncs/Code/Cpp/helloworld/c3.c
+
+CMakeFiles/helloworld.dir/c3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/c3.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuncs/Code/Cpp/helloworld/c3.c > CMakeFiles/helloworld.dir/c3.c.i
+
+CMakeFiles/helloworld.dir/c3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/c3.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/c3.c -o CMakeFiles/helloworld.dir/c3.c.s
+
+CMakeFiles/helloworld.dir/d3.c.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/d3.c.o: ../d3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/helloworld.dir/d3.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/d3.c.o   -c /home/shuncs/Code/Cpp/helloworld/d3.c
+
+CMakeFiles/helloworld.dir/d3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/d3.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuncs/Code/Cpp/helloworld/d3.c > CMakeFiles/helloworld.dir/d3.c.i
+
+CMakeFiles/helloworld.dir/d3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/d3.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuncs/Code/Cpp/helloworld/d3.c -o CMakeFiles/helloworld.dir/d3.c.s
+
 # Object files for target helloworld
 helloworld_OBJECTS = \
 "CMakeFiles/helloworld.dir/main.cpp.o" \
@@ -730,7 +847,16 @@ helloworld_OBJECTS = \
 "CMakeFiles/helloworld.dir/声明一个结构体.c.o" \
 "CMakeFiles/helloworld.dir/指针成员和函数成员.c.o" \
 "CMakeFiles/helloworld.dir/结构体嵌套.c.o" \
-"CMakeFiles/helloworld.dir/结构体数组.c.o"
+"CMakeFiles/helloworld.dir/结构体数组.c.o" \
+"CMakeFiles/helloworld.dir/结构体的大小.c.o" \
+"CMakeFiles/helloworld.dir/联合体.c.o" \
+"CMakeFiles/helloworld.dir/枚举类型.c.o" \
+"CMakeFiles/helloworld.dir/大小端测试.c.o" \
+"CMakeFiles/helloworld.dir/typedef.c.o" \
+"CMakeFiles/helloworld.dir/宏.c.o" \
+"CMakeFiles/helloworld.dir/cmain.c.o" \
+"CMakeFiles/helloworld.dir/c3.c.o" \
+"CMakeFiles/helloworld.dir/d3.c.o"
 
 # External object files for target helloworld
 helloworld_EXTERNAL_OBJECTS =
@@ -783,9 +909,18 @@ helloworld: CMakeFiles/helloworld.dir/声明一个结构体.c.o
 helloworld: CMakeFiles/helloworld.dir/指针成员和函数成员.c.o
 helloworld: CMakeFiles/helloworld.dir/结构体嵌套.c.o
 helloworld: CMakeFiles/helloworld.dir/结构体数组.c.o
+helloworld: CMakeFiles/helloworld.dir/结构体的大小.c.o
+helloworld: CMakeFiles/helloworld.dir/联合体.c.o
+helloworld: CMakeFiles/helloworld.dir/枚举类型.c.o
+helloworld: CMakeFiles/helloworld.dir/大小端测试.c.o
+helloworld: CMakeFiles/helloworld.dir/typedef.c.o
+helloworld: CMakeFiles/helloworld.dir/宏.c.o
+helloworld: CMakeFiles/helloworld.dir/cmain.c.o
+helloworld: CMakeFiles/helloworld.dir/c3.c.o
+helloworld: CMakeFiles/helloworld.dir/d3.c.o
 helloworld: CMakeFiles/helloworld.dir/build.make
 helloworld: CMakeFiles/helloworld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX executable helloworld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Linking CXX executable helloworld"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/helloworld.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
