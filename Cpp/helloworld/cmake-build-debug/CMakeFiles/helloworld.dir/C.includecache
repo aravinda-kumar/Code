@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/shuncs/Code/Cpp/helloworld/内存管理.c
+/home/zhushuai/Code/Cpp/helloworld/随机数.c
 stdio.h
+-
+stdlib.h
+-
+time.h
 -
 

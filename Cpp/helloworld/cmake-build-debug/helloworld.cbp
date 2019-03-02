@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/shuncs/Code/Cpp/helloworld/cmake-build-debug"/>
+				<Option working_dir="/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/shuncs/Code/Cpp/helloworld/cmake-build-debug"/>
+				<Option working_dir="/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/shuncs/Code/Cpp/helloworld/cmake-build-debug"/>
+				<Option working_dir="/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="helloworld">
-				<Option output="/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/helloworld" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shuncs/Code/Cpp/helloworld/cmake-build-debug"/>
+				<Option output="/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/helloworld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="helloworld/fast">
-				<Option output="/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/helloworld" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shuncs/Code/Cpp/helloworld/cmake-build-debug"/>
+				<Option output="/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/helloworld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,209 +77,212 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhushuai/Code/Cpp/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/c3.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/c3.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/c3.h">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/c3.h">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/calloc和realoc.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/calloc和realoc.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/cmain.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/cmain.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/common2.h">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/common2.h">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/const.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/const.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/d3.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/d3.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/d3.h">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/d3.h">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/free.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/free.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/helloworld.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/helloworld.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/main.cpp">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/main.cpp">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/malloc.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/malloc.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/malloc数组.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/malloc数组.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/malloc注意点.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/malloc注意点.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/register.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/register.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/static.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/static.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/typedef.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/typedef.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/中文与字符.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/中文与字符.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/二维数组.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/二维数组.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/二维数组与指针.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/二维数组与指针.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/内存管理.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/内存管理.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/函数地址.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/函数地址.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/函数声明.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/函数声明.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/利用指针遍历二维数组.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/利用指针遍历二维数组.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/参数个数不确定的函数.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/参数个数不确定的函数.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/取地址.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/取地址.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/命令行参数.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/命令行参数.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/声明一个结构体.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/声明一个结构体.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/大小写转换.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/大小写转换.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/大小端测试.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/大小端测试.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/字符.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符串.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/字符串.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符串操作函数.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/字符串操作函数.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符串数组.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/字符串数组.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符数组.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/字符数组.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符数组的输入.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/字符数组的输入.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/字符数组赋值.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/字符数组赋值.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/宏.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/宏.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/循环结构.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/循环结构.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/成绩评级系统.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/成绩评级系统.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/指针.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/指针.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/指针与数组.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/指针与数组.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/指针成员和函数成员.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/指针成员和函数成员.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/指针数组拉链结构.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/指针数组拉链结构.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/数据类型.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/数据类型.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/数组.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/数组.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/数组之间的赋值.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/数组之间的赋值.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/数组指针.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/数组指针.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/数组最大值.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/数组最大值.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/无参数无返回值.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/无参数无返回值.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/无参数有返回值.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/无参数有返回值.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/有参数无返回值.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/有参数无返回值.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/有参数有返回值.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/有参数有返回值.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/枚举类型.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/枚举类型.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/栈区大小.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/栈区大小.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/浮点型数据.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/浮点型数据.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/结构体嵌套.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/结构体嵌套.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/结构体数组.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/结构体数组.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/结构体的大小.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/结构体的大小.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/联合体.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/联合体.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/跳转goto.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/跳转goto.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/运算符.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/运算符.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/选择结构.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/选择结构.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/选择结构2.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/选择结构2.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/递归函数.c">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/递归函数.c">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="/home/shuncs/Code/Cpp/helloworld/CMakeLists.txt">
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/随机数.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/zhushuai/Code/Cpp/helloworld/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

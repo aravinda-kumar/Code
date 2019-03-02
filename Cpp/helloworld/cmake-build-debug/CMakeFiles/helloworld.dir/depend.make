@@ -45,6 +45,8 @@ CMakeFiles/helloworld.dir/参数个数不确定的函数.c.o: ../参数个数不
 
 CMakeFiles/helloworld.dir/取地址.c.o: ../取地址.c
 
+CMakeFiles/helloworld.dir/命令行参数.c.o: ../命令行参数.c
+
 CMakeFiles/helloworld.dir/声明一个结构体.c.o: ../声明一个结构体.c
 
 CMakeFiles/helloworld.dir/大小写转换.c.o: ../大小写转换.c
@@ -120,6 +122,8 @@ CMakeFiles/helloworld.dir/选择结构.c.o: ../选择结构.c
 CMakeFiles/helloworld.dir/选择结构2.c.o: ../选择结构2.c
 
 CMakeFiles/helloworld.dir/递归函数.c.o: ../递归函数.c
+
+CMakeFiles/helloworld.dir/随机数.c.o: ../随机数.c
 
 CMakeFiles/helloworld.dir/main.cpp.o: ../main.cpp
 
