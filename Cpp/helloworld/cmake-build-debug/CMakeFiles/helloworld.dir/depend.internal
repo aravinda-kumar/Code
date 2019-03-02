@@ -3,16 +3,14 @@
 
 CMakeFiles/helloworld.dir/c3.c.o
  /home/shuncs/Code/Cpp/helloworld/c3.c
- /home/shuncs/Code/Cpp/helloworld/c3.h
 CMakeFiles/helloworld.dir/calloc和realoc.c.o
  /home/shuncs/Code/Cpp/helloworld/calloc和realoc.c
 CMakeFiles/helloworld.dir/cmain.c.o
- /home/shuncs/Code/Cpp/helloworld/c3.h
  /home/shuncs/Code/Cpp/helloworld/cmain.c
- /home/shuncs/Code/Cpp/helloworld/d3.h
+CMakeFiles/helloworld.dir/const.c.o
+ /home/shuncs/Code/Cpp/helloworld/const.c
 CMakeFiles/helloworld.dir/d3.c.o
  /home/shuncs/Code/Cpp/helloworld/d3.c
- /home/shuncs/Code/Cpp/helloworld/d3.h
 CMakeFiles/helloworld.dir/free.c.o
  /home/shuncs/Code/Cpp/helloworld/free.c
 CMakeFiles/helloworld.dir/helloworld.c.o
@@ -23,6 +21,10 @@ CMakeFiles/helloworld.dir/malloc数组.c.o
  /home/shuncs/Code/Cpp/helloworld/malloc数组.c
 CMakeFiles/helloworld.dir/malloc注意点.c.o
  /home/shuncs/Code/Cpp/helloworld/malloc注意点.c
+CMakeFiles/helloworld.dir/register.c.o
+ /home/shuncs/Code/Cpp/helloworld/register.c
+CMakeFiles/helloworld.dir/static.c.o
+ /home/shuncs/Code/Cpp/helloworld/static.c
 CMakeFiles/helloworld.dir/typedef.c.o
  /home/shuncs/Code/Cpp/helloworld/typedef.c
 CMakeFiles/helloworld.dir/中文与字符.c.o
@@ -31,6 +33,8 @@ CMakeFiles/helloworld.dir/二维数组.c.o
  /home/shuncs/Code/Cpp/helloworld/二维数组.c
 CMakeFiles/helloworld.dir/二维数组与指针.c.o
  /home/shuncs/Code/Cpp/helloworld/二维数组与指针.c
+CMakeFiles/helloworld.dir/内存管理.c.o
+ /home/shuncs/Code/Cpp/helloworld/内存管理.c
 CMakeFiles/helloworld.dir/函数地址.c.o
  /home/shuncs/Code/Cpp/helloworld/函数地址.c
 CMakeFiles/helloworld.dir/函数声明.c.o

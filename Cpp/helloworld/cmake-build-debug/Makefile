@@ -204,6 +204,33 @@ cmain.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/cmain.c.s
 .PHONY : cmain.c.s
 
+const.o: const.c.o
+
+.PHONY : const.o
+
+# target to build an object file
+const.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/const.c.o
+.PHONY : const.c.o
+
+const.i: const.c.i
+
+.PHONY : const.i
+
+# target to preprocess a source file
+const.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/const.c.i
+.PHONY : const.c.i
+
+const.s: const.c.s
+
+.PHONY : const.s
+
+# target to generate assembly for a file
+const.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/const.c.s
+.PHONY : const.c.s
+
 d3.o: d3.c.o
 
 .PHONY : d3.o
@@ -393,6 +420,60 @@ malloc注意点.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/malloc注意点.c.s
 .PHONY : malloc注意点.c.s
 
+register.o: register.c.o
+
+.PHONY : register.o
+
+# target to build an object file
+register.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/register.c.o
+.PHONY : register.c.o
+
+register.i: register.c.i
+
+.PHONY : register.i
+
+# target to preprocess a source file
+register.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/register.c.i
+.PHONY : register.c.i
+
+register.s: register.c.s
+
+.PHONY : register.s
+
+# target to generate assembly for a file
+register.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/register.c.s
+.PHONY : register.c.s
+
+static.o: static.c.o
+
+.PHONY : static.o
+
+# target to build an object file
+static.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/static.c.o
+.PHONY : static.c.o
+
+static.i: static.c.i
+
+.PHONY : static.i
+
+# target to preprocess a source file
+static.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/static.c.i
+.PHONY : static.c.i
+
+static.s: static.c.s
+
+.PHONY : static.s
+
+# target to generate assembly for a file
+static.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/static.c.s
+.PHONY : static.c.s
+
 typedef.o: typedef.c.o
 
 .PHONY : typedef.o
@@ -500,6 +581,33 @@ typedef.c.s:
 二维数组与指针.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/二维数组与指针.c.s
 .PHONY : 二维数组与指针.c.s
+
+内存管理.o: 内存管理.c.o
+
+.PHONY : 内存管理.o
+
+# target to build an object file
+内存管理.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/内存管理.c.o
+.PHONY : 内存管理.c.o
+
+内存管理.i: 内存管理.c.i
+
+.PHONY : 内存管理.i
+
+# target to preprocess a source file
+内存管理.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/内存管理.c.i
+.PHONY : 内存管理.c.i
+
+内存管理.s: 内存管理.c.s
+
+.PHONY : 内存管理.s
+
+# target to generate assembly for a file
+内存管理.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/内存管理.c.s
+.PHONY : 内存管理.c.s
 
 函数地址.o: 函数地址.c.o
 
@@ -635,6 +743,33 @@ typedef.c.s:
 取地址.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/取地址.c.s
 .PHONY : 取地址.c.s
+
+命令行参数.o: 命令行参数.c.o
+
+.PHONY : 命令行参数.o
+
+# target to build an object file
+命令行参数.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/命令行参数.c.o
+.PHONY : 命令行参数.c.o
+
+命令行参数.i: 命令行参数.c.i
+
+.PHONY : 命令行参数.i
+
+# target to preprocess a source file
+命令行参数.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/命令行参数.c.i
+.PHONY : 命令行参数.c.i
+
+命令行参数.s: 命令行参数.c.s
+
+.PHONY : 命令行参数.s
+
+# target to generate assembly for a file
+命令行参数.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/命令行参数.c.s
+.PHONY : 命令行参数.c.s
 
 声明一个结构体.o: 声明一个结构体.c.o
 
@@ -1680,6 +1815,9 @@ help:
 	@echo "... cmain.o"
 	@echo "... cmain.i"
 	@echo "... cmain.s"
+	@echo "... const.o"
+	@echo "... const.i"
+	@echo "... const.s"
 	@echo "... d3.o"
 	@echo "... d3.i"
 	@echo "... d3.s"
@@ -1701,6 +1839,12 @@ help:
 	@echo "... malloc注意点.o"
 	@echo "... malloc注意点.i"
 	@echo "... malloc注意点.s"
+	@echo "... register.o"
+	@echo "... register.i"
+	@echo "... register.s"
+	@echo "... static.o"
+	@echo "... static.i"
+	@echo "... static.s"
 	@echo "... typedef.o"
 	@echo "... typedef.i"
 	@echo "... typedef.s"
@@ -1713,6 +1857,9 @@ help:
 	@echo "... 二维数组与指针.o"
 	@echo "... 二维数组与指针.i"
 	@echo "... 二维数组与指针.s"
+	@echo "... 内存管理.o"
+	@echo "... 内存管理.i"
+	@echo "... 内存管理.s"
 	@echo "... 函数地址.o"
 	@echo "... 函数地址.i"
 	@echo "... 函数地址.s"
@@ -1728,6 +1875,9 @@ help:
 	@echo "... 取地址.o"
 	@echo "... 取地址.i"
 	@echo "... 取地址.s"
+	@echo "... 命令行参数.o"
+	@echo "... 命令行参数.i"
+	@echo "... 命令行参数.s"
 	@echo "... 声明一个结构体.o"
 	@echo "... 声明一个结构体.i"
 	@echo "... 声明一个结构体.s"

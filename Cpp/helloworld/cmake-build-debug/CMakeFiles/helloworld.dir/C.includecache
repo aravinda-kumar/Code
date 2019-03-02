@@ -6,19 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/shuncs/Code/Cpp/helloworld/c3.h
-
-/home/shuncs/Code/Cpp/helloworld/cmain.c
+/home/shuncs/Code/Cpp/helloworld/内存管理.c
 stdio.h
 -
-c3.h
-/home/shuncs/Code/Cpp/helloworld/c3.h
-d3.h
-/home/shuncs/Code/Cpp/helloworld/d3.h
-
-/home/shuncs/Code/Cpp/helloworld/d3.c
-d3.h
-/home/shuncs/Code/Cpp/helloworld/d3.h
-
-/home/shuncs/Code/Cpp/helloworld/d3.h
 

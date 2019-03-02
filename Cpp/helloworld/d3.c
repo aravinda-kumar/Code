@@ -1,15 +1,21 @@
+//////
+////// Created by shuncs on 19-3-1.
+//////
+////
+////#include "d3.h"
+////
+////void fun1(void)
+////{
+////    //struct GG g;
+////    //g.a  = 12;
+////
+////}
 //
-// Created by shuncs on 19-3-1.
+//#include "common2.h"
 //
-
-#include "d3.h"
-
-int Sub(int a, int b)
-{
-    return a-b;
-}
-
-int Div(int a, int b)
-{
-    return a/b;
-}
+//int a = 12;
+//static int c = 15;
+//void fun(void)
+//{
+//    printf("%p\ta=%d\n", &a, a);
+//}

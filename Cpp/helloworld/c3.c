@@ -1,16 +1,13 @@
+////
+//// Created by shuncs on 19-3-1.
+////
 //
-// Created by shuncs on 19-3-1.
+//#include "common2.h"
 //
-
-#include "c3.h"
-
-
-int sum(int a, int b)
-{
-    return a+b;
-}
-
-int mul(int a, int b)
-{
-    return a*b;
-}
+//static int c = 18;
+//
+//void fun2(void)
+//{
+//    a = 34;
+//    printf("%p\ta=%d\n", &a, a);
+//}

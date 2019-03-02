@@ -56,6 +56,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/helloworld.dir/cmain.c.o"
   "CMakeFiles/helloworld.dir/c3.c.o"
   "CMakeFiles/helloworld.dir/d3.c.o"
+  "CMakeFiles/helloworld.dir/static.c.o"
+  "CMakeFiles/helloworld.dir/register.c.o"
+  "CMakeFiles/helloworld.dir/const.c.o"
+  "CMakeFiles/helloworld.dir/内存管理.c.o"
+  "CMakeFiles/helloworld.dir/命令行参数.c.o"
   "helloworld.pdb"
   "helloworld"
 )

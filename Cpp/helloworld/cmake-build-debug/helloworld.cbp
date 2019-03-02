@@ -96,6 +96,12 @@
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/cmain.c">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/common2.h">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/const.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/d3.c">
 			<Option target="helloworld"/>
 		</Unit>
@@ -120,6 +126,12 @@
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/malloc注意点.c">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/register.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/static.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/typedef.c">
 			<Option target="helloworld"/>
 		</Unit>
@@ -130,6 +142,9 @@
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/二维数组与指针.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/内存管理.c">
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/函数地址.c">
@@ -145,6 +160,9 @@
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/取地址.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/命令行参数.c">
 			<Option target="helloworld"/>
 		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/声明一个结构体.c">
