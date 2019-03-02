@@ -4,9 +4,12 @@
 
 #define CATA(x, y) #x ## #y
 
-int main(void)
+int main(int argc, char* argv[])
 {
-	printf("%s\n", CATA(123, 456));
+	for (int i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
 	
 
 	system("pause");
