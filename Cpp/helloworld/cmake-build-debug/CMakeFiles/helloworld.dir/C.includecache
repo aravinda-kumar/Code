@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/zhushuai/Code/Cpp/helloworld/随机数.c
+/home/shuncs/Code/Cpp/helloworld/位运算.c
 stdio.h
 -
-stdlib.h
--
-time.h
--
+
+/home/shuncs/Code/Cpp/helloworld/随机数.c
 

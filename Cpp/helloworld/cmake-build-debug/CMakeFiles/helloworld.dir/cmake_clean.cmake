@@ -62,6 +62,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/helloworld.dir/内存管理.c.o"
   "CMakeFiles/helloworld.dir/命令行参数.c.o"
   "CMakeFiles/helloworld.dir/随机数.c.o"
+  "CMakeFiles/helloworld.dir/位运算.c.o"
   "helloworld.pdb"
   "helloworld"
 )

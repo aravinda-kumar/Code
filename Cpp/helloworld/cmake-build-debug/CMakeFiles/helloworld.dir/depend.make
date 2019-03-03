@@ -33,6 +33,8 @@ CMakeFiles/helloworld.dir/二维数组.c.o: ../二维数组.c
 
 CMakeFiles/helloworld.dir/二维数组与指针.c.o: ../二维数组与指针.c
 
+CMakeFiles/helloworld.dir/位运算.c.o: ../位运算.c
+
 CMakeFiles/helloworld.dir/内存管理.c.o: ../内存管理.c
 
 CMakeFiles/helloworld.dir/函数地址.c.o: ../函数地址.c
