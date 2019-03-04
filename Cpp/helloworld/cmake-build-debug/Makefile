@@ -1392,6 +1392,33 @@ typedef.c.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/数组最大值.c.s
 .PHONY : 数组最大值.c.s
 
+文件打开.o: 文件打开.c.o
+
+.PHONY : 文件打开.o
+
+# target to build an object file
+文件打开.c.o:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/文件打开.c.o
+.PHONY : 文件打开.c.o
+
+文件打开.i: 文件打开.c.i
+
+.PHONY : 文件打开.i
+
+# target to preprocess a source file
+文件打开.c.i:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/文件打开.c.i
+.PHONY : 文件打开.c.i
+
+文件打开.s: 文件打开.c.s
+
+.PHONY : 文件打开.s
+
+# target to generate assembly for a file
+文件打开.c.s:
+	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/文件打开.c.s
+.PHONY : 文件打开.c.s
+
 无参数无返回值.o: 无参数无返回值.c.o
 
 .PHONY : 无参数无返回值.o
@@ -2001,6 +2028,9 @@ help:
 	@echo "... 数组最大值.o"
 	@echo "... 数组最大值.i"
 	@echo "... 数组最大值.s"
+	@echo "... 文件打开.o"
+	@echo "... 文件打开.i"
+	@echo "... 文件打开.s"
 	@echo "... 无参数无返回值.o"
 	@echo "... 无参数无返回值.i"
 	@echo "... 无参数无返回值.s"

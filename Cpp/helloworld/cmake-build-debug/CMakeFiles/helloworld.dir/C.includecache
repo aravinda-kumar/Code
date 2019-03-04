@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/shuncs/Code/Cpp/helloworld/位运算.c
+/home/shuncs/Code/Cpp/helloworld/文件打开.c
 stdio.h
 -
-
-/home/shuncs/Code/Cpp/helloworld/随机数.c
+error.h
+-
+string.h
+-
 

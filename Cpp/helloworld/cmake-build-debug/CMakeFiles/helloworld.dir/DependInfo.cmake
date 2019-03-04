@@ -51,6 +51,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/shuncs/Code/Cpp/helloworld/数组之间的赋值.c" "/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/数组之间的赋值.c.o"
   "/home/shuncs/Code/Cpp/helloworld/数组指针.c" "/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/数组指针.c.o"
   "/home/shuncs/Code/Cpp/helloworld/数组最大值.c" "/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/数组最大值.c.o"
+  "/home/shuncs/Code/Cpp/helloworld/文件打开.c" "/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/文件打开.c.o"
   "/home/shuncs/Code/Cpp/helloworld/无参数无返回值.c" "/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/无参数无返回值.c.o"
   "/home/shuncs/Code/Cpp/helloworld/无参数有返回值.c" "/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/无参数有返回值.c.o"
   "/home/shuncs/Code/Cpp/helloworld/有参数无返回值.c" "/home/shuncs/Code/Cpp/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir/有参数无返回值.c.o"

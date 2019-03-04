@@ -234,6 +234,9 @@
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/数组最大值.c">
 			<Option target="helloworld"/>
 		</Unit>
+		<Unit filename="/home/shuncs/Code/Cpp/helloworld/文件打开.c">
+			<Option target="helloworld"/>
+		</Unit>
 		<Unit filename="/home/shuncs/Code/Cpp/helloworld/无参数无返回值.c">
 			<Option target="helloworld"/>
 		</Unit>
