@@ -115,7 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="class.cpp" />
     <ClCompile Include="first.cpp" />
+    <ClCompile Include="newdelete.cpp" />
+    <ClCompile Include="struct.cpp" />
+    <ClCompile Include="其他类型的引用.cpp" />
+    <ClCompile Include="函数重载.cpp" />
+    <ClCompile Include="参数默认值.cpp" />
+    <ClCompile Include="引用.cpp" />
+    <ClCompile Include="引用做参数.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
