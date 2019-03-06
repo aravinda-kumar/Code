@@ -1,0 +1,28 @@
+#include <stdio.h>
+float max(int x,float a[ ]);
+float Max,Min;
+void main()
+{
+	float a[10]={89,98,87.5,100,67.5,97,59,84,73,90};
+	float big;
+	big=max(10,a);
+	printf("The larggest number is:%-7.2f",Max);
+	printf("The smallest number is:%-7.2f",min);
+	printf("The average number is:%-7.2f",ave);
+}
+
+float max(int x,float a[ ])
+{
+	int i;
+	float ave = 0;
+	Max=a[0];
+	Min=a[0];
+	for(i=0;i<=x;i++)
+	{
+		if(Max<a[i])	    Max=a[i];
+		if(Min>a[i])   	Min=a[i];
+		ave = ave +a[i];
+	}
+	ave=ave/i;
+	return ave;
+}     

@@ -1,0 +1,12 @@
+stu1: 
+num:1001
+name:zhushuai
+age:23
+addr:янЁг
+
+stu2: 
+num:1002
+name:johnson
+sex:m
+score:90
+

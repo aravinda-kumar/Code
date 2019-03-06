@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FF948693-E5E2-4FAE-8706-E614F981228E}</ProjectGuid>
+    <RootNamespace>book</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\test.cpp" />
+    <ClCompile Include="..\交换数据引用.cpp" />
+    <ClCompile Include="..\动态链new_delete.cpp" />
+    <ClCompile Include="..\动态链表.cpp" />
+    <ClCompile Include="..\单目运算符重载.cpp" />
+    <ClCompile Include="..\友元函数1.cpp" />
+    <ClCompile Include="..\双目运算符重载字符串比较.cpp" />
+    <ClCompile Include="..\字符串复制指针.cpp" />
+    <ClCompile Include="..\字符串排序.cpp" />
+    <ClCompile Include="..\字符数组排序指针数组.cpp" />
+    <ClCompile Include="..\对象指针.cpp" />
+    <ClCompile Include="..\对象数组.cpp" />
+    <ClCompile Include="..\对象的动态建立与释放.cpp" />
+    <ClCompile Include="..\对象的赋值和复制.cpp" />
+    <ClCompile Include="..\带参数的构造函数.cpp" />
+    <ClCompile Include="..\常对象.cpp" />
+    <ClCompile Include="..\找最大值排序类.cpp" />
+    <ClCompile Include="..\指针const.cpp" />
+    <ClCompile Include="..\指针排序.cpp" />
+    <ClCompile Include="..\排序引用.cpp" />
+    <ClCompile Include="..\数组用指针排序.cpp" />
+    <ClCompile Include="..\时间类1.cpp" />
+    <ClCompile Include="..\时间类2.cpp" />
+    <ClCompile Include="..\时间类3.cpp" />
+    <ClCompile Include="..\有缘类.cpp" />
+    <ClCompile Include="..\构造函数.cpp" />
+    <ClCompile Include="..\构造函数重载.cpp" />
+    <ClCompile Include="..\析构函数.cpp" />
+    <ClCompile Include="..\类中友元函数.cpp" />
+    <ClCompile Include="类中结构初始化.cpp" />
+    <ClCompile Include="类中输出初始化.cpp" />
+    <ClCompile Include="..\类初步.cpp" />
+    <ClCompile Include="..\结构体相等.cpp" />
+    <ClCompile Include="..\表决器结构体.cpp" />
+    <ClCompile Include="..\运算符重载.cpp" />
+    <ClCompile Include="..\运算符重载友元函数.cpp" />
+    <ClCompile Include="..\静态成员函数.cpp" />
+    <ClCompile Include="..\静态数据成员.cpp" />
+    <ClCompile Include="..\静态链表.cpp" />
+    <ClCompile Include="..\静态链表函数.cpp" />
+    <ClCompile Include="..\顺序交换指针.cpp" />
+    <ClCompile Include="..\默认参数构造函数.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
