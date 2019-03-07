@@ -42,5 +42,26 @@
     <ClCompile Include="class.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="friend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="构造函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="初始化列表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="引用和const初始化.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="this指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="常函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="静态成员.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

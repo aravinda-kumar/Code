@@ -117,13 +117,20 @@
   <ItemGroup>
     <ClCompile Include="class.cpp" />
     <ClCompile Include="first.cpp" />
+    <ClCompile Include="friend.cpp" />
     <ClCompile Include="newdelete.cpp" />
     <ClCompile Include="struct.cpp" />
+    <ClCompile Include="this指针.cpp" />
     <ClCompile Include="其他类型的引用.cpp" />
     <ClCompile Include="函数重载.cpp" />
+    <ClCompile Include="初始化列表.cpp" />
     <ClCompile Include="参数默认值.cpp" />
+    <ClCompile Include="常函数.cpp" />
     <ClCompile Include="引用.cpp" />
     <ClCompile Include="引用做参数.cpp" />
+    <ClCompile Include="引用和const初始化.cpp" />
+    <ClCompile Include="构造函数.cpp" />
+    <ClCompile Include="静态成员.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
