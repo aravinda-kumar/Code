@@ -129,7 +129,11 @@
     <ClCompile Include="引用.cpp" />
     <ClCompile Include="引用做参数.cpp" />
     <ClCompile Include="引用和const初始化.cpp" />
+    <ClCompile Include="拷贝构造.cpp" />
     <ClCompile Include="构造函数.cpp" />
+    <ClCompile Include="累加.cpp" />
+    <ClCompile Include="继承.cpp" />
+    <ClCompile Include="运算符重载.cpp" />
     <ClCompile Include="静态成员.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
