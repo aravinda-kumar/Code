@@ -75,5 +75,44 @@
     <ClCompile Include="继承.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="虚函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="虚继承.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="联编.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="联编测试.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="单例.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="异常.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="内部类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类型转换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="函数模板.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类模板.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="继承的模板.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="多态的模板.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类型是类的模板.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
