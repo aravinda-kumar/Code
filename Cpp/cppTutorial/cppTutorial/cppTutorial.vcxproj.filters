@@ -114,5 +114,8 @@
     <ClCompile Include="类型是类的模板.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="string.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

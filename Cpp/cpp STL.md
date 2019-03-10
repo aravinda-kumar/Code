@@ -1,0 +1,54 @@
+# cpp STL
+
+- STL -- standard template library(标准模板库)
+- STL包含六个组件
+	- 容器，迭代器，算法
+	- 适配器，分配器，仿函数
+	- 容器(container)
+		- 系统封装好的数据结构
+			- 数组，链表，栈，队列，树，hash表
+		- 每种数据结构都可以装任意类型
+		- 主要是数据结构的操作 -- 增删改查
+	- 算法(algorithm)
+		- 系统写好了的算法 -- 排序/交换/替换等等
+		- 一个算法可以适用多个容器
+	- 迭代器(iterator)
+		- 链接容器和算法 -- 连接器
+- 容器
+	- 顺序容器
+		- string
+			- 专门的字符串处理的一个类
+			- 跟char*的区别
+				- char*就是指向字符串数组地址的指针
+				- string是一个类，这个类将以上的内容封装到一起，使得字符串的操作更加灵活，方式更多，管理更合理
+				- string这个类，我们使用的时候不用考虑内存的分配和释放，不用担心越界崩溃，因为在封装string这个类的时候，已经考虑到了几乎所有的情况，并做了处理
+			- 头文件 -- string
+			- 定义
+				- 构造函数
+					- string(); -- 不传初始值得string默认赋值'\0'
+						- c_str() 返回当前字符串首字符的地址 const char*
+					- string(size_t length, char ch) -- 初始化为length个ch
+					- string(const char *str);
+					- string(const char *str, size_type length); -- str的前length个
+					- string(const char *str, size_t index, size_type length); -- 从index(从0开始计数)开始复制length个
+					- 拷贝构造
+						- String(const String& str); -- 深拷贝
+				- 运算符重载 -- 声明为友元函数
+			- 属性
+				- 容量
+					- capacity()
+						- 默认容量大小(vs)，少于15个，申请15个，以后每次超过范围后增加16个字节空间
+						- vc6.0第一次申请31个，后续每次申请32个
+					- reserve()
+						- 修改容量，不能变大，只能变小，在字符长度后面加上设置的大小对16的取整乘以16
+						- 调用它之后，容量变成了默认长度加在字符长度后面加上设置的大小对16的取整乘以16
+				- 长度 -- length();
+					- 空字符串的长度是0;
+				- 字符的个数 -- size();
+				- 重新设置字符个数 -- resize()
+					- 容量不变
+					- 对字符串按照既定长度进行截断
+		- 数组
+		- 双端队列
+		- 链表
+		- hash_map
