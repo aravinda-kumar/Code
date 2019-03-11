@@ -116,12 +116,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="class.cpp" />
+    <ClCompile Include="deque.cpp" />
     <ClCompile Include="first.cpp" />
     <ClCompile Include="friend.cpp" />
+    <ClCompile Include="list.cpp" />
+    <ClCompile Include="map.cpp" />
     <ClCompile Include="newdelete.cpp" />
+    <ClCompile Include="resize.cpp" />
     <ClCompile Include="string.cpp" />
     <ClCompile Include="struct.cpp" />
     <ClCompile Include="this指针.cpp" />
+    <ClCompile Include="vector.cpp" />
     <ClCompile Include="其他类型的引用.cpp" />
     <ClCompile Include="内部类.cpp" />
     <ClCompile Include="函数模板.cpp" />

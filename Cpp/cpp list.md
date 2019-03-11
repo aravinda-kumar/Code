@@ -1,0 +1,95 @@
+# cpp list
+
+- list
+	- 双向链表 -- 比单向链表多了个指向前方的指针
+	- vector
+		- 随机访问快，即下标运算
+		- 尾添加，不申请空间的情况下，非常快
+		- 不支持快速插入和删除，比较慢
+	- list
+		- 随机访问慢，也不支持下标
+		- 支持快速插入和删除
+	- 头文件
+- forward_list
+	- 前向列表，操作都在链表头
+- 头文件
+	- list
+- 定义
+	- list<参数列表> ls;
+		- 容器的名字 -- 类名
+		- 参数列表
+			- 基本数据类型
+			- 结构体
+			- 指针
+			- 对象，普通类对象，其他容器的对象
+- 构造函数
+	- list();
+	- list(size_type _Count); -- _Count个元素，默认初始化
+	- list(size_type _Count, const Type& _Val); -- _Count个元素，默认初始化为_Val
+	- list(const _list& _Right); -- 拷贝构造函数
+	- list(InputIterator _First, InputIterator _Last); -- 迭代器初始化
+- 迭代器的定义
+	- list\<type\>::iterator ite;
+	- ite支持ite++, 但是不支持ite+2的形式，不可以偏移指定的位置
+- list的属性
+	- 容量 -- 不存在
+	- 大小
+		- size() -- 元素个数
+		- resize() -- 重新设置元素个数
+		- empty() -- 检测对象是否有元素
+- list操作
+	- 输出
+		- 输出全部，循环，迭代器，for_each();
+	- 输出单个元素
+		- 下标运算符[] -- 不支持
+		- back() -- 最后一个元素的引用
+		- front() -- 第一个元素
+	- 添加
+		- 头添加
+			- push_front(const TYPE &val);  -- 在开始位置添加val
+		- 尾添加
+			- void push_back(const TYPE &val); -- 在结尾处添加val
+		- 插入
+			- iterator insert(iterator loc, const TYPE &val);	 -- 在loc添加变量val
+			- void insert(iterator loc, size_type num, const TYPE &val);	-- 在loc添加num个变量val
+			- void insert(iterator loc, input_iterator start, input_iterator end); -- 在loc添加一段变量
+	- 删除
+		- 尾删除 -- void pop_back();
+		- 头删除 -- void pop_front()
+		- 删除指定元素
+			- iterator erase(iterator loc);	-- 删除特定位置的元素
+			- iterator erase(iterator start, iterator end); -- 删除一段元素
+		- 清空 -- clear();
+		- void remove(const TYPE &val);	-- 去除和val相同的元素
+			- 元素是自定义的类的时候，需要重载==运算符，返回值是bool，右操作数是const
+		- 去重 -- unique();
+	- 修改
+		- 利用迭代器修改
+		- 赋值函数assign()
+		- = 两个list之间相互赋值
+	- 其他
+		- 交换两个list中的内容 -- void swap(list &from);
+		- 反转list中的内容 -- reverse()
+		- 排序 -- sort()
+			- 默认从小到大排序
+		- 合并两个list -- void merge(list &lst);
+			- 自动排序，是完整排序
+			- 重载小于号
+			- 两个链表必须有序
+				- 如果链表元素是升序的，就要用<号，return true
+				- 如果链表元素是降序的，就要用>号，return true
+		- 拼接
+			- void splice(iterator pos, list &lst);
+			- void splice(iterator pos, list &lst, iterator del);
+			- void splice(iterator pos, list &lst, iterator start, iterator end);
+- 运算符重载
+	- 形式和string一样
+- 算法
+	- 遍历 -- 同string
+	- 排序 -- 同string
+	- 查找函数
+	```cpp
+		InputIterator find(InputIterator _First, InputIterator _Last, const Type& _Val);
+		//在一个容器中查找一个成员，返回这个成员的迭代器
+		//没找到，迭代器无效，使用直接崩溃
+	```
