@@ -1,13 +1,13 @@
-
-#include"ergodic.h"
-
-//链表的遍历
-void ScanList()
-{
-	struct Node *pTemp = g_pHead;
-	while (pTemp != NULL)
-	{
-		printf("node.a=%d\n", pTemp->a);
-		pTemp = pTemp->pNext;
-	}
-}
+//
+//#include"ergodic.h"
+//
+////链表的遍历
+//void ScanList()
+//{
+//	struct Node *pTemp = g_pHead;
+//	while (pTemp != NULL)
+//	{
+//		printf("node.a=%d\n", pTemp->a);
+//		pTemp = pTemp->pNext;
+//	}
+//}
