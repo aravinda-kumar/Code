@@ -197,6 +197,27 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_final.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\机头处皮带出现撕裂.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\机尾处皮带出现撕裂.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\重锤处皮带出现撕裂.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Resources\机头处皮带出现撕裂.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Resources\机尾处皮带出现撕裂.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Resources\重锤处皮带出现撕裂.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xRdpdfybmDGbswenlsdHgjgGSGhpbyFIItpjgR/gfr0=</dsig:DigestValue>
+        <dsig:DigestValue>tqOjMaYMmPAsf6lG1pcs0v32/G4xooZJRiXs7wINRxM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -61,19 +61,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>aeiZKdV2o3UzRcKvBq+XIO/w+tARr5WioTqNRF6v3LQ=</dsig:DigestValue>
+        <dsig:DigestValue>cIO4n7q5ylk8CYHeFnkyPVpxH1FgGbBITjeswKm0UAk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="皮带跑偏与撕裂检测监控界面.exe" size="633320">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="皮带跑偏与撕裂检测监控界面.exe" size="1236968">
       <assemblyIdentity name="皮带跑偏与撕裂检测监控界面" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>BBgiIadw8i6d9QM5HzMgHn535WTAZIo5aF/1ttEH/oU=</dsig:DigestValue>
+        <dsig:DigestValue>UyEWtBwwtZYaiqdnFwSOuzjYAHTAlbIe+JY0o7Fqiq0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

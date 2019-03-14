@@ -124,6 +124,27 @@ int main(void)
 
 	printf("客户端连接成功\n");
 
+	char buf[1500] = { 0 };
+	//recv也会阻塞进程，会等客户端传送数据
+	//参数4 -- 详解
+	//默认写0 读取之后会删除缓冲区的空间
+	int res = recv(socketclient, buf, 1499, 0);
+	if (0 == res)
+	{
+		printf("客户端连接中断...");
+	}
+	else if (SOCKET_ERROR == res)
+	{
+		//信息传送出错
+		int error_code = WSAGetLastError();
+		switch (error_code)
+		{
+		default:
+			break;
+		}
+	}
+	printf("%d   %s\n", res, buf);
+
 	//先关闭socket在关闭网络库，SOCKTE隶属于网络库
 	closesocket(socketServer);
 	closesocket(socketclient);

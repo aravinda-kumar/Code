@@ -63,6 +63,16 @@ namespace 皮带跑偏与撕裂检测监控界面.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap bg_final {
+            get {
+                object obj = ResourceManager.GetObject("bg_final", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap g_1 {
             get {
                 object obj = ResourceManager.GetObject("g_1", resourceCulture);
@@ -81,6 +91,25 @@ namespace 皮带跑偏与撕裂检测监控界面.Properties {
         }
         
         /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] 机头处皮带出现撕裂 {
+            get {
+                object obj = ResourceManager.GetObject("机头处皮带出现撕裂", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似于 System.IO.MemoryStream 的 System.IO.UnmanagedMemoryStream 类型的本地化资源。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream 机头处皮带出现撕裂1 {
+            get {
+                return ResourceManager.GetStream("机头处皮带出现撕裂1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似于 System.IO.MemoryStream 的 System.IO.UnmanagedMemoryStream 类型的本地化资源。
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream 机头处皮带发生跑偏 {
@@ -90,11 +119,49 @@ namespace 皮带跑偏与撕裂检测监控界面.Properties {
         }
         
         /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] 机尾处皮带出现撕裂 {
+            get {
+                object obj = ResourceManager.GetObject("机尾处皮带出现撕裂", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似于 System.IO.MemoryStream 的 System.IO.UnmanagedMemoryStream 类型的本地化资源。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream 机尾处皮带出现撕裂1 {
+            get {
+                return ResourceManager.GetStream("机尾处皮带出现撕裂1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似于 System.IO.MemoryStream 的 System.IO.UnmanagedMemoryStream 类型的本地化资源。
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream 机尾处皮带发生跑偏 {
             get {
                 return ResourceManager.GetStream("机尾处皮带发生跑偏", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] 重锤处皮带出现撕裂 {
+            get {
+                object obj = ResourceManager.GetObject("重锤处皮带出现撕裂", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似于 System.IO.MemoryStream 的 System.IO.UnmanagedMemoryStream 类型的本地化资源。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream 重锤处皮带出现撕裂1 {
+            get {
+                return ResourceManager.GetStream("重锤处皮带出现撕裂1", resourceCulture);
             }
         }
         

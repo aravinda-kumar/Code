@@ -32,15 +32,9 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.lbl_SubTitle = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.MediaPlayerHead = new AxWMPLib.AxWindowsMediaPlayer();
-            this.MediaPlayerHam = new AxWMPLib.AxWindowsMediaPlayer();
-            this.MediaPlayerEnd = new AxWMPLib.AxWindowsMediaPlayer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.picBox_Head = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.picBox_Ham = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.picBox_End = new System.Windows.Forms.PictureBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.listBox_Head = new System.Windows.Forms.ListBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
@@ -58,19 +52,16 @@
             this.lbl_Head_State_01 = new System.Windows.Forms.Label();
             this.lbl_Head_State_02 = new System.Windows.Forms.Label();
             this.lbl_Head_State_03 = new System.Windows.Forms.Label();
-            this.picBox_Head_Light = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label5 = new System.Windows.Forms.Label();
             this.lbl_Ham_State_01 = new System.Windows.Forms.Label();
             this.lbl_Ham_State_02 = new System.Windows.Forms.Label();
             this.lbl_Ham_State_03 = new System.Windows.Forms.Label();
-            this.picBox_Ham_Light = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.label9 = new System.Windows.Forms.Label();
             this.lbl_End_State_01 = new System.Windows.Forms.Label();
             this.lbl_End_State_02 = new System.Windows.Forms.Label();
             this.lbl_End_State_03 = new System.Windows.Forms.Label();
-            this.picBox_End_Light = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.btn_Head_Connect = new System.Windows.Forms.Button();
             this.btn_Head_Sound = new System.Windows.Forms.Button();
@@ -120,17 +111,20 @@
             this.清空机头报警日志ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.清空重锤报警日志ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.清空机尾报警日志ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MediaPlayerHead = new AxWMPLib.AxWindowsMediaPlayer();
+            this.MediaPlayerHam = new AxWMPLib.AxWindowsMediaPlayer();
+            this.MediaPlayerEnd = new AxWMPLib.AxWindowsMediaPlayer();
+            this.picBox_Head = new System.Windows.Forms.PictureBox();
+            this.picBox_Ham = new System.Windows.Forms.PictureBox();
+            this.picBox_End = new System.Windows.Forms.PictureBox();
+            this.picBox_Head_Light = new System.Windows.Forms.PictureBox();
+            this.picBox_Ham_Light = new System.Windows.Forms.PictureBox();
+            this.picBox_End_Light = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.MediaPlayerHead)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MediaPlayerHam)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MediaPlayerEnd)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_Head)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_Ham)).BeginInit();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_End)).BeginInit();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
@@ -138,11 +132,8 @@
             this.groupBox8.SuspendLayout();
             this.groupBox9.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_Head_Light)).BeginInit();
             this.tableLayoutPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_Ham_Light)).BeginInit();
             this.tableLayoutPanel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_End_Light)).BeginInit();
             this.tableLayoutPanel6.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
@@ -150,6 +141,15 @@
             this.tableLayoutPanel11.SuspendLayout();
             this.tableLayoutPanel10.SuspendLayout();
             this.menuStrip_Main.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MediaPlayerHead)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MediaPlayerHam)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MediaPlayerEnd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_Head)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_Ham)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_End)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_Head_Light)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_Ham_Light)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_End_Light)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -221,36 +221,6 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(479, 54);
             this.tableLayoutPanel2.TabIndex = 12;
             // 
-            // MediaPlayerHead
-            // 
-            this.MediaPlayerHead.Enabled = true;
-            this.MediaPlayerHead.Location = new System.Drawing.Point(3, 3);
-            this.MediaPlayerHead.Name = "MediaPlayerHead";
-            this.MediaPlayerHead.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("MediaPlayerHead.OcxState")));
-            this.MediaPlayerHead.Size = new System.Drawing.Size(151, 48);
-            this.MediaPlayerHead.TabIndex = 0;
-            this.MediaPlayerHead.Visible = false;
-            // 
-            // MediaPlayerHam
-            // 
-            this.MediaPlayerHam.Enabled = true;
-            this.MediaPlayerHam.Location = new System.Drawing.Point(162, 3);
-            this.MediaPlayerHam.Name = "MediaPlayerHam";
-            this.MediaPlayerHam.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("MediaPlayerHam.OcxState")));
-            this.MediaPlayerHam.Size = new System.Drawing.Size(151, 48);
-            this.MediaPlayerHam.TabIndex = 1;
-            this.MediaPlayerHam.Visible = false;
-            // 
-            // MediaPlayerEnd
-            // 
-            this.MediaPlayerEnd.Enabled = true;
-            this.MediaPlayerEnd.Location = new System.Drawing.Point(321, 3);
-            this.MediaPlayerEnd.Name = "MediaPlayerEnd";
-            this.MediaPlayerEnd.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("MediaPlayerEnd.OcxState")));
-            this.MediaPlayerEnd.Size = new System.Drawing.Size(152, 48);
-            this.MediaPlayerEnd.TabIndex = 2;
-            this.MediaPlayerEnd.Visible = false;
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.picBox_Head);
@@ -262,17 +232,6 @@
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "机头撕裂照片";
-            // 
-            // picBox_Head
-            // 
-            this.picBox_Head.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.picBox_Head.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picBox_Head.Location = new System.Drawing.Point(3, 22);
-            this.picBox_Head.Name = "picBox_Head";
-            this.picBox_Head.Size = new System.Drawing.Size(473, 259);
-            this.picBox_Head.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBox_Head.TabIndex = 0;
-            this.picBox_Head.TabStop = false;
             // 
             // groupBox2
             // 
@@ -286,18 +245,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "重锤撕裂照片";
             // 
-            // picBox_Ham
-            // 
-            this.picBox_Ham.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.picBox_Ham.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picBox_Ham.Location = new System.Drawing.Point(3, 22);
-            this.picBox_Ham.Name = "picBox_Ham";
-            this.picBox_Ham.Size = new System.Drawing.Size(473, 259);
-            this.picBox_Ham.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBox_Ham.TabIndex = 0;
-            this.picBox_Ham.TabStop = false;
-            this.picBox_Ham.Tag = "";
-            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.picBox_End);
@@ -309,17 +256,6 @@
             this.groupBox3.TabIndex = 15;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "机尾撕裂照片";
-            // 
-            // picBox_End
-            // 
-            this.picBox_End.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.picBox_End.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picBox_End.Location = new System.Drawing.Point(3, 22);
-            this.picBox_End.Name = "picBox_End";
-            this.picBox_End.Size = new System.Drawing.Size(474, 259);
-            this.picBox_End.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBox_End.TabIndex = 0;
-            this.picBox_End.TabStop = false;
             // 
             // groupBox4
             // 
@@ -472,7 +408,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.9726F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.34247F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.88585F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 39F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 53F));
             this.tableLayoutPanel3.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.lbl_Head_State_01, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.lbl_Head_State_02, 2, 0);
@@ -491,9 +427,9 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(3, 7);
+            this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 20);
+            this.label1.Size = new System.Drawing.Size(72, 34);
             this.label1.TabIndex = 0;
             this.label1.Text = "相机状态:";
             // 
@@ -502,7 +438,7 @@
             this.lbl_Head_State_01.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_Head_State_01.AutoSize = true;
             this.lbl_Head_State_01.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Head_State_01.Location = new System.Drawing.Point(116, 7);
+            this.lbl_Head_State_01.Location = new System.Drawing.Point(112, 7);
             this.lbl_Head_State_01.Name = "lbl_Head_State_01";
             this.lbl_Head_State_01.Size = new System.Drawing.Size(93, 20);
             this.lbl_Head_State_01.TabIndex = 1;
@@ -513,7 +449,7 @@
             this.lbl_Head_State_02.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_Head_State_02.AutoSize = true;
             this.lbl_Head_State_02.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Head_State_02.Location = new System.Drawing.Point(221, 7);
+            this.lbl_Head_State_02.Location = new System.Drawing.Point(214, 7);
             this.lbl_Head_State_02.Name = "lbl_Head_State_02";
             this.lbl_Head_State_02.Size = new System.Drawing.Size(93, 20);
             this.lbl_Head_State_02.TabIndex = 2;
@@ -524,21 +460,11 @@
             this.lbl_Head_State_03.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_Head_State_03.AutoSize = true;
             this.lbl_Head_State_03.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Head_State_03.Location = new System.Drawing.Point(332, 7);
+            this.lbl_Head_State_03.Location = new System.Drawing.Point(321, 7);
             this.lbl_Head_State_03.Name = "lbl_Head_State_03";
             this.lbl_Head_State_03.Size = new System.Drawing.Size(93, 20);
             this.lbl_Head_State_03.TabIndex = 3;
             this.lbl_Head_State_03.Text = "三号断开";
-            // 
-            // picBox_Head_Light
-            // 
-            this.picBox_Head_Light.Image = global::皮带跑偏与撕裂检测监控界面.Properties.Resources.g_1;
-            this.picBox_Head_Light.Location = new System.Drawing.Point(441, 3);
-            this.picBox_Head_Light.Name = "picBox_Head_Light";
-            this.picBox_Head_Light.Size = new System.Drawing.Size(35, 27);
-            this.picBox_Head_Light.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBox_Head_Light.TabIndex = 4;
-            this.picBox_Head_Light.TabStop = false;
             // 
             // tableLayoutPanel4
             // 
@@ -547,7 +473,7 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.12178F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 52F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 54F));
             this.tableLayoutPanel4.Controls.Add(this.label5, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.lbl_Ham_State_01, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.lbl_Ham_State_02, 2, 0);
@@ -566,9 +492,9 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(3, 7);
+            this.label5.Location = new System.Drawing.Point(3, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(104, 20);
+            this.label5.Size = new System.Drawing.Size(72, 34);
             this.label5.TabIndex = 0;
             this.label5.Text = "相机状态:";
             // 
@@ -577,7 +503,7 @@
             this.lbl_Ham_State_01.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_Ham_State_01.AutoSize = true;
             this.lbl_Ham_State_01.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Ham_State_01.Location = new System.Drawing.Point(113, 7);
+            this.lbl_Ham_State_01.Location = new System.Drawing.Point(112, 7);
             this.lbl_Ham_State_01.Name = "lbl_Ham_State_01";
             this.lbl_Ham_State_01.Size = new System.Drawing.Size(93, 20);
             this.lbl_Ham_State_01.TabIndex = 1;
@@ -588,7 +514,7 @@
             this.lbl_Ham_State_02.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_Ham_State_02.AutoSize = true;
             this.lbl_Ham_State_02.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Ham_State_02.Location = new System.Drawing.Point(216, 7);
+            this.lbl_Ham_State_02.Location = new System.Drawing.Point(214, 7);
             this.lbl_Ham_State_02.Name = "lbl_Ham_State_02";
             this.lbl_Ham_State_02.Size = new System.Drawing.Size(93, 20);
             this.lbl_Ham_State_02.TabIndex = 2;
@@ -599,21 +525,11 @@
             this.lbl_Ham_State_03.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_Ham_State_03.AutoSize = true;
             this.lbl_Ham_State_03.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Ham_State_03.Location = new System.Drawing.Point(322, 7);
+            this.lbl_Ham_State_03.Location = new System.Drawing.Point(320, 7);
             this.lbl_Ham_State_03.Name = "lbl_Ham_State_03";
             this.lbl_Ham_State_03.Size = new System.Drawing.Size(93, 20);
             this.lbl_Ham_State_03.TabIndex = 3;
             this.lbl_Ham_State_03.Text = "三号断开";
-            // 
-            // picBox_Ham_Light
-            // 
-            this.picBox_Ham_Light.Image = global::皮带跑偏与撕裂检测监控界面.Properties.Resources.g_1;
-            this.picBox_Ham_Light.Location = new System.Drawing.Point(428, 3);
-            this.picBox_Ham_Light.Name = "picBox_Ham_Light";
-            this.picBox_Ham_Light.Size = new System.Drawing.Size(36, 27);
-            this.picBox_Ham_Light.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBox_Ham_Light.TabIndex = 4;
-            this.picBox_Ham_Light.TabStop = false;
             // 
             // tableLayoutPanel5
             // 
@@ -622,7 +538,7 @@
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.06542F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 52F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 45F));
             this.tableLayoutPanel5.Controls.Add(this.label9, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.lbl_End_State_01, 1, 0);
             this.tableLayoutPanel5.Controls.Add(this.lbl_End_State_02, 2, 0);
@@ -652,7 +568,7 @@
             this.lbl_End_State_01.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_End_State_01.AutoSize = true;
             this.lbl_End_State_01.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_End_State_01.Location = new System.Drawing.Point(114, 7);
+            this.lbl_End_State_01.Location = new System.Drawing.Point(115, 7);
             this.lbl_End_State_01.Name = "lbl_End_State_01";
             this.lbl_End_State_01.Size = new System.Drawing.Size(93, 20);
             this.lbl_End_State_01.TabIndex = 1;
@@ -663,7 +579,7 @@
             this.lbl_End_State_02.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_End_State_02.AutoSize = true;
             this.lbl_End_State_02.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_End_State_02.Location = new System.Drawing.Point(216, 7);
+            this.lbl_End_State_02.Location = new System.Drawing.Point(219, 7);
             this.lbl_End_State_02.Name = "lbl_End_State_02";
             this.lbl_End_State_02.Size = new System.Drawing.Size(93, 20);
             this.lbl_End_State_02.TabIndex = 2;
@@ -674,21 +590,11 @@
             this.lbl_End_State_03.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbl_End_State_03.AutoSize = true;
             this.lbl_End_State_03.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_End_State_03.Location = new System.Drawing.Point(323, 7);
+            this.lbl_End_State_03.Location = new System.Drawing.Point(327, 7);
             this.lbl_End_State_03.Name = "lbl_End_State_03";
             this.lbl_End_State_03.Size = new System.Drawing.Size(93, 20);
             this.lbl_End_State_03.TabIndex = 3;
             this.lbl_End_State_03.Text = "三号断开";
-            // 
-            // picBox_End_Light
-            // 
-            this.picBox_End_Light.Image = global::皮带跑偏与撕裂检测监控界面.Properties.Resources.g_1;
-            this.picBox_End_Light.Location = new System.Drawing.Point(430, 3);
-            this.picBox_End_Light.Name = "picBox_End_Light";
-            this.picBox_End_Light.Size = new System.Drawing.Size(37, 27);
-            this.picBox_End_Light.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBox_End_Light.TabIndex = 4;
-            this.picBox_End_Light.TabStop = false;
             // 
             // tableLayoutPanel6
             // 
@@ -1171,21 +1077,21 @@
             // 清空机头照片ToolStripMenuItem
             // 
             this.清空机头照片ToolStripMenuItem.Name = "清空机头照片ToolStripMenuItem";
-            this.清空机头照片ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.清空机头照片ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.清空机头照片ToolStripMenuItem.Text = "清空机头照片";
             this.清空机头照片ToolStripMenuItem.Click += new System.EventHandler(this.清空机头照片ToolStripMenuItem_Click);
             // 
             // 清空重锤照片ToolStripMenuItem
             // 
             this.清空重锤照片ToolStripMenuItem.Name = "清空重锤照片ToolStripMenuItem";
-            this.清空重锤照片ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.清空重锤照片ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.清空重锤照片ToolStripMenuItem.Text = "清空重锤照片";
             this.清空重锤照片ToolStripMenuItem.Click += new System.EventHandler(this.清空重锤照片ToolStripMenuItem_Click);
             // 
             // 清空机尾照片ToolStripMenuItem
             // 
             this.清空机尾照片ToolStripMenuItem.Name = "清空机尾照片ToolStripMenuItem";
-            this.清空机尾照片ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.清空机尾照片ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.清空机尾照片ToolStripMenuItem.Text = "清空机尾照片";
             this.清空机尾照片ToolStripMenuItem.Click += new System.EventHandler(this.清空机尾照片ToolStripMenuItem_Click);
             // 
@@ -1251,6 +1157,100 @@
             this.清空机尾报警日志ToolStripMenuItem.Text = "清空机尾报警日志";
             this.清空机尾报警日志ToolStripMenuItem.Click += new System.EventHandler(this.清空机尾报警日志ToolStripMenuItem_Click);
             // 
+            // MediaPlayerHead
+            // 
+            this.MediaPlayerHead.Enabled = true;
+            this.MediaPlayerHead.Location = new System.Drawing.Point(3, 3);
+            this.MediaPlayerHead.Name = "MediaPlayerHead";
+            this.MediaPlayerHead.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("MediaPlayerHead.OcxState")));
+            this.MediaPlayerHead.Size = new System.Drawing.Size(151, 48);
+            this.MediaPlayerHead.TabIndex = 0;
+            this.MediaPlayerHead.Visible = false;
+            // 
+            // MediaPlayerHam
+            // 
+            this.MediaPlayerHam.Enabled = true;
+            this.MediaPlayerHam.Location = new System.Drawing.Point(162, 3);
+            this.MediaPlayerHam.Name = "MediaPlayerHam";
+            this.MediaPlayerHam.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("MediaPlayerHam.OcxState")));
+            this.MediaPlayerHam.Size = new System.Drawing.Size(151, 48);
+            this.MediaPlayerHam.TabIndex = 1;
+            this.MediaPlayerHam.Visible = false;
+            // 
+            // MediaPlayerEnd
+            // 
+            this.MediaPlayerEnd.Enabled = true;
+            this.MediaPlayerEnd.Location = new System.Drawing.Point(321, 3);
+            this.MediaPlayerEnd.Name = "MediaPlayerEnd";
+            this.MediaPlayerEnd.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("MediaPlayerEnd.OcxState")));
+            this.MediaPlayerEnd.Size = new System.Drawing.Size(152, 48);
+            this.MediaPlayerEnd.TabIndex = 2;
+            this.MediaPlayerEnd.Visible = false;
+            // 
+            // picBox_Head
+            // 
+            this.picBox_Head.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.picBox_Head.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.picBox_Head.Location = new System.Drawing.Point(3, 22);
+            this.picBox_Head.Name = "picBox_Head";
+            this.picBox_Head.Size = new System.Drawing.Size(473, 259);
+            this.picBox_Head.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox_Head.TabIndex = 0;
+            this.picBox_Head.TabStop = false;
+            // 
+            // picBox_Ham
+            // 
+            this.picBox_Ham.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.picBox_Ham.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.picBox_Ham.Location = new System.Drawing.Point(3, 22);
+            this.picBox_Ham.Name = "picBox_Ham";
+            this.picBox_Ham.Size = new System.Drawing.Size(473, 259);
+            this.picBox_Ham.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox_Ham.TabIndex = 0;
+            this.picBox_Ham.TabStop = false;
+            this.picBox_Ham.Tag = "";
+            // 
+            // picBox_End
+            // 
+            this.picBox_End.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.picBox_End.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.picBox_End.Location = new System.Drawing.Point(3, 22);
+            this.picBox_End.Name = "picBox_End";
+            this.picBox_End.Size = new System.Drawing.Size(474, 259);
+            this.picBox_End.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox_End.TabIndex = 0;
+            this.picBox_End.TabStop = false;
+            // 
+            // picBox_Head_Light
+            // 
+            this.picBox_Head_Light.Image = global::皮带跑偏与撕裂检测监控界面.Properties.Resources.g_1;
+            this.picBox_Head_Light.Location = new System.Drawing.Point(427, 3);
+            this.picBox_Head_Light.Name = "picBox_Head_Light";
+            this.picBox_Head_Light.Size = new System.Drawing.Size(35, 27);
+            this.picBox_Head_Light.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox_Head_Light.TabIndex = 4;
+            this.picBox_Head_Light.TabStop = false;
+            // 
+            // picBox_Ham_Light
+            // 
+            this.picBox_Ham_Light.Image = global::皮带跑偏与撕裂检测监控界面.Properties.Resources.g_1;
+            this.picBox_Ham_Light.Location = new System.Drawing.Point(426, 3);
+            this.picBox_Ham_Light.Name = "picBox_Ham_Light";
+            this.picBox_Ham_Light.Size = new System.Drawing.Size(36, 27);
+            this.picBox_Ham_Light.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox_Ham_Light.TabIndex = 4;
+            this.picBox_Ham_Light.TabStop = false;
+            // 
+            // picBox_End_Light
+            // 
+            this.picBox_End_Light.Image = global::皮带跑偏与撕裂检测监控界面.Properties.Resources.g_1;
+            this.picBox_End_Light.Location = new System.Drawing.Point(435, 3);
+            this.picBox_End_Light.Name = "picBox_End_Light";
+            this.picBox_End_Light.Size = new System.Drawing.Size(37, 27);
+            this.picBox_End_Light.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox_End_Light.TabIndex = 4;
+            this.picBox_End_Light.TabStop = false;
+            // 
             // TearFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1266,15 +1266,9 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.MediaPlayerHead)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MediaPlayerHam)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MediaPlayerEnd)).EndInit();
             this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_Head)).EndInit();
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_Ham)).EndInit();
             this.groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_End)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
@@ -1286,13 +1280,10 @@
             this.groupBox9.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_Head_Light)).EndInit();
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_Ham_Light)).EndInit();
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_End_Light)).EndInit();
             this.tableLayoutPanel6.ResumeLayout(false);
             this.tableLayoutPanel7.ResumeLayout(false);
             this.tableLayoutPanel8.ResumeLayout(false);
@@ -1304,6 +1295,15 @@
             this.tableLayoutPanel10.PerformLayout();
             this.menuStrip_Main.ResumeLayout(false);
             this.menuStrip_Main.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MediaPlayerHead)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MediaPlayerHam)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MediaPlayerEnd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_Head)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_Ham)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_End)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_Head_Light)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_Ham_Light)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_End_Light)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -53,7 +53,11 @@ namespace 皮带跑偏与撕裂检测监控界面
         System.Timers.Timer timer_Head_New = new System.Timers.Timer(500);
         System.Timers.Timer timer_Ham_New = new System.Timers.Timer(500);
         System.Timers.Timer timer_End_New = new System.Timers.Timer(500);
-        
+
+        //用来控制图片显示的标志
+        int picHead;
+        int picHam;
+        int picEnd;
 
         //程序装载事件
         private void DeviationFrm_Load(object sender, EventArgs e)
@@ -118,6 +122,14 @@ namespace 皮带跑偏与撕裂检测监控界面
             //btn_Head_Connect.PerformClick();
             //btn_Ham_Connect.PerformClick();
             //btn_End_Connect.PerformClick();
+
+            //设置默认图片
+            picBox_End.Image = picBox_Ham.Image = picBox_Head.Image = Properties.Resources.bg_final;
+
+            //用来控制图片显示的标志
+            picHead = 0;
+            picHam = 0;
+            picEnd = 0;
         }
 
         private void Timer_Head_New_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
@@ -217,7 +229,7 @@ namespace 皮带跑偏与撕裂检测监控界面
         private void btn_Head_Connect_Click(object sender, EventArgs e)
         {
             string headIP = "192.168.0.201";
-            string headPort = "8234";
+            string headPort = "38234";
             socketWatchHead = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPAddress ipAddressHead = IPAddress.Parse(headIP.Trim());
             IPEndPoint endPointHead = new IPEndPoint(ipAddressHead, int.Parse(headPort.Trim()));
@@ -392,9 +404,10 @@ namespace 皮带跑偏与撕裂检测监控界面
 
             dtHead = DateTime.Now;
 
-            if (picBox_Head.Image == null) 
+            if (picHead == 0) 
             {
                 picBox_Head.Image = bitmap;
+                picHead++;
             }
 
             string fileNameShort = dtHead.ToString("yyyy年MM月dd日HH时mm分ss秒");
@@ -428,7 +441,7 @@ namespace 皮带跑偏与撕裂检测监控界面
         private void btn_Ham_Connect_Click(object sender, EventArgs e)
         {
             string hamIP = "192.168.0.201";
-            string hamPort = "8235";
+            string hamPort = "38235";
             socketWatchHam = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPAddress ipAddressHam = IPAddress.Parse(hamIP.Trim());
             IPEndPoint endPointHam = new IPEndPoint(ipAddressHam, int.Parse(hamPort.Trim()));
@@ -602,8 +615,9 @@ namespace 皮带跑偏与撕裂检测监控界面
             CheckRequestDirectory();
 
             dtHam = DateTime.Now;
-            if (picBox_Ham.Image == null) 
+            if (picHam == 0) 
             {
+                picHam++;
                 picBox_Ham.Image = bitmap;
             }
 
@@ -639,7 +653,7 @@ namespace 皮带跑偏与撕裂检测监控界面
         private void btn_End_Connect_Click(object sender, EventArgs e)
         {
             string endIP = "192.168.0.201";
-            string endPort = "8236";
+            string endPort = "38236";
             socketWatchEnd = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPAddress ipAddressEnd = IPAddress.Parse(endIP.Trim());
             IPEndPoint endPointEnd = new IPEndPoint(ipAddressEnd, int.Parse(endPort.Trim()));
@@ -813,8 +827,9 @@ namespace 皮带跑偏与撕裂检测监控界面
             CheckRequestDirectory();
 
             dtEnd = DateTime.Now;
-            if (picBox_End.Image == null)
+            if (picEnd == 0)
             {
+                picEnd++;
                 picBox_End.Image = bitmap;
             }
             string fileNameShort = dtEnd.ToString("yyyy年MM月dd日HH时mm分ss秒");
@@ -857,6 +872,7 @@ namespace 皮带跑偏与撕裂检测监控界面
             try
             {
                 picBox_Head.ImageLocation = listFileFullNameHead[listBox_Head.SelectedIndex];
+                picHead++;
             }
             catch {}
         }
@@ -865,8 +881,8 @@ namespace 皮带跑偏与撕裂检测监控界面
         {
             try
             {
-                picBox_Ham.ImageLocation = listFileFullNameHam[listBox_Ham.SelectedIndex];
-
+                picBox_Ham.ImageLocation = listFileFullNameHam[listBox_Ham.SelectedIndex];              
+                picHam++;
             }
             catch { }
         }
@@ -876,7 +892,7 @@ namespace 皮带跑偏与撕裂检测监控界面
             try
             {
                 picBox_End.ImageLocation = listFileFullNameEnd[listBox_End.SelectedIndex];
-
+                picEnd++;
             }
             catch { }
         }
@@ -963,8 +979,9 @@ namespace 皮带跑偏与撕裂检测监控界面
         #region 清空照片候选框
         private void 清空机头候选框ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            picHead = 0;
             picBox_Head.ImageLocation = null;
-            picBox_Head.Image = null;
+            picBox_Head.Image = Properties.Resources.bg_final;
             for (int index = 0; index < listFileFullNameHead.Count; index++)
             {
                 string dstName = dirPath + "/日志/机头跑偏照片/历史照片/" + listBox_Head.Items[index] + ".bmp";
@@ -976,8 +993,9 @@ namespace 皮带跑偏与撕裂检测监控界面
 
         private void 清空重锤候选框ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            picHam = 0;
             picBox_Ham.ImageLocation = null;
-            picBox_Ham.Image = null;
+            picBox_Ham.Image = Properties.Resources.bg_final;
             for (int index = 0; index < listFileFullNameHam.Count; index++)
             {
                 string dstName = dirPath + "/日志/重锤跑偏照片/历史照片/" + listBox_Ham.Items[index] + ".bmp";
@@ -989,8 +1007,9 @@ namespace 皮带跑偏与撕裂检测监控界面
 
         private void 清空机尾候选框ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            picEnd = 0;
             picBox_End.ImageLocation = null;
-            picBox_End.Image = null;
+            picBox_End.Image = Properties.Resources.bg_final;
             for (int index = 0; index < listFileFullNameEnd.Count; index++)
             {
                 string dstName = dirPath + "/日志/机尾跑偏照片/历史照片/" + listBox_End.Items[index] + ".bmp";
@@ -1116,20 +1135,23 @@ namespace 皮带跑偏与撕裂检测监控界面
         //清空图片函数
         private void 清空机头图片ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            picHead = 0;
             picBox_Head.ImageLocation = null;
-            picBox_Head.Image = null;
+            picBox_Head.Image = Properties.Resources.bg_final;
         }
 
         private void 清空重锤图片ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            picHam = 0;
             picBox_Ham.ImageLocation = null;
-            picBox_Ham.Image = null;
+            picBox_Ham.Image = Properties.Resources.bg_final;
         }
 
         private void 清空机尾图片ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            picEnd = 0;
             picBox_End.ImageLocation = null;
-            picBox_End.Image = null;
+            picBox_End.Image = Properties.Resources.bg_final;
         }
         #endregion
 

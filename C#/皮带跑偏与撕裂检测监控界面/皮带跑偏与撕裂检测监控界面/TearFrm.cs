@@ -26,16 +26,19 @@ namespace 皮带跑偏与撕裂检测监控界面
         //文件存放主目录
         string dirPath = Path.GetDirectoryName(Application.ExecutablePath);
 
-        //用来存放机头位置照片的文件名的列表和数组
+        //用来存放机头位置照片的文件名的列表和数组，里面存放的都是完整路径名
         List<string> listFileFullNameHead = new List<string>();
+        //通过系统函数获得完整路径名
         string[] strFileFullNameHead = null;
 
-        //用来存放重锤位置照片的文件名的列表和数组
+        //用来存放重锤位置照片的文件名的列表和数组，里面存放的都是完整路径名
         List<string> listFileFullNameHam = new List<string>();
+        //通过系统函数获得完整路径名
         string[] strFileFullNameHam = null;
 
-        //用来存放机尾位置照片的文件名的列表和数组
+        //用来存放机尾位置照片的文件名的列表和数组，里面存放的都是完整路径名
         List<string> listFileFullNameEnd = new List<string>();
+        //通过系统函数获得完整路径名
         string[] strFileFullNameEnd = null;
 
         //报警音url
@@ -43,10 +46,15 @@ namespace 皮带跑偏与撕裂检测监控界面
         string alarmHamURL = null;
         string alarmEndURL = null;
 
-        //定义用来闪烁的定时器
+        //定义用来闪烁的定时器，用这种定时器可以避免线程冲突
         System.Timers.Timer timer_Head_New = new System.Timers.Timer(500);
         System.Timers.Timer timer_Ham_New = new System.Timers.Timer(500);
         System.Timers.Timer timer_End_New = new System.Timers.Timer(500);
+
+        //用来控制图片显示的标志位
+        int picHead;
+        int picHam;
+        int picEnd;
 
         private void TearFrm_Load(object sender, EventArgs e)
         {
@@ -105,13 +113,25 @@ namespace 皮带跑偏与撕裂检测监控界面
             //timer_Head_New.Enabled = true;
             //timer_Ham_New.Enabled = true;
             //timer_End_New.Enabled = true;
+
+            //设置显示的默认图片
+            picBox_End.Image = picBox_Ham.Image = picBox_Head.Image = Properties.Resources.bg_final;
+            //picBox_End.ImageLocation = picBox_Ham.ImageLocation = picBox_Head.ImageLocation = Properties.Resources.bg_final;
+
+            //将图片标志位设为0
+            picHead = 0;
+            picHam = 0;
+            picEnd = 0;
         }
 
         #region 辅助函数
+
+        //创建日志文件夹
         private void CheckRequestDirectory()
         {
             if (Directory.Exists(dirPath + "/日志/机头撕裂照片/历史照片") == false)
             {
+                //如果当前文件夹不存在，则创建，下同
                 Directory.CreateDirectory(dirPath + "/日志/机头撕裂照片/历史照片");
             }
             if (Directory.Exists(dirPath + "/日志/重锤撕裂照片/历史照片") == false)
@@ -124,9 +144,11 @@ namespace 皮带跑偏与撕裂检测监控界面
             }
         }
 
+        //创建报警音设置的配置文件
         private void CreateRequestFile()
         {
             string configHeadPath = Path.GetDirectoryName(Application.ExecutablePath) + "\\机头位置撕裂报警音配置文件";
+            //打开指定目录的文件，如果不存在则创建，下同
             FileStream fsHead = new FileStream(configHeadPath, FileMode.OpenOrCreate);
             fsHead.Close();
 
@@ -139,11 +161,15 @@ namespace 皮带跑偏与撕裂检测监控界面
             fsEnd.Close();
         }
 
+        //线程锁，避免线程冲突
         static ReaderWriterLockSlim WriteToLogFileLock = new ReaderWriterLockSlim();
+
+        //写入日志文件
         public void WriteToLogFile(string fileFullName, string message)
         {
             try
             {
+                //加锁
                 WriteToLogFileLock.EnterWriteLock();
                 //获取当前执行文件所在路径
                 string LogPath = Path.GetDirectoryName(Application.ExecutablePath) + "\\日志\\" + fileFullName;
@@ -159,6 +185,7 @@ namespace 皮带跑偏与撕裂检测监控界面
             }
             finally
             {
+                //释放锁
                 WriteToLogFileLock.ExitWriteLock();
             }
         }
@@ -166,8 +193,10 @@ namespace 皮带跑偏与撕裂检测监控界面
         #endregion
 
         #region 选择照片
+        //选择listbox中的图片
         private void listBox_Head_SelectedIndexChanged(object sender, EventArgs e)
         {
+            //利用异常处理避免索引异常，下同
             try
             {
                 picBox_Head.ImageLocation = listFileFullNameHead[listBox_Head.SelectedIndex];
@@ -197,6 +226,7 @@ namespace 皮带跑偏与撕裂检测监控界面
         #region 指示灯开始闪烁
         private void txtBox_Head_TextChanged(object sender, EventArgs e)
         {
+            //txtbox中的文本发生变化，且不为空，此时开始指示灯闪烁，下同
             if (txtBox_Head.Text != "")
             {
                 timer_Head_New.Enabled = true;
@@ -222,23 +252,29 @@ namespace 皮带跑偏与撕裂检测监控界面
         #endregion
 
         #region 静音设置
+        //静音按钮文本控制标志
+        //0 --- 静音
+        //1 --- 响铃
         int flag_Head = 0;
         private void btn_Head_Sound_Click(object sender, EventArgs e)
         {
             if (flag_Head == 0)
             {
+                //改变按钮的文本，设置播放器铃声为0
                 btn_Head_Sound.Text = "响铃";
                 MediaPlayerHead.settings.volume = 0;
                 flag_Head++;
             }
             else
             {
+                //改变按钮的文本，设置播放器铃声为100
                 btn_Head_Sound.Text = "静音";
                 MediaPlayerHead.settings.volume = 100;
                 flag_Head = 0;
             }
         }
 
+        //同上
         int flag_Ham = 0;
         private void btn_Ham_Sound_Click(object sender, EventArgs e)
         {
@@ -256,6 +292,7 @@ namespace 皮带跑偏与撕裂检测监控界面
             }
         }
 
+        //同上
         int flag_End = 0;
         private void btn_End_Sound_Click(object sender, EventArgs e)
         {
@@ -275,6 +312,9 @@ namespace 皮带跑偏与撕裂检测监控界面
         #endregion
 
         #region 指示灯控制
+        //指示灯闪烁标志位
+        //0 --- 红灯
+        //1 --- l绿灯
         int timerFlagHead = 0;
         private void HeadTimeOut(object source, System.Timers.ElapsedEventArgs e)
         {
@@ -292,6 +332,7 @@ namespace 皮带跑偏与撕裂检测监控界面
             }
         }
 
+        //同上
         int timerFlagHam = 0;
         private void HamTimeOut(object source, System.Timers.ElapsedEventArgs e)
         {
@@ -309,6 +350,7 @@ namespace 皮带跑偏与撕裂检测监控界面
             }
         }
 
+        //同上
         int timerFlagEnd = 0;
         private void EndTimeOut(object source, System.Timers.ElapsedEventArgs e)
         {
@@ -325,8 +367,11 @@ namespace 皮带跑偏与撕裂检测监控界面
                 timerFlagEnd = 0;
             }
         }
+
+        //停闪按钮事件
         private void btn_Head_StopFlicker_Click(object sender, EventArgs e)
         {
+            //将指示灯设置为红灯，且将定时器设置为停止
             picBox_Head_Light.Image = Properties.Resources.g_1;
             timer_Head_New.Enabled = false;
         }
@@ -339,6 +384,7 @@ namespace 皮带跑偏与撕裂检测监控界面
 
         private void btn_End_StopFlicker_Click(object sender, EventArgs e)
         {
+            //将指示灯设置为红灯，且将定时器设置为停止
             picBox_End_Light.Image = Properties.Resources.g_1;
             timer_End_New.Enabled = false;
         }
@@ -347,23 +393,32 @@ namespace 皮带跑偏与撕裂检测监控界面
         #region 系统复位
         private void btn_Head_Reset_Click(object sender, EventArgs e)
         {
+            //图像显示框设置为默认值
+            picHead = 0;
             picBox_Head.ImageLocation = null;
-            picBox_Head.Image = null;
+            picBox_Head.Image = Properties.Resources.bg_final;
 
+            //清空照片文本框
             for (int index = 0; index < listFileFullNameHead.Count; index++)
             {
+                //获取每张屠屏对应的历史照片的文件绝对路径
                 string dstName = dirPath + "/日志/机头撕裂照片/历史照片/" + listBox_Head.Items[index] + ".bmp";
+                //将照片移动到历史照片文件夹中
                 File.Move(listFileFullNameHead[index], dstName);
             }
+            //清空图片路径的listbox和列表
             listBox_Head.Items.Clear();
             listFileFullNameHead.Clear();
 
+            //清空报警日志文本框
             txtBox_Head.Clear();
         }
 
+        //同上
         private void btn_Ham_Reset_Click(object sender, EventArgs e)
         {
-            picBox_Ham.Image = null;
+            picHam = 0;
+            picBox_Ham.Image = Properties.Resources.bg_final;
             picBox_Ham.ImageLocation = null;
 
             for (int index = 0; index < listFileFullNameHam.Count; index++)
@@ -377,9 +432,11 @@ namespace 皮带跑偏与撕裂检测监控界面
             txtBox_Ham.Clear();
         }
 
+        //同上
         private void btn_End_Reset_Click(object sender, EventArgs e)
         {
-            picBox_End.Image = null;
+            picEnd = 0;
+            picBox_End.Image = Properties.Resources.bg_final;
             picBox_End.ImageLocation = null;
 
             for (int index = 0; index < listFileFullNameEnd.Count; index++)
@@ -397,6 +454,7 @@ namespace 皮带跑偏与撕裂检测监控界面
         #region 菜单栏功能设置
         private void 打开日志文件夹ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //获取路径，并打开文件夹
             string path = dirPath + "\\日志";
             //Console.WriteLine(path);
             System.Diagnostics.Process.Start("Explorer.exe", path);
@@ -404,31 +462,39 @@ namespace 皮带跑偏与撕裂检测监控界面
 
         private void 机头撕裂报警音设置ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //弹出文件选择文本框
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.InitialDirectory = dirPath;
             ofd.Title = "请选择要设置的报警声音";
             ofd.Filter = "音频文件|*.mp3;*.wav";
             ofd.ShowDialog();
+            //设置默认路径
             alarmHeadURL = ofd.FileName;
+            //获取要写入的文件的绝对路径
             string configPath = Path.GetDirectoryName(Application.ExecutablePath) + "\\机头位置撕裂报警音配置文件";
             //文件存在追加内容，不存在创建文件
             using (StreamWriter sw = new StreamWriter(configPath))
             {
+                //将报警音资源文件的路径写入配置文件
                 sw.WriteLine(alarmHeadURL);
             }
         }
 
+        //初始化获取报警音文件的路径
         private string GetalarmHeadURL()
         {
+            //获取配置文件的绝对地址
             string configPath = Path.GetDirectoryName(Application.ExecutablePath) + "\\机头位置撕裂报警音配置文件";
             string Url = null;
             using (StreamReader sr = new StreamReader(configPath))
             {
+                //从文件中读出路径
                 Url = sr.ReadLine();
             }
             return Url;
         }
 
+        //同上
         private void 重锤撕裂报警音设置ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
@@ -456,6 +522,7 @@ namespace 皮带跑偏与撕裂检测监控界面
             return Url;
         }
 
+        //同上
         private void 机尾撕裂报警音设置ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
@@ -483,40 +550,56 @@ namespace 皮带跑偏与撕裂检测监控界面
             return Url;
         }
 
+        //清空照片显示框中的图片
         private void 清空机头照片ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            picBox_Head.Image = null;
+            //图片设置默认值
+            picHead = 0;
+            picBox_Head.Image = Properties.Resources.bg_final;
             picBox_Head.ImageLocation = null;
         }
 
+        //同上
         private void 清空重锤照片ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            picBox_Ham.Image = null;
+            picHam = 0;
+            picBox_Ham.Image = Properties.Resources.bg_final;
             picBox_Ham.ImageLocation = null;
         }
 
+        //同上
         private void 清空机尾照片ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            picBox_End.Image = null;
+            picEnd = 0;
+            picBox_End.Image = Properties.Resources.bg_final;
             picBox_End.ImageLocation = null;
         }
 
+        //移动照片
         private void 清空机头照片候选框ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            picBox_Head.Image = null;
+            //图片设置默认值
+            picHead = 0;
+            picBox_Head.Image = Properties.Resources.bg_final;
             picBox_Head.ImageLocation = null;
+
+            //遍历图片并移动
             for (int index = 0; index < listFileFullNameHead.Count; index++)
             {
                 string dstName = dirPath + "/日志/机头撕裂照片/历史照片/" + listBox_Head.Items[index] + ".bmp";
                 File.Move(listFileFullNameHead[index], dstName);
             }
+
+            //清空对应的绝对路径的链表
             listBox_Head.Items.Clear();
             listFileFullNameHead.Clear();
         }
 
+        //同上
         private void 清空重锤照片候选框ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            picBox_Ham.Image = null;
+            picHam = 0;
+            picBox_Ham.Image = Properties.Resources.bg_final;
             picBox_Ham.ImageLocation = null;
             for (int index = 0; index < listFileFullNameHam.Count; index++)
             {
@@ -527,9 +610,11 @@ namespace 皮带跑偏与撕裂检测监控界面
             listFileFullNameHam.Clear();
         }
 
+        //同上
         private void 清空机尾照片候选框ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            picBox_End.Image = null;
+            picEnd = 0;
+            picBox_End.Image = Properties.Resources.bg_final;
             picBox_End.ImageLocation = null;
             for (int index = 0; index < listFileFullNameEnd.Count; index++)
             {
@@ -540,16 +625,20 @@ namespace 皮带跑偏与撕裂检测监控界面
             listFileFullNameEnd.Clear();
         }
 
+        //清空日志
         private void 清空机头报警日志ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //将日志文本框设置为空
             txtBox_Head.Text = "";
         }
 
+        //同上
         private void 清空重锤报警日志ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             txtBox_Ham.Text = "";
         }
 
+        //同上
         private void 清空机尾报警日志ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             txtBox_End.Text = "";
@@ -559,40 +648,63 @@ namespace 皮带跑偏与撕裂检测监控界面
         #region 机头连接
         private void btn_Head_Connect_Click(object sender, EventArgs e)
         {
+            //相机开始连接
             StartConnectHead01();
             StartConnectHead02();
             StartConnectHead03();
         }
 
+        //用来监听的线程和套接字 --- 机头位置的一号相机
         Thread threadWatchHead01 = null;
         Socket socketWatchHead01 = null;
         private void StartConnectHead01()
         {
+            //套接字的ip和端口号 --- 可以根据需要更改
             string headIP01 = "192.168.0.201";
-            string headPort01 = "8234";
+            string headPort01 = "38234";
+            
+            //套接字的格式 --- ipv4 流式套接字 tcp/ip协议
             socketWatchHead01 = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+
+            //生成套接字
             IPAddress ipAddressHead01 = IPAddress.Parse(headIP01.Trim());
             IPEndPoint endPointHead01 = new IPEndPoint(ipAddressHead01, int.Parse(headPort01.Trim()));
+
+            //服务器套接字连接
             socketWatchHead01.Bind(endPointHead01);
+
+            //监听队列最大等待数为20
             socketWatchHead01.Listen(20);
 
+            //开启线程开始监听，线程函数有参数，传入object类型
             threadWatchHead01 = new Thread(new ParameterizedThreadStart(WatchConnectingHead01));
+
+            //设置为后台线程，传入参数
             threadWatchHead01.IsBackground = true;
             threadWatchHead01.Start(socketWatchHead01);
+
+            //状态栏显示当前状态
             lbl_Head_State_01.Text = "等待连接";
         }
 
+        //服务器监听的套接字
         Socket socketServerHead01 = null;
+
+        //客户端传回的套接字
         Socket socketConnectionHead01 = null;
+        //用来接收下信息的线程
         Thread threadReceiveHead01 = null;
         private void WatchConnectingHead01(object obj)
         {
             try
             {
+                //传入线程的参数，实际是服务器的套接字
                 socketServerHead01 = obj as Socket;
                 while (true)
                 {
+                    //开始等待接收，这一个函数会阻塞线程
                     socketConnectionHead01 = socketServerHead01.Accept();
+                    //判断是否连接成功
                     if (socketConnectionHead01 != null)
                     {
                         btn_Head_Connect.Enabled = false;
@@ -613,7 +725,9 @@ namespace 皮带跑偏与撕裂检测监控界面
         List<byte> list_Binary_head01 = new List<byte>();
 
         //通信函数
+        //传递皮带危险等级的变量
         string alarmHeadMsg01 = null;
+        //用来获取信息的客户端的套接字
         Socket socketReceiveHead01 = null;
         private void MsgReceiveHead01(Object obj)
         {
@@ -622,13 +736,19 @@ namespace 皮带跑偏与撕裂检测监控界面
                 socketReceiveHead01 = obj as Socket;
                 while (true)
                 {
+                    //报文头部
                     byte[] headinfo = new byte[5];
+                    //实际获得的字符
+                    //receive函数会阻塞线程
                     int headinfoLength = socketReceiveHead01.Receive(headinfo, headinfo.Length, SocketFlags.None);
+                    //如果没有接收到信息则跳出循环,接收失败
                     if (headinfoLength == 0) break;
                     string info = Encoding.UTF8.GetString(headinfo, 0, headinfoLength);
                     Console.WriteLine("info={0}", info);
+                    //当获得的头部字符串是"0000"的时候说明是有效信息
                     if (info[0] == '0' && info[1] == '0' && info[2] == '0' && info[3] == '0')
                     {
+                        //申请一个缓冲区，接收用来判断危险等级的报文信息
                         byte[] headLevelInfo = new byte[5];
                         int levelLength = socketReceiveHead01.Receive(headLevelInfo, headLevelInfo.Length, SocketFlags.None);
                         if (levelLength == 0)
@@ -636,6 +756,7 @@ namespace 皮带跑偏与撕裂检测监控界面
                             //如果没有接收到文件，则结束循环
                             break;
                         }
+                        //用来判断等级的字符串
                         string strMsg = Encoding.UTF8.GetString(headLevelInfo, 0, levelLength);
                         Console.WriteLine("strMsg={0}", strMsg);
                         if (strMsg[0] == '1')
@@ -647,7 +768,9 @@ namespace 皮带跑偏与撕裂检测监控界面
                         {
                             alarmHeadMsg01 = "机头01处皮带发生严重撕裂\r\n";
                         }
+                        //重新开辟空间，用来接收将要传来的字节的总的长度
                         byte[] bufferLength = new byte[10];
+                        //用来显示传送进度的标识符
                         lbl_Head_Receive01.Text = "0%";
                         int msglength = socketReceiveHead01.Receive(bufferLength, bufferLength.Length, SocketFlags.None);
                         if (msglength == 0) break;
@@ -658,34 +781,44 @@ namespace 皮带跑偏与撕裂检测监控界面
                         int recive = length;
                         while (true)
                         {
+                            //开辟新的字符缓冲区，开始接收图片信息
                             byte[] buffer = new byte[1024];
                             Array.Clear(buffer, 0, buffer.Length);
+                            //r是实际接收到的字符串的长度
                             int r = socketReceiveHead01.Receive(buffer, buffer.Length, SocketFlags.None);
                             if (r == 0) break;
                             if (length > 0)
                             {
+                                //还有字符未被完全传输
                                 for (int index = 0; index < r; index++)
                                 {
+                                    //将接收到的字符放置到链表中
                                     list_Binary_head01.Add(buffer[index]);
                                 }
+                                //更新剩余的字符数
                                 length -= r;
                                 lbl_Head_Receive01.Text = ((int)(((double)(recive - length) / ((double)recive)) * 100)).ToString()+"%";
                             }
                             if (length <= 0)
                             {
+                                //如果剩余字符数小于0，则传输完毕，传送状态恢复
                                 if (lbl_Head_Receive01.Text == "100%")
                                     lbl_Head_Receive01.Text = "0%";
+                                //清空缓冲区，跳出循环
                                 Array.Clear(buffer, 0, buffer.Length);
                                 break;
                             }
                         }
+                        //将接收到的图片转换成图片
                         ConvertToPicHead01(list_Binary_head01);
                     }
                     else
                     {
+                        //头部信息字符串不是"0000" --- 无效的字符串
                         byte[] tmpBuffer = new byte[1024];
                         int tmpBufferlength = socketReceiveHead01.Receive(tmpBuffer, tmpBuffer.Length, SocketFlags.None);
                         if (tmpBufferlength == 0) break;
+                        //将接收到的信息全部丢弃
                         Array.Clear(tmpBuffer, 0, tmpBuffer.Length);
                     }
                 }
@@ -693,10 +826,13 @@ namespace 皮带跑偏与撕裂检测监控界面
             catch{}
         }
 
+        //用来给图片文件命名的时间变量
         DateTime dtHead01;
         private void ConvertToPicHead01(List<byte> list_Binary)
         {
+            //将list转换成字符数组
             byte[] pageData = list_Binary.ToArray();
+            //清空列表
             list_Binary.Clear();
             //用来设置存储图片像素值得二维矩阵
             int[,] pixels = new int[320 * 240, 3];
@@ -734,16 +870,22 @@ namespace 皮带跑偏与撕裂检测监控界面
             CheckRequestDirectory();
 
             dtHead01 = DateTime.Now;
-
+            //设置文件名
             string fileNameShort = dtHead01.ToString("yyyy年MM月dd日HH时mm分ss秒ffff毫秒");
+            //添加文件后缀
             string fileName = fileNameShort + ".bmp";
+            //设置文件的绝对路径
             string bmpPath = dirPath + "/日志/机头撕裂照片" + "\\" + fileName;
+            //生成报警信息，包含事件和报警提示信息
             string logMsg = fileNameShort + ": " + alarmHeadMsg01;
 
+            //保存图片
             SaveandShowHead(bmpPath, fileNameShort, bitmap, logMsg);
 
-            if (picBox_Head.Image == null)
+            //如果当前图片框为默认状态，则显示当前图片
+            if (picHead == 0)
             {
+                picHead++;
                 picBox_Head.Image = bitmap;
             }
             //listFileFullNameHead.Insert(0, bmpPath);
@@ -756,13 +898,13 @@ namespace 皮带跑偏与撕裂检测监控界面
             //bitmap.Save(bmpPath);
         }
 
-
+        //同上
         Thread threadWatchHead02 = null;
         Socket socketWatchHead02 = null;
         private void StartConnectHead02()
         {
             string headIP02 = "192.168.0.201";
-            string headPort02 = "8235";
+            string headPort02 = "38235";
             socketWatchHead02 = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPAddress ipAddressHead02 = IPAddress.Parse(headIP02.Trim());
             IPEndPoint endPointHead02 = new IPEndPoint(ipAddressHead02, int.Parse(headPort02.Trim()));
@@ -934,18 +1076,20 @@ namespace 皮带跑偏与撕裂检测监控界面
 
             SaveandShowHead(bmpPath, fileNameShort, bitmap, logMsg);
 
-            if (picBox_Head.Image == null)
+            if (picHead == 0)
             {
+                picHead++;
                 picBox_Head.Image = bitmap;
             }
         }
 
+        //同上
         Thread threadWatchHead03 = null;
         Socket socketWatchHead03 = null;
         private void StartConnectHead03()
         {
             string headIP03 = "192.168.0.201";
-            string headPort03 = "8236";
+            string headPort03 = "38236";
             socketWatchHead03 = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPAddress ipAddressHead03 = IPAddress.Parse(headIP03.Trim());
             IPEndPoint endPointHead03 = new IPEndPoint(ipAddressHead03, int.Parse(headPort03.Trim()));
@@ -1118,26 +1262,34 @@ namespace 皮带跑偏与撕裂检测监控界面
 
             SaveandShowHead(bmpPath, fileNameShort, bitmap, logMsg);
 
-            if (picBox_Head.Image == null)
+            if (picHead == 0)
             {
+                picHead++;
                 picBox_Head.Image = bitmap;
             }
         }
 
+        //放置线程冲突的锁
         private static readonly object lockerheadobj = new object();
         private void SaveandShowHead(string bmpPath, string fileNameShort, Bitmap bitmap, string logMsg)
         {
             //加锁程序耗时00:00:00.0577938
             //Stopwatch sw = new Stopwatch();
             //sw.Start();
+            //给一下代码加锁
             lock (lockerheadobj)
             {
+                //在头位置加图片
                 listFileFullNameHead.Insert(0, bmpPath);
+                //添加报警信息
                 listBox_Head.Items.Insert(0, Path.GetFileNameWithoutExtension(bmpPath));
                 txtBox_Head.Text = txtBox_Head.Text.Insert(0, logMsg);
+                //写入日志文件
                 WriteToLogFile("机头皮带撕裂详细记录.txt", logMsg);
+                //播放报警提示音
                 if (MediaPlayerHead.playState == WMPLib.WMPPlayState.wmppsUndefined || MediaPlayerHead.playState == WMPLib.WMPPlayState.wmppsStopped)
                     MediaPlayerHead.URL = alarmHeadURL;
+                //保存图片
                 bitmap.Save(bmpPath);
             }
             //sw.Stop();
@@ -1149,9 +1301,9 @@ namespace 皮带跑偏与撕裂检测监控界面
         #region 重锤连接
         private void btn_Ham_Connect_Click(object sender, EventArgs e)
         {
-            //StartConnectHam01();
-            //StartConnectHam02();
-            //StartConnectHam03();
+            StartConnectHam01();
+            StartConnectHam02();
+            StartConnectHam03();
         }
 
         Thread threadWatchHam01 = null;
@@ -1159,7 +1311,7 @@ namespace 皮带跑偏与撕裂检测监控界面
         private void StartConnectHam01()
         {
             string hamIP01 = "192.168.0.201";
-            string hamPort01 = "8234";
+            string hamPort01 = "38234";
             socketWatchHam01 = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPAddress ipAddressHam01 = IPAddress.Parse(hamIP01.Trim());
             IPEndPoint endPointHam01 = new IPEndPoint(ipAddressHam01, int.Parse(hamPort01.Trim()));
@@ -1332,8 +1484,9 @@ namespace 皮带跑偏与撕裂检测监控界面
 
             SaveandShowHam(bmpPath, fileNameShort, bitmap, logMsg);
 
-            if (picBox_Ham.Image == null)
+            if (picHam == 0)
             {
+                picHam++;
                 picBox_Ham.Image = bitmap;
             }
         }
@@ -1343,7 +1496,7 @@ namespace 皮带跑偏与撕裂检测监控界面
         private void StartConnectHam02()
         {
             string hamIP02 = "192.168.0.201";
-            string hamPort02 = "8234";
+            string hamPort02 = "38235";
             socketWatchHam02 = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPAddress ipAddressHam02 = IPAddress.Parse(hamIP02.Trim());
             IPEndPoint endPointHam02 = new IPEndPoint(ipAddressHam02, int.Parse(hamPort02.Trim()));
@@ -1516,8 +1669,9 @@ namespace 皮带跑偏与撕裂检测监控界面
 
             SaveandShowHam(bmpPath, fileNameShort, bitmap, logMsg);
 
-            if (picBox_Ham.Image == null)
+            if (picHam == 0)
             {
+                picHam++;
                 picBox_Ham.Image = bitmap;
             }
         }
@@ -1527,7 +1681,7 @@ namespace 皮带跑偏与撕裂检测监控界面
         private void StartConnectHam03()
         {
             string hamIP03 = "192.168.0.201";
-            string hamPort03 = "8234";
+            string hamPort03 = "38236";
             socketWatchHam03 = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPAddress ipAddressHam03 = IPAddress.Parse(hamIP03.Trim());
             IPEndPoint endPointHam03 = new IPEndPoint(ipAddressHam03, int.Parse(hamPort03.Trim()));
@@ -1700,8 +1854,9 @@ namespace 皮带跑偏与撕裂检测监控界面
 
             SaveandShowHam(bmpPath, fileNameShort, bitmap, logMsg);
 
-            if (picBox_Ham.Image == null)
+            if (picHam == 0)
             {
+                picHam++;
                 picBox_Ham.Image = bitmap;
             }
         }
@@ -1725,9 +1880,9 @@ namespace 皮带跑偏与撕裂检测监控界面
         #region 机尾连接
         private void btn_End_Connect_Click(object sender, EventArgs e)
         {
-            //StartConnectEnd01();
-            //StartConnectEnd02();
-            //StartConnectEnd03();
+            StartConnectEnd01();
+            StartConnectEnd02();
+            StartConnectEnd03();
         }
 
         Thread threadWatchEnd01 = null;
@@ -1735,7 +1890,7 @@ namespace 皮带跑偏与撕裂检测监控界面
         private void StartConnectEnd01()
         {
             string endIP01 = "192.168.0.201";
-            string endPort01 = "8234";
+            string endPort01 = "38234";
             socketWatchEnd01 = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPAddress ipAddressEnd01 = IPAddress.Parse(endIP01.Trim());
             IPEndPoint endPointEnd01 = new IPEndPoint(ipAddressEnd01, int.Parse(endPort01.Trim()));
@@ -1908,8 +2063,9 @@ namespace 皮带跑偏与撕裂检测监控界面
 
             SaveandShowEnd(bmpPath, fileNameShort, bitmap, logMsg);
 
-            if (picBox_End.Image == null)
+            if (picEnd == 0)
             {
+                picEnd++;
                 picBox_End.Image = bitmap;
             }
         }
@@ -1919,7 +2075,7 @@ namespace 皮带跑偏与撕裂检测监控界面
         private void StartConnectEnd02()
         {
             string endIP02 = "192.168.0.201";
-            string endPort02 = "8234";
+            string endPort02 = "38235";
             socketWatchEnd02 = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPAddress ipAddressEnd02 = IPAddress.Parse(endIP02.Trim());
             IPEndPoint endPointEnd02 = new IPEndPoint(ipAddressEnd02, int.Parse(endPort02.Trim()));
@@ -2092,8 +2248,9 @@ namespace 皮带跑偏与撕裂检测监控界面
 
             SaveandShowEnd(bmpPath, fileNameShort, bitmap, logMsg);
 
-            if (picBox_End.Image == null)
+            if (picEnd == 0)
             {
+                picEnd++;
                 picBox_End.Image = bitmap;
             }
         }
@@ -2103,7 +2260,7 @@ namespace 皮带跑偏与撕裂检测监控界面
         private void StartConnectEnd03()
         {
             string endIP03 = "192.168.0.201";
-            string endPort03 = "8234";
+            string endPort03 = "38236";
             socketWatchEnd03 = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPAddress ipAddressEnd03 = IPAddress.Parse(endIP03.Trim());
             IPEndPoint endPointEnd03 = new IPEndPoint(ipAddressEnd03, int.Parse(endPort03.Trim()));
@@ -2276,8 +2433,9 @@ namespace 皮带跑偏与撕裂检测监控界面
 
             SaveandShowEnd(bmpPath, fileNameShort, bitmap, logMsg);
 
-            if (picBox_End.Image == null)
+            if (picEnd == 0)
             {
+                picEnd++;
                 picBox_End.Image = bitmap;
             }
         }

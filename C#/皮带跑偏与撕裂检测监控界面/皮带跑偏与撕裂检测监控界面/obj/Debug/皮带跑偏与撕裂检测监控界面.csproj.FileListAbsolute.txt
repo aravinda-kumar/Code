@@ -39,7 +39,6 @@ E:\JZS\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检�
 E:\JZS\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\bin\Debug\皮带跑偏与撕裂检测监控界面.pdb
 E:\JZS\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\bin\Debug\Interop.WMPLib.dll
 E:\JZS\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\bin\Debug\AxInterop.WMPLib.dll
-E:\JZS\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\obj\Debug\皮带跑偏与撕裂检测监控界面.csprojResolveAssemblyReference.cache
 E:\JZS\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\obj\Debug\皮带跑偏与撕裂检测监控界面.DeviationFrm.resources
 E:\JZS\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\obj\Debug\皮带跑偏与撕裂检测监控界面.MainFrm.resources
 E:\JZS\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\obj\Debug\皮带跑偏与撕裂检测监控界面.Properties.Resources.resources
@@ -62,3 +61,4 @@ E:\JZS\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检�
 E:\JZS\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\bin\Debug\皮带跑偏与撕裂检测监控界面.application
 E:\JZS\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\obj\Debug\皮带跑偏与撕裂检测监控界面.exe.manifest
 E:\JZS\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\obj\Debug\皮带跑偏与撕裂检测监控界面.application
+E:\JZS\Code\C#\皮带跑偏与撕裂检测监控界面\皮带跑偏与撕裂检测监控界面\obj\Debug\皮带跑偏与撕裂检测监控界面.csprojResolveAssemblyReference.cache
