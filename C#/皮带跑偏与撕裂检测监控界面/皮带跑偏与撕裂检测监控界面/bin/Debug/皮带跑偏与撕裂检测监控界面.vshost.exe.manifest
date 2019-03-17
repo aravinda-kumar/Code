@@ -66,14 +66,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="皮带跑偏与撕裂检测监控界面.exe" size="1236968">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="皮带跑偏与撕裂检测监控界面.exe" size="1242088">
       <assemblyIdentity name="皮带跑偏与撕裂检测监控界面" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UyEWtBwwtZYaiqdnFwSOuzjYAHTAlbIe+JY0o7Fqiq0=</dsig:DigestValue>
+        <dsig:DigestValue>ImgOnRdWxNqDQXv3t9c3FIhkk5qT+ZReB/o3WZ47pfI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

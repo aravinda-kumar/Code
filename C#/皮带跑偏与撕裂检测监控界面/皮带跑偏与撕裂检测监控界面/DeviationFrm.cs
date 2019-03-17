@@ -228,18 +228,25 @@ namespace 皮带跑偏与撕裂检测监控界面
         Thread threadWatchHead = null;
         private void btn_Head_Connect_Click(object sender, EventArgs e)
         {
-            string headIP = "192.168.0.201";
-            string headPort = "38234";
-            socketWatchHead = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            IPAddress ipAddressHead = IPAddress.Parse(headIP.Trim());
-            IPEndPoint endPointHead = new IPEndPoint(ipAddressHead, int.Parse(headPort.Trim()));
-            socketWatchHead.Bind(endPointHead);
-            socketWatchHead.Listen(20);
+            try
+            {
+                string headIP = "192.168.0.201";
+                string headPort = "38237";
+                socketWatchHead = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                IPAddress ipAddressHead = IPAddress.Parse(headIP.Trim());
+                IPEndPoint endPointHead = new IPEndPoint(ipAddressHead, int.Parse(headPort.Trim()));
+                socketWatchHead.Bind(endPointHead);
+                socketWatchHead.Listen(20);
 
-            threadWatchHead = new Thread(new ParameterizedThreadStart(WatchConnectingHead));
-            threadWatchHead.IsBackground = true;
-            threadWatchHead.Start(socketWatchHead);
-            lbl_Head.Text = "等待相机连接......";
+                threadWatchHead = new Thread(new ParameterizedThreadStart(WatchConnectingHead));
+                threadWatchHead.IsBackground = true;
+                threadWatchHead.Start(socketWatchHead);
+                lbl_Head.Text = "等待相机连接......";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("服务器IP设置错误：" + ex.Message);
+            } 
         }
 
         //监听函数
@@ -289,7 +296,7 @@ namespace 皮带跑偏与撕裂检测监控界面
                     int headinfoLength = socketReceiveHead.Receive(headinfo, headinfo.Length, SocketFlags.None);
                     if (headinfoLength == 0) break;
                     string info = Encoding.UTF8.GetString(headinfo, 0, headinfoLength);
-                    Console.WriteLine("info={0}", info);
+                    //Console.WriteLine("info={0}", info);
                     if (info[0] == '0' && info[1] == '0' && info[2] == '0'  && info[3] == '0')
                     {
                         byte[] headLevelInfo = new byte[5];
@@ -300,7 +307,7 @@ namespace 皮带跑偏与撕裂检测监控界面
                             break;
                         }
                         string strMsg = Encoding.UTF8.GetString(headLevelInfo, 0, levelLength);
-                        Console.WriteLine("strMsg={0}", strMsg);
+                        //Console.WriteLine("strMsg={0}", strMsg);
                         if (strMsg[0] == '1')
                         {
                             deviationHeadLevel = 1;
@@ -319,7 +326,7 @@ namespace 皮带跑偏与撕裂检测监控界面
                         string str_Length = Encoding.UTF8.GetString(bufferLength, 0, msglength);
                         Console.WriteLine(str_Length);
                         int length = int.Parse(str_Length);
-                        Console.WriteLine("length={0}", length);
+                        //Console.WriteLine("length={0}", length);
                         int recive = length;
                         while (true)
                         {
@@ -334,8 +341,9 @@ namespace 皮带跑偏与撕裂检测监控界面
                                     list_Binary_head.Add(buffer[index]);
                                 }
                                 length -= r;
-                                Console.WriteLine("progressBar_Head.Value={0}", progressBar_Head.Value);
-                                progressBar_Head.Value = (int)(((double)(recive - length) / ((double)recive)) * 100);
+                                //Console.WriteLine("progressBar_Head.Value={0}", progressBar_Head.Value);
+                                int tmp = (int)(((double)(recive - length) / ((double)recive)) * 100);
+                                progressBar_Head.Value = tmp <= 100 ? tmp : 100;
                             }
                             if (length <= 0)
                             {
@@ -373,21 +381,30 @@ namespace 皮带跑偏与撕裂检测监控界面
 
             //建立图像缓存数据
             var bitmap = new Bitmap(320, 240, PixelFormat.Format32bppRgb);
-
-            for (int i = 0; i < pageData.Length - 1; i = i + 2)
+            //Console.WriteLine("============================{0}", pageData.Length);
+            try
             {
-                //分别读取处每一个像素的值
-                int intLow = pageData[i + 1];
-                int tmpintHigh = pageData[i];
-                int tmpHigh = tmpintHigh << 8;
-                int pixel = tmpHigh | intLow;
-                int red = (pixel & 0xf800) >> 11;
-                int green = (pixel & 0x07e0) >> 5;
-                int blue = (pixel & 0x001f);
-                pixels[count, 0] = (red << 3);
-                pixels[count, 1] = (green << 2);
-                pixels[count, 2] = (blue << 3);
-                count++;
+                for (int i = 0; i < pageData.Length - 1; i = i + 2)
+                {
+                    //分别读取处每一个像素的值
+                    int intLow = pageData[i + 1];
+                    int tmpintHigh = pageData[i];
+                    int tmpHigh = tmpintHigh << 8;
+                    int pixel = tmpHigh | intLow;
+                    int red = (pixel & 0xf800) >> 11;
+                    int green = (pixel & 0x07e0) >> 5;
+                    int blue = (pixel & 0x001f);
+                    //Console.WriteLine("count = {0}", count);
+                    //count = count > 76799 ? 76799 : count;
+                    pixels[count, 0] = (red << 3);
+                    pixels[count, 1] = (green << 2);
+                    pixels[count, 2] = (blue << 3);
+                    count++;
+                }
+            }
+            catch
+            {
+                MessageBox.Show("请检查网线连接状态");
             }
             int alpha = 0xff;
             count = 0;
@@ -440,18 +457,25 @@ namespace 皮带跑偏与撕裂检测监控界面
         Thread threadWatchHam = null;
         private void btn_Ham_Connect_Click(object sender, EventArgs e)
         {
-            string hamIP = "192.168.0.201";
-            string hamPort = "38235";
-            socketWatchHam = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            IPAddress ipAddressHam = IPAddress.Parse(hamIP.Trim());
-            IPEndPoint endPointHam = new IPEndPoint(ipAddressHam, int.Parse(hamPort.Trim()));
-            socketWatchHam.Bind(endPointHam);
-            socketWatchHam.Listen(20);
+            try
+            {
+                string hamIP = "192.168.0.201";
+                string hamPort = "38235";
+                socketWatchHam = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                IPAddress ipAddressHam = IPAddress.Parse(hamIP.Trim());
+                IPEndPoint endPointHam = new IPEndPoint(ipAddressHam, int.Parse(hamPort.Trim()));
+                socketWatchHam.Bind(endPointHam);
+                socketWatchHam.Listen(20);
 
-            threadWatchHam = new Thread(new ParameterizedThreadStart(WatchConnectingHam));
-            threadWatchHam.IsBackground = true;
-            threadWatchHam.Start(socketWatchHam);
-            lbl_Ham.Text = "等待相机连接......";
+                threadWatchHam = new Thread(new ParameterizedThreadStart(WatchConnectingHam));
+                threadWatchHam.IsBackground = true;
+                threadWatchHam.Start(socketWatchHam);
+                lbl_Ham.Text = "等待相机连接......";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("服务器IP设置错误：" + ex.Message);
+            }
         }
 
         //监听函数
@@ -501,7 +525,7 @@ namespace 皮带跑偏与撕裂检测监控界面
                     int haminfoLength = socketReceiveHam.Receive(haminfo, haminfo.Length, SocketFlags.None);
                     if (haminfoLength == 0) break;
                     string info = Encoding.UTF8.GetString(haminfo, 0, haminfoLength);
-                    Console.WriteLine("info={0}", info);
+                    //Console.WriteLine("info={0}", info);
                     if (info[0] == '0' && info[1] == '0' && info[2] == '0' && info[3] == '0')
                     {
                         byte[] hamLevelInfo = new byte[5];
@@ -512,7 +536,7 @@ namespace 皮带跑偏与撕裂检测监控界面
                             break;
                         }
                         string strMsg = Encoding.UTF8.GetString(hamLevelInfo, 0, levelLength);
-                        Console.WriteLine("strMsg={0}", strMsg);
+                        //Console.WriteLine("strMsg={0}", strMsg);
                         if (strMsg[0] == '1')
                         {
                             deviationHamLevel = 1;
@@ -531,7 +555,7 @@ namespace 皮带跑偏与撕裂检测监控界面
                         string str_Length = Encoding.UTF8.GetString(bufferLength, 0, msglength);
                         Console.WriteLine(str_Length);
                         int length = int.Parse(str_Length);
-                        Console.WriteLine("length={0}", length);
+                        //Console.WriteLine("length={0}", length);
                         int recive = length;
                         while (true)
                         {
@@ -546,8 +570,9 @@ namespace 皮带跑偏与撕裂检测监控界面
                                     list_Binary_ham.Add(buffer[index]);
                                 }
                                 length -= r;
-                                Console.WriteLine("progressBar_Ham.Value={0}", progressBar_Ham.Value);
-                                progressBar_Ham.Value = (int)(((double)(recive - length) / ((double)recive)) * 100);
+                                //Console.WriteLine("progressBar_Ham.Value={0}", progressBar_Ham.Value);
+                                int tmp = (int)(((double)(recive - length) / ((double)recive)) * 100);
+                                progressBar_Ham.Value = tmp <= 100 ? tmp : 100;
                             }
                             if (length <= 0)
                             {
@@ -586,20 +611,27 @@ namespace 皮带跑偏与撕裂检测监控界面
             //建立图像缓存数据
             var bitmap = new Bitmap(320, 240, PixelFormat.Format32bppRgb);
 
-            for (int i = 0; i < pageData.Length - 1; i = i + 2)
+            try
             {
-                //分别读取处每一个像素的值
-                int intLow = pageData[i + 1];
-                int tmpintHigh = pageData[i];
-                int tmpHigh = tmpintHigh << 8;
-                int pixel = tmpHigh | intLow;
-                int red = (pixel & 0xf800) >> 11;
-                int green = (pixel & 0x07e0) >> 5;
-                int blue = (pixel & 0x001f);
-                pixels[count, 0] = (red << 3);
-                pixels[count, 1] = (green << 2);
-                pixels[count, 2] = (blue << 3);
-                count++;
+                for (int i = 0; i < pageData.Length - 1; i = i + 2)
+                {
+                    //分别读取处每一个像素的值
+                    int intLow = pageData[i + 1];
+                    int tmpintHigh = pageData[i];
+                    int tmpHigh = tmpintHigh << 8;
+                    int pixel = tmpHigh | intLow;
+                    int red = (pixel & 0xf800) >> 11;
+                    int green = (pixel & 0x07e0) >> 5;
+                    int blue = (pixel & 0x001f);
+                    pixels[count, 0] = (red << 3);
+                    pixels[count, 1] = (green << 2);
+                    pixels[count, 2] = (blue << 3);
+                    count++;
+                }
+            }
+            catch
+            {
+                MessageBox.Show("请检查网线连接状态");
             }
             int alpha = 0xff;
             count = 0;
@@ -652,18 +684,25 @@ namespace 皮带跑偏与撕裂检测监控界面
         Thread threadWatchEnd = null;
         private void btn_End_Connect_Click(object sender, EventArgs e)
         {
-            string endIP = "192.168.0.201";
-            string endPort = "38236";
-            socketWatchEnd = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            IPAddress ipAddressEnd = IPAddress.Parse(endIP.Trim());
-            IPEndPoint endPointEnd = new IPEndPoint(ipAddressEnd, int.Parse(endPort.Trim()));
-            socketWatchEnd.Bind(endPointEnd);
-            socketWatchEnd.Listen(20);
+            try
+            {
+                string endIP = "192.168.0.201";
+                string endPort = "38236";
+                socketWatchEnd = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                IPAddress ipAddressEnd = IPAddress.Parse(endIP.Trim());
+                IPEndPoint endPointEnd = new IPEndPoint(ipAddressEnd, int.Parse(endPort.Trim()));
+                socketWatchEnd.Bind(endPointEnd);
+                socketWatchEnd.Listen(20);
 
-            threadWatchEnd = new Thread(new ParameterizedThreadStart(WatchConnectingEnd));
-            threadWatchEnd.IsBackground = true;
-            threadWatchEnd.Start(socketWatchEnd);
-            lbl_End.Text = "等待相机连接......";
+                threadWatchEnd = new Thread(new ParameterizedThreadStart(WatchConnectingEnd));
+                threadWatchEnd.IsBackground = true;
+                threadWatchEnd.Start(socketWatchEnd);
+                lbl_End.Text = "等待相机连接......";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("服务器IP设置错误：" + ex.Message);
+            }
         }
 
         //监听函数
@@ -713,7 +752,7 @@ namespace 皮带跑偏与撕裂检测监控界面
                     int endinfoLength = socketReceiveEnd.Receive(endinfo, endinfo.Length, SocketFlags.None);
                     if (endinfoLength == 0) break;
                     string info = Encoding.UTF8.GetString(endinfo, 0, endinfoLength);
-                    Console.WriteLine("info={0}", info);
+                    //Console.WriteLine("info={0}", info);
                     if (info[0] == '0' && info[1] == '0' && info[2] == '0' && info[3] == '0')
                     {
                         byte[] endLevelInfo = new byte[5];
@@ -724,7 +763,7 @@ namespace 皮带跑偏与撕裂检测监控界面
                             break;
                         }
                         string strMsg = Encoding.UTF8.GetString(endLevelInfo, 0, levelLength);
-                        Console.WriteLine("strMsg={0}", strMsg);
+                        //Console.WriteLine("strMsg={0}", strMsg);
                         if (strMsg[0] == '1')
                         {
                             deviationEndLevel = 1;
@@ -743,7 +782,7 @@ namespace 皮带跑偏与撕裂检测监控界面
                         string str_Length = Encoding.UTF8.GetString(bufferLength, 0, msglength);
                         Console.WriteLine(str_Length);
                         int length = int.Parse(str_Length);
-                        Console.WriteLine("length={0}", length);
+                        //Console.WriteLine("length={0}", length);
                         int recive = length;
                         while (true)
                         {
@@ -758,8 +797,9 @@ namespace 皮带跑偏与撕裂检测监控界面
                                     list_Binary_end.Add(buffer[index]);
                                 }
                                 length -= r;
-                                Console.WriteLine("progressBar_End.Value={0}", progressBar_End.Value);
-                                progressBar_End.Value = (int)(((double)(recive - length) / ((double)recive)) * 100);
+                                //Console.WriteLine("progressBar_End.Value={0}", progressBar_End.Value);
+                                int tmp = (int)(((double)(recive - length) / ((double)recive)) * 100);
+                                progressBar_End.Value = tmp <= 100 ? tmp : 100;
                             }
                             if (length <= 0)
                             {
@@ -798,21 +838,29 @@ namespace 皮带跑偏与撕裂检测监控界面
             //建立图像缓存数据
             var bitmap = new Bitmap(320, 240, PixelFormat.Format32bppRgb);
 
-            for (int i = 0; i < pageData.Length - 1; i = i + 2)
+            try
             {
-                //分别读取处每一个像素的值
-                int intLow = pageData[i + 1];
-                int tmpintHigh = pageData[i];
-                int tmpHigh = tmpintHigh << 8;
-                int pixel = tmpHigh | intLow;
-                int red = (pixel & 0xf800) >> 11;
-                int green = (pixel & 0x07e0) >> 5;
-                int blue = (pixel & 0x001f);
-                pixels[count, 0] = (red << 3);
-                pixels[count, 1] = (green << 2);
-                pixels[count, 2] = (blue << 3);
-                count++;
+                for (int i = 0; i < pageData.Length - 1; i = i + 2)
+                {
+                    //分别读取处每一个像素的值
+                    int intLow = pageData[i + 1];
+                    int tmpintHigh = pageData[i];
+                    int tmpHigh = tmpintHigh << 8;
+                    int pixel = tmpHigh | intLow;
+                    int red = (pixel & 0xf800) >> 11;
+                    int green = (pixel & 0x07e0) >> 5;
+                    int blue = (pixel & 0x001f);
+                    pixels[count, 0] = (red << 3);
+                    pixels[count, 1] = (green << 2);
+                    pixels[count, 2] = (blue << 3);
+                    count++;
+                }
             }
+            catch
+            {
+                MessageBox.Show("请检查网线连接状态");
+            }
+            
             int alpha = 0xff;
             count = 0;
             for (int y = 0; y < 240; y++)
@@ -1036,98 +1084,207 @@ namespace 皮带跑偏与撕裂检测监控界面
         //释放所有线程和套接字实例
         private void DeviationFrm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (socketWatchHead != null)
-            {
-                socketWatchHead.Close();
-            }
-            if (socketWatchHead != null)
-            {
-                socketWatchHead.Close();
-            }
-            if (threadWatchHead != null)
-            {
-                threadWatchHead.Abort();
-            }
-            if (socketServerHead != null)
-            {
-                socketServerHead.Close();
-            }
-            if (socketConnectionHead != null)
-            {
-                socketConnectionHead.Close();
-            }
-            if (threadReceiveHead != null)
-            {
-                threadReceiveHead.Abort();
-            }
-            if (socketReceiveHead != null)
-            {
-                socketReceiveHead.Close();
-            }
+            //机头处的套接字和线程释放
+            ReleaseHeadResource();
 
+            //重锤处的套接字和线程释放
+            ReleaseHamResource();
 
-            if (socketWatchHam != null)
-            {
-                socketWatchHam.Close();
-            }
-            if (socketWatchHam != null)
-            {
-                socketWatchHam.Close();
-            }
-            if (threadWatchHam != null)
-            {
-                threadWatchHam.Abort();
-            }
-            if (socketServerHam != null)
-            {
-                socketServerHam.Close();
-            }
-            if (socketConnectionHam != null)
-            {
-                socketConnectionHam.Close();
-            }
-            if (threadReceiveHam != null)
-            {
-                threadReceiveHam.Abort();
-            }
-            if (socketReceiveHam != null)
-            {
-                socketReceiveHam.Close();
-            }
+            //机尾处的套接字和线程释放
+            ReleaseEndResource();
 
-
-            if (socketWatchEnd != null)
-            {
-                socketWatchEnd.Close();
-            }
-            if (socketWatchEnd != null)
-            {
-                socketWatchEnd.Close();
-            }
-            if (threadWatchEnd != null)
-            {
-                threadWatchEnd.Abort();
-            }
-            if (socketServerEnd != null)
-            {
-                socketServerEnd.Close();
-            }
-            if (socketConnectionEnd != null)
-            {
-                socketConnectionEnd.Close();
-            }
-            if (threadReceiveEnd != null)
-            {
-                threadReceiveEnd.Abort();
-            }
-            if (socketReceiveEnd != null)
-            {
-                socketReceiveEnd.Close();
-            }
-
+            //定时器关闭
             timer_Head_New.Enabled = false;
             timer_Ham_New.Enabled = false;
             timer_End_New.Enabled = false;
+
+        }
+
+        private void ReleaseHeadResource()
+        {
+            //机头处的套接字和线程释放
+            try
+            {
+                if (socketReceiveHead != null)
+                {
+                    socketReceiveHead.Close();
+                }
+            }
+            catch { }
+            try
+            {
+                if (socketConnectionHead != null)
+                {
+                    socketConnectionHead.Close();
+                }
+            }
+            catch { }
+            try
+            {
+                if (socketServerHead != null)
+                {
+                    socketServerHead.Close();
+                }
+            }
+            catch { }
+            try
+            {
+                if (socketWatchHead != null)
+                {
+                    socketWatchHead.Close();
+                }
+            }
+            catch { }
+            try
+            {
+                if (threadReceiveHead != null)
+                {
+                    threadReceiveHead.Abort();
+                    threadReceiveHead.Join();
+                    Console.WriteLine("========================={0}", threadReceiveHead.IsAlive);
+                }
+                
+            }
+            catch { }
+            try
+            {
+                if (threadWatchHead != null)
+                {
+                    threadWatchHead.Abort();
+                    threadWatchHead.Join();
+                    Console.WriteLine("========================={0}", threadWatchHead.IsAlive);
+                }
+                
+            }
+            catch { }
+        }
+
+        //重锤处的套接字和线程释放
+        private void ReleaseHamResource()
+        {
+            try
+            {
+                if (socketReceiveHam != null)
+                {
+                    socketReceiveHam.Close();
+                }
+            }
+            catch { }
+
+            try
+            {
+                if (socketConnectionHam != null)
+                {
+                    socketConnectionHam.Close();
+                }
+            }
+            catch { }
+
+            try
+            {
+                if (socketServerHam != null)
+                {
+                    socketServerHam.Close();
+                }
+            }
+            catch { }
+
+            try
+            {
+                if (socketWatchHam != null)
+                {
+                    socketWatchHam.Close();
+                }
+            }
+            catch { }
+
+            try
+            {
+                if (threadReceiveHam != null)
+                {
+                    threadReceiveHam.Abort();
+                    threadReceiveHam.Join();
+                    Console.WriteLine("========================={0}", threadReceiveHam.IsAlive);
+                }
+                
+            }
+            catch { }
+
+            try
+            {
+                if (threadWatchHam != null)
+                {
+                    threadWatchHam.Abort();
+                    threadWatchHam.Join();
+                    Console.WriteLine("========================={0}", threadWatchHam.IsAlive);
+                }
+                
+            }
+            catch { }
+        }
+
+        //机尾处的套接字和线程释放
+        private void ReleaseEndResource()
+        {
+            try
+            {
+                if (socketReceiveEnd != null)
+                {
+                    socketReceiveEnd.Close();
+                }
+            }
+            catch { }
+
+            try
+            {
+                if (socketConnectionEnd != null)
+                {
+                    socketConnectionEnd.Close();
+                }
+            }
+            catch { }
+
+            try
+            {
+                if (socketServerEnd != null)
+                {
+                    socketServerEnd.Close();
+                }
+            }
+            catch { }
+
+            try
+            {
+                if (socketWatchEnd != null)
+                {
+                    socketWatchEnd.Close();
+                }
+            }
+            catch { }
+
+            try
+            {
+                if (threadReceiveEnd != null)
+                {
+                    threadReceiveEnd.Abort();
+                    threadReceiveEnd.Join();
+                    Console.WriteLine("========================={0}", threadReceiveEnd.IsAlive);
+                }
+                
+            }
+            catch { }
+
+            try
+            {
+                if (threadWatchEnd != null)
+                {
+                    threadWatchEnd.Abort();
+                    threadWatchEnd.Join();
+                    Console.WriteLine("========================={0}", threadWatchEnd.IsAlive);
+                }
+                
+            }
+            catch { }
 
         }
 
