@@ -56,7 +56,7 @@ while(True):
             if canny_img.get_pixel(col, row)>0:
                 edge_pixels = edge_pixels + 1
     #print("edge_pixels=", edge_pixels)
-
+    print(edge_pixels)
     #根据不同的撕裂等级将图像输出报警
     if edge_pixels > AREA_LEVEL_1 and edge_pixels < AREA_LEVEL_2:
         uart.write("0000")
