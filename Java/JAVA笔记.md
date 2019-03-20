@@ -187,3 +187,61 @@
 	- 匿名内部类
 		- 适合那种只需要使用一次的类
 			- new 父类构造器(实参列表 实现接口){匿名内部类类体}
+- String类中的指向和内容都不可变
+- 多维数组
+	- JAVA中多维数组不必须是规则矩阵形式
+- 数组的拷贝
+	- System.arraycopy()
+	- 多维数组传递的是引用
+	- 打印数组
+		- Array.tostring(Arr); -- 只针对一位数组
+- 包装类 -- Wrapper class
+	- 包装类的作用将基本数据类型转换为类对象
+	- 包装类和八种基本数据类型一一对应
+		- byte 		-- Byte
+		- boolean 	-- Boolean
+		- short 	-- Short
+		- char 		-- Character
+		- int 		-- Integer
+		- long 		-- Long
+		- float 	-- Float
+		- double 	-- Double
+- 自动装箱，自动拆箱
+	- 装箱
+		- Integer a = 1000; 编译器修改为 Integer a = new Integer(1000);
+	- 拆箱
+		- a = new Integer(100); 编译器修改为 a = (new Integer(100)).intValue();
+	- -128~127之间的数在实际中还是当做基本数据类型处理
+- 时间类 -- Date
+	- 导入 -- import java.util.Date;
+- 将时间按照格式化字符串转换成字符串
+	```java
+		DateFormat df = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss:SSS");
+		Date d = new Date(123456456123113L);
+		String str = df.format(d);
+		System.out.println(str);
+	```
+- 将字符串转换为时间对象
+	``java
+		String str01 = "1977-7-7";
+		//格式必须和字符串完全一致
+		DateFormat df01 = new SimpleDateFormat("yyyy-MM-dd");
+		try {
+			Date d2 = df01.parse(str01);
+			System.out.println(d2);
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+	```
+- 将数字和日期相互转换
+	- Calendar -- GregorianCalendar
+	- 注意
+		- 一月是0，二月是1，以此类推，12月是11
+		- 周日是1，周一是2...周六是7
+- File类
+	- 文件或者目录
+	- mkdir创建目录的时候，父目录存在的时候只能创建，有且只能创建一个目录
+	- mkdirs递归创建目录
+- 枚举
+	- 枚举的字段时public static final修饰的
