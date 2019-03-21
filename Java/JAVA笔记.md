@@ -245,3 +245,19 @@
 	- mkdirs递归创建目录
 - 枚举
 	- 枚举的字段时public static final修饰的
+- 异常
+	- 异常的跟类是Throwable
+		- 派生Error
+		- 派生Exception
+			- RuntimeException -- 运行时异常
+			- CheckedException -- 检查型异常
+				- try{}catch{}finally{}结构，可以有多个catch。finally可有可无，但finally最多只有一个，多个catch的时候子类在前，父类在后面
+				- throws 直接抛出异常
+    - 自定义异常
+    	- 继承Exception类，编译时必须处理，用try catch处理
+    	- 继承RuntimeException，运行时异常，编译时不用try catch处理
+- 泛型
+	- 泛型的本质就是数据类型的参数化，泛型的类型由编译器处理
+	- java中的泛型的标志一般是T Y V
+- List接口的常用的实现类有三个：ArrayList，LinkedList和Vector
+- 

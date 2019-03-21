@@ -4,7 +4,7 @@ import java.io.File;
 
 public class PrintDirectory {
 	public static void main(String[] args) {
-		File file = new File("E:\\JZS");
+		File file = new File("D:\\DATA");
 		printFile(file, 0);
 	}
 	
@@ -15,8 +15,10 @@ public class PrintDirectory {
 		System.out.println(file.getName());
 		
 		if(file.isDirectory()) {
+			//返回当前目录下所有的文件和文件夹的名称；绝对路径
 			File[] files = file.listFiles();
 			for(File tempFile : files) {
+				//System.out.println(tempFile);
 				printFile(tempFile, level+1);
 			}
 		}
