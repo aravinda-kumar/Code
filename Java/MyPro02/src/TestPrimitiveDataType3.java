@@ -1,30 +1,30 @@
 
 /**
- * ²âÊÔ×Ö·ûÀàÐÍºÍ²¼¶ûÀàÐÍ
- * @author ¸ßä¿
+ * ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ÍºÍ²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * @author ï¿½ï¿½ï¿½
  *
  */
 public class TestPrimitiveDataType3 {
 	public static void main(String[] args) {
 		char  a = 'T';
-		char  b = 'ÉÐ';
+		char  b = 'a';
 		char c = '\u0061';
 		System.out.println(c);
 		
-		//×ªÒå×Ö·û
+		//×ªï¿½ï¿½ï¿½Ö·ï¿½
 		System.out.println(""+'a'+'\n'+'b'); 
 		System.out.println(""+'a'+'\t'+'b'); 
 		System.out.println(""+'a'+'\''+'b');		//a'b 
 		
 		
-		//String¾ÍÊÇ×Ö·ûÐòÁÐ
+		//Stringï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½
 		String  d = "abc";
 		
-		//²âÊÔ²¼¶ûÀàÐÍ
+		//ï¿½ï¿½ï¿½Ô²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		boolean  man = false;
 		
-		if(man){		//¼«¶Ë²»ÍÆ¼ö£ºman==true
-			System.out.println("ÄÐÐÔ");
+		if(man){		//ï¿½ï¿½ï¿½Ë²ï¿½ï¿½Æ¼ï¿½ï¿½ï¿½man==true
+			System.out.println("ï¿½ï¿½ï¿½ï¿½");
 		}
 
 	}

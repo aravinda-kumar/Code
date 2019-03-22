@@ -3,7 +3,7 @@ package zhushuai.myCollection;
 /**
  * 自定义实现一个arraylisy
  * @author 11094
- *
+ * 
  */
 public class MyArrayList03<E>{
 	

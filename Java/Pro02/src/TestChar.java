@@ -1,17 +1,17 @@
 /**
- * ²âÊÔ×Ö·ûÀàÐÍ
+ * ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½
  * @author SHUNCS
  *
  */
 public class TestChar {
 	public static void main(String[] args) {
 		char a = 'T';
-		char b = 'Öì';
+		char b = 'b';
 		System.out.println(b);
 		
 		System.out.println("=============");
 		
-		//×ªÒÆ×Ö·û
+		//×ªï¿½ï¿½ï¿½Ö·ï¿½
 		System.out.println(""+'a' + '\''+'\t'+'b');
 		
 	}
