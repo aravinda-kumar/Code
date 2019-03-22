@@ -47,7 +47,7 @@ public class MyArrayList03<E>{
 		for(int i=0;i<10;i++) {
 			mal.add("zs"+i);
 		}
-		
+		System.out.println("======================");
 		System.out.println(mal);
 	}
 }
