@@ -16,7 +16,7 @@ import javax.swing.text.StyledEditorKit.ForegroundAction;
 /**
  * 飞机游戏的主窗口
  * @author SHUNCS
- *
+ * 
  */
 public class MyGameFrame extends JFrame{
 	

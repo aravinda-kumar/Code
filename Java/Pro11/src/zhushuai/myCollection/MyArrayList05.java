@@ -1,11 +1,14 @@
 package zhushuai.myCollection;
 
+import javax.management.RuntimeErrorException;
+
 /**
  * 自定义实现一个arraylisy
+ * 增加set和get方法，以及边界检查
  * @author 11094
  * 
  */
-public class MyArrayList03<E>{
+public class MyArrayList05<E>{
 	
 	//元素内容
 	private Object[] elementData;
@@ -14,13 +17,19 @@ public class MyArrayList03<E>{
 	private final static int DEFAULT_CAPACITY = 10;
 	
 	//构造器
-	public MyArrayList03() {
+	public MyArrayList05() {
 		//elementData = new Object[DEFAULT_CAPACITY];
 		this(DEFAULT_CAPACITY);
 	}
 	
-	public MyArrayList03(int capacity) {
-		elementData = new Object[capacity];
+	public MyArrayList05(int capacity) {
+		if(capacity < 0) {
+			throw new RuntimeException("容量不合法");
+		}else if (capacity == 0) {
+			elementData = new Object[DEFAULT_CAPACITY];
+		}else {
+			elementData = new Object[capacity];			
+		}
 	}
 	
 	//add方法
@@ -51,12 +60,35 @@ public class MyArrayList03<E>{
 		return sb.toString();
 	}
 	
+	public E get(int index) {
+		checkRange(index);
+		return (E)elementData[index];
+	}
+	
+	public void set(int index, E element) {
+		//边界检查
+		checkRange(index);
+		elementData[index] = element;
+	}
+	
+	private void checkRange(int index) {
+		if(index <0 || index >= size) {
+			//索引越界
+			throw new IndexOutOfBoundsException("索引越界:" + index);
+		}
+	}
+	
 	public static void main(String[] args) {
-		MyArrayList03<String> mal = new MyArrayList03<String>(20);
+		MyArrayList05<String> mal = new MyArrayList05<String>(20);
 		for(int i=0;i<40;i++) {
 			mal.add("zs"+i);
 		}
-
+		
+		System.out.println(mal);
+		
+		System.out.println(mal.get(39));
+		
+		mal.set(39, "zhushuai");
 		System.out.println(mal);
 	}
 }
